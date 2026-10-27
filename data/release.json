@@ -1,0 +1,63 @@
+{
+  "release": "3",
+  "prepared": "2026-10-27",
+  "url": "https://cecreh.github.io/cdbg-dr-atlas/",
+  "financial_snapshots": {
+    "national": {
+      "records": 128382,
+      "awards": 206,
+      "activities": 16150,
+      "quarters": "2002Q2\u20132025Q1"
+    },
+    "texas": {
+      "records": 6518,
+      "awards": 2,
+      "activities": 775,
+      "quarters": "2018Q3\u20132026Q1"
+    }
+  },
+  "snapshot_policy": "Select one snapshot. National and Texas overlap and must not be added.",
+  "coverage": {
+    "verified_initial_dates_source": 34,
+    "verified_initial_dates_national_matches": 26,
+    "verified_initial_dates_texas_matches": 0,
+    "national_city_quarter_rows": 15445,
+    "texas_city_quarter_rows": 990,
+    "qpr_reports": 14,
+    "qpr_activity_horizon_matches": 215,
+    "qpr_activity_expended_obligated_ratios": 183,
+    "qpr_whole_grant_ratios": 14,
+    "qpr_six_measure_records": 199,
+    "acs_places": 32330,
+    "financial_place_geoids": 960,
+    "government_resource_places": 3843,
+    "government_resource_financial_places": 279,
+    "government_resource_item_rows": 8533,
+    "nfhl_mapped_financial_places": 885,
+    "nfhl_unmapped_financial_places": 75,
+    "nlcd_financial_places": 960,
+    "lcms_financial_places": 960,
+    "display_counties": 3235,
+    "display_places": 32629,
+    "display_county_subdivisions": 36360
+  },
+  "unavailable": [
+    "Compatible historical local/activity allocation denominators",
+    "Reconciled opening cumulative F31 histories",
+    "Beneficiary-city allocation and geography",
+    "Initial execution dates for remaining awards",
+    "Municipal staffing and legal zoning",
+    "Historical quarterly context controls",
+    "One malformed NYC Q20 QPR source"
+  ],
+  "method": "METHOD.md",
+  "provenance": "data/research-provenance.json",
+  "downloads": "data/downloads.json",
+  "validation": {
+    "research_tests_passed": 15,
+    "independent_source_checks_passed": 57,
+    "spatial_records_checked": 960,
+    "actual_browser_bundle_downloads_checked": 3,
+    "browser_checks": "Desktop and 390\u00d7844 mobile; filters, zero results, pagination, map/table linkage, 254 Texas county and 1863 place polygons, keyboard dialogs and pan/zoom, null beneficiary layer, actual filtered CSV and ZIP downloads."
+  }
+}

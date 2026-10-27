@@ -24,7 +24,7 @@ export function isLocal(t){return /municipal|county|parish|township|consolidated
 export function filterRecords(data,meta,f){
  const q=(f.q||'').trim().toLowerCase(),scopeMap=new Map(meta.scope_evidence.map(s=>[s.id,s]));
  const match=data.activities.map(a=>{const eid=f.role==='responsible'?a.organization_entity:a.admin,e=meta.entities[eid];
-  return (!f.state||a.state===f.state)&&(!f.entity||eid===f.entity)&&(!f.type||(f.type==='local'?isLocal(e?.type):e?.type===f.type))&&(!f.activityType||a.type===f.activityType)&&(!f.grant||a.grant===f.grant)&&(!f.cohort||a.cohort===f.cohort)&&(!q||[a.grant,a.project,a.number,a.type,a.organization,e?.name,a.disaster].join(' ').toLowerCase().includes(q));
+  return (!f.category||(f.category==='outside16'?!a.research_category:a.research_category===f.category))&&(!f.state||a.state===f.state)&&(!f.entity||eid===f.entity)&&(!f.type||(f.type==='local'?isLocal(e?.type):e?.type===f.type))&&(!f.activityType||a.type===f.activityType)&&(!f.grant||a.grant===f.grant)&&(!f.cohort||a.cohort===f.cohort)&&(!q||[a.grant,a.project,a.number,a.type,a.organization,e?.name,a.disaster].join(' ').toLowerCase().includes(q));
  });
  return data.rows.filter(r=>match[r[0]]&&(!f.from||data.quarters[r[1]]>=f.from)&&(!f.to||data.quarters[r[1]]<=f.to)&&(!f.scope||r[12])&&(!f.scopeRef||scopeMap.get(r[12])?.references.includes(f.scopeRef)));
 }

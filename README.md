@@ -1,54 +1,47 @@
-# CECREH CDBG-DR Research Atlas
+# CDBG-DR Research Atlas
 
-A standalone public financial and geographic source explorer. The financial table
-contains 128,382 national quarterly records and a separate, overlapping 6,518-row
-Texas Harvey snapshot. Five signed quarterly net measures retain negative
-adjustments, exact integer cents, original reporting-period dates and fiscal labels.
+Live: https://cecreh.github.io/cdbg-dr-atlas/
 
-The government selector distinguishes administering grantees from matched
-responsible organizations. Neither establishes beneficiary geography or allocates
-a statewide award to a local government. Exact official QPR activity-scope links
-are separately identified; no local dollar allocation weights are implied.
+A standalone public CECREH financial and spatial research atlas. No links were
+added to other CECREH properties. Public availability is not privacy.
 
-The reference inventory contains 2025 land-clipped Census states/territories,
-counties/parishes, places and county subdivisions, plus the 2022 government unit
-inventory. Layers overlap. Statistical areas and governmental identities differ.
-Regional Albers equal-area projection and simplified boundaries are for display.
-Alaska, Hawaii and territories have explicit regional views.
+The site provides searchable signed quarterly records, 16-category city panels,
+explicit six-horizon definitions/eligibility, independently verified award dates,
+public QPR cumulative evidence, direct place ACS/MOEs, municipal government
+resource inputs, and separately defined flood, land-cover and land-use context.
+It retains the official CECREH logo and projected land-clipped state, county/parish,
+city/place and subdivision display boundaries with accessible table alternatives.
 
-Verified initial award execution dates, compatible local/activity allocation
-histories, beneficiary geography and Q4/Q12/Q20 ratios remain unavailable.
-Contextual ACS, flood, land-use and government-resource sources are cataloged;
-those covariates are not represented as populated joins.
+## Coverage
 
-## Provenance
+- National: 128,382 records, 206 awards, 16,150 activities; 2002Q2–2025Q1.
+- Texas: 6,518 records, 2 awards, 775 activities; 2018Q3–2026Q1. **Do not add snapshots.**
+- Verified initial execution dates: 26 national awards; 34 in the official source.
+- City/category/quarter observations: 15,445 national and 990 Texas, across overlapping relationship views.
+- ACS: 32,330 places, including all 960 financially linked place GEOIDs.
+- Government-resource sample inputs: 3,843 places, including 279 financial-place links.
+- Public QPR horizons: 14 reports; 183 reported activity E/O ratios; 14 whole-grant ratios.
+- Spatial context currently in this build: 960 places; statuses and source vintage travel with each value.
 
-The national HUD F31 extract is reconciled to publicly published CECREH financial
-chunks at commit `0531f22afbb814ae24f382d8916bb4538e4d7b4e` of
-[HUD-CDBG-DR-Fund-Hierarchy-Dashboard](https://github.com/CECREH-2023/HUD-CDBG-DR-Fund-Hierarchy-Dashboard).
-The supplied source has documented 10-significant-digit precision differences in
-119 rows / 157 cells (maximum $0.41) relative to that public comparator. The
-separate Texas F31 export retains its later source version and F33 reconciliation.
-Official GLO QPRs supply selected independent period-dollar checks and scope links.
+Compatible historical allocation ratios, universal award starts, beneficiary-city
+allocations, staffing and zoning remain unavailable. This is not a complete
+research-ready causal panel. Missing values are explicit, never fabricated.
 
-See [release provenance](data/provenance.json) and [source catalog](data/sources.json).
-Upstream software/documentation terms are preserved in `UPSTREAM-LICENSE.txt`.
-Census geographic data are credited to the U.S. Census Bureau. The logo is the
-official CECREH asset from Texas Tech University, used unchanged.
+## Download and interpretation
 
-Sixteen address-bearing housing activity IDs are replaced with disclosed stable
-surrogate identifiers while retaining their financial rows. No narratives,
-household attributes, residential locations, credentials or third-party city
-coordinates are included.
+Use the website's Download data area for separate national/Texas CSV bundles,
+city context, metadata and dictionary; each table also exports its exact filtered
+view. Read [METHOD.md](METHOD.md), [dictionary](downloads/data-dictionary.csv),
+[crosswalk](downloads/category-crosswalk.csv) and
+[source receipts](data/research-provenance.json) before reuse.
 
-## Use
+Money uses exact integer cents; government-resource items use thousands of dollars.
+Administering/responsible identities do not establish beneficiary geography.
+Context vintages are snapshots, not historical quarterly controls. Boundaries are
+reference geometry; display outlines are not used for analysis. Whole-grant
+awards, activity budgets and city allocations remain different concepts.
 
-Serve this directory with any static HTTP server. No build step, service, API key,
-tracking, external font, map tile provider or client credential is required.
-The browser loads one financial snapshot at a time. Boundaries load by state and
-layer. The national subunit catalog loads when requested. Search, pagination,
-sort and CSV export operate on the selected snapshot; exported money is in cents.
-
-Keyboard map navigation: arrow keys pan, `+` / `-` zoom, `0` resets. Buttons and an
-accessible list provide equivalent map actions. Searchable tables remain the
-primary non-map way to inspect records and references.
+This static site has no embedded credentials or private household/communication
+data. Official public sources and authorized financial facts are documented;
+original research inputs were preserved. Upstream financial software license is
+retained in UPSTREAM-LICENSE.txt.

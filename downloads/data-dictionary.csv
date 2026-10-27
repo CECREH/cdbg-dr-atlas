@@ -1,0 +1,534 @@
+﻿dataset,field,units,definition,missingness
+financial-national.csv,source_snapshot,text / categorical,Choose national OR Texas; independent QPR evidence is a different reporting vintage; never concatenate overlaps,Blank when unavailable; never substitute zero
+financial-national.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+financial-national.csv,selected_entity_id,text / categorical,selected entity id,Blank when unavailable; never substitute zero
+financial-national.csv,selected_place_or_area_reference,text / categorical,selected place or area reference,Blank when unavailable; never substitute zero
+financial-national.csv,geography_evidence,text / categorical,geography evidence,Blank when unavailable; never substitute zero
+financial-national.csv,geography_reference_vintage,text / categorical,geography reference vintage,Blank when unavailable; never substitute zero
+financial-national.csv,administering_government,text / categorical,administering government,Blank when unavailable; never substitute zero
+financial-national.csv,administering_entity_id,text / categorical,administering entity id,Blank when unavailable; never substitute zero
+financial-national.csv,responsible_organization,text / categorical,responsible organization,Blank when unavailable; never substitute zero
+financial-national.csv,matched_responsible_entity_id,text / categorical,matched responsible entity id,Blank when unavailable; never substitute zero
+financial-national.csv,responsible_match_status,text / categorical,responsible match status,Blank when unavailable; never substitute zero
+financial-national.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
+financial-national.csv,project_number,text / categorical,project number,Blank when unavailable; never substitute zero
+financial-national.csv,activity_number_or_surrogate,text / categorical,activity number or surrogate,Blank when unavailable; never substitute zero
+financial-national.csv,identifier_redacted,text / categorical,identifier redacted,Blank when unavailable; never substitute zero
+financial-national.csv,source_activity_type,text / categorical,source activity type,Blank when unavailable; never substitute zero
+financial-national.csv,research_category,text / categorical,research category,Blank when unavailable; never substitute zero
+financial-national.csv,disaster_label,text / categorical,disaster label,Blank when unavailable; never substitute zero
+financial-national.csv,disaster_year,text / categorical,disaster year,Blank when unavailable; never substitute zero
+financial-national.csv,cohort,text / categorical,cohort,Blank when unavailable; never substitute zero
+financial-national.csv,calendar_quarter,text / categorical,"calendar quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+financial-national.csv,period_begin_actual,text / categorical,period begin actual,Blank when unavailable; never substitute zero
+financial-national.csv,original_fiscal_quarter,text / categorical,"original fiscal quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+financial-national.csv,award_relative_quarter,text / categorical,Calendar quarter index minus index of verified initial execution quarter plus one; Q1 may be partial,Blank when unavailable; never substitute zero
+financial-national.csv,verified_initial_execution_date,text / categorical,"verified initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+financial-national.csv,initial_date_status,text / categorical,"initial date status; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+financial-national.csv,obligated_cents,integer nominal USD cents,obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-national.csv,expended_cents,integer nominal USD cents,expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-national.csv,disbursed_cents,integer nominal USD cents,disbursed cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-national.csv,program_income_disbursed_cents,integer nominal USD cents,program income disbursed cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-national.csv,program_income_received_cents,integer nominal USD cents,program income received cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-national.csv,money_basis,text / categorical,money basis,Blank when unavailable; never substitute zero
+financial-national.csv,reported_scope,text / categorical,reported scope,Blank when unavailable; never substitute zero
+financial-national.csv,scope_source,text / categorical,scope source,Blank when unavailable; never substitute zero
+financial-national.csv,beneficiary_geography,text / categorical,Unavailable: administering or responsible identity does not establish beneficiary location,Blank when unavailable; never substitute zero
+financial-national.csv,compatible_local_allocation_cents,integer nominal USD cents,compatible local allocation cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-national.csv,q4_expended_allocated_ratio,unitless proportion,"q4 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-national.csv,q4_expended_obligated_ratio,unitless proportion,"q4 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-national.csv,q12_expended_allocated_ratio,unitless proportion,"q12 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-national.csv,q12_expended_obligated_ratio,unitless proportion,"q12 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-national.csv,q20_expended_allocated_ratio,unitless proportion,"q20 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-national.csv,q20_expended_obligated_ratio,unitless proportion,"q20 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-national.csv,milestone_status,text / categorical,milestone status,Blank when unavailable; never substitute zero
+financial-national.csv,endpoint_unverified,text / categorical,True when final/incomplete reporting endpoint is not certified complete,Blank when unavailable; never substitute zero
+financial-national.csv,precision_difference,text / categorical,precision difference,Blank when unavailable; never substitute zero
+financial-national.csv,source_csv_record,text / categorical,source csv record,Blank when unavailable; never substitute zero
+financial-national.csv,source_vintage,text / categorical,source vintage,Blank when unavailable; never substitute zero
+city-quarter-national.csv,snapshot,text / categorical,snapshot,Blank when unavailable; never substitute zero
+city-quarter-national.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+city-quarter-national.csv,entity_id,text / categorical,entity id,Blank when unavailable; never substitute zero
+city-quarter-national.csv,city_geoid,text / categorical,city geoid; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+city-quarter-national.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
+city-quarter-national.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
+city-quarter-national.csv,research_category,text / categorical,research category,Blank when unavailable; never substitute zero
+city-quarter-national.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-quarter-national.csv,disaster_labels,JSON array or integer count,"disaster labels; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-quarter-national.csv,disaster_years,JSON array or integer count,"disaster years; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-quarter-national.csv,cohorts,JSON array or integer count,"cohorts; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-quarter-national.csv,relationship_views_overlap,text / categorical,True: admin and responsible identity views contain overlapping money and must not be added,Blank when unavailable; never substitute zero
+city-quarter-national.csv,calendar_quarter,text / categorical,"calendar quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-quarter-national.csv,obligated_cents,integer nominal USD cents,obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-quarter-national.csv,expended_cents,integer nominal USD cents,expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-quarter-national.csv,disbursed_cents,integer nominal USD cents,disbursed cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-quarter-national.csv,program_income_disbursed_cents,integer nominal USD cents,program income disbursed cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-quarter-national.csv,program_income_received_cents,integer nominal USD cents,program income received cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-quarter-national.csv,source_rows,JSON array or integer count,"source rows; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-quarter-national.csv,endpoint_unverified,text / categorical,True when final/incomplete reporting endpoint is not certified complete,Blank when unavailable; never substitute zero
+city-quarter-national.csv,missing_financial_cells,text / categorical,missing financial cells,Blank when unavailable; never substitute zero
+city-quarter-national.csv,original_activity_keys,JSON array or integer count,"original activity keys; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,snapshot,text / categorical,snapshot,Blank when unavailable; never substitute zero
+city-horizons-national.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+city-horizons-national.csv,entity_id,text / categorical,entity id,Blank when unavailable; never substitute zero
+city-horizons-national.csv,city_geoid,text / categorical,city geoid; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+city-horizons-national.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
+city-horizons-national.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
+city-horizons-national.csv,research_category,text / categorical,research category,Blank when unavailable; never substitute zero
+city-horizons-national.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-horizons-national.csv,disaster_labels,JSON array or integer count,"disaster labels; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,disaster_years,JSON array or integer count,"disaster years; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,cohorts,JSON array or integer count,"cohorts; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,relationship_views_overlap,text / categorical,True: admin and responsible identity views contain overlapping money and must not be added,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_horizon_quarter,text / categorical,"q4 horizon quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_observed_quarters,text / categorical,"q4 observed quarters; reporting calendar, source/publication or verified date as named, not interchangeable; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_missing_quarters,JSON array or integer count,"q4 missing quarters; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_followup_complete,text / categorical,q4 followup complete,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_observed_expended_cents,integer nominal USD cents,"q4 observed expended cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_observed_obligated_cents,integer nominal USD cents,"q4 observed obligated cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_cumulative_expended_cents,integer nominal USD cents,q4 cumulative expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_cumulative_obligated_cents,integer nominal USD cents,q4 cumulative obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_compatible_allocated_cents,integer nominal USD cents,q4 compatible allocated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_expended_allocated_ratio,unitless proportion,"q4 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_expended_obligated_ratio,unitless proportion,"q4 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_expended_allocated_eligibility,JSON array or integer count,"q4 expended allocated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_expended_obligated_eligibility,JSON array or integer count,"q4 expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_numerator_basis,text / categorical,q4 numerator basis,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q4_denominator_basis,text / categorical,q4 denominator basis,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_horizon_quarter,text / categorical,"q12 horizon quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_observed_quarters,text / categorical,"q12 observed quarters; reporting calendar, source/publication or verified date as named, not interchangeable; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_missing_quarters,JSON array or integer count,"q12 missing quarters; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_followup_complete,text / categorical,q12 followup complete,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_observed_expended_cents,integer nominal USD cents,"q12 observed expended cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_observed_obligated_cents,integer nominal USD cents,"q12 observed obligated cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_cumulative_expended_cents,integer nominal USD cents,q12 cumulative expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_cumulative_obligated_cents,integer nominal USD cents,q12 cumulative obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_compatible_allocated_cents,integer nominal USD cents,q12 compatible allocated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_expended_allocated_ratio,unitless proportion,"q12 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_expended_obligated_ratio,unitless proportion,"q12 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_expended_allocated_eligibility,JSON array or integer count,"q12 expended allocated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_expended_obligated_eligibility,JSON array or integer count,"q12 expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_numerator_basis,text / categorical,q12 numerator basis,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q12_denominator_basis,text / categorical,q12 denominator basis,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_horizon_quarter,text / categorical,"q20 horizon quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_observed_quarters,text / categorical,"q20 observed quarters; reporting calendar, source/publication or verified date as named, not interchangeable; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_missing_quarters,JSON array or integer count,"q20 missing quarters; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_followup_complete,text / categorical,q20 followup complete,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_observed_expended_cents,integer nominal USD cents,"q20 observed expended cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_observed_obligated_cents,integer nominal USD cents,"q20 observed obligated cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_cumulative_expended_cents,integer nominal USD cents,q20 cumulative expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_cumulative_obligated_cents,integer nominal USD cents,q20 cumulative obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_compatible_allocated_cents,integer nominal USD cents,q20 compatible allocated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_expended_allocated_ratio,unitless proportion,"q20 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_expended_obligated_ratio,unitless proportion,"q20 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_expended_allocated_eligibility,JSON array or integer count,"q20 expended allocated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_expended_obligated_eligibility,JSON array or integer count,"q20 expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_numerator_basis,text / categorical,q20 numerator basis,Blank when unavailable; never substitute zero
+city-horizons-national.csv,q20_denominator_basis,text / categorical,q20 denominator basis,Blank when unavailable; never substitute zero
+financial-texas.csv,source_snapshot,text / categorical,Choose national OR Texas; independent QPR evidence is a different reporting vintage; never concatenate overlaps,Blank when unavailable; never substitute zero
+financial-texas.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+financial-texas.csv,selected_entity_id,text / categorical,selected entity id,Blank when unavailable; never substitute zero
+financial-texas.csv,selected_place_or_area_reference,text / categorical,selected place or area reference,Blank when unavailable; never substitute zero
+financial-texas.csv,geography_evidence,text / categorical,geography evidence,Blank when unavailable; never substitute zero
+financial-texas.csv,geography_reference_vintage,text / categorical,geography reference vintage,Blank when unavailable; never substitute zero
+financial-texas.csv,administering_government,text / categorical,administering government,Blank when unavailable; never substitute zero
+financial-texas.csv,administering_entity_id,text / categorical,administering entity id,Blank when unavailable; never substitute zero
+financial-texas.csv,responsible_organization,text / categorical,responsible organization,Blank when unavailable; never substitute zero
+financial-texas.csv,matched_responsible_entity_id,text / categorical,matched responsible entity id,Blank when unavailable; never substitute zero
+financial-texas.csv,responsible_match_status,text / categorical,responsible match status,Blank when unavailable; never substitute zero
+financial-texas.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
+financial-texas.csv,project_number,text / categorical,project number,Blank when unavailable; never substitute zero
+financial-texas.csv,activity_number_or_surrogate,text / categorical,activity number or surrogate,Blank when unavailable; never substitute zero
+financial-texas.csv,identifier_redacted,text / categorical,identifier redacted,Blank when unavailable; never substitute zero
+financial-texas.csv,source_activity_type,text / categorical,source activity type,Blank when unavailable; never substitute zero
+financial-texas.csv,research_category,text / categorical,research category,Blank when unavailable; never substitute zero
+financial-texas.csv,disaster_label,text / categorical,disaster label,Blank when unavailable; never substitute zero
+financial-texas.csv,disaster_year,text / categorical,disaster year,Blank when unavailable; never substitute zero
+financial-texas.csv,cohort,text / categorical,cohort,Blank when unavailable; never substitute zero
+financial-texas.csv,calendar_quarter,text / categorical,"calendar quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+financial-texas.csv,period_begin_actual,text / categorical,period begin actual,Blank when unavailable; never substitute zero
+financial-texas.csv,original_fiscal_quarter,text / categorical,"original fiscal quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+financial-texas.csv,award_relative_quarter,text / categorical,Calendar quarter index minus index of verified initial execution quarter plus one; Q1 may be partial,Blank when unavailable; never substitute zero
+financial-texas.csv,verified_initial_execution_date,text / categorical,"verified initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+financial-texas.csv,initial_date_status,text / categorical,"initial date status; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+financial-texas.csv,obligated_cents,integer nominal USD cents,obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-texas.csv,expended_cents,integer nominal USD cents,expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-texas.csv,disbursed_cents,integer nominal USD cents,disbursed cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-texas.csv,program_income_disbursed_cents,integer nominal USD cents,program income disbursed cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-texas.csv,program_income_received_cents,integer nominal USD cents,program income received cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-texas.csv,money_basis,text / categorical,money basis,Blank when unavailable; never substitute zero
+financial-texas.csv,reported_scope,text / categorical,reported scope,Blank when unavailable; never substitute zero
+financial-texas.csv,scope_source,text / categorical,scope source,Blank when unavailable; never substitute zero
+financial-texas.csv,beneficiary_geography,text / categorical,Unavailable: administering or responsible identity does not establish beneficiary location,Blank when unavailable; never substitute zero
+financial-texas.csv,compatible_local_allocation_cents,integer nominal USD cents,compatible local allocation cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+financial-texas.csv,q4_expended_allocated_ratio,unitless proportion,"q4 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-texas.csv,q4_expended_obligated_ratio,unitless proportion,"q4 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-texas.csv,q12_expended_allocated_ratio,unitless proportion,"q12 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-texas.csv,q12_expended_obligated_ratio,unitless proportion,"q12 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-texas.csv,q20_expended_allocated_ratio,unitless proportion,"q20 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-texas.csv,q20_expended_obligated_ratio,unitless proportion,"q20 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+financial-texas.csv,milestone_status,text / categorical,milestone status,Blank when unavailable; never substitute zero
+financial-texas.csv,endpoint_unverified,text / categorical,True when final/incomplete reporting endpoint is not certified complete,Blank when unavailable; never substitute zero
+financial-texas.csv,precision_difference,text / categorical,precision difference,Blank when unavailable; never substitute zero
+financial-texas.csv,source_csv_record,text / categorical,source csv record,Blank when unavailable; never substitute zero
+financial-texas.csv,source_vintage,text / categorical,source vintage,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,snapshot,text / categorical,snapshot,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,entity_id,text / categorical,entity id,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,city_geoid,text / categorical,city geoid; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,research_category,text / categorical,research category,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-quarter-texas.csv,disaster_labels,JSON array or integer count,"disaster labels; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-quarter-texas.csv,disaster_years,JSON array or integer count,"disaster years; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-quarter-texas.csv,cohorts,JSON array or integer count,"cohorts; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-quarter-texas.csv,relationship_views_overlap,text / categorical,True: admin and responsible identity views contain overlapping money and must not be added,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,calendar_quarter,text / categorical,"calendar quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-quarter-texas.csv,obligated_cents,integer nominal USD cents,obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,expended_cents,integer nominal USD cents,expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,disbursed_cents,integer nominal USD cents,disbursed cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,program_income_disbursed_cents,integer nominal USD cents,program income disbursed cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,program_income_received_cents,integer nominal USD cents,program income received cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,source_rows,JSON array or integer count,"source rows; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-quarter-texas.csv,endpoint_unverified,text / categorical,True when final/incomplete reporting endpoint is not certified complete,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,missing_financial_cells,text / categorical,missing financial cells,Blank when unavailable; never substitute zero
+city-quarter-texas.csv,original_activity_keys,JSON array or integer count,"original activity keys; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,snapshot,text / categorical,snapshot,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,entity_id,text / categorical,entity id,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,city_geoid,text / categorical,city geoid; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,research_category,text / categorical,research category,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,disaster_labels,JSON array or integer count,"disaster labels; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,disaster_years,JSON array or integer count,"disaster years; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,cohorts,JSON array or integer count,"cohorts; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,relationship_views_overlap,text / categorical,True: admin and responsible identity views contain overlapping money and must not be added,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_horizon_quarter,text / categorical,"q4 horizon quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_observed_quarters,text / categorical,"q4 observed quarters; reporting calendar, source/publication or verified date as named, not interchangeable; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_missing_quarters,JSON array or integer count,"q4 missing quarters; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_followup_complete,text / categorical,q4 followup complete,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_observed_expended_cents,integer nominal USD cents,"q4 observed expended cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_observed_obligated_cents,integer nominal USD cents,"q4 observed obligated cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_cumulative_expended_cents,integer nominal USD cents,q4 cumulative expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_cumulative_obligated_cents,integer nominal USD cents,q4 cumulative obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_compatible_allocated_cents,integer nominal USD cents,q4 compatible allocated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_expended_allocated_ratio,unitless proportion,"q4 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_expended_obligated_ratio,unitless proportion,"q4 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_expended_allocated_eligibility,JSON array or integer count,"q4 expended allocated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_expended_obligated_eligibility,JSON array or integer count,"q4 expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_numerator_basis,text / categorical,q4 numerator basis,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q4_denominator_basis,text / categorical,q4 denominator basis,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_horizon_quarter,text / categorical,"q12 horizon quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_observed_quarters,text / categorical,"q12 observed quarters; reporting calendar, source/publication or verified date as named, not interchangeable; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_missing_quarters,JSON array or integer count,"q12 missing quarters; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_followup_complete,text / categorical,q12 followup complete,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_observed_expended_cents,integer nominal USD cents,"q12 observed expended cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_observed_obligated_cents,integer nominal USD cents,"q12 observed obligated cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_cumulative_expended_cents,integer nominal USD cents,q12 cumulative expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_cumulative_obligated_cents,integer nominal USD cents,q12 cumulative obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_compatible_allocated_cents,integer nominal USD cents,q12 compatible allocated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_expended_allocated_ratio,unitless proportion,"q12 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_expended_obligated_ratio,unitless proportion,"q12 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_expended_allocated_eligibility,JSON array or integer count,"q12 expended allocated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_expended_obligated_eligibility,JSON array or integer count,"q12 expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_numerator_basis,text / categorical,q12 numerator basis,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q12_denominator_basis,text / categorical,q12 denominator basis,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_horizon_quarter,text / categorical,"q20 horizon quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_observed_quarters,text / categorical,"q20 observed quarters; reporting calendar, source/publication or verified date as named, not interchangeable; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_missing_quarters,JSON array or integer count,"q20 missing quarters; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_followup_complete,text / categorical,q20 followup complete,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_observed_expended_cents,integer nominal USD cents,"q20 observed expended cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_observed_obligated_cents,integer nominal USD cents,"q20 observed obligated cents; signed amount; preserve negative adjustments; observed-window diagnostic, not a certified grant-start cumulative value",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_cumulative_expended_cents,integer nominal USD cents,q20 cumulative expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_cumulative_obligated_cents,integer nominal USD cents,q20 cumulative obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_compatible_allocated_cents,integer nominal USD cents,q20 compatible allocated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_expended_allocated_ratio,unitless proportion,"q20 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_expended_obligated_ratio,unitless proportion,"q20 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_expended_allocated_eligibility,JSON array or integer count,"q20 expended allocated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_expended_obligated_eligibility,JSON array or integer count,"q20 expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_numerator_basis,text / categorical,q20 numerator basis,Blank when unavailable; never substitute zero
+city-horizons-texas.csv,q20_denominator_basis,text / categorical,q20 denominator basis,Blank when unavailable; never substitute zero
+city-context.csv,geoid,text / categorical,geoid; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+city-context.csv,place,text / categorical,place,Blank when unavailable; never substitute zero
+city-context.csv,acs_geography_label,text / categorical,acs geography label,Blank when unavailable; never substitute zero
+city-context.csv,acs_geography_vintage,text / categorical,acs geography vintage,Blank when unavailable; never substitute zero
+city-context.csv,classification,text / categorical,classification,Blank when unavailable; never substitute zero
+city-context.csv,financial_entity_ids,JSON array or integer count,Documented government identity links; not beneficiary geography or allocation weights,Blank when unavailable; never substitute zero
+city-context.csv,acs_window,text / categorical,acs window,Blank when unavailable; never substitute zero
+city-context.csv,acs_status,text / categorical,acs status,Blank when unavailable; never substitute zero
+city-context.csv,population_estimate,persons,Population; direct B01003_001E; universe: Total population; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,population_moe90,persons,90% margin of error for Population; B01003_001M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,population_estimate_missing_code,Census source code,"population estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,population_moe_missing_code,Census source code,"population moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,population_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,population_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,median_household_income_estimate,2024 inflation-adjusted USD,Median household income; direct B19013_001E; universe: Households; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,median_household_income_moe90,2024 inflation-adjusted USD,90% margin of error for Median household income; B19013_001M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,median_household_income_estimate_missing_code,Census source code,"median household income estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,median_household_income_moe_missing_code,Census source code,"median household income moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,median_household_income_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,median_household_income_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,poverty_universe_estimate,persons,Population for whom poverty status is determined; direct B17001_001E; universe: Population for whom poverty status is determined; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,poverty_universe_moe90,persons,90% margin of error for Population for whom poverty status is determined; B17001_001M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,poverty_universe_estimate_missing_code,Census source code,"poverty universe estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,poverty_universe_moe_missing_code,Census source code,"poverty universe moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,poverty_universe_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,poverty_universe_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,below_poverty_estimate,persons,Income below poverty level; direct B17001_002E; universe: Population for whom poverty status is determined; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,below_poverty_moe90,persons,90% margin of error for Income below poverty level; B17001_002M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,below_poverty_estimate_missing_code,Census source code,"below poverty estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,below_poverty_moe_missing_code,Census source code,"below poverty moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,below_poverty_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,below_poverty_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,occupied_households_estimate,households,Occupied housing units / households; direct B25003_001E; universe: Occupied housing units; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,occupied_households_moe90,households,90% margin of error for Occupied housing units / households; B25003_001M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,occupied_households_estimate_missing_code,Census source code,"occupied households estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,occupied_households_moe_missing_code,Census source code,"occupied households moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,occupied_households_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,occupied_households_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,owner_households_estimate,households,Owner-occupied housing units; direct B25003_002E; universe: Occupied housing units; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,owner_households_moe90,households,90% margin of error for Owner-occupied housing units; B25003_002M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,owner_households_estimate_missing_code,Census source code,"owner households estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,owner_households_moe_missing_code,Census source code,"owner households moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,owner_households_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,owner_households_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,renter_households_estimate,households,Renter-occupied housing units; direct B25003_003E; universe: Occupied housing units; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,renter_households_moe90,households,90% margin of error for Renter-occupied housing units; B25003_003M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,renter_households_estimate_missing_code,Census source code,"renter households estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,renter_households_moe_missing_code,Census source code,"renter households moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,renter_households_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,renter_households_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,housing_units_estimate,housing units,Housing units; direct B25002_001E; universe: Housing units; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,housing_units_moe90,housing units,90% margin of error for Housing units; B25002_001M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,housing_units_estimate_missing_code,Census source code,"housing units estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,housing_units_moe_missing_code,Census source code,"housing units moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,housing_units_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,housing_units_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,occupied_units_estimate,housing units,Occupied housing units; direct B25002_002E; universe: Housing units; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,occupied_units_moe90,housing units,90% margin of error for Occupied housing units; B25002_002M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,occupied_units_estimate_missing_code,Census source code,"occupied units estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,occupied_units_moe_missing_code,Census source code,"occupied units moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,occupied_units_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,occupied_units_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,vacant_units_estimate,housing units,Vacant housing units; direct B25002_003E; universe: Housing units; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,vacant_units_moe90,housing units,90% margin of error for Vacant housing units; B25002_003M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,vacant_units_estimate_missing_code,Census source code,"vacant units estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,vacant_units_moe_missing_code,Census source code,"vacant units moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,vacant_units_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,vacant_units_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,median_home_value_estimate,2024 USD,Median value of owner-occupied housing units; direct B25077_001E; universe: Owner-occupied housing units; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,median_home_value_moe90,2024 USD,90% margin of error for Median value of owner-occupied housing units; B25077_001M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,median_home_value_estimate_missing_code,Census source code,"median home value estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,median_home_value_moe_missing_code,Census source code,"median home value moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,median_home_value_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,median_home_value_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,population_16plus_estimate,persons,Population age 16 and over; direct B23025_001E; universe: Population 16 years and over; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,population_16plus_moe90,persons,90% margin of error for Population age 16 and over; B23025_001M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,population_16plus_estimate_missing_code,Census source code,"population 16plus estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,population_16plus_moe_missing_code,Census source code,"population 16plus moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,population_16plus_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,population_16plus_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,labor_force_estimate,persons,In labor force (includes Armed Forces); direct B23025_002E; universe: Population 16 years and over; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,labor_force_moe90,persons,90% margin of error for In labor force (includes Armed Forces); B23025_002M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,labor_force_estimate_missing_code,Census source code,"labor force estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,labor_force_moe_missing_code,Census source code,"labor force moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,labor_force_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,labor_force_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,civilian_labor_force_estimate,persons,Civilian labor force; direct B23025_003E; universe: Population 16 years and over; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,civilian_labor_force_moe90,persons,90% margin of error for Civilian labor force; B23025_003M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,civilian_labor_force_estimate_missing_code,Census source code,"civilian labor force estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,civilian_labor_force_moe_missing_code,Census source code,"civilian labor force moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,civilian_labor_force_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,civilian_labor_force_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,employed_estimate,persons,Civilian employed; direct B23025_004E; universe: Population 16 years and over; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,employed_moe90,persons,90% margin of error for Civilian employed; B23025_004M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,employed_estimate_missing_code,Census source code,"employed estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,employed_moe_missing_code,Census source code,"employed moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,employed_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,employed_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,unemployed_estimate,persons,Civilian unemployed; direct B23025_005E; universe: Population 16 years and over; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,unemployed_moe90,persons,90% margin of error for Civilian unemployed; B23025_005M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,unemployed_estimate_missing_code,Census source code,"unemployed estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,unemployed_moe_missing_code,Census source code,"unemployed moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,unemployed_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,unemployed_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,not_in_labor_force_estimate,persons,Not in labor force; direct B23025_007E; universe: Population 16 years and over; 2020–2024 five-year ACS,Blank when unavailable; never substitute zero
+city-context.csv,not_in_labor_force_moe90,persons,90% margin of error for Not in labor force; B23025_007M; not additive across places,Blank when unavailable; never substitute zero
+city-context.csv,not_in_labor_force_estimate_missing_code,Census source code,"not in labor force estimate missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,not_in_labor_force_moe_missing_code,Census source code,"not in labor force moe missing code; original suppression/special code, not a numeric observation",Blank when unavailable; never substitute zero
+city-context.csv,not_in_labor_force_qualified_source_estimate,Census positive special-value code,"Original open-ended median code, not a numeric point estimate; use the qualifier and original source documentation",Blank when unavailable; never substitute zero
+city-context.csv,not_in_labor_force_estimate_qualifier,text / categorical,"Open-ended median status; point estimate intentionally blank, original source value retained separately",Blank when unavailable; never substitute zero
+city-context.csv,nfhl_status,text / categorical,nfhl status,Blank when unavailable; never substitute zero
+city-context.csv,nfhl_vintage,text / categorical,nfhl vintage,Blank when unavailable; never substitute zero
+city-context.csv,analytical_boundary_vintage,text / categorical,analytical boundary vintage,Blank when unavailable; never substitute zero
+city-context.csv,nfhl_boundary_area_m2,square metres,nfhl boundary area m2; local equal-area measurement; full municipal boundary includes water,Blank when unavailable; never substitute zero
+city-context.csv,nfhl_mapped_area_m2,square metres,nfhl mapped area m2; local equal-area measurement; full municipal boundary includes water,Blank when unavailable; never substitute zero
+city-context.csv,nfhl_sfha_area_m2,square metres,nfhl sfha area m2; local equal-area measurement; full municipal boundary includes water,Blank when unavailable; never substitute zero
+city-context.csv,nfhl_undetermined_area_m2,square metres,nfhl undetermined area m2; local equal-area measurement; full municipal boundary includes water,Blank when unavailable; never substitute zero
+city-context.csv,nfhl_undetermined_boundary_pct,"percent, 0–100",nfhl undetermined boundary pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,nfhl_mapped_boundary_pct,"percent, 0–100",nfhl mapped boundary pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,nfhl_sfha_boundary_pct,"percent, 0–100",nfhl sfha boundary pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,nfhl_sfha_mapped_pct,"percent, 0–100",nfhl sfha mapped pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,nlcd_status,text / categorical,nlcd status,Blank when unavailable; never substitute zero
+city-context.csv,nlcd_vintage,text / categorical,nlcd vintage,Blank when unavailable; never substitute zero
+city-context.csv,nlcd_valid_land_pixels,text / categorical,nlcd valid land pixels,Blank when unavailable; never substitute zero
+city-context.csv,nlcd_developed_land_pct,"percent, 0–100",nlcd developed land pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,nlcd_wetland_land_pct,"percent, 0–100",nlcd wetland land pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,land_use_status,text / categorical,land use status,Blank when unavailable; never substitute zero
+city-context.csv,land_use_vintage,text / categorical,land use vintage,Blank when unavailable; never substitute zero
+city-context.csv,land_use_class_pixels,text / categorical,land use class pixels,Blank when unavailable; never substitute zero
+city-context.csv,government_finance_status,text / categorical,government finance status,Blank when unavailable; never substitute zero
+city-context.csv,lcms_agriculture_pixels,text / categorical,lcms agriculture pixels,Blank when unavailable; never substitute zero
+city-context.csv,lcms_agriculture_pct,"percent, 0–100",lcms agriculture pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,lcms_developed_pixels,text / categorical,lcms developed pixels,Blank when unavailable; never substitute zero
+city-context.csv,lcms_developed_pct,"percent, 0–100",lcms developed pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,lcms_forest_pixels,text / categorical,lcms forest pixels,Blank when unavailable; never substitute zero
+city-context.csv,lcms_forest_pct,"percent, 0–100",lcms forest pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,lcms_other_pixels,text / categorical,lcms other pixels,Blank when unavailable; never substitute zero
+city-context.csv,lcms_other_pct,"percent, 0–100",lcms other pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,lcms_rangeland_pasture_pixels,text / categorical,lcms rangeland pasture pixels,Blank when unavailable; never substitute zero
+city-context.csv,lcms_rangeland_pasture_pct,"percent, 0–100",lcms rangeland pasture pct; consult exact mapped-area / full-boundary / land-cell denominator in METHOD.md,Blank when unavailable; never substitute zero
+city-context.csv,lcms_valid_pixels,text / categorical,lcms valid pixels,Blank when unavailable; never substitute zero
+city-context.csv,lcms_source,text / categorical,lcms source,Blank when unavailable; never substitute zero
+city-context.csv,lcms_method,text / categorical,lcms method,Blank when unavailable; never substitute zero
+city-context.csv,E23_government_id,text / categorical,E23 government id; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+city-context.csv,E23_amount_thousand_usd,thousands of nominal USD,"E23 amount thousand usd; Census individual-unit sample input, not staffing",Blank when unavailable; never substitute zero
+city-context.csv,E23_data_year,text / categorical,E23 data year,Blank when unavailable; never substitute zero
+city-context.csv,E23_flag,text / categorical,E23 flag,Blank when unavailable; never substitute zero
+city-context.csv,E23_fiscal_year_end_MMDD,text / categorical,E23 fiscal year end MMDD,Blank when unavailable; never substitute zero
+city-context.csv,E29_government_id,text / categorical,E29 government id; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+city-context.csv,E29_amount_thousand_usd,thousands of nominal USD,"E29 amount thousand usd; Census individual-unit sample input, not staffing",Blank when unavailable; never substitute zero
+city-context.csv,E29_data_year,text / categorical,E29 data year,Blank when unavailable; never substitute zero
+city-context.csv,E29_flag,text / categorical,E29 flag,Blank when unavailable; never substitute zero
+city-context.csv,E29_fiscal_year_end_MMDD,text / categorical,E29 fiscal year end MMDD,Blank when unavailable; never substitute zero
+city-context.csv,E50_government_id,text / categorical,E50 government id; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+city-context.csv,E50_amount_thousand_usd,thousands of nominal USD,"E50 amount thousand usd; Census individual-unit sample input, not staffing",Blank when unavailable; never substitute zero
+city-context.csv,E50_data_year,text / categorical,E50 data year,Blank when unavailable; never substitute zero
+city-context.csv,E50_flag,text / categorical,E50 flag,Blank when unavailable; never substitute zero
+city-context.csv,E50_fiscal_year_end_MMDD,text / categorical,E50 fiscal year end MMDD,Blank when unavailable; never substitute zero
+city-context.csv,context_limitation,text / categorical,context limitation,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,city_geoid,text / categorical,city geoid; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,government_id,text / categorical,government id; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,government_name,text / categorical,government name,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,government_type,text / categorical,government type,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,item,text / categorical,item,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,item_label,text / categorical,item label,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,amount_thousand_usd,thousands of nominal USD,"amount thousand usd; Census individual-unit sample input, not staffing",Blank when unavailable; never substitute zero
+government-resource-inputs.csv,data_year,text / categorical,data year,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,flag,text / categorical,Census flag: R reported; I imputed; A analyst correction; S alternative source; retain original flag,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,fiscal_year_end_MMDD,text / categorical,fiscal year end MMDD,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,source,text / categorical,source,Blank when unavailable; never substitute zero
+government-resource-inputs.csv,caution,text / categorical,caution,Blank when unavailable; never substitute zero
+category-crosswalk.csv,source_type,text / categorical,source type,Blank when unavailable; never substitute zero
+category-crosswalk.csv,id,text / categorical,id,Blank when unavailable; never substitute zero
+category-crosswalk.csv,label,text / categorical,label,Blank when unavailable; never substitute zero
+category-crosswalk.csv,status,text / categorical,status,Blank when unavailable; never substitute zero
+category-crosswalk.csv,rule,text / categorical,rule,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,expended_cents,integer nominal USD cents,expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,obligated_cents,integer nominal USD cents,obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,budget_cents,integer nominal USD cents,budget cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,drawdown_cents,integer nominal USD cents,drawdown cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,report_id,text / categorical,report id,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,activity,text / categorical,activity,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,project,text / categorical,project,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,source_type,text / categorical,source type,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,category,text / categorical,category,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,horizon,text / categorical,horizon,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,quarter,text / categorical,"quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,source_page,text / categorical,source page,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,report_publication_date,text / categorical,"report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,report_status,text / categorical,report status,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,f31_exact_key_match,text / categorical,f31 exact key match,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,admin_entity,text / categorical,admin entity,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,expended_obligated_ratio,unitless proportion,"expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,expended_obligated_status,text / categorical,expended obligated status,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,expended_allocated_ratio,unitless proportion,"expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,expended_allocated_status,text / categorical,expended allocated status,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,numerator_basis,text / categorical,numerator basis,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,denominator_basis,text / categorical,denominator basis,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,quality_flags,text / categorical,quality flags,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+qpr-activity-horizons.csv,initial_date,text / categorical,"initial date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,id,text / categorical,id,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,horizon,text / categorical,horizon,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,initial_date,text / categorical,"initial date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,quarter,text / categorical,"quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,source_page,text / categorical,source page,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,report_publication_date,text / categorical,"report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,report_status,text / categorical,report status,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,expended_cents,integer nominal USD cents,expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,obligated_cents,integer nominal USD cents,obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,budget_cents,integer nominal USD cents,budget cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,drawdown_cents,integer nominal USD cents,drawdown cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,reported_activities,text / categorical,reported activities,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,activity_sum_minus_overall_cents,integer nominal USD cents,activity sum minus overall cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,expended_obligated_ratio,unitless proportion,"expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,expended_obligated_status,text / categorical,expended obligated status,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,expended_allocated_ratio,unitless proportion,"expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,expended_allocated_status,text / categorical,expended allocated status,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,note,text / categorical,note,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,quality_flags,text / categorical,quality flags,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,project,text / categorical,project,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,activity,text / categorical,activity,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,scope,text / categorical,scope,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,source_snapshot,text / categorical,Choose national OR Texas; independent QPR evidence is a different reporting vintage; never concatenate overlaps,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_expended_allocated_ratio,unitless proportion,"q4 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_expended_obligated_ratio,unitless proportion,"q4 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_expended_cents,integer nominal USD cents,q4 expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_obligated_cents,integer nominal USD cents,q4 obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_source_url,text / categorical,q4 source url,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_source_page,text / categorical,q4 source page,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_source_sha256,text / categorical,q4 source sha256,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_report_publication_date,text / categorical,"q4 report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_quarter,text / categorical,"q4 quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_eligibility,JSON array or integer count,"q4 eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_quality_flags,text / categorical,"q4 quality flags; reported numerator above obligation and negative numerators are preserved, not capped",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_expended_allocated_ratio,unitless proportion,"q12 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_expended_obligated_ratio,unitless proportion,"q12 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_expended_cents,integer nominal USD cents,q12 expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_obligated_cents,integer nominal USD cents,q12 obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_source_url,text / categorical,q12 source url,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_source_page,text / categorical,q12 source page,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_source_sha256,text / categorical,q12 source sha256,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_report_publication_date,text / categorical,"q12 report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_quarter,text / categorical,"q12 quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_eligibility,JSON array or integer count,"q12 eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q12_quality_flags,text / categorical,"q12 quality flags; reported numerator above obligation and negative numerators are preserved, not capped",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_expended_allocated_ratio,unitless proportion,"q20 expended allocated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_expended_obligated_ratio,unitless proportion,"q20 expended obligated ratio; numerator cumulative expended, compatible denominator at the same award-relative horizon; blank if ineligible",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_expended_cents,integer nominal USD cents,q20 expended cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_obligated_cents,integer nominal USD cents,q20 obligated cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_source_url,text / categorical,q20 source url,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_source_page,text / categorical,q20 source page,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_source_sha256,text / categorical,q20 source sha256,Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_report_publication_date,text / categorical,"q20 report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_quarter,text / categorical,"q20 quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_eligibility,JSON array or integer count,"q20 eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q20_quality_flags,text / categorical,"q20 quality flags; reported numerator above obligation and negative numerators are preserved, not capped",Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,grantee,text / categorical,grantee,Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,date_label,text / categorical,"date label; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,source_page,text / categorical,source page,Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,as_of,text / categorical,as of,Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,whole_grant_awarded_cents,integer nominal USD cents,whole grant awarded cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,whole_grant_obligated_to_grantee_cents,integer nominal USD cents,whole grant obligated to grantee cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,whole_grant_disbursed_cents,integer nominal USD cents,whole grant disbursed cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+award-date-and-amount-evidence.csv,denominator_policy,text / categorical,denominator policy,Blank when unavailable; never substitute zero
