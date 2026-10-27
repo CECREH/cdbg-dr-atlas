@@ -1,225 +1,81 @@
-import {money, selectDemo, eligiblePoint, inRegion, project, REGIONS, safeUrl, MONEY_FIELDS} from './core.mjs';
+import {MONEY,money,escape as esc,REGIONS,regionFor,albers,geometryPath,summarize,csvCell,isLocal,filterRecords} from './domain.mjs';
+const $=id=>document.getElementById(id),fmt=n=>n.toLocaleString('en-US'),pretty=s=>String(s||'Unresolved').replaceAll('_',' '),PAGE=50;
+let meta,geo,data,sources,states,rows=[],sorted=[],page=0,view='map',catalog=null,dirRows=[],dirPage=0,request=0,scopeRef=null;
+let region='conus',layer='admin',baseBox,box,zoom=1,mapItems=[],selectedRef=null,drag=null,mapGeneration=0;
+const files=new Map(),paths=new Map(),stateNames=new Map(),scopeMap=new Map();
+async function get(url){if(!files.has(url))files.set(url,fetch(url).then(r=>{if(!r.ok)throw Error(`${url}: HTTP ${r.status}`);return r.json();}));return files.get(url);}
+function fail(e){$('error').hidden=false;$('error').textContent=`This data could not be loaded: ${e.message}. Reload to retry. No missing values have been replaced.`;console.error(e);}
+function options(id,items,first,keep=true){const el=$(id),previous=el.value;el.innerHTML=(first!==null?`<option value="">${esc(first)}</option>`:'')+items.map(x=>`<option value="${esc(Array.isArray(x)?x[0]:x)}">${esc(Array.isArray(x)?x[1]:x)}</option>`).join('');if(keep&&[...el.options].some(x=>x.value===previous))el.value=previous;}
+const debounce=(f,n=180)=>{let t;return (...a)=>{clearTimeout(t);t=setTimeout(()=>f(...a),n);};};
+function filters(){return {q:$('search').value,role:$('role').value,state:$('state').value,type:$('government-type').value,entity:$('entity').value,activityType:$('activity-type').value,grant:$('award').value,cohort:$('cohort').value,from:$('quarter-from').value,to:$('quarter-to').value,scope:$('scope').value,scopeRef};}
+const entFor=(a,role=$('role').value)=>meta.entities[role==='responsible'?a.organization_entity:a.admin];
+const entityName=a=>entFor(a)?.name||a.organization||'Unresolved identity';
+function updateEntityOptions(){const f=filters(),ids=new Set(data.activities.filter(a=>(!f.state||a.state===f.state)).map(a=>f.role==='responsible'?a.organization_entity:a.admin).filter(Boolean));const list=[...ids].map(id=>meta.entities[id]).filter(e=>e&&(!f.type||(f.type==='local'?isLocal(e.type):e.type===f.type))).sort((a,b)=>a.name.localeCompare(b.name));options('entity',list.map(e=>[e.id,e.name+' · '+(stateNames.get(e.state)||e.state)]),'All matching entities');}
+const disabledBefore=new Map();
+function busy(value){if(value){if(!disabledBefore.size)document.querySelectorAll('input,select,button').forEach(el=>{disabledBefore.set(el,el.disabled);el.disabled=true;});}else{disabledBefore.forEach((was,el)=>el.disabled=was);disabledBefore.clear();}$('finance-controls').setAttribute('aria-busy',String(value));}
+async function loadSnapshot(id){const token=++request;busy(true);$('filter-note').textContent='Loading financial rows…';$('export').disabled=true;const sn=meta.snapshots.find(s=>s.id===id);const next=await get('data/'+sn.file);if(token!==request)return;data=next;page=0;scopeRef=null;
+ options('award',[...new Set(data.activities.map(a=>a.grant))].sort(),'All awards in snapshot');options('activity-type',[...new Set(data.activities.map(a=>a.type))].sort(),'All activity types');options('quarter-from',data.quarters,'Earliest observed');options('quarter-to',data.quarters,'Latest observed');
+ if(id==='texas'&&$('government-type').value==='local'){$('role').value='responsible';layer='responsible';$('map-layer').value=layer;}
+ updateEntityOptions();$('headline-count').textContent=`128,382 national records. 6,518 Texas records in a separate snapshot.`;busy(false);refresh();
+}
+function refresh(){if(!data)return;page=0;const f=filters();rows=filterRecords(data,meta,f);const totals=summarize(rows),awardCount=new Set(rows.map(r=>data.activities[r[0]].grant)).size;const jurisdictionCount=new Set(rows.map(r=>entFor(data.activities[r[0]])?.id).filter(Boolean)).size;
+ $('stats').innerHTML=[[fmt(rows.length),'Quarterly records selected'],[`${fmt(jurisdictionCount)} / ${fmt(awardCount)}`,'Matched governments / awards'],[money(totals.sums[0]),'Net obligations · observed quarters'],[money(totals.sums[1]),'Net expenditures · observed quarters']].map(([v,l])=>`<div class="stat"><strong>${esc(v)}</strong><span>${esc(l)}</span></div>`).join('');
+ const sn=meta.snapshots.find(s=>s.id===data.snapshot);$('filter-note').textContent=`${fmt(rows.length)} of ${fmt(data.rows.length)} records · ${f.role==='admin'?'administering grantee':'responsible organization'}${f.type==='local'?' · local-government filter active':''}${scopeRef?' · selected reported scope':''}. ${f.from&&f.to&&f.from>f.to?'The start quarter is after the end quarter.':''}`;
+ $('basis-note').textContent=`${sn.label}. ${sn.vintage} Signed quarterly net flows; sums cover observed records only. Snapshots overlap and are never added. ${rows.some(r=>r[9])?'Selection includes an endpoint whose reporting completeness is unverified. ':''}Identity does not establish beneficiary geography.`;
+ sortRows();if(view==='map')renderMap().catch(fail);
+}
+function sortRows(){const order=$('sort').value;sorted=[...rows];const index=new Map(data.rows.map((r,i)=>[r,i]));sorted.sort((a,b)=>{let n=0;if(order==='name')n=entityName(data.activities[a[0]]).localeCompare(entityName(data.activities[b[0]]));else if(order.startsWith('expense')){const x=BigInt(a[3]??0),y=BigInt(b[3]??0);n=x<y?-1:x>y?1:0;if(order==='expense-desc')n=-n;}else n=(a[1]-b[1])*(order==='quarter-desc'?-1:1);return n||index.get(a)-index.get(b);});renderRows();}
+function renderRows(){const start=page*PAGE,end=Math.min(start+PAGE,sorted.length);$('result-count').textContent=`${fmt(sorted.length)} financial records · ${meta.snapshots.find(s=>s.id===data.snapshot).label}`;
+ $('records').innerHTML=sorted.slice(start,end).map((r,j)=>{const a=data.activities[r[0]],e=entFor(a),scope=scopeMap.get(r[12]);return `<tr><td><strong>${esc(e?.name||a.organization||'Unresolved')}</strong><small>${esc(e?pretty(e.type):pretty(a.organization_status))}<br>${esc($('role').selectedOptions[0].textContent)}${scope?'<br>Reported scope: '+esc(scope.area_names.join('; ')):''}</small></td><td><button class="row-link" data-row="${start+j}">${esc(a.grant)}</button><span class="key">${esc(a.number)}</span><small>Project ${esc(a.project)} · ${esc(a.type)}</small></td><td>${esc(data.quarters[r[1]])}${r[9]?'<small>Endpoint flag</small>':''}</td><td class="money">${esc(money(r[2]))}</td><td class="money">${esc(money(r[3]))}</td><td><span class="tag ${scope?'amber':'gray'}">${scope?'Reported scope':'Identity only / unresolved'}</span><small>${scope?esc(scope.area_names.join('; ')):'Beneficiary geography unavailable'}</small></td></tr>`;}).join('');
+ $('zero').hidden=!!sorted.length;$('page-info').textContent=sorted.length?`${fmt(start+1)}–${fmt(end)} of ${fmt(sorted.length)} · page ${page+1} of ${Math.ceil(sorted.length/PAGE)}`:'0 records';$('previous').disabled=page===0;$('next').disabled=end>=sorted.length;$('export').disabled=!rows.length;
+}
+function recordDetail(r){const a=data.activities[r[0]],admin=meta.entities[a.admin],org=meta.entities[a.organization_entity],scope=scopeMap.get(r[12]),sn=meta.snapshots.find(s=>s.id===data.snapshot);const pairs=[['Source snapshot',sn.label],['Original award',a.grant],['Original project',a.project],['Activity identifier',a.number+(a.identifier_redacted?' · surrogate; address-bearing source ID withheld':'')],['Activity type',a.type],['Administering grantee',`${admin?.name||a.admin} · ${pretty(admin?.type)}`],['Responsible organization',a.organization],['Responsible identity match',org?`${org.name} · ${pretty(org.type)}`:pretty(a.organization_status)],['Calendar quarter',data.quarters[r[1]]],['Reporting-period start',data.begins[r[7]]],['Original fiscal label',r[8]],['Disaster label',a.disaster],['Disaster year label',a.disaster_year||'Unavailable'],['Cohort',a.cohort],...MONEY.map((m,i)=>[pretty(m.replace('_cents','')),money(r[i+2])]),['Financial units','Nominal USD; signed quarterly net transactions'],['Missing internal quarters',a.internal_gaps+' · unknown, not zero'],['Endpoint / completeness',r[9]?'Endpoint flagged; completeness unverified':'Reporting completeness unverified'],['Public comparator precision',r[10]?'This row has a documented 10-significant-digit rounding difference':'No flagged difference'],['Source CSV record',r[11]],['Verified initial award date','Unavailable'],['Compatible local/activity allocation','Unavailable'],['Q4 / Q12 / Q20 ratios','Unavailable'],['Beneficiary location','Unresolved']];
+ $('record-detail').innerHTML=`<p class="eyebrow">FINANCIAL RECORD · ${esc(data.quarters[r[1]])}</p><h2 id="dialog-title">${esc(a.grant)}</h2><dl>${pairs.map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>${scope?`<p class="notice">Reported scope: ${esc(scope.area_names.join('; '))}. ${esc(scope.note)} <a href="${esc(scope.source_url)}" target="_blank" rel="noopener">Official QPR, page ${scope.source_page}</a>. Status: ${esc(scope.report_status)}.</p>`:''}<p class="fine">${esc(sn.provenance)}</p><p><a href="${esc(meta.sources[data.snapshot]||meta.sources.official_qpr)}" target="_blank" rel="noopener">View documentary source ↗</a></p>`;$('record-dialog').showModal();$('close-dialog').focus();
+}
+function exportCSV(){const header=['source_snapshot','administering_government','administering_entity_id','responsible_organization','matched_responsible_entity_id','responsible_match_status','grant_id','project_number','activity_number_or_surrogate','identifier_redacted','activity_type','calendar_quarter','period_begin_actual','fiscal_quarter_label',...MONEY,'money_basis','reported_scope','scope_source','beneficiary_geography','verified_award_start','compatible_allocation_cents','q4_ratio','q12_ratio','q20_ratio','endpoint_flag','precision_difference','source_csv_record'];const lines=[header.map(csvCell).join(',')];for(const r of sorted){const a=data.activities[r[0]],s=scopeMap.get(r[12]);lines.push([data.snapshot,meta.entities[a.admin]?.name,a.admin,a.organization,a.organization_entity,a.organization_status,a.grant,a.project,a.number,a.identifier_redacted,a.type,data.quarters[r[1]],data.begins[r[7]],r[8],...r.slice(2,7),'signed quarterly net flow; nominal USD cents',s?.area_names.join('; '),s?.source_url,'','','','','','',r[9],r[10],r[11]].map(csvCell).join(','));}const url=URL.createObjectURL(new Blob(['\uFEFF'+lines.join('\r\n')],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=`cdbg-dr-${data.snapshot}-filtered.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);$('result-count').textContent=`Exported ${fmt(sorted.length)} rows from the ${data.snapshot} snapshot. Monetary fields are exact integer cents.`;}
 
-const $ = id => document.getElementById(id);
-const escape = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-const number = value => Number(value).toLocaleString('en-US');
-let meta, demo, sources, geography, result, page=1, requestId=0, layer='admin', debounce;
-let filters = {};
-let mapZoom=1,mapCenter=null,drag=null,dragged=false;
-const apiUrl = path => new URL(`./api/${path}`, location.href);
-async function json(url) {const response=await fetch(url,{cache:'no-store',headers:String(url).includes('/api/')?{'X-Atlas-Local':'1'}:{}});if(!response.ok)throw new Error(`Could not load ${url} (${response.status}).`);return response.json();}
-function showError(message) { $('app-error').hidden=false; $('app-error').textContent=message; }
-function view() {
-  const id=['explore','sources','readiness'].includes(location.hash.slice(1))?location.hash.slice(1):'explore';
-  document.querySelectorAll('.view').forEach(el=>el.hidden=el.id!==id);
-  document.querySelectorAll('[data-view]').forEach(el=>{if(el.dataset.view===id)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
+// Display geometry and navigation are independent of financial attribution.
+function shapePath(feature){const key=region+':'+feature.properties.id;if(!paths.has(key))paths.set(key,geometryPath(feature.geometry,region));return paths.get(key);}
+function bounds(features){let x0=Infinity,y0=Infinity,x1=-Infinity,y1=-Infinity;for(const f of features){const polygons=f.geometry.type==='Polygon'?[f.geometry.coordinates]:f.geometry.coordinates;for(const poly of polygons)for(const ring of poly)for(const p of ring){const [x,y]=albers(...p,region);if(Number.isFinite(x)&&Number.isFinite(y)){x0=Math.min(x0,x);y0=Math.min(y0,y);x1=Math.max(x1,x);y1=Math.max(y1,y);}}}return [x0,y0,x1,y1];}
+function fit(features){const [x0,y0,x1,y1]=bounds(features),width=Math.max(x1-x0,5000)*1.12,height=Math.max(y1-y0,5000)*1.12;baseBox={cx:(x0+x1)/2,cy:(y0+y1)/2,w:width,h:height};box={...baseBox};zoom=1;applyView();}
+function applyView(){if(!box)return;const svg=$('map-svg'),ratio=(svg.clientWidth||800)/(svg.clientHeight||480);let w=box.w,h=box.h;if(w/h<ratio)w=h*ratio;else h=w/ratio;svg.setAttribute('viewBox',`${box.cx-w/2} ${box.cy-h/2} ${w} ${h}`);svg.querySelectorAll('.marker').forEach(c=>c.setAttribute('r',String(w/(svg.clientWidth||800)*6)));svg.querySelectorAll('.state-label').forEach(t=>t.setAttribute('font-size',String(w/(svg.clientWidth||800)*10)));$('map-zoom').textContent=zoom.toFixed(1)+'×';}
+function zoomMap(factor){if(!box)return;const next=Math.min(80,Math.max(.65,zoom*factor)),scale=zoom/next;box.w*=scale;box.h*=scale;zoom=next;applyView();}
+function pan(direction){if(!box)return;const delta=.22;box.cx+=({left:-1,right:1}[direction]||0)*box.w*delta;box.cy+=({up:-1,down:1}[direction]||0)*box.h*delta;applyView();}
+async function ensureCatalog(){if(!catalog){$('directory-count').textContent='Loading the nationwide subunit inventory…';catalog=(await get('data/geo/catalog.json')).rows;}return catalog;}
+function selection(html){$('selection-detail').hidden=!html;$('selection-detail').innerHTML=html||'';}
+function selectEntity(id){const e=meta.entities[id];$('role').value=layer==='responsible'?'responsible':'admin';$('government-type').value='';$('state').value='';updateEntityOptions();$('entity').value=id;scopeRef=null;refresh();selection(`<strong>${esc(e.name)}</strong><p>${esc(pretty(e.type))}. Government reference area: ${esc(e.reference||'unresolved')}; identity source vintage ${esc(e.reference_vintage||'unavailable')}. This selection filters associated financial records and does not establish beneficiary location.</p><a href="#data">Open selected financial rows ↗</a>`);}
+async function selectReference(id,fromDirectory=false){const cat=await ensureCatalog(),r=cat.find(x=>x[0]===id);if(!r)return;selectedRef=id;const matching=Object.values(meta.entities).filter(e=>e.reference===id),scopeMatches=meta.scope_evidence.filter(e=>e.references.includes(id));selection(`<strong>${esc(r[1])}</strong><p>${esc(pretty(r[8]))} · ${esc(r[2])} ${esc(r[4])} · reference vintage ${esc(r[7])}. A boundary is not a funded activity.</p>${matching.length?`<p>Documented government-identity links: ${matching.length}.</p>${matching.slice(0,8).map(e=>`<button data-reference-entity="${esc(e.id)}" data-relationship="${data.activities.some(a=>a.admin===e.id)?'admin':'responsible'}">${data.activities.some(a=>a.admin===e.id)?'Administering grantee':'Responsible organization'}: ${esc(e.name)}</button>`).join('')}`:'<p>No matched government identity is available in this financial panel.</p>'}${scopeMatches.length?`<button data-scope-reference="${esc(id)}">Show records with this reported scope</button>`:''}`);
+ if(fromDirectory){layer=r[2];$('map-layer').value=layer;$('boundary-state').value=r[3];region=regionFor(r[3]);$('map-region').value=region;location.hash='map';await renderMap(true);if(r[2]==='state')fit(states.features.filter(f=>f.properties.id===id));else{const fc=await get(`data/geo/${r[2]}-${r[3]}.json`);fit(fc.features.filter(f=>f.properties.id===id));}}else await renderMap();
 }
-function populateEntities() {
-  const current=$('entity').value;
-  const allowed=meta.entities.filter(e=>e.snapshots.includes($('snapshot').value));
-  $('entity').innerHTML='<option value="">All administering entities</option>'+allowed.map(e=>`<option value="${escape(e.id)}">${escape(e.name)}</option>`).join('');
-  if(allowed.some(e=>e.id===current))$('entity').value=current;
-  const snapshot=meta.snapshots.find(s=>s.id===$('snapshot').value);
-  for(const id of ['quarter-from','quarter-to']) {
-    const previous=$(id).value;
-    $(id).innerHTML=`<option value="">${id==='quarter-from'?'First observed':'Last observed'}</option>`+snapshot.quarters.map(q=>`<option>${escape(q)}</option>`).join('');
-    if(snapshot.quarters.includes(previous))$(id).value=previous;
-  }
+async function renderMap(reset=false){if(!data||!states)return;const generation=++mapGeneration;$('boundary-state').closest('label').hidden=!['county','place','cousub'].includes(layer);const localStates=states.features.filter(f=>regionFor(f.properties.state)===region),svg=$('map-svg');let boundary=null;mapItems=[];
+ if(['county','place','cousub'].includes(layer)){const st=$('boundary-state').value;if(regionFor(st)!==region){region=regionFor(st);$('map-region').value=region;return renderMap(true);}boundary=await get(`data/geo/${layer}-${st}.json`);if(generation!==mapGeneration)return;mapItems=boundary.features.map(f=>({id:f.properties.id,name:f.properties.name,kind:'reference'}));}
+ else if(layer==='state'){boundary={features:localStates};mapItems=localStates.map(f=>({id:f.properties.id,name:f.properties.name,kind:'reference'}));}
+ else if(layer==='admin'||layer==='responsible'){const ids=new Set(rows.map(r=>{const a=data.activities[r[0]];return layer==='admin'?a.admin:a.organization_entity;}).filter(Boolean));mapItems=[...ids].map(id=>meta.entities[id]).filter(e=>e?.point&&regionFor(e.state)===region).map(e=>({id:e.id,name:e.name,point:e.point,kind:'entity'}));}
+ else if(layer==='scope'){const cat=await ensureCatalog(),lookup=new Map(cat.map(r=>[r[0],r]));if(generation!==mapGeneration)return;const ids=new Set(rows.flatMap(r=>scopeMap.get(r[12])?.references||[]));mapItems=[...ids].map(id=>lookup.get(id)).filter(r=>r&&Number.isFinite(r[5])&&regionFor(r[3])===region).map(r=>({id:r[0],name:r[1],point:[r[5],r[6]],kind:'scope'}));}
+ const bg=localStates.map(f=>`<path class="state" d="${shapePath(f)}"><title>${esc(f.properties.name)} · reference boundary</title></path>`).join('');const features=boundary?boundary.features.map(f=>`<path class="boundary ${selectedRef===f.properties.id?'selected':''}" data-ref="${esc(f.properties.id)}" d="${shapePath(f)}"><title>${esc(f.properties.name)} · reference only</title></path>`).join(''):'';const markers=mapItems.filter(x=>x.point).map(x=>{const [x1,y1]=albers(...x.point,region);return `<circle class="marker ${x.kind==='scope'?'scope-marker':''} ${$('entity').value===x.id?'selected':''}" cx="${x1}" cy="${y1}" r="12000" data-marker="${esc(x.id)}"><title>${esc(x.name)} · ${x.kind==='scope'?'reported activity scope':'government identity reference'}</title></circle>`;}).join('');
+ svg.innerHTML=`<title id="map-title">${esc(REGIONS[region].name)} · ${esc($('map-layer').selectedOptions[0].textContent)}</title><desc id="map-desc">Land-clipped Census cartographic display. Financial amounts are not allocated by map location. Use navigation controls or the accessible reference list below.</desc>${bg}${features}${markers}`;
+ if(!box||reset)fit(boundary?.features?.length?boundary.features:localStates);else applyView();
+ $('map-empty').hidden=mapItems.length>0&&layer!=='beneficiary';$('map-empty').textContent=layer==='beneficiary'?'Beneficiary locations are unresolved. Government identity and activity scope are not substituted.':`No ${layer==='scope'?'documented activity scopes':'matched government references'} in this region and selection. Use the financial table to see unresolved records, change filters, or choose a subunit boundary layer.`;
+ $('map-status').textContent=`${fmt(mapItems.length)} ${boundary?'reference boundaries; no funding implied':layer==='scope'?'reported area references; no allocation weights':'government identity references'} in ${REGIONS[region].name}. ${fmt(rows.length)} financial records in current filters. ${layer==='beneficiary'?'No beneficiary locations released.':''}`;
+ $('projection-note').textContent=`2025 Census land-clipped cartographic boundaries · ${REGIONS[region].name} Albers equal-area conic · parallels ${REGIONS[region].parallels.join('° / ')}°; central meridian ${REGIONS[region].lon}°. Simplified display geometry; not for spatial analysis.`;
+ const list=mapItems.slice(0,200);$('map-list').innerHTML=list.map(x=>`<button data-list-id="${esc(x.id)}" data-kind="${x.kind}">${esc(x.name)}</button>`).join('')+(mapItems.length>200?'<p class="fine">First 200 references. Use the All subunits tab or jurisdiction selector to search every entry.</p>':'')+(!mapItems.length?'<p class="fine">No mapped references in this selection. All financial records remain accessible in the Financial data tab.</p>':'');
 }
-function getFilters() {return {snapshot:$('snapshot').value,q:$('search').value.trim(),entity:$('entity').value,cohort:$('cohort').value,scope:$('scope').value,from:$('quarter-from').value,to:$('quarter-to').value,page};}
-async function refresh() {
-  const ticket=++requestId; filters=getFilters();
-  if(meta.mode==='public'){renderPublic();return;}
-  if(filters.from && filters.to && filters.from>filters.to) {
-    $('filter-message').textContent='The starting quarter must be on or before the ending quarter.';
-    $('quarter-from').setAttribute('aria-invalid','true');
-    $('stats').innerHTML=''; $('records').innerHTML=''; $('results-count').textContent='Invalid quarter range';
-    $('previous').disabled=true; $('next').disabled=true; $('page-info').textContent=''; $('total-note').textContent='';
-    result={entityIds:[]}; renderMap(); return;
-  }
-  $('quarter-from').removeAttribute('aria-invalid');
-  $('filter-message').textContent='Loading selected records…';
-  try {
-    let next;
-    if(meta.mode==='private') {const url=apiUrl('records');Object.entries(filters).forEach(([k,v])=>url.searchParams.set(k,v));next=await json(url);}
-    else next=selectDemo(demo,filters);
-    if(ticket!==requestId)return;
-    $('app-error').hidden=true;
-    result=next;page=result.page;
-    const snapshot=meta.snapshots.find(s=>s.id===filters.snapshot);
-    $('filter-message').textContent=`${snapshot.label} · ${snapshot.vintage} · ${meta.mode==='private'?'Restricted local records':'Synthetic records only'}`;
-    $('stats').innerHTML=[['Records',result.summary.records,'activity-quarter observations'],['Administering entities',result.summary.entities,'identity, not beneficiary location'],['Original awards',result.summary.awards,'within the selected snapshot'],['Activity keys',result.summary.activities,'award + project + activity']].map(([label,n,note])=>`<div class="stat"><span>${label}</span><strong>${number(n)}</strong><small>${note}</small></div>`).join('');
-    $('results-count').textContent=`${number(result.total)} ${meta.mode==='private'?'local':'synthetic'} records · ${number(result.summary.quarters)} observed quarters`;
-    $('records').innerHTML=result.rows.map((r,i)=>`<tr><td><button type="button" class="record-open" data-record="${i}" aria-label="Open record ${escape(r.grant_id)} ${escape(r.activity_number)} ${escape(r.calendar_quarter)}">${escape(r.entity_name)}</button><small>${escape(r.grant_id)}</small></td><td>${escape(r.activity_number)}<small>Project ${escape(r.project_number)} · ${escape(r.activity_type)}</small></td><td>${escape(r.calendar_quarter)}${r.endpoint_flag?'<small>Endpoint may be partial</small>':''}</td><td><span class="tag gray">${escape(r.cohort)}</span></td><td class="number ${r.expended_cents && BigInt(r.expended_cents)<0n?'negative':''}">${money(r.expended_cents)}</td><td><span class="evidence-badge">${meta.mode==='private'?'Admin identity only':'Synthetic'}</span><small>Beneficiary unresolved</small></td></tr>`).join('');
-    $('empty-results').hidden=result.total!==0;
-    $('page-info').textContent=result.total?`Showing ${number((page-1)*result.pageSize+1)}–${number(Math.min(page*result.pageSize,result.total))} of ${number(result.total)}`:'0 records';
-    $('previous').disabled=page<=1;$('next').disabled=page*result.pageSize>=result.total;
-    $('total-note').textContent=`${meta.mode==='private'?'Reported':'Synthetic'} net expenditure across the filtered records: ${money(result.summary.expended_cents)}. ${result.summary.expended_cents_missing || 0} unavailable source cells. This is an observed-window sum, not an allocation, certified award-to-date total or execution ratio.`;
-    renderMap();
-  }catch(error){if(ticket===requestId){showError('The selected records could not be loaded. No substitute data have been inserted. '+error.message);$('filter-message').textContent='Data load failed.';$('records').innerHTML='';$('stats').innerHTML='';$('total-note').textContent='';$('results-count').textContent='Unavailable';result={entityIds:[]};renderMap();}}
+
+async function showDirectory(){await ensureCatalog();filterDirectory();}
+function filterDirectory(){if(!catalog)return;dirPage=0;const q=$('directory-search').value.toLowerCase().trim(),kind=$('directory-kind').value,st=$('directory-state').value,type=$('directory-government').value;dirRows=catalog.filter(r=>(!q||`${r[1]} ${r[4]} ${r[0]}`.toLowerCase().includes(q))&&(!kind||r[2]===kind)&&(!st||r[3]===st)&&(!type||(r[2]==='government'&&String(r[8]).toUpperCase().includes(type))));renderDirectory();}
+function renderDirectory(){const start=dirPage*PAGE,end=Math.min(start+PAGE,dirRows.length);$('directory-count').textContent=`${fmt(dirRows.length)} reference entries · 3,235 counties/parishes, 32,629 places, 36,360 subdivisions, 56 states/territories and 92,150 government units in the complete inventory. Layers overlap.`;
+ $('directory-rows').innerHTML=dirRows.slice(start,end).map(r=>`<tr><td><strong>${esc(r[1])}</strong></td><td>${esc(pretty(r[8]))}<small>${esc(r[2])}${r[2]==='government'?' · '+esc(pretty(r[9]))+' · active: '+esc(r[10]):''}</small></td><td class="key">${esc(r[4])}</td><td>${esc(stateNames.get(r[3])||r[3])}</td><td>${esc(r[7])}</td><td>${r[2]==='government'?'<small>Service-area geometry unavailable</small>':`<button data-directory-ref="${esc(r[0])}">View boundary</button>`}</td></tr>`).join('')||'<tr><td colspan="6">No reference entries match these filters.</td></tr>';
+ $('directory-page').textContent=dirRows.length?`${fmt(start+1)}–${fmt(end)} of ${fmt(dirRows.length)}`:'0 entries';$('directory-previous').disabled=dirPage===0;$('directory-next').disabled=end>=dirRows.length;
 }
-function chooseReference(id) {
-  $('entity').value=id;
-  const region={'02':'alaska','15':'hawaii','60':'samoa','66':'pacific','69':'pacific','72':'caribbean','78':'caribbean'}[id] || 'conus';
-  $('map-region').value=region;mapZoom=1;mapCenter=null;page=1;refresh();
+function renderSources(){const q=$('source-search').value.toLowerCase();$('sources-list').innerHTML=sources.filter(s=>JSON.stringify(s).toLowerCase().includes(q)).map(s=>`<article class="card"><span class="tag">${esc(s.category)} · ${esc(s.status)}</span><h3><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ↗</a></h3><p>${esc(s.availability)}</p><p class="facts"><b>Unit:</b> ${esc(s.unit)}<br><b>Vintage:</b> ${esc(s.vintage)}<br><b>Definition:</b> ${esc(s.definition)}<br><b>Missingness:</b> ${esc(s.missingness)}<br><b>Join:</b> ${esc(s.linkage)}<br><b>Release basis:</b> ${esc(s.rights)}</p></article>`).join('')||'<p>No sources match this search.</p>';}
+async function showView(){const v=location.hash.slice(1);view=['map','data','directory','sources','readiness'].includes(v)?v:'map';document.querySelectorAll('.view').forEach(el=>el.hidden=el.id!==view);$('finance-controls').hidden=!['map','data'].includes(view);document.querySelectorAll('nav a').forEach(a=>a.setAttribute('aria-current',a.dataset.view===view?'page':'false'));if(view==='directory')await showDirectory();if(view==='map')await renderMap();if(view==='sources')renderSources();}
+function wire(){window.addEventListener('hashchange',()=>showView().catch(fail));$('search').addEventListener('input',debounce(()=>{scopeRef=null;refresh();}));for(const id of ['state','government-type','entity','award','activity-type','cohort','quarter-from','quarter-to','scope'])$(id).addEventListener('change',()=>{scopeRef=null;if(['state','government-type'].includes(id))updateEntityOptions();refresh();});$('role').addEventListener('change',()=>{layer=$('role').value;$('map-layer').value=layer;$('entity').value='';updateEntityOptions();refresh();});$('snapshot').addEventListener('change',()=>loadSnapshot($('snapshot').value).catch(fail));$('reset').addEventListener('click',()=>{for(const id of ['search','state','government-type','entity','award','activity-type','cohort','quarter-from','quarter-to','scope'])$(id).value='';scopeRef=null;selectedRef=null;selection('');updateEntityOptions();refresh();});$('sort').addEventListener('change',()=>{page=0;sortRows();});$('previous').addEventListener('click',()=>{page--;renderRows();});$('next').addEventListener('click',()=>{page++;renderRows();});$('records').addEventListener('click',e=>{const b=e.target.closest('[data-row]');if(b)recordDetail(sorted[Number(b.dataset.row)]);});$('close-dialog').addEventListener('click',()=>$('record-dialog').close());$('export').addEventListener('click',exportCSV);
+ $('map-layer').addEventListener('change',()=>{layer=$('map-layer').value;selectedRef=null;selection('');if(layer==='scope'){$('scope').value='reported';$('government-type').value='';$('entity').value='';updateEntityOptions();refresh();}if(['admin','responsible'].includes(layer)){$('role').value=layer;$('entity').value='';updateEntityOptions();refresh();}renderMap(true).catch(fail);});$('map-region').addEventListener('change',()=>{region=$('map-region').value;if(['county','place','cousub'].includes(layer)){$('boundary-state').value=geo.states.find(s=>s.region===region)?.id||'48';}renderMap(true).catch(fail);});$('boundary-state').addEventListener('change',()=>{region=regionFor($('boundary-state').value);$('map-region').value=region;renderMap(true).catch(fail);});$('zoom-in').addEventListener('click',()=>zoomMap(1.45));$('zoom-out').addEventListener('click',()=>zoomMap(1/1.45));document.querySelectorAll('[data-pan]').forEach(b=>b.addEventListener('click',()=>pan(b.dataset.pan)));$('map-reset').addEventListener('click',()=>renderMap(true).catch(fail));
+ const svg=$('map-svg');svg.addEventListener('keydown',e=>{const direction={ArrowLeft:'left',ArrowRight:'right',ArrowUp:'up',ArrowDown:'down'}[e.key];if(direction){e.preventDefault();pan(direction);}else if(['+','=','-','0'].includes(e.key)){e.preventDefault();if(e.key==='0')renderMap(true).catch(fail);else zoomMap(e.key==='-'?1/1.45:1.45);}});svg.addEventListener('pointerdown',e=>{if(e.button!==0||!box)return;const vb=svg.viewBox.baseVal;drag={x:e.clientX,y:e.clientY,cx:box.cx,cy:box.cy,w:vb.width,h:vb.height,moved:false};svg.setPointerCapture(e.pointerId);svg.classList.add('dragging');});svg.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.abs(dx)+Math.abs(dy)>6)drag.moved=true;box.cx=drag.cx-dx/svg.clientWidth*drag.w;box.cy=drag.cy-dy/svg.clientHeight*drag.h;applyView();});svg.addEventListener('pointerup',e=>{const moved=drag?.moved;drag=null;svg.classList.remove('dragging');if(moved)return;const t=document.elementFromPoint(e.clientX,e.clientY)?.closest('[data-marker],[data-ref]');if(t?.dataset.marker){if(layer==='scope'){scopeRef=t.dataset.marker;$('scope').value='reported';refresh();selectReference(scopeRef).catch(fail);}else selectEntity(t.dataset.marker);}else if(t?.dataset.ref)selectReference(t.dataset.ref).catch(fail);});svg.addEventListener('pointercancel',()=>{drag=null;svg.classList.remove('dragging');});svg.addEventListener('wheel',e=>{if(e.ctrlKey){e.preventDefault();zoomMap(e.deltaY<0?1.15:1/1.15);}},{passive:false});new ResizeObserver(applyView).observe(svg);
+ $('map-list').addEventListener('click',e=>{const b=e.target.closest('[data-list-id]');if(!b)return;if(b.dataset.kind==='entity')selectEntity(b.dataset.listId);else if(b.dataset.kind==='scope'){scopeRef=b.dataset.listId;$('scope').value='reported';refresh();selectReference(scopeRef).catch(fail);}else selectReference(b.dataset.listId).catch(fail);});$('selection-detail').addEventListener('click',e=>{const entity=e.target.closest('[data-reference-entity]'),scope=e.target.closest('[data-scope-reference]');if(entity){layer=entity.dataset.relationship;$('map-layer').value=layer;selectEntity(entity.dataset.referenceEntity);}if(scope){scopeRef=scope.dataset.scopeReference;for(const id of ['government-type','entity','state'])$(id).value='';$('scope').value='reported';refresh();location.hash='data';}});
+ $('directory-search').addEventListener('input',debounce(filterDirectory));for(const id of ['directory-kind','directory-state','directory-government'])$(id).addEventListener('change',filterDirectory);$('directory-previous').addEventListener('click',()=>{dirPage--;renderDirectory();});$('directory-next').addEventListener('click',()=>{dirPage++;renderDirectory();});$('directory-rows').addEventListener('click',e=>{const b=e.target.closest('[data-directory-ref]');if(b)selectReference(b.dataset.directoryRef,true).catch(fail);});$('source-search').addEventListener('input',debounce(renderSources));
 }
-function renderPublic() {
-  const q=filters.q.toLowerCase();
-  const matches=meta.entities.filter(e=>(!filters.entity||e.id===filters.entity)&&(!q||`${e.name} ${e.id}`.toLowerCase().includes(q)));
-  page=Math.max(1,Math.min(page,Math.ceil(matches.length/20)||1));
-  result={entityIds:[],scopeIds:[],referenceIds:matches.map(e=>e.id),total:matches.length,page,pageSize:20,rows:[]};
-  $('filter-message').textContent='Public reference geography · Census 2023 · no financial records, grant-coverage inference or synthetic values.';
-  $('stats').innerHTML=[['Official source entries',sources.length,'links, units and required joins'],['Reference areas',matches.length,'states, D.C. and territories'],['Financial records published','0','not available in this release'],['Milestone ratios','—','Q4 / Q12 / Q20 unavailable']].map(([label,n,note])=>`<div class="stat"><span>${label}</span><strong>${n}</strong><small>${note}</small></div>`).join('');
-  $('results-count').textContent=`${matches.length} reference areas · 0 financial records`;
-  $('records').innerHTML=matches.slice((page-1)*20,page*20).map(e=>`<tr><td><button type="button" class="record-open" data-reference="${e.id}">${escape(e.name)}</button></td><td>${e.id}</td><td>2023</td><td>Reference only</td><td>Unavailable</td><td><a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html" target="_blank" rel="noopener noreferrer">Census source ↗</a></td></tr>`).join('');
-  $('empty-results').hidden=matches.length!==0;
-  $('page-info').textContent=matches.length?`Showing ${(page-1)*20+1}–${Math.min(page*20,matches.length)} of ${matches.length}`:'0 reference areas';
-  $('previous').disabled=page<=1;$('next').disabled=page*20>=matches.length;
-  $('total-note').textContent='A listed or highlighted geography is a Census reference area only. It does not indicate a CDBG-DR award, spending, activity location or beneficiary coverage. No financial totals or execution ratios are available.';
-  renderMap();
-}
-function mapBounds() {
-  const b=REGIONS[$('map-region').value].bounds;
-  const center=mapCenter || [(b[0]+b[2])/2,(b[1]+b[3])/2];
-  const w=(b[2]-b[0])/mapZoom,h=(b[3]-b[1])/mapZoom;
-  return [center[0]-w/2,center[1]-h/2,center[0]+w/2,center[1]+h/2];
-}
-function navigateMap(action) {
-  const b=mapBounds(),center=[(b[0]+b[2])/2,(b[1]+b[3])/2];
-  if(action==='in')mapZoom=Math.min(8,mapZoom*1.5);
-  if(action==='out')mapZoom=Math.max(1,mapZoom/1.5);
-  if(action==='reset'){mapZoom=1;mapCenter=null;}
-  if(['left','right','up','down'].includes(action)) {
-    const dx=(b[2]-b[0])*.2,dy=(b[3]-b[1])*.2;
-    mapCenter=[center[0]+(action==='right'?dx:action==='left'?-dx:0),center[1]+(action==='up'?dy:action==='down'?-dy:0)];
-  }
-  renderMap();
-}
-function renderMap() {
-  const bounds=mapBounds(), svg=$('map');
-  $('map-zoom').textContent=`${mapZoom.toFixed(1)}×`;$('zoom-in').disabled=mapZoom>=8;$('zoom-out').disabled=mapZoom<=1;
-  let paths='';
-  for (const feature of geography.features) {
-    let featurePath='';
-    const polygons=feature.geometry.type==='Polygon'?[feature.geometry.coordinates]:feature.geometry.coordinates;
-    for(const polygon of polygons) {
-      // Reject antimeridian-crossing rings in the western Alaska panel; never draw a world-spanning seam.
-      const ring=polygon[0];
-      const xs=ring.map(p=>p[0]),ys=ring.map(p=>p[1]);
-      if(Math.max(...xs)<bounds[0]||Math.min(...xs)>bounds[2]||Math.max(...ys)<bounds[1]||Math.min(...ys)>bounds[3])continue;
-      if(ring.some((p,i)=>i && Math.abs(p[0]-ring[i-1][0])>180))continue;
-      const d=polygon.map(r=>r.map((p,i)=>{const [x,y]=project(p[0],p[1],bounds);return `${i?'L':'M'}${x.toFixed(2)},${y.toFixed(2)}`;}).join(' ')+' Z').join(' ');
-      featurePath+=' '+d;
-    }
-    const publicAttrs=meta.mode==='public'&&layer==='admin'?` role="button" tabindex="0" data-reference="${feature.properties.geoid}" aria-label="Select ${escape(feature.properties.name)} reference geography; no funding coverage implied"`:'';
-    if(featurePath)paths+=`<path class="map-state ${meta.mode==='public'&&filters.entity===feature.properties.geoid?'reference-selected':''}" d="${featurePath}"${publicAttrs}><title>${escape(feature.properties.name)} · 2023 reference boundary; no funding coverage implied</title></path>`;
-  }
-  let grid='';for(let x=0;x<=760;x+=95)grid+=`<path class="map-grid" d="M${x},0V355"/>`;for(let y=0;y<=355;y+=71)grid+=`<path class="map-grid" d="M0,${y}H760"/>`;
-  const entities=layer==='activity'?(meta.activityScopes || []).filter(e=>(result?.scopeIds || []).includes(e.id)):meta.entities.filter(e=>(result?.entityIds || []).includes(e.id));
-  const mapped=entities.filter(e=>eligiblePoint(e,layer));
-  const visible=mapped.filter(e=>inRegion(e.point,bounds));
-  svg.innerHTML=`<title id="map-svg-title">${layer==='admin'?'Administering geography':layer==='activity'?'Documented administrative activity scope':'Unresolved beneficiary geography'} — ${escape(REGIONS[$('map-region').value].name)}</title><desc id="map-svg-desc">Geographic reference only. Equal-size points do not encode funding amounts or beneficiary locations.</desc>${grid}${paths}`+visible.map(e=>{const [x,y]=project(e.point.lon,e.point.lat,bounds);return `<circle class="map-marker ${layer==='activity'?'scope-marker':''}" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="6" tabindex="0" role="button" data-entity="${escape(e.id)}" aria-label="Filter records for ${escape(e.name)}"><title>${escape(e.name)} · ${escape(e.point.area_name)} · ${escape(e.point.vintage)} reference only</title></circle>`;}).join('');
-  svg.setAttribute('role','group');
-  $('map-title').textContent=layer==='admin'?'Administering geography':layer==='activity'?'Reported administrative scope':'Beneficiary geography';
-  document.querySelector('.legend-dot').classList.toggle('scope-dot',layer==='activity');
-  $('map-role-explainer').textContent=layer==='activity'?'Equal-sized amber markers identify reference areas for documented period-specific administrative activity scopes. They are not exact activity sites, beneficiary residences or funding magnitudes. Overlapping city/county areas are not disjoint exposure. The documented activity-scope filter provides the same selection without using the map.':layer==='beneficiary'?'No verified beneficiary geography is available. Neither administering-entity reference points nor documented administrative activity scopes are substituted. The table retains the unresolved records.':'Equal-sized green markers locate a geographic reference associated with the administering entity. They do not represent an office address, service area, activity site, beneficiary residence or amount of funding. Selecting a marker filters records; the jurisdiction filter offers the same action.';
-  const empty=$('map-empty');empty.hidden=visible.length>0;
-  if(!empty.hidden) {
-    if(layer==='beneficiary')empty.innerHTML='<strong>No verified beneficiary locations</strong>Unresolved geography is left blank. Administrative points are not substituted.';
-    else if(meta.mode==='demo')empty.innerHTML='<strong>Real geography. Synthetic records.</strong>Example jurisdictions have no coordinates. No research locations are shown in this preview.';
-    else if(layer==='activity')empty.innerHTML='<strong>No certified activity scope in this view</strong>Only period-specific documented administrative scopes may appear. Other locations remain unallocated.';
-    else empty.innerHTML='<strong>No supported points in this view</strong>Try another region or clear the record filters. Missing coordinates remain blank.';
-  }
-  $('map-note').textContent=layer==='beneficiary'?'Beneficiary geography is unresolved for these records. The outlines are geographic reference only.':layer==='activity'?`${visible.length} documented administrative scopes in this map view. These describe administration in 2024Q4, not beneficiary locations or disjoint exposure. Report: Submitted - Await for Review. Other activity geography remains unallocated.`:`${visible.length} supported administering reference points in this map view; ${mapped.length-visible.length} outside this view; ${entities.length-mapped.length} entities without supported coordinates. No financial values are mapped.`;
-  $('map-evidence').innerHTML=mapped.length?`<ul>${mapped.map(e=>`<li><strong>${escape(e.name)}</strong>: ${escape(e.point.area_name)} · ${escape(e.point.area_id)} · ${escape(e.point.vintage)}. ${escape(e.point.evidence)} ${safeUrl(e.point.source_url)?`<a href="${escape(safeUrl(e.point.source_url))}" target="_blank" rel="noopener noreferrer">Reference source ↗</a>`:''}</li>`).join('')}</ul>`:'<p>No eligible location points are supplied for this layer.</p>';
-  if(meta.mode==='public') {
-    $('map-title').textContent=layer==='admin'?'Census reference geography':layer==='activity'?'Activity geography unavailable':'Beneficiary geography unavailable';
-    $('map-note').textContent=layer==='admin'?`Reference boundaries only · ${filters.entity?meta.entities.find(e=>e.id===filters.entity)?.name+' selected':'no CDBG-DR coverage implied'}. Select a boundary or use the reference-area selector to synchronize the table.`:'No verified locations are published. Reference outlines do not imply activity or beneficiary coverage.';
-    $('map-empty').hidden=layer==='admin';
-    if(layer!=='admin')$('map-empty').innerHTML='<strong>No verified locations published</strong>These fields remain unavailable. Reference outlines and administering identities are not substituted.';
-    $('map-role-explainer').textContent='Census state and territory reference areas only. Selection highlights a reference boundary and filters the accessible reference table. It is not a map of CDBG-DR awards, funded places, activity footprints, beneficiary residences or funding magnitudes.';
-    $('map-evidence').innerHTML='<p>The reference-area selector and table provide the same selection without using the map. Financial and location coverage are unavailable in this public release.</p>';
-    $('map-svg-title').textContent=`Census reference map — ${REGIONS[$('map-region').value].name}; no funding coverage implied`;
-    $('map-svg-desc').textContent='Interactive Census reference outlines only. No financial amounts, funded-area classifications, activity locations or beneficiary locations are encoded.';
-  }
-}
-function recordDetail(index) {
-  const r=result.rows[index]; if(!r)return;
-  const e=meta.entities.find(x=>x.id===r.entity_id);
-  const point=eligiblePoint(e,'admin')?`${e.point.area_name} (${e.point.area_id}), vintage ${e.point.vintage}; administering reference only`:'No supported coordinates; not placed on the map';
-  const names=['Net obligations','Net expenditures','Grant disbursements','Program-income disbursements','Program-income receipts'];
-  $('record-detail').innerHTML=`<span class="tag ${meta.mode==='private'?'amber':'gray'}">${meta.mode==='private'?'Restricted · local review only':'Synthetic example · not research evidence'}</span><h2 id="dialog-title">${escape(r.entity_name)}</h2><p>${escape(r.activity_type)} · ${escape(r.calendar_quarter)}</p><dl><dt>Source snapshot</dt><dd>${escape(r.snapshot)}</dd><dt>Original award / project</dt><dd>${escape(r.grant_id)} / ${escape(r.project_number)}</dd><dt>Original activity</dt><dd>${escape(r.activity_number)}</dd><dt>Record ID</dt><dd>${escape(r.id)}</dd><dt>Cohort / entity type</dt><dd>${escape(r.cohort)} / ${escape(r.entity_type.replaceAll('_',' '))}</dd><dt>Original grantee label</dt><dd>${escape(r.grantee_raw || r.entity_name)}${r.label_anomaly?' · label anomaly retained; award-specific identity evidence required':''}</dd><dt>Source row</dt><dd>${escape(r.source_file)} · CSV record ${escape(r.source_record)}${r.source_workbook?` · ${escape(r.source_workbook)} row ${escape(r.source_workbook_row)}`:''}</dd><dt>Reporting period begins</dt><dd>${escape(r.period_begin || 'Unavailable')} · this is not the initial grant execution date</dd><dt>Fiscal label in source</dt><dd>${escape(r.fiscal_label || 'Unavailable')} · display uses calendar quarter</dd><dt>Reference geography</dt><dd>${escape(point)}</dd><dt>Administering identity evidence</dt><dd>${escape(e?.identity_evidence || 'Synthetic identity; no geographic evidence')}</dd><dt>Reported activity scope</dt><dd>${escape(r.activity_scope || 'Unallocated / joint / unverified')}${r.scope_note?` · ${escape(r.scope_note)}`:''}</dd><dt>Beneficiary geography</dt><dd>Unavailable — no certified beneficiary assignment</dd><dt>Internal missing quarters</dt><dd>${r.internal_gaps===null?'Unknown':escape(r.internal_gaps)} in the activity’s observed span; absent quarters are not zero</dd><dt>Endpoint status</dt><dd>${escape(r.endpoint_status || 'Reporting completeness unverified')}</dd></dl><div class="money-grid">${MONEY_FIELDS.map((k,i)=>`<div><span>${names[i]} · nominal USD</span><strong>${money(r[k])}</strong></div>`).join('')}</div><p class="detail-note">All five fields are signed quarterly net flows. Exact cents preserve the supplied CSV precision; they do not certify upstream precision. Disbursements and expenditures remain separate.</p><div class="milestones"><span>Q4<strong>Unavailable</strong></span><span>Q12<strong>Unavailable</strong></span><span>Q20<strong>Unavailable</strong></span></div><p class="fine-print">Verified initial execution date: unavailable. Compatible city/activity allocation: unavailable. No ratio is inferred from these quarterly flows.</p>`;
-  $('record-dialog').showModal();$('close-dialog').focus();
-}
-function renderSources() {
-  const q=$('source-search').value.trim().toLowerCase(),category=$('source-category').value;
-  const matched=sources.filter(s=>(!category||s.category===category)&&(!q||Object.values(s).join(' ').toLowerCase().includes(q)));
-  $('source-count').textContent=`${matched.length} of ${sources.length} sources · catalog entries are not evidence that a local analytic join is complete`;
-  $('source-grid').innerHTML=matched.length?matched.map(s=>`<article class="card source-card"><header><span class="tiny-label">${escape(s.category)} / ${escape(s.id.toUpperCase())}</span><span class="tag ${s.status.includes('Restricted')?'amber':'gray'}">${escape(s.status)}</span></header><h3>${escape(s.name)}</h3><p class="provider">${escape(s.provider)}</p><p>${escape(s.availability)}</p><dl><dt>Unit</dt><dd>${escape(s.unit)}</dd><dt>Vintage</dt><dd>${escape(s.vintage)}</dd><dt>Coverage</dt><dd>${escape(meta.sourceNotes?.[s.id] || 'No research values bundled in this static preview.')}</dd><dt>Definition</dt><dd>${escape(s.definition)}</dd></dl><details><summary>Missingness, linkage and access</summary><p><strong>Missingness.</strong> ${escape(s.missingness)}</p><p><strong>Required join.</strong> ${escape(s.linkage)}</p><p><strong>Access.</strong> ${escape(s.rights)}</p><p><strong>Link check.</strong> ${escape(s.checked)}</p></details>${safeUrl(s.url)?`<a class="text-link" href="${escape(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">Official source <span aria-hidden="true">↗</span></a>`:''}</article>`).join(''):'<div class="empty-results"><strong>No matching sources</strong><p>Try a broader term or another category.</p></div>';
-}
-function bind() {
-  window.addEventListener('hashchange',view); view();
-  $('filters').addEventListener('submit',event=>event.preventDefault());
-  $('search').addEventListener('input',()=>{clearTimeout(debounce);debounce=setTimeout(()=>{page=1;refresh();},180);});
-  for(const id of ['snapshot','entity','cohort','scope','quarter-from','quarter-to'])$(id).addEventListener('change',()=>{page=1;if(meta.mode==='public'&&id==='entity'&&$(id).value){chooseReference($(id).value);return;}if(id==='snapshot')populateEntities();refresh();});
-  $('reset').addEventListener('click',()=>{$('search').value='';for(const id of ['entity','cohort','scope','quarter-from','quarter-to'])$(id).value='';page=1;refresh();});
-  $('previous').addEventListener('click',()=>{page--;refresh();});$('next').addEventListener('click',()=>{page++;refresh();});
-  for(const name of ['admin','activity','beneficiary'])$(name+'-layer').addEventListener('click',()=>{layer=name;for(const n of ['admin','activity','beneficiary'])$(n+'-layer').setAttribute('aria-pressed',String(n===name));renderMap();});
-  $('map-region').addEventListener('change',()=>navigateMap('reset'));
-  for(const id of ['zoom-in','zoom-out','pan-left','pan-up','pan-down','pan-right','map-reset'])$(id).addEventListener('click',()=>navigateMap(id.split('-')[1]));
-  function mapClick(event){if(dragged){dragged=false;return;}const ref=event.target.closest('[data-reference]');if(ref){chooseReference(ref.dataset.reference);return;}const el=event.target.closest('[data-entity]');if(!el)return;$(layer==='activity'?'scope':'entity').value=el.dataset.entity;page=1;refresh();}
-  $('map').addEventListener('click',mapClick);
-  $('map').addEventListener('keydown',event=>{
-    if((event.target.hasAttribute('data-entity')||event.target.hasAttribute('data-reference'))&&['Enter',' '].includes(event.key)){event.preventDefault();mapClick(event);return;}
-    const action={ArrowLeft:'left',ArrowRight:'right',ArrowUp:'up',ArrowDown:'down','+':'in','=':'in','-':'out','0':'reset'}[event.key];
-    if(action){event.preventDefault();navigateMap(action);}
-  });
-  $('map').addEventListener('pointerdown',event=>{if(event.button!==0)return;dragged=false;drag={x:event.clientX,y:event.clientY,bounds:mapBounds()};if(!event.target.closest('[data-entity],[data-reference]'))$('map').setPointerCapture(event.pointerId);});
-  $('map').addEventListener('pointermove',event=>{if(!drag)return;const dx=event.clientX-drag.x,dy=event.clientY-drag.y;if(Math.abs(dx)+Math.abs(dy)<5)return;dragged=true;const b=drag.bounds,rect=$('map').getBoundingClientRect();mapCenter=[(b[0]+b[2])/2-dx/rect.width*(b[2]-b[0]),(b[1]+b[3])/2+dy/rect.height*(b[3]-b[1])];renderMap();});
-  $('map').addEventListener('pointerup',()=>{drag=null;});$('map').addEventListener('pointercancel',()=>{drag=null;});
-  $('records').addEventListener('click',event=>{const ref=event.target.closest('[data-reference]');if(ref){chooseReference(ref.dataset.reference);return;}const button=event.target.closest('[data-record]');if(button)recordDetail(Number(button.dataset.record));});
-  $('close-dialog').addEventListener('click',()=>$('record-dialog').close());
-  $('source-search').addEventListener('input',renderSources);$('source-category').addEventListener('change',renderSources);
-  $('download-catalog').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(sources,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='cecreh-public-source-catalog.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);});
-}
-async function start() {
-  [sources,geography]=await Promise.all([json('./data/sources.json'),json('./data/geography.json')]);
-  let privateMeta;
-  if(['127.0.0.1','localhost','[::1]'].includes(location.hostname)) {try{privateMeta=await json(apiUrl('meta'));}catch{privateMeta=null;}}
-  if(privateMeta?.mode==='private')meta=privateMeta;
-  else {
-    if(new URLSearchParams(location.search).get('mode')==='private')throw new Error('Private mode was requested, but the local adapter is unavailable. Start the loopback server with --private-db.');
-    demo=await json('./data/catalog.json');meta=demo;
-  }
-  const privateMode=meta.mode==='private';
-  const publicMode=meta.mode==='public';
-  $('mode-pill').textContent=privateMode?'LOCAL · RESTRICTED':publicMode?'PUBLIC SOURCE PREVIEW':'SYNTHETIC PREVIEW';
-  $('mode-banner').classList.toggle('private',privateMode);
-  $('mode-banner').innerHTML=privateMode?'<strong>Private local research view.</strong> Restricted records are served only by this computer’s loopback adapter. No research data have been published.':publicMode?'<strong>Public source & geography preview.</strong> Real Census reference areas and official source links. Financial records, activity/beneficiary locations and milestone ratios are not published. No synthetic financial values are shown.':'<strong>Synthetic preview.</strong> Example records are not research data.';
-  $('footer-mode').textContent=privateMode?'Private local view · restricted source data':publicMode?'Publicly accessible · no restricted research data':'Synthetic preview';
-  $('snapshot').innerHTML=meta.snapshots.map(s=>`<option value="${escape(s.id)}">${escape(s.label)}</option>`).join('');
-  $('scope').innerHTML='<option value="">All records</option><option value="unverified">Unallocated / unverified</option>'+(meta.activityScopes || []).map(s=>`<option value="${escape(s.id)}">${escape(s.name)}</option>`).join('');
-  populateEntities();bind();renderSources();
-  if(publicMode){
-    $('filters').setAttribute('aria-label','Search Census reference geography');
-    document.querySelector('.table-scroll').setAttribute('aria-label','Geography reference table, horizontally scrollable');
-    document.querySelector('.map-card .pill').textContent='Reference boundaries';
-    document.querySelector('#explore .section-heading .eyebrow').textContent='PUBLIC REFERENCE EXPLORER';
-    document.querySelector('#explore .section-heading > p').innerHTML='Reference geography only.<br><strong>No grant coverage implied.</strong>';
-    document.querySelector('[data-view="explore"]').firstChild.textContent='Map & reference areas ';
-    $('explore-title').textContent='Explore public reference geography.';
-    document.querySelector('label[for="search"]').textContent='Search reference areas';$('search').placeholder='Search a state, territory or Census code…';
-    document.querySelector('label[for="entity"]').textContent='Reference area';$('entity').options[0].textContent='All reference areas';
-    for(const id of ['cohort','scope','quarter-from','quarter-to'])$(id).closest('.field').hidden=true;
-    $('admin-layer').textContent='Reference areas';$('records-title').textContent='Geography reference inventory';
-    document.querySelector('.records-section .eyebrow').textContent='CENSUS 2023 · CONTEXT ONLY';
-    document.querySelector('.record-note').innerHTML='<strong>No financial records published</strong><span>Reference geography does not imply awards, activities, beneficiaries or funding.</span>';
-    document.querySelector('thead tr').innerHTML=['Reference area','Census GEOID','Boundary vintage','Geography role','Financial data','Provenance'].map(t=>`<th scope="col">${t}</th>`).join('');
-    document.querySelector('table caption').textContent='Census reference geography only. No financial records or CDBG-DR coverage are represented.';
-    document.querySelector('#empty-results strong').textContent='No matching reference areas';
-    document.querySelector('#empty-results p').textContent='Try a different state or territory name, or reset the filters.';
-  }
-  if(privateMode && meta.readiness){$('local-readiness').hidden=false;$('local-readiness').innerHTML=`<div class="local-summary"><strong>Local evidence review · ${escape(meta.prepared)}</strong>${meta.readiness.map(note=>`<p>${escape(note)}</p>`).join('')}</div>`;}
-  await refresh();
-}
-start().catch(error=>{showError('The dashboard could not initialize. '+error.message);$('mode-banner').textContent='Data unavailable. No financial results are shown.';$('mode-pill').textContent='LOAD ERROR';});
+async function init(){busy(true);[meta,geo,states,sources]=await Promise.all([get('data/finance-meta.json'),get('data/geo/manifest.json'),get('data/geo/states.json'),get('data/sources.json')]);geo.states.forEach(s=>stateNames.set(s.id,s.name));meta.scope_evidence.forEach(s=>scopeMap.set(s.id,s));options('snapshot',meta.snapshots.map(s=>[s.id,s.label]),null);const stateOptions=geo.states.map(s=>[s.id,s.name]);for(const id of ['state','directory-state'])options(id,stateOptions,'All states & territories');options('boundary-state',stateOptions,null);$('boundary-state').value='48';options('map-region',Object.entries(REGIONS).map(([id,p])=>[id,p.name]),null);options('government-type',[['local','Local governments'],...[...new Set(Object.values(meta.entities).map(e=>e.type))].sort().map(t=>[t,pretty(t)])],'All types');$('government-type').value='local';
+ $('source-proof').innerHTML=`<p>The national panel contains ${fmt(meta.snapshots[0].records)} records and ${fmt(meta.snapshots[0].awards)} awards. Seven public financial chunks and their dictionary matched the inspected archive byte for byte at commit <code>0531f22</code>. All original row keys and five monetary fields reconcile, including 119 rows / 157 cells with source precision differences (maximum $0.41).</p><p>The separate Texas panel has ${fmt(meta.snapshots[1].records)} records and two Harvey awards. Overlapping historical records remain versioned: 158 shared keys differ, including 150 material differences in the 2025Q1 endpoint. Neither snapshot silently replaces the other.</p><p>${fmt(meta.scope_evidence.length)} official QPR activity scopes are linked by exact award, activity and 2024Q4. Report status: Submitted — Await for Review. No award execution dates are derived from these reports.</p><p>Sixteen address-bearing housing activity identifiers use stable surrogate IDs. Their financial rows are retained; no narratives, household characteristics or residential locations are released.</p><p><a href="data/finance-national.json" download>National financial JSON ↓</a> · <a href="data/finance-texas.json" download>Texas financial JSON ↓</a> · <a href="data/finance-meta.json" download>Definitions & identity metadata ↓</a></p>`;
+ wire();await loadSnapshot('national');await showView();}
+init().catch(fail);

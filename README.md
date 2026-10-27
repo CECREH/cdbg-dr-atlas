@@ -1,30 +1,54 @@
-# CDBG-DR Research Atlas — public source and geography preview
+# CECREH CDBG-DR Research Atlas
 
-This standalone public reference helps organize CDBG-DR data sources and the evidence needed for a city × award × activity × quarter analysis.
+A standalone public financial and geographic source explorer. The financial table
+contains 128,382 national quarterly records and a separate, overlapping 6,518-row
+Texas Harvey snapshot. Five signed quarterly net measures retain negative
+adjustments, exact integer cents, original reporting-period dates and fiscal labels.
 
-**Coverage of this release:** eight official source-catalog entries; 56 Census state/D.C./territory reference areas; zero financial records; zero activity or beneficiary location assignments; zero synthetic financial values. Q4/Q12/Q20 execution ratios remain unavailable. A highlighted area is geographic context, not evidence of a CDBG-DR award, activity, beneficiary or funding amount.
+The government selector distinguishes administering grantees from matched
+responsible organizations. Neither establishes beneficiary geography or allocates
+a statewide award to a local government. Exact official QPR activity-scope links
+are separately identified; no local dollar allocation weights are implied.
 
-The map supports zoom, pan, region selection and synchronized reference-area/table selection, including keyboard controls. The source catalog documents units, vintages, missingness, definitions and linkage requirements. A separate local research workflow may supply verified records in an authorized environment; none are included here.
+The reference inventory contains 2025 land-clipped Census states/territories,
+counties/parishes, places and county subdivisions, plus the 2022 government unit
+inventory. Layers overlap. Statistical areas and governmental identities differ.
+Regional Albers equal-area projection and simplified boundaries are for display.
+Alaska, Hawaii and territories have explicit regional views.
 
-## Source and reuse review
+Verified initial award execution dates, compatible local/activity allocation
+histories, beneficiary geography and Q4/Q12/Q20 ratios remain unavailable.
+Contextual ACS, flood, land-use and government-resource sources are cataloged;
+those covariates are not represented as populated joins.
 
-- `data/geography.json` derives only from the U.S. Census Bureau's official `tl_2023_us_state.zip`. Source SHA-256, the original embedded reuse statement and the exact transformation appear in `data/geography-provenance.json`.
-- Census metadata state that the TIGER/Line products are not copyrighted and may be reused with Census attribution. The map provides that attribution. TIGER/Line and Census TIGER are Census Bureau trademarks. These boundaries are statistical references, not legal land descriptions or a determination of jurisdictional authority.
-- Coordinates retain native NAD83 longitude/latitude, generalized at 0.035°. Regions have different display scales; eastern antimeridian Alaska islands are outside the western-longitude panel. The map is unsuitable for distance, area or legal-boundary measurements.
-- `data/catalog.json` contains only names and public Census codes from those reference features. It contains no financial observations.
-- `data/sources.json` contains authored descriptions and official links, not downloaded research datasets or copied source reports. Link checks and unverified reference leads are distinguished in each entry.
-- The remaining files are newly authored interface code and a simple original icon. No third-party JavaScript, tile service, font, analytics or private data file is bundled or requested.
+## Provenance
 
-Public reports do not establish redistribution rights for a separately obtained restricted extract. Restricted original QPR records, their derivatives, private communications, credentials, household locations, local research hashes and private screenshots are excluded from this repository and its history.
+The national HUD F31 extract is reconciled to publicly published CECREH financial
+chunks at commit `0531f22afbb814ae24f382d8916bb4538e4d7b4e` of
+[HUD-CDBG-DR-Fund-Hierarchy-Dashboard](https://github.com/CECREH-2023/HUD-CDBG-DR-Fund-Hierarchy-Dashboard).
+The supplied source has documented 10-significant-digit precision differences in
+119 rows / 157 cells (maximum $0.41) relative to that public comparator. The
+separate Texas F31 export retains its later source version and F33 reconciliation.
+Official GLO QPRs supply selected independent period-dollar checks and scope links.
 
-## Interpretation limits
+See [release provenance](data/provenance.json) and [source catalog](data/sources.json).
+Upstream software/documentation terms are preserved in `UPSTREAM-LICENSE.txt`.
+Census geographic data are credited to the U.S. Census Bureau. The logo is the
+official CECREH asset from Texas Tech University, used unchanged.
 
-National and Texas snapshots can overlap and must not be added. Administering identity does not locate activity sites or beneficiaries. Initial execution dates, compatible dated allocations and complete histories are necessary for award-relative ratios. Missing observations are not zeros; signed adjustments must be preserved. ACS, flood, land-cover and government-resource joins require compatible units, boundaries and time periods. Exploratory accounting associations alone do not establish capacity or recovery effects.
+Sixteen address-bearing housing activity IDs are replaced with disclosed stable
+surrogate identifiers while retaining their financial rows. No narratives,
+household attributes, residential locations, credentials or third-party city
+coordinates are included.
 
-This website and repository are public and may be discovered even without inbound links. There is no login or claim of privacy. No navigation links or announcements have been added to other CECREH properties.
+## Use
 
-## Static operation
+Serve this directory with any static HTTP server. No build step, service, API key,
+tracking, external font, map tile provider or client credential is required.
+The browser loads one financial snapshot at a time. Boundaries load by state and
+layer. The national subunit catalog loads when requested. Search, pagination,
+sort and CSV export operate on the selected snapshot; exported money is in cents.
 
-Serve this directory with an ordinary local HTTP server. Relative URLs and `.nojekyll` support GitHub Pages project paths. No API key or build dependency is required.
-
-Prepared and source-reviewed October 27, 2026.
+Keyboard map navigation: arrow keys pan, `+` / `-` zoom, `0` resets. Buttons and an
+accessible list provide equivalent map actions. Searchable tables remain the
+primary non-map way to inspect records and references.
