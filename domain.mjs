@@ -19,7 +19,7 @@ export function geometryPath(geometry,region){
  }return points.map((p,i)=>`${i?'L':'M'}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join('')+'Z';}).join('')).join('');
 }
 export function summarize(rows){const sums=MONEY.map(()=>0n),missing=MONEY.map(()=>0);for(const r of rows)for(let j=0;j<5;j++){if(r[j+2]===null)missing[j]++;else sums[j]+=BigInt(r[j+2]);}return {sums:sums.map(String),missing};}
-export function csvCell(v){return '"'+String(v??'').replaceAll('"','""')+'"';}
+export function csvCell(v){let s=String(v??'');if(typeof v==='string'&&/^[\s]*[=+@-]/.test(s)&&!/^[-+]?\d+(?:\.\d+)?$/.test(s))s="'"+s;return '"'+s.replaceAll('"','""')+'"';}
 export function isLocal(t){return /municipal|county|parish|township|consolidated|special_district|school_district|school_system|tribal|place_legal/.test(t||'');}
 export function filterRecords(data,meta,f){
  const q=(f.q||'').trim().toLowerCase(),scopeMap=new Map(meta.scope_evidence.map(s=>[s.id,s]));
