@@ -1,0 +1,575 @@
+{
+  "mode": "public",
+  "prepared": "2026-10-27",
+  "records": [],
+  "snapshots": [
+    {
+      "id": "PUBLIC-CATALOG",
+      "label": "Public source catalog \u00b7 no financial dataset",
+      "vintage": "Census 2023 reference boundaries; catalog reviewed 2026-10-27",
+      "quarters": []
+    }
+  ],
+  "entities": [
+    {
+      "id": "01",
+      "name": "Alabama",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "02",
+      "name": "Alaska",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "60",
+      "name": "American Samoa",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "04",
+      "name": "Arizona",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "05",
+      "name": "Arkansas",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "06",
+      "name": "California",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "08",
+      "name": "Colorado",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "69",
+      "name": "Commonwealth of the Northern Mariana Islands",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "09",
+      "name": "Connecticut",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "10",
+      "name": "Delaware",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "11",
+      "name": "District of Columbia",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "12",
+      "name": "Florida",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "13",
+      "name": "Georgia",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "66",
+      "name": "Guam",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "15",
+      "name": "Hawaii",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "16",
+      "name": "Idaho",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "17",
+      "name": "Illinois",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "18",
+      "name": "Indiana",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "19",
+      "name": "Iowa",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "20",
+      "name": "Kansas",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "21",
+      "name": "Kentucky",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "22",
+      "name": "Louisiana",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "23",
+      "name": "Maine",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "24",
+      "name": "Maryland",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "25",
+      "name": "Massachusetts",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "26",
+      "name": "Michigan",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "27",
+      "name": "Minnesota",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "28",
+      "name": "Mississippi",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "29",
+      "name": "Missouri",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "30",
+      "name": "Montana",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "31",
+      "name": "Nebraska",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "32",
+      "name": "Nevada",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "33",
+      "name": "New Hampshire",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "34",
+      "name": "New Jersey",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "35",
+      "name": "New Mexico",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "36",
+      "name": "New York",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "37",
+      "name": "North Carolina",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "38",
+      "name": "North Dakota",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "39",
+      "name": "Ohio",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "40",
+      "name": "Oklahoma",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "41",
+      "name": "Oregon",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "42",
+      "name": "Pennsylvania",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "72",
+      "name": "Puerto Rico",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "44",
+      "name": "Rhode Island",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "45",
+      "name": "South Carolina",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "46",
+      "name": "South Dakota",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "47",
+      "name": "Tennessee",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "48",
+      "name": "Texas",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "78",
+      "name": "United States Virgin Islands",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "49",
+      "name": "Utah",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "50",
+      "name": "Vermont",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "51",
+      "name": "Virginia",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "53",
+      "name": "Washington",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "54",
+      "name": "West Virginia",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "55",
+      "name": "Wisconsin",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    },
+    {
+      "id": "56",
+      "name": "Wyoming",
+      "type": "geographic_reference",
+      "snapshots": [
+        "PUBLIC-CATALOG"
+      ],
+      "point": null,
+      "identity_evidence": "U.S. Census Bureau TIGER/Line 2023 reference geography only; no CDBG-DR funding coverage or activity/beneficiary assignment."
+    }
+  ]
+}
