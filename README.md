@@ -237,3 +237,38 @@ Use the [expanded activity records](downloads/springfield-activity-quarter-v50.c
 [project summaries](downloads/springfield-project-quarter-v50.csv),
 [activity milestones](downloads/springfield-activity-milestones-v50.csv), and
 [HUD snapshot evidence](data/springfield-hud-2023-evidence-v50.json).
+
+## Tuscaloosa municipal award pilot (v51)
+
+For B-13-MS-01-0002, 47 source versions cover 49 award-clock quarters from
+2013Q4 through 2025Q4: 24 reports say Reviewed and Approved, 18 Submitted -
+Await for Review and five Original - In Progress. The 2013Q4 and 2020Q2
+reports were not located in checked indexes. Two 2021 scanned reports have
+visually checked grant totals, but their activity pages were not extracted.
+The December 16, 2013 initial agreement effective date is corroborated by two
+HUD financial summaries; the containing calendar quarter is Q1 and may be partial.
+
+The pilot has 1,709 activity-quarter records for 105 exact non-redacted F31
+project/activity IDs. Of these, 563 were absent from both earlier selected QPR
+and milestone views. QPRs need not list every activity, and matching a grantee
+does not establish beneficiary geography. Preserve original source status,
+publication date where known, signed adjustments and source pages. Never add
+the QPR snapshots to F31, cumulative values across quarters, related extension
+IDs, or nested activity and grant values. The 45 available adjacent whole-grant
+expenditure and obligation openings agree; 18 budget comparisons differ across
+source versions and their causes are not established.
+
+HUD's May 29, 2013 Federal Register lists a $43,932,000 Tuscaloosa allocation.
+Q4 and Q12 reports are approved; the Q20 version is submitted awaiting review.
+The reported whole-award ratio uses total-funds QPR expenditure divided by that
+QPR's printed grant award, and may include program income. It is descriptive,
+not certified federal-only expenditure. Activity allocation denominators remain
+unverified and the requested activity E/allocation fields remain blank. Two
+proposed amendment 27 totals differ by 14 cents within the source; HUD approval
+and effective dates are not established. Sources and page numbers are retained.
+
+Downloads: [activity quarters](downloads/tuscaloosa-activity-quarter-v51.csv),
+[award inventory](downloads/tuscaloosa-award-quarter-v51.csv),
+[activity milestones](downloads/tuscaloosa-activity-milestones-v51.csv),
+[award horizons](downloads/tuscaloosa-award-horizons-v51.csv), and
+[source review](data/tuscaloosa-pilot-v51.json).
