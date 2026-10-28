@@ -1,1 +1,289 @@
-{"prepared":"2026-10-28","policy":"Do not use a candidate date as an award-relative clock until the original agreement/effective-date semantics are reconciled. Amounts in the retained reports remain calendar-quarter source snapshots.","records":[{"grant":"B-13-US-42-0001","government":"Dauphin County, Pennsylvania","status":"unresolved_initial_effective_vs_obligation_execution_date","date_observations":[{"date":"2014-01-01","label":"Initial Grant Agreement Effective Date","source_url":"https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf","source_page":6,"source_sha256":"9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6","as_of":"2023-02-13"},{"date":"2015-01-16","label":"Obligation Date","source_url":"https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/PL-113-2-Grant-Extension-Report-2018-11-01.pdf","source_page":2,"source_sha256":"d1320d8665c674a910a431d0a117a0e7d0bc6784d49402587b93e9c7c7248d97","as_of":"2018-11-01"}],"note":"These are differently labeled HUD dates; whether the 2015 obligation is the initial agreement or a later action is not established. The earlier Q20 assignment for 2018Q4 is suspended pending the signed original agreement.","unclassified_qpr_reports":[{"grant":"B-13-US-42-0001","initial_date":null,"quarter":"2018Q4","source_url":"https://drgr.hud.gov/public/downloads/performance-reports/B-13-US-42-0001/B-13-US-42-0001-2018-10-2018-12-PR.pdf","source_sha256":"dcaafcfe64e3737ac7133254f99a5f4e67fe982b2a82e029ce89e25d26ac5abb","report_publication_date":"2023-06-19T22:56:18.416-04:00","report_status":"Reviewed and Approved","admin_entity":"GOV2022:173720","grantee":"COUNTY OF DAUPHIN","admin_reference":"county:42043","admin_type":"county_government","numerator_basis":"QPR Total Funds Expended, To Date (includes reported program income where applicable)","denominator_basis":"QPR Total Obligated, To Date","beneficiary_geography":null,"vintage_policy":"Historical reporting-period values in this specific later-published/revised QPR. Not the contemporaneously available information set and not F31 cumulative sums.","expended_cents":"198549534","obligated_cents":"755893503","budget_cents":"757230690","drawdown_cents":"739116131","id":"B-13-US-42-0001:2018Q4:clock-unresolved","source_page":1,"reported_activities":1,"exact_matched_activities":1,"activity_sum_minus_overall_cents":{"expended_cents":"-198549534","obligated_cents":"-754714798","budget_cents":"-756051985","drawdown_cents":"-737938006"},"expended_obligated_ratio":null,"expended_obligated_status":["award_clock_unresolved"],"allocation_cents":null,"allocation_basis":"Whole-grant historical allocation not independently established; overall programmed budget is not total grant award","expended_allocated_ratio":null,"expended_allocated_status":["award_clock_unresolved"],"geography_role":"Whole administering grant; not beneficiary allocation","allocation_definition_source":null,"quality_flags":["listed_activity_sum_differs_from_whole_grant","award_clock_unresolved"],"previous_provisional_horizon":20,"horizon":null,"note":"Financial amounts retain their reported calendar quarter; no Q4/Q12/Q20 assignment until the two HUD date labels are reconciled."}],"unclassified_qpr_activities":[{"expended_cents":"0","obligated_cents":"1178705","budget_cents":"1178705","drawdown_cents":"1178125","grant":"B-13-US-42-0001","initial_date":null,"quarter":"2018Q4","source_url":"https://drgr.hud.gov/public/downloads/performance-reports/B-13-US-42-0001/B-13-US-42-0001-2018-10-2018-12-PR.pdf","source_sha256":"dcaafcfe64e3737ac7133254f99a5f4e67fe982b2a82e029ce89e25d26ac5abb","report_publication_date":"2023-06-19T22:56:18.416-04:00","report_status":"Reviewed and Approved","admin_entity":"GOV2022:173720","grantee":"COUNTY OF DAUPHIN","admin_reference":"county:42043","admin_type":"county_government","numerator_basis":"QPR Total Funds Expended, To Date (includes reported program income where applicable)","denominator_basis":"QPR Total Obligated, To Date","beneficiary_geography":null,"vintage_policy":"Historical reporting-period values in this specific later-published/revised QPR. Not the contemporaneously available information set and not F31 cumulative sums.","report_id":"B-13-US-42-0001:2018Q4:clock-unresolved","activity":"R2 04-23E","project":"04 (Ext)","source_type":"Planning","category":"11","category_rule":"Exact QPR category text to published 16-category crosswalk","source_page":3,"activity_header_page":3,"geography_role":"Original activity in administering grant; responsible-government identity is not beneficiary geography","f31_exact_key_match":true,"responsible_entity":null,"responsible_identity_basis":"Exact F31 activity-key association at that source snapshot, not certified historical QPR responsibility or beneficiary geography","f31_source_type":"Planning","expended_obligated_ratio":null,"expended_obligated_status":["award_clock_unresolved"],"allocation_cents":"1178705","allocation_basis":"Reported allocated activity budget: QPR Total Budget, To Date; includes program income where applicable; revised at this reporting vintage. Not original total grant award, all-source projected cost or beneficiary-city allocation.","allocation_definition_source":"https://files.hudexchange.info/resources/documents/Draft-User-Guide-DRGR-Drawdown-Module-Release-73.pdf#page=16","expended_allocated_ratio":null,"expended_allocated_status":["award_clock_unresolved"],"quality_flags":["award_clock_unresolved"],"previous_provisional_horizon":20,"horizon":null,"note":"Financial amounts retain their reported calendar quarter; no Q4/Q12/Q20 assignment until the two HUD date labels are reconciled."}]},{"grant":"B-12-MT-38-0001","government":"City of Minot, North Dakota","status":"candidate_signature_dates_effective_rule_unverified","date_observations":[{"date":"2012-08-08","label":"HUD signed funding approval","source_url":"https://www.hudoig.gov/sites/default/files/documents/2015-KC-1002.pdf","source_page":5,"source_sha256":"c09ee210e0fd367261e5720c2461afcb37a70fb9256742fe24c2feae644e1099","as_of":"2015-03-13"},{"date":"2012-10-24","label":"City signed funding approval","source_url":"https://www.hudoig.gov/sites/default/files/documents/2015-KC-1002.pdf","source_page":5,"source_sha256":"c09ee210e0fd367261e5720c2461afcb37a70fb9256742fe24c2feae644e1099","as_of":"2015-03-13"}],"note":"The OIG narrative identifies Minot and the 2012 $67.5 million award but does not print this grant ID in the passage. HUD and city signatures fall in different quarters; the signed agreement and effective-date rule are still needed. Neither date is used as a clock.","unclassified_qpr_reports":[],"unclassified_qpr_activities":[]}]}
+{
+  "prepared": "2026-10-28",
+  "policy": "Do not use a candidate date as an award-relative clock until the original agreement/effective-date semantics are reconciled. Amounts in the retained reports remain calendar-quarter source snapshots.",
+  "records": [
+    {
+      "grant": "B-13-US-42-0001",
+      "government": "Dauphin County, Pennsylvania",
+      "status": "unresolved_initial_effective_vs_obligation_execution_date",
+      "date_observations": [
+        {
+          "date": "2014-01-01",
+          "label": "Initial Grant Agreement Effective Date",
+          "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf",
+          "source_page": 6,
+          "source_sha256": "9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6",
+          "as_of": "2023-02-13"
+        },
+        {
+          "date": "2015-01-16",
+          "label": "Obligation Date",
+          "source_url": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/PL-113-2-Grant-Extension-Report-2018-11-01.pdf",
+          "source_page": 2,
+          "source_sha256": "d1320d8665c674a910a431d0a117a0e7d0bc6784d49402587b93e9c7c7248d97",
+          "as_of": "2018-11-01"
+        }
+      ],
+      "note": "These are differently labeled HUD dates; whether the 2015 obligation is the initial agreement or a later action is not established. The earlier Q20 assignment for 2018Q4 is suspended pending the signed original agreement.",
+      "unclassified_qpr_reports": [
+        {
+          "grant": "B-13-US-42-0001",
+          "initial_date": null,
+          "quarter": "2018Q4",
+          "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-US-42-0001/B-13-US-42-0001-2018-10-2018-12-PR.pdf",
+          "source_sha256": "dcaafcfe64e3737ac7133254f99a5f4e67fe982b2a82e029ce89e25d26ac5abb",
+          "report_publication_date": "2023-06-19T22:56:18.416-04:00",
+          "report_status": "Reviewed and Approved",
+          "admin_entity": "GOV2022:173720",
+          "grantee": "COUNTY OF DAUPHIN",
+          "admin_reference": "county:42043",
+          "admin_type": "county_government",
+          "numerator_basis": "QPR Total Funds Expended, To Date (includes reported program income where applicable)",
+          "denominator_basis": "QPR Total Obligated, To Date",
+          "beneficiary_geography": null,
+          "vintage_policy": "Historical reporting-period values in this specific later-published/revised QPR. Not the contemporaneously available information set and not F31 cumulative sums.",
+          "expended_cents": "198549534",
+          "obligated_cents": "755893503",
+          "budget_cents": "757230690",
+          "drawdown_cents": "739116131",
+          "id": "B-13-US-42-0001:2018Q4:clock-unresolved",
+          "source_page": 1,
+          "reported_activities": 1,
+          "exact_matched_activities": 1,
+          "activity_sum_minus_overall_cents": {
+            "expended_cents": "-198549534",
+            "obligated_cents": "-754714798",
+            "budget_cents": "-756051985",
+            "drawdown_cents": "-737938006"
+          },
+          "expended_obligated_ratio": null,
+          "expended_obligated_status": [
+            "award_clock_unresolved"
+          ],
+          "allocation_cents": null,
+          "allocation_basis": "Whole-grant historical allocation not independently established; overall programmed budget is not total grant award",
+          "expended_allocated_ratio": null,
+          "expended_allocated_status": [
+            "award_clock_unresolved"
+          ],
+          "geography_role": "Whole administering grant; not beneficiary allocation",
+          "allocation_definition_source": null,
+          "quality_flags": [
+            "listed_activity_sum_differs_from_whole_grant",
+            "award_clock_unresolved"
+          ],
+          "previous_provisional_horizon": 20,
+          "horizon": null,
+          "note": "Financial amounts retain their reported calendar quarter; no Q4/Q12/Q20 assignment until the two HUD date labels are reconciled."
+        }
+      ],
+      "unclassified_qpr_activities": [
+        {
+          "expended_cents": "0",
+          "obligated_cents": "1178705",
+          "budget_cents": "1178705",
+          "drawdown_cents": "1178125",
+          "grant": "B-13-US-42-0001",
+          "initial_date": null,
+          "quarter": "2018Q4",
+          "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-US-42-0001/B-13-US-42-0001-2018-10-2018-12-PR.pdf",
+          "source_sha256": "dcaafcfe64e3737ac7133254f99a5f4e67fe982b2a82e029ce89e25d26ac5abb",
+          "report_publication_date": "2023-06-19T22:56:18.416-04:00",
+          "report_status": "Reviewed and Approved",
+          "admin_entity": "GOV2022:173720",
+          "grantee": "COUNTY OF DAUPHIN",
+          "admin_reference": "county:42043",
+          "admin_type": "county_government",
+          "numerator_basis": "QPR Total Funds Expended, To Date (includes reported program income where applicable)",
+          "denominator_basis": "QPR Total Obligated, To Date",
+          "beneficiary_geography": null,
+          "vintage_policy": "Historical reporting-period values in this specific later-published/revised QPR. Not the contemporaneously available information set and not F31 cumulative sums.",
+          "report_id": "B-13-US-42-0001:2018Q4:clock-unresolved",
+          "activity": "R2 04-23E",
+          "project": "04 (Ext)",
+          "source_type": "Planning",
+          "category": "11",
+          "category_rule": "Exact QPR category text to published 16-category crosswalk",
+          "source_page": 3,
+          "activity_header_page": 3,
+          "geography_role": "Original activity in administering grant; responsible-government identity is not beneficiary geography",
+          "f31_exact_key_match": true,
+          "responsible_entity": null,
+          "responsible_identity_basis": "Exact F31 activity-key association at that source snapshot, not certified historical QPR responsibility or beneficiary geography",
+          "f31_source_type": "Planning",
+          "expended_obligated_ratio": null,
+          "expended_obligated_status": [
+            "award_clock_unresolved"
+          ],
+          "allocation_cents": "1178705",
+          "allocation_basis": "Reported allocated activity budget: QPR Total Budget, To Date; includes program income where applicable; revised at this reporting vintage. Not original total grant award, all-source projected cost or beneficiary-city allocation.",
+          "allocation_definition_source": "https://files.hudexchange.info/resources/documents/Draft-User-Guide-DRGR-Drawdown-Module-Release-73.pdf#page=16",
+          "expended_allocated_ratio": null,
+          "expended_allocated_status": [
+            "award_clock_unresolved"
+          ],
+          "quality_flags": [
+            "award_clock_unresolved"
+          ],
+          "previous_provisional_horizon": 20,
+          "horizon": null,
+          "note": "Financial amounts retain their reported calendar quarter; no Q4/Q12/Q20 assignment until the two HUD date labels are reconciled."
+        }
+      ]
+    },
+    {
+      "grant": "B-12-MT-38-0001",
+      "government": "City of Minot, North Dakota",
+      "status": "candidate_signature_dates_effective_rule_unverified",
+      "date_observations": [
+        {
+          "date": "2012-08-08",
+          "label": "HUD signed funding approval",
+          "source_url": "https://www.hudoig.gov/sites/default/files/documents/2015-KC-1002.pdf",
+          "source_page": 5,
+          "source_sha256": "c09ee210e0fd367261e5720c2461afcb37a70fb9256742fe24c2feae644e1099",
+          "as_of": "2015-03-13"
+        },
+        {
+          "date": "2012-10-24",
+          "label": "City signed funding approval",
+          "source_url": "https://www.hudoig.gov/sites/default/files/documents/2015-KC-1002.pdf",
+          "source_page": 5,
+          "source_sha256": "c09ee210e0fd367261e5720c2461afcb37a70fb9256742fe24c2feae644e1099",
+          "as_of": "2015-03-13"
+        }
+      ],
+      "note": "The OIG narrative identifies Minot and the 2012 $67.5 million award but does not print this grant ID in the passage. HUD and city signatures fall in different quarters; the signed agreement and effective-date rule are still needed. Neither date is used as a clock.",
+      "unclassified_qpr_reports": [],
+      "unclassified_qpr_activities": []
+    },
+    {
+      "grant": "B-16-MH-48-0002",
+      "government": "City of San Marcos, Texas",
+      "status": "execution_month_supported_exact_initial_date_not_verified",
+      "date_observations": [
+        {
+          "date": "2016-12",
+          "label": "Award executed in December 2016, according to the city QPR narrative (copy in progress)",
+          "source_url": "https://sanmarcostx.gov/DocumentCenter/View/19486",
+          "source_page": 5,
+          "source_sha256": "4a6370266ef0d1bcf89c9357446401522c8371acf2db74129d95faa44499497e",
+          "as_of": null
+        },
+        {
+          "date": "2016-12-09",
+          "label": "Effective date (OIG table; not explicitly labeled initial)",
+          "source_url": "https://www.hudoig.gov/sites/default/files/2023-03/2023-FW-0001.pdf",
+          "source_page": 27,
+          "source_sha256": "caf068aa97afb7bfaca8200a5c5ffe6c45dee8645bd629649f8e4112b232692c",
+          "as_of": null,
+          "report_date": "2023-03-03"
+        }
+      ],
+      "note": "The city report places execution in December 2016, so the calendar-quarter candidate is 2016Q4. The OIG lists an effective date within that month, but does not identify it as the initial agreement date. Original agreement and date semantics remain to be checked before placing this grant in the milestone panel. Earlier QPR copies are in progress or awaiting review; only the 2021 copy says Reviewed and Approved. Reported budget and award are not independently confirmed historical allocations.",
+      "unclassified_qpr_reports": [
+        {
+          "grant": "B-16-MH-48-0002",
+          "initial_date": null,
+          "horizon": null,
+          "quarter": "2016Q4",
+          "candidate_award_relative_horizon": 1,
+          "source_url": "https://sanmarcostx.gov/DocumentCenter/View/19486",
+          "source_sha256": "4a6370266ef0d1bcf89c9357446401522c8371acf2db74129d95faa44499497e",
+          "report_publication_date": null,
+          "report_status": "Original - In Progress",
+          "grantee": "City of San Marcos, Texas",
+          "admin_type": "municipal_government",
+          "admin_reference": null,
+          "beneficiary_geography": null,
+          "expended_cents": "0",
+          "obligated_cents": "7653832",
+          "budget_cents": "601600000",
+          "drawdown_cents": "7653832",
+          "source_page": 4,
+          "expended_obligated_ratio": null,
+          "expended_allocated_ratio": null,
+          "allocation_cents": null,
+          "geography_role": "Whole administering grant; not beneficiary allocation",
+          "note": "Calendar-period amounts only; the original exact start and agreement semantics remain unverified. Status is specific to this copy; no milestone assigned or source versions added."
+        },
+        {
+          "grant": "B-16-MH-48-0002",
+          "initial_date": null,
+          "horizon": null,
+          "quarter": "2017Q3",
+          "candidate_award_relative_horizon": 4,
+          "source_url": "https://sanmarcostx.gov/DocumentCenter/View/19483",
+          "source_sha256": "98e88c423d2c0d2ec32ca9af867c5a445dcdf3f3eabb2f741b71f51641121b5b",
+          "report_publication_date": null,
+          "report_status": "Original - In Progress",
+          "grantee": "City of San Marcos, Texas",
+          "admin_type": "municipal_government",
+          "admin_reference": null,
+          "beneficiary_geography": null,
+          "expended_cents": "100956701",
+          "obligated_cents": "84123553",
+          "budget_cents": "2508000000",
+          "drawdown_cents": "84123553",
+          "source_page": 4,
+          "expended_obligated_ratio": null,
+          "expended_allocated_ratio": null,
+          "allocation_cents": null,
+          "geography_role": "Whole administering grant; not beneficiary allocation",
+          "note": "Calendar-period amounts only; the original exact start and agreement semantics remain unverified. Status is specific to this copy; no milestone assigned or source versions added."
+        },
+        {
+          "grant": "B-16-MH-48-0002",
+          "initial_date": null,
+          "horizon": null,
+          "quarter": "2019Q3",
+          "candidate_award_relative_horizon": 12,
+          "source_url": "https://sanmarcostx.gov/DocumentCenter/View/19485",
+          "source_sha256": "597e75866e26a17f72d14a10a4cb6d1d1d8c10e22d593540c310b82cfe2b0d2d",
+          "report_publication_date": null,
+          "report_status": "Submitted - Await for Review",
+          "grantee": "City of San Marcos, Texas",
+          "admin_type": "municipal_government",
+          "admin_reference": null,
+          "beneficiary_geography": null,
+          "expended_cents": "458529691",
+          "obligated_cents": "2225600000",
+          "budget_cents": "3379400000",
+          "drawdown_cents": "417149031",
+          "source_page": 2,
+          "expended_obligated_ratio": null,
+          "expended_allocated_ratio": null,
+          "allocation_cents": null,
+          "geography_role": "Whole administering grant; not beneficiary allocation",
+          "note": "Calendar-period amounts only; the original exact start and agreement semantics remain unverified. Status is specific to this copy; no milestone assigned or source versions added."
+        },
+        {
+          "grant": "B-16-MH-48-0002",
+          "initial_date": null,
+          "horizon": null,
+          "quarter": "2021Q3",
+          "candidate_award_relative_horizon": 20,
+          "source_url": "https://sanmarcostx.gov/DocumentCenter/View/30292",
+          "source_sha256": "141fbbf5cc62eaaeee7acfc3174916024dbe0a9a6aa79a0f52f17bc033a5be41",
+          "report_publication_date": null,
+          "report_status": "Reviewed and Approved",
+          "grantee": "City of San Marcos, Texas",
+          "admin_type": "municipal_government",
+          "admin_reference": null,
+          "beneficiary_geography": null,
+          "expended_cents": "1051115500",
+          "obligated_cents": "2829520156",
+          "budget_cents": "3379400000",
+          "drawdown_cents": "985079183",
+          "source_page": 2,
+          "expended_obligated_ratio": null,
+          "expended_allocated_ratio": null,
+          "allocation_cents": null,
+          "geography_role": "Whole administering grant; not beneficiary allocation",
+          "note": "Calendar-period amounts only; the original exact start and agreement semantics remain unverified. Status is specific to this copy; no milestone assigned or source versions added."
+        }
+      ],
+      "unclassified_qpr_activities": []
+    }
+  ]
+}

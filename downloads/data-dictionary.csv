@@ -1778,6 +1778,58 @@ qpr-six-measures.csv,q20_report_status,text / categorical,q20 report status,Blan
 qpr-six-measures.csv,q20_expended_allocated_eligibility,JSON array or integer count,"q20 expended allocated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
 qpr-six-measures.csv,q20_expended_obligated_eligibility,JSON array or integer count,"q20 expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
 qpr-six-measures.csv,q20_quality_flags,text / categorical,"q20 quality flags; reported numerator above obligation and negative numerators are preserved, not capped",Blank when unavailable; never substitute zero
+qpr-six-measures.csv,q4_allocation_corroboration_source,text / categorical,q4 allocation corroboration source,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,source_snapshot,text / categorical,Choose national OR Texas; independent QPR evidence is a different reporting vintage; never concatenate overlaps,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,administering_city,text / categorical,administering city,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,administering_reference,text / categorical,administering reference,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,project,text / categorical,project,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,activity,text / categorical,activity,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,quarter,text / categorical,"quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,award_relative_quarter,text / categorical,Calendar quarter index minus index of verified initial execution quarter plus one; Q1 may be partial,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,initial_execution_source_url,text / categorical,initial execution source url,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,initial_execution_source_page,text / categorical,initial execution source page,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,initial_execution_source_sha256,text / categorical,initial execution source sha256,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,disaster,text / categorical,disaster,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,disaster_year,text / categorical,disaster year,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,cohort,text / categorical,cohort,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,activity_type,text / categorical,activity type,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,requested_category,text / categorical,requested category,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,beneficiary_geography,text / categorical,Unavailable: administering or responsible identity does not establish beneficiary location,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_expended_period_cents,integer nominal USD cents,"QPR reporting-period value in this source version, separate from F31.",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_expended_to_date_cents,integer nominal USD cents,"QPR cumulative source-version value, not additive across quarters or to F31.",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_expended_implied_opening_cents,integer nominal USD cents,"Current QPR to-date amount minus this-period amount in the same source version; diagnostic, not a verified grant-start balance.",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_expended_prior_quarter_to_date_cents,integer nominal USD cents,"To-date amount in the immediately preceding listed QPR activity-quarter, if present; missing is not zero.",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_expended_opening_minus_prior_cents,integer nominal USD cents,Implied opening minus the preceding reported QPR to-date amount. Differences are retained for review; source revisions may differ.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_expended_continuity_status,text / categorical,Compares adjacent listed source-version activity quarters only; agreement does not establish complete history.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_obligated_period_cents,integer nominal USD cents,"QPR reporting-period value in this source version, separate from F31.",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_obligated_to_date_cents,integer nominal USD cents,"QPR cumulative source-version value, not additive across quarters or to F31.",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_obligated_implied_opening_cents,integer nominal USD cents,"Current QPR to-date amount minus this-period amount in the same source version; diagnostic, not a verified grant-start balance.",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_obligated_prior_quarter_to_date_cents,integer nominal USD cents,"To-date amount in the immediately preceding listed QPR activity-quarter, if present; missing is not zero.",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_obligated_opening_minus_prior_cents,integer nominal USD cents,Implied opening minus the preceding reported QPR to-date amount. Differences are retained for review; source revisions may differ.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_obligated_continuity_status,text / categorical,Compares adjacent listed source-version activity quarters only; agreement does not establish complete history.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_budget_period_cents,integer nominal USD cents,"QPR reporting-period value in this source version, separate from F31.",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_budget_to_date_cents,integer nominal USD cents,"QPR cumulative source-version value, not additive across quarters or to F31.",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_reported_grant_award_cents,integer nominal USD cents,qpr reported grant award cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,report_status,text / categorical,report status,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,source_expended_page,text / categorical,source expended page,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,source_obligated_page,text / categorical,source obligated page,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,source_publication_date,text / categorical,"source publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,prior_source_url,text / categorical,prior source url,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,prior_source_sha256,text / categorical,prior source sha256,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,prior_source_publication_date,text / categorical,"prior source publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,prior_source_expended_page,text / categorical,prior source expended page,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,prior_source_obligated_page,text / categorical,prior source obligated page,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,f31_exact_activity_quarter,text / categorical,Exact original grant/project/activity/quarter comparison to the separate national F31 source; do not add or silently splice sources.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,f31_source_csv_record,text / categorical,Exact original grant/project/activity/quarter comparison to the separate national F31 source; do not add or silently splice sources.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,f31_expended_period_cents,integer nominal USD cents,Exact original grant/project/activity/quarter comparison to the separate national F31 source; do not add or silently splice sources.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,f31_obligated_period_cents,integer nominal USD cents,Exact original grant/project/activity/quarter comparison to the separate national F31 source; do not add or silently splice sources.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_minus_f31_expended_cents,integer nominal USD cents,Exact original grant/project/activity/quarter comparison to the separate national F31 source; do not add or silently splice sources.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,qpr_minus_f31_obligated_cents,integer nominal USD cents,Exact original grant/project/activity/quarter comparison to the separate national F31 source; do not add or silently splice sources.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,f31_reconciliation_status,text / categorical,Exact original grant/project/activity/quarter comparison to the separate national F31 source; do not add or silently splice sources.,Blank when unavailable; never substitute zero
 award-date-and-amount-evidence.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
 award-date-and-amount-evidence.csv,grantee,text / categorical,grantee,Blank when unavailable; never substitute zero
 award-date-and-amount-evidence.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero

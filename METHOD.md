@@ -99,8 +99,10 @@ has a $52.2 million denominator from two allocations in HUD OIG 2015-FW-1003
 (PDF p.5, printed p.3). Minot Q4 has a $35,056,000 total 2013 allocation in the
 Federal Register (May 29, 2013, PDF p.2), corroborated by HUD OIG 2015-KC-1002
 and its 2014Q4 QPR. These differ from partial grant obligations or programmed
-budgets. The later Moore and Minot allocation histories and other whole-grant
-allocation denominators remain unverified. Proposed notices,
+budgets. Later Moore and Minot allocation histories remain unverified. New Orleans,
+Springfield and Joplin Q4 additionally use the 2013 Federal Register allocation
+with city documents and approved QPR award headers; the full intervening
+amendment history is not claimed exhaustive. Proposed notices,
 amendments with unresolved approval dates, and later cover awards are not applied
 retroactively. Activity and whole-grant six-field outputs are explicitly separated.
 
@@ -452,3 +454,52 @@ The Harvey source also mentions a township whose identity is unresolved; its
 place list is partial. A negative geographic phrase such as outside Chicago
 is not counted as a Chicago scope. Source pages, status and original IDs are
 in `data/activity-place-evidence.json` and its CSV.
+
+
+## Source acquisition and QPR opening-balance diagnostics
+
+Four San Marcos B-16-MH-48-0002 city-archive QPR copies have been retrieved and
+checked. The 2016Q4 report says execution occurred in December 2016; an OIG
+table separately lists an effective date of December 9, 2016 without calling it
+the initial effective date. The original agreement is still needed to verify
+the exact award clock. The 2017Q3 copy is in progress, the 2019Q3 copy awaits
+HUD review, and the 2021Q3 copy is reviewed and approved. Their documented
+whole-grant calendar-period values, versions, source pages and hashes are in
+`data/award-clock-review.json`; they are not assigned Q4/Q12/Q20 ratios. A
+report's budget is not automatically the historical total allocation.
+
+An additional 195 public-source leads were attempted; 173 documents were
+captured and rehashed and 22 returned HTTP 403. Eight documents initially
+exceeded a 30 MB limit but were captured after their HTTP 200 sizes were checked.
+Another Florida index returned 403 and was not bypassed. Raw documents and the
+local manifest are not themselves approved for redistribution. The local
+MiniLM model ran four queries on each captured document, indexing 7,318 native
+text pages or DOCX chunks; 16 documents had no extractable text. Scanned pages
+need OCR, and no semantic match establishes a financial or legal fact.
+
+The downloadable QPR quarter panel retains 4,440 source observations. Implied
+opening equals the same QPR version's cumulative amount less that period's
+change. Where an immediately preceding source activity-quarter is present,
+the panel compares its cumulative amount; otherwise the prior value is blank.
+Expenditure has 2,931 adjacent matches and 3 differences; obligation has 2,933
+matches and 1 difference. There are 1,506 observations with no immediately
+preceding activity-quarter in this selected corpus, and no Q1 activity record
+with a verified clock. These diagnostics do not establish a zero grant-start
+opening, completeness of activity listings, or interchangeability with F31.
+Original source hashes, dates, pages and signed differences accompany the data.
+
+The 2013 Federal Register, Table 1 (PDF p.2), allocates $15,031,000 to New
+Orleans, $21,896,000 to Springfield and $113,276,000 to Joplin. The March 2015
+New Orleans substantial action plan (p.2), 2013 Springfield partial action plan
+(p.5) and September 2015 Joplin council draft (p.3) independently repeat these
+allocations; the council draft is not proof of amendment approval. Each approved
+Q4 QPR identifies the matching grant and award amount, reports cumulative
+expenditure and zero program income (p.3). Ratios use those total allocations,
+not the smaller programmed budgets or partial obligations. The QPR versions
+may have been published later than the reporting period; full amendment histories
+are not claimed exhaustive. New Orleans' April 2014 HUD letter calls the
+enclosed executed document an initial grant agreement, while its funding form
+checks Amendment; the date is independently labeled initial in HUD's 2019 and
+2023 summaries. The Oregon copy in the local archive has a blank HUD signature
+and is not assigned an award clock. Source URLs and hashes are in
+`data/allocation-evidence-v45.json`.

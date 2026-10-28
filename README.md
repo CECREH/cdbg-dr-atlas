@@ -17,13 +17,13 @@ CECREH logo is unchanged. This is a standalone site; no links were added elsewhe
 - Historical QPR horizons: 65 reports / 27 awards / 3,121 exact activity-horizon matches;
   2,631 approved activity E/O and 2,698 activity E/allocated-budget values.
 - Whole-grant approved E/O: Q4 23, Q12 23, Q20 11. Whole-grant E/allocation:
-  Moore and Minot Q4 only. Activity budgets can include program income and are a different scope.
+  Moore, Minot, New Orleans, Springfield and Joplin Q4. Activity budgets can include program income and are a different scope.
 - ACS: 32,330 places with direct estimates/MOEs; all 964 financial-place identities.
 - Government-finance sample inputs: 3,843 places / 283 financial links.
 - March 2025 employment benchmark: 2,855 places / 234 financial links; flags retained.
 - Spatial context: 964 place polygons; 889 NFHL mapped, 75 unmapped; NLCD/LCMS 964.
 - Display boundaries: 3,235 counties, 32,629 places, 36,360 subdivisions.
-- Archive inventory: 1,030 entries; 19/21 municipal index pages retrieved.
+- Archive inventory: 1,035 entries; 19/21 municipal index pages retrieved.
   Further local transformer searches covered 240 indexed PDFs and seven horizon PDFs. Search is not exhaustive.
 
 ## Read before analysis
@@ -108,3 +108,22 @@ Six explicit Cook County QPR activity scopes name five municipalities; they are
 searchable with original source pages. They do not apportion spending or establish
 beneficiary locations. The additional selected QPR sample and review log are
 available in the downloads section. See METHOD.md for validation and limits.
+
+### Source acquisition and opening-balance review
+
+A local archive now records 173 public plans and agreements, with 22 denied
+source URLs and exact hashes/statuses; the full archive remains incomplete.
+The downloadable 4,440-row QPR quarter panel computes implied openings from
+the period and to-date columns and compares the preceding listed quarter. Of
+2,934 adjacent comparisons, 2,931 expenditure and 2,933 obligation pairs
+reconcile; other differences remain visible. For 1,506 rows the prior activity
+quarter is unavailable. No observed row has a verified-clock Q1 activity record,
+so the exercise does not establish grant-start opening balances.
+
+New Orleans, Springfield and Joplin Q4 E/total-allocation outcomes use the
+2013 Federal Register allocations, city source documents and approved QPRs.
+These are whole administering grants, not beneficiary-place allocations. The
+Joplin council document is a draft, not proof its proposed amendment was approved.
+New Orleans' 2014 transmittal calls its signed funding form an initial agreement,
+while the form checks Amendment; the two official HUD summary reports also
+identify the April 22, 2014 initial agreement date. See `METHOD.md` for sources.
