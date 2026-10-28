@@ -238,37 +238,12 @@ Use the [expanded activity records](downloads/springfield-activity-quarter-v50.c
 [activity milestones](downloads/springfield-activity-milestones-v50.csv), and
 [HUD snapshot evidence](data/springfield-hud-2023-evidence-v50.json).
 
-## Tuscaloosa municipal award pilot (v51)
+## Tuscaloosa municipal award pilot (v52)
 
-For B-13-MS-01-0002, 47 source versions cover 49 award-clock quarters from
-2013Q4 through 2025Q4: 24 reports say Reviewed and Approved, 18 Submitted -
-Await for Review and five Original - In Progress. The 2013Q4 and 2020Q2
-reports were not located in checked indexes. Two 2021 scanned reports have
-visually checked grant totals, but their activity pages were not extracted.
-The December 16, 2013 initial agreement effective date is corroborated by two
-HUD financial summaries; the containing calendar quarter is Q1 and may be partial.
+For B-13-MS-01-0002, 48 report versions cover 49 award-clock quarters: 24 approved, 19 submitted awaiting review and five in progress. The 2013Q4 report was not located in the checked indexes, which does not prove it does not exist. The 2020Q2 report was found at the city's link labeled as a contracting template; the report itself identifies the award and quarter and is submitted awaiting review. Its expenditure and obligation openings and those of the selected 2020Q3 report reconcile with the immediately prior selected report versions.
 
-The pilot has 1,709 activity-quarter records for 105 exact non-redacted F31
-project/activity IDs. Of these, 563 were absent from both earlier selected QPR
-and milestone views. QPRs need not list every activity, and matching a grantee
-does not establish beneficiary geography. Preserve original source status,
-publication date where known, signed adjustments and source pages. Never add
-the QPR snapshots to F31, cumulative values across quarters, related extension
-IDs, or nested activity and grant values. The 45 available adjacent whole-grant
-expenditure and obligation openings agree; 18 budget comparisons differ across
-source versions and their causes are not established.
+The pilot includes 1,831 exact-key activity-quarter observations for 105 identities, including 104 from 2020Q2. The scans add 12 original-page-checked activities from the approved 2021Q3 report and six from the in-progress 2021Q4 report. These scan subsets are partial, and remaining OCR candidates were excluded. The signed 2021Q4 adjustment of minus $90 remains signed. Listed QPR activities may be incomplete. A municipal administering identity does not establish beneficiary geography.
 
-HUD's May 29, 2013 Federal Register lists a $43,932,000 Tuscaloosa allocation.
-Q4 and Q12 reports are approved; the Q20 version is submitted awaiting review.
-The reported whole-award ratio uses total-funds QPR expenditure divided by that
-QPR's printed grant award, and may include program income. It is descriptive,
-not certified federal-only expenditure. Activity allocation denominators remain
-unverified and the requested activity E/allocation fields remain blank. Two
-proposed amendment 27 totals differ by 14 cents within the source; HUD approval
-and effective dates are not established. Sources and page numbers are retained.
+These are source-vintage QPR figures; do not add them to F31, cumulative quarters, related extensions, or nested activity and grant values. The December 16, 2013 initial agreement effective date defines calendar Q1, which may be partial. QPR total funds may include program income, and activity allocation denominators are not independently established. Missing periods and unavailable allocation ratios remain blank. Source pages, SHA-256 values, report status and publication-date missingness are retained in the downloads.
 
-Downloads: [activity quarters](downloads/tuscaloosa-activity-quarter-v51.csv),
-[award inventory](downloads/tuscaloosa-award-quarter-v51.csv),
-[activity milestones](downloads/tuscaloosa-activity-milestones-v51.csv),
-[award horizons](downloads/tuscaloosa-award-horizons-v51.csv), and
-[source review](data/tuscaloosa-pilot-v51.json).
+The proposed amendment 27 shows project totals of $43,931,998.75 and $43,931,998.61 on separate pages. That 14-cent difference and approval/effective date remain unresolved.

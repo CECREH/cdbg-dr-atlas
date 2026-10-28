@@ -19,7 +19,7 @@ function render(){
  $('ts-horizons').innerHTML=data.award_horizons.map(r=>`<tr><td>Q${esc(r.horizon)} · ${esc(r.quarter)}</td><td>${esc(r.report_status)}</td><td>${esc(money(r.expended_to_date_cents))}</td><td>${esc(money(r.obligated_to_date_cents))}</td><td>${esc(money(r.qpr_reported_award_cents))}</td><td>${esc(pct(r.expended_obligated_ratio))}</td><td>${esc(pct(r.expended_over_reported_award_ratio))}</td><td><a href="${esc(r.source_url)}#page=${esc(r.expended_source_page)}" target="_blank" rel="noopener">QPR ↗</a></td></tr>`).join('');
 }
 async function open(){
- if(!loading)loading=fetch('data/tuscaloosa-pilot-v51.json').then(r=>{if(!r.ok)throw Error(`HTTP ${r.status}`);return r.json()});
+ if(!loading)loading=fetch('data/tuscaloosa-pilot-v52.json').then(r=>{if(!r.ok)throw Error(`HTTP ${r.status}`);return r.json()});
  try{const value=await loading;if(data)return;data=value;for(const r of data.quarter_inventory){const o=document.createElement('option');o.value=r.quarter;o.textContent=`${r.quarter} · award Q${r.award_relative_quarter}${r.source_url?'':' · report not located'}`;$('ts-quarter').append(o);}render();}
  catch(e){$('ts-count').textContent=`Tuscaloosa pilot could not be loaded (${e.message}). No missing records were filled.`;}
 }

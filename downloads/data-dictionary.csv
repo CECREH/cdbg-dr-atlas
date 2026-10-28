@@ -2802,3 +2802,196 @@ municipal-identity-review.csv,display_source,text / categorical,display source,B
 municipal-identity-review.csv,source_vintage,text / categorical,source vintage,Blank when unavailable; never substitute zero
 municipal-identity-review.csv,display_vintage,text / categorical,display vintage,Blank when unavailable; never substitute zero
 municipal-identity-review.csv,beneficiary_inference,text / categorical,beneficiary inference,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,state,text / categorical,state,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,admin_entity,text / categorical,admin entity,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,admin_reference,text / categorical,admin reference,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,initial_execution_source_url,text / categorical,initial execution source url,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,initial_execution_source_page,text / categorical,initial execution source page,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,initial_execution_source_sha256,text / categorical,initial execution source sha256,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,beneficiary_geography,text / categorical,Unavailable: administering or responsible identity does not establish beneficiary location,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,disaster,text / categorical,disaster,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,disaster_year,text / categorical,disaster year,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,cohort,text / categorical,cohort,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,quarter,text / categorical,"quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,award_relative_quarter,text / categorical,Calendar quarter index minus index of verified initial execution quarter plus one; Q1 may be partial,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,report_status,text / categorical,Review state printed in this exact QPR version; submitted and in-progress versions are not represented as HUD-approved.,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,budget_period_cents,integer nominal USD cents,budget period cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,budget_to_date_cents,integer nominal USD cents,budget to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,obligated_period_cents,integer nominal USD cents,obligated period cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,obligated_to_date_cents,integer nominal USD cents,obligated to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,expended_period_cents,integer nominal USD cents,expended period cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,expended_to_date_cents,integer nominal USD cents,expended to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,activity_coverage_status,text / categorical,Text describing whether activity pages were extracted; an unlisted activity is not zero.,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,report_publication_date,text / categorical,"report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,source_kind,text / categorical,source kind,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,review_source_page,text / categorical,review source page,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,financial_source_pages,JSON object,PDF page numbers for each reported financial pair; source version and report status are separate fields.,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,listed_activity_headers,text / categorical,listed activity headers,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,extraction_method,text / categorical,extraction method,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,accepted_activity_rows,text / categorical,accepted activity rows,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,budget_implied_opening_cents,integer nominal USD cents,budget implied opening cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,budget_prior_quarter_to_date_cents,integer nominal USD cents,budget prior quarter to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,budget_opening_minus_prior_cents,integer nominal USD cents,budget opening minus prior cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,budget_continuity_status,text / categorical,budget continuity status,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,obligated_implied_opening_cents,integer nominal USD cents,obligated implied opening cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,obligated_prior_quarter_to_date_cents,integer nominal USD cents,obligated prior quarter to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,obligated_opening_minus_prior_cents,integer nominal USD cents,obligated opening minus prior cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,obligated_continuity_status,text / categorical,obligated continuity status,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,expended_implied_opening_cents,integer nominal USD cents,expended implied opening cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,expended_prior_quarter_to_date_cents,integer nominal USD cents,expended prior quarter to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,expended_opening_minus_prior_cents,integer nominal USD cents,expended opening minus prior cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,expended_continuity_status,text / categorical,expended continuity status,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,prior_source_url,text / categorical,prior source url,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,state,text / categorical,state,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,admin_entity,text / categorical,admin entity,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,admin_reference,text / categorical,admin reference,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,initial_execution_source_url,text / categorical,initial execution source url,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,initial_execution_source_page,text / categorical,initial execution source page,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,initial_execution_source_sha256,text / categorical,initial execution source sha256,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,beneficiary_geography,text / categorical,Unavailable: administering or responsible identity does not establish beneficiary location,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,disaster,text / categorical,disaster,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,disaster_year,text / categorical,disaster year,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,cohort,text / categorical,cohort,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,quarter,text / categorical,"quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,award_relative_quarter,text / categorical,Calendar quarter index minus index of verified initial execution quarter plus one; Q1 may be partial,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,project,text / categorical,project,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,activity,text / categorical,activity,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,activity_type_as_reported,text / categorical,activity type as reported,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,requested_category,text / categorical,requested category,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,category_status,text / categorical,category status,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,f31_exact_activity_key,text / categorical,f31 exact activity key,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,f31_exact_quarter,text / categorical,"f31 exact quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,identity_resolution,text / categorical,identity resolution,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,report_status,text / categorical,Review state printed in this exact QPR version; submitted and in-progress versions are not represented as HUD-approved.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,report_publication_date,text / categorical,"report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,activity_header_page,text / categorical,activity header page,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,budget_period_cents,integer nominal USD cents,budget period cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,budget_to_date_cents,integer nominal USD cents,budget to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,obligated_period_cents,integer nominal USD cents,obligated period cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,obligated_to_date_cents,integer nominal USD cents,obligated to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,expended_period_cents,integer nominal USD cents,expended period cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,expended_to_date_cents,integer nominal USD cents,expended to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,financial_source_pages,JSON object,PDF page numbers for each reported financial pair; source version and report status are separate fields.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,budget_implied_opening_cents,integer nominal USD cents,budget implied opening cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,budget_prior_quarter_to_date_cents,integer nominal USD cents,budget prior quarter to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,budget_opening_minus_prior_cents,integer nominal USD cents,budget opening minus prior cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,budget_continuity_status,text / categorical,budget continuity status,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,obligated_implied_opening_cents,integer nominal USD cents,obligated implied opening cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,obligated_prior_quarter_to_date_cents,integer nominal USD cents,obligated prior quarter to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,obligated_opening_minus_prior_cents,integer nominal USD cents,obligated opening minus prior cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,obligated_continuity_status,text / categorical,obligated continuity status,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,expended_implied_opening_cents,integer nominal USD cents,expended implied opening cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,expended_prior_quarter_to_date_cents,integer nominal USD cents,expended prior quarter to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,expended_opening_minus_prior_cents,integer nominal USD cents,expended opening minus prior cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,expended_continuity_status,text / categorical,expended continuity status,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,prior_source_url,text / categorical,prior source url,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,linked_extension_indicator,text / categorical,True when an exact original activity or project ID identifies an extension; related records may overlap and should not automatically be added.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-quarter-v52.csv,extension_caution,text / categorical,extension caution,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,state,text / categorical,state,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,admin_entity,text / categorical,admin entity,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,admin_reference,text / categorical,admin reference,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,initial_execution_source_url,text / categorical,initial execution source url,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,initial_execution_source_page,text / categorical,initial execution source page,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,initial_execution_source_sha256,text / categorical,initial execution source sha256,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,beneficiary_geography,text / categorical,Unavailable: administering or responsible identity does not establish beneficiary location,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,disaster,text / categorical,disaster,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,disaster_year,text / categorical,disaster year,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,cohort,text / categorical,cohort,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,project,text / categorical,project,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,activity,text / categorical,activity,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,denominator_note,text / categorical,denominator note,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_quarter,text / categorical,"q4 quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_report_status,text / categorical,q4 report status,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_source_url,text / categorical,q4 source url,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_source_sha256,text / categorical,q4 source sha256,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_report_publication_date,text / categorical,"q4 report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_expended_to_date_cents,integer nominal USD cents,q4 expended to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_obligated_to_date_cents,integer nominal USD cents,q4 obligated to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_budget_to_date_cents,integer nominal USD cents,q4 budget to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_financial_source_pages,JSON object,PDF page numbers for each reported financial pair; source version and report status are separate fields.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_requested_category,text / categorical,q4 requested category,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_expended_obligated_ratio,unitless proportion,QPR cumulative total funds expended divided by cumulative obligations in that same source version; null for unavailable or nonpositive denominator.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_expended_obligated_eligibility,JSON array or integer count,"q4 expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_expended_obligated_quality_flags,text / categorical,"q4 expended obligated quality flags; reported numerator above obligation and negative numerators are preserved, not capped",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_expended_allocation_ratio,unitless proportion,Unavailable: a compatible activity allocation has not been independently established; do not substitute grant award or reported activity budget.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q4_expended_allocation_eligibility,JSON array or integer count,"q4 expended allocation eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_quarter,text / categorical,"q12 quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_report_status,text / categorical,q12 report status,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_source_url,text / categorical,q12 source url,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_source_sha256,text / categorical,q12 source sha256,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_report_publication_date,text / categorical,"q12 report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_expended_to_date_cents,integer nominal USD cents,q12 expended to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_obligated_to_date_cents,integer nominal USD cents,q12 obligated to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_budget_to_date_cents,integer nominal USD cents,q12 budget to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_financial_source_pages,JSON object,PDF page numbers for each reported financial pair; source version and report status are separate fields.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_requested_category,text / categorical,q12 requested category,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_expended_obligated_ratio,unitless proportion,QPR cumulative total funds expended divided by cumulative obligations in that same source version; null for unavailable or nonpositive denominator.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_expended_obligated_eligibility,JSON array or integer count,"q12 expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_expended_obligated_quality_flags,text / categorical,"q12 expended obligated quality flags; reported numerator above obligation and negative numerators are preserved, not capped",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_expended_allocation_ratio,unitless proportion,Unavailable: a compatible activity allocation has not been independently established; do not substitute grant award or reported activity budget.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q12_expended_allocation_eligibility,JSON array or integer count,"q12 expended allocation eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_quarter,text / categorical,"q20 quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_report_status,text / categorical,q20 report status,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_source_url,text / categorical,q20 source url,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_source_sha256,text / categorical,q20 source sha256,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_report_publication_date,text / categorical,"q20 report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_expended_to_date_cents,integer nominal USD cents,q20 expended to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_obligated_to_date_cents,integer nominal USD cents,q20 obligated to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_budget_to_date_cents,integer nominal USD cents,q20 budget to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_financial_source_pages,JSON object,PDF page numbers for each reported financial pair; source version and report status are separate fields.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_requested_category,text / categorical,q20 requested category,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_expended_obligated_ratio,unitless proportion,QPR cumulative total funds expended divided by cumulative obligations in that same source version; null for unavailable or nonpositive denominator.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_expended_obligated_eligibility,JSON array or integer count,"q20 expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_expended_obligated_quality_flags,text / categorical,"q20 expended obligated quality flags; reported numerator above obligation and negative numerators are preserved, not capped",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_expended_allocation_ratio,unitless proportion,Unavailable: a compatible activity allocation has not been independently established; do not substitute grant award or reported activity budget.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,q20_expended_allocation_eligibility,JSON array or integer count,"q20 expended allocation eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,linked_extension_indicator,text / categorical,True when an exact original activity or project ID identifies an extension; related records may overlap and should not automatically be added.,Blank when unavailable; never substitute zero
+tuscaloosa-activity-milestones-v52.csv,extension_caution,text / categorical,extension caution,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,state,text / categorical,state,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,admin_entity,text / categorical,admin entity,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,admin_reference,text / categorical,admin reference,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,initial_execution_source_url,text / categorical,initial execution source url,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,initial_execution_source_page,text / categorical,initial execution source page,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,initial_execution_source_sha256,text / categorical,initial execution source sha256,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,beneficiary_geography,text / categorical,Unavailable: administering or responsible identity does not establish beneficiary location,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,disaster,text / categorical,disaster,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,disaster_year,text / categorical,disaster year,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,cohort,text / categorical,cohort,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,horizon,text / categorical,horizon,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,quarter,text / categorical,"quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,report_status,text / categorical,Review state printed in this exact QPR version; submitted and in-progress versions are not represented as HUD-approved.,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,report_publication_date,text / categorical,"report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,expended_to_date_cents,integer nominal USD cents,expended to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,expended_source_page,text / categorical,expended source page,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,obligated_to_date_cents,integer nominal USD cents,obligated to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,obligated_source_page,text / categorical,obligated source page,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,qpr_reported_award_cents,integer nominal USD cents,qpr reported award cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,qpr_award_source_page,text / categorical,qpr award source page,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,expended_over_reported_award_ratio,unitless proportion,Descriptive total funds expended divided by the grant award printed in that same QPR; numerator may include program income and is not certified federal-only.,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,expended_over_reported_award_eligibility,JSON array or integer count,"expended over reported award eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,expended_obligated_ratio,unitless proportion,QPR cumulative total funds expended divided by cumulative obligations in that same source version; null for unavailable or nonpositive denominator.,Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,expended_obligated_eligibility,JSON array or integer count,"expended obligated eligibility; preserve elements, do not split overlapping relationship views into additive funding",Blank when unavailable; never substitute zero
+tuscaloosa-award-horizons-v52.csv,caution,text / categorical,caution,Blank when unavailable; never substitute zero
+tuscaloosa-award-quarter-v52.csv,ocr_detected_activity_headers,count,OCR-detected headers in a scan; detection may be incomplete and is not a validated activity census.,Blank when not counted; never substitute zero.
