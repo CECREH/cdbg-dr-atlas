@@ -1,0 +1,364 @@
+[
+  {
+    "dataset": "data/analysis.json",
+    "recordPath": "/coverage/184",
+    "recordId": "B-13-US-01-0001|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/analysis.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/1025",
+    "recordId": "B-13-US-01-0001",
+    "sourceField": "document_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/horizon-search-v44.json",
+    "recordPath": "/results/3",
+    "recordId": "B-13-US-01-0001|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/horizon-search-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/horizon-search-v44.json",
+    "recordPath": "/results/4",
+    "recordId": "B-13-US-01-0001|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/horizon-search-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/horizon-search-v44.json",
+    "recordPath": "/results/5",
+    "recordId": "B-13-US-01-0001|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/horizon-search-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/19",
+    "recordId": "B-13-US-01-0001",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "q12_source_page": 20
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2596",
+    "recordId": "B-13-US-01-0001|01-Administration-R2|AdministrationR2",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "fieldPages": {
+      "q12_source_page": 24
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2597",
+    "recordId": "B-13-US-01-0001|02-HousingR1|HR-B-13-R1 (E)",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "q12_source_page": 25
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2598",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR2|PF-B-13-R2_4",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 40,
+    "pages": [
+      40
+    ],
+    "fieldPages": {
+      "q12_source_page": 40
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2599",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR2|PF-B-13-R2_5",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 42,
+    "pages": [
+      42
+    ],
+    "fieldPages": {
+      "q12_source_page": 42
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2600",
+    "recordId": "B-13-US-01-0001|05Clearance/Demolitionl R1|CD-B-13-R1 (E)",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 44,
+    "pages": [
+      44
+    ],
+    "fieldPages": {
+      "q12_source_page": 44
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/reports/60",
+    "recordId": "B-13-US-01-0001|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "source_page": 20
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "activity_sum_minus_overall_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3079",
+    "recordId": "B-13-US-01-0001|01-Administration-R2|AdministrationR2|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 23,
+    "pages": [
+      23,
+      24
+    ],
+    "fieldPages": {
+      "source_page": 24,
+      "activity_header_page": 23
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3080",
+    "recordId": "B-13-US-01-0001|02-HousingR1|HR-B-13-R1 (E)|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 24,
+    "pages": [
+      24,
+      25
+    ],
+    "fieldPages": {
+      "source_page": 25,
+      "activity_header_page": 24
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3081",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR2|PF-B-13-R2_4|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 40,
+    "pages": [
+      40
+    ],
+    "fieldPages": {
+      "source_page": 40,
+      "activity_header_page": 40
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3082",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR2|PF-B-13-R2_5|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 42,
+    "pages": [
+      42
+    ],
+    "fieldPages": {
+      "source_page": 42,
+      "activity_header_page": 42
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3083",
+    "recordId": "B-13-US-01-0001|05Clearance/Demolitionl R1|CD-B-13-R1 (E)|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=111",
+    "page": 43,
+    "pages": [
+      43,
+      44
+    ],
+    "fieldPages": {
+      "source_page": 44,
+      "activity_header_page": 43
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

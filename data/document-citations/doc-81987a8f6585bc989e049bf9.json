@@ -1,0 +1,34 @@
+[
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/1036",
+    "recordId": "B-12-MT-29-0001",
+    "sourceField": "document_url",
+    "sourceUrl": "https://www.govinfo.gov/content/pkg/FR-2012-04-16/pdf/2012-9094.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/award-clock-review.json",
+    "recordPath": "/records/3/original_allocation_evidence",
+    "recordId": "data/award-clock-review.json#/records/3/original_allocation_evidence",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.govinfo.gov/content/pkg/FR-2012-04-16/pdf/2012-9094.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [
+      "allocated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/award-clock-review.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

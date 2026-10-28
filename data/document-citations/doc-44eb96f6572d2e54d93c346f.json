@@ -1,0 +1,28 @@
+[
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/unavailable_reports/1",
+    "recordId": "B-13-US-01-0001",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-US-01-0001/B-13-US-01-0001-2016-10-2016-12-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources_v4/163",
+    "recordId": "data/research-provenance.json#/sources_v4/163",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-US-01-0001/B-13-US-01-0001-2016-10-2016-12-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

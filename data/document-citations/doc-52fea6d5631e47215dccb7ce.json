@@ -1,0 +1,152 @@
+[
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/882",
+    "recordId": "data/archive-inventory.json#/entries/882",
+    "sourceField": "document_url",
+    "sourceUrl": "https://dallascityhall.com/departments/budget/communitydevelopment/CDBG_DR/DCH%20Documents/CDBG-DR%20QPRs%20Combined.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/reports/4",
+    "recordId": "2024Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dallascityhall.com/departments/budget/communitydevelopment/CDBG_DR/DCH%20Documents/CDBG-DR%20QPRs%20Combined.pdf",
+    "page": 15,
+    "pages": [
+      15
+    ],
+    "fieldPages": {
+      "cover_page": 15
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/46",
+    "recordId": "001|016|2024Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dallascityhall.com/departments/budget/communitydevelopment/CDBG_DR/DCH%20Documents/CDBG-DR%20QPRs%20Combined.pdf",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "activity_header_page": 18,
+      "financial_source_pages": {
+        "budget": 18,
+        "obligated": 18,
+        "expended": 18
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/47",
+    "recordId": "002|004|2024Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dallascityhall.com/departments/budget/communitydevelopment/CDBG_DR/DCH%20Documents/CDBG-DR%20QPRs%20Combined.pdf",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "activity_header_page": 20,
+      "financial_source_pages": {
+        "budget": 20,
+        "obligated": 20,
+        "expended": 20
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/48",
+    "recordId": "003|008|2024Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dallascityhall.com/departments/budget/communitydevelopment/CDBG_DR/DCH%20Documents/CDBG-DR%20QPRs%20Combined.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "activity_header_page": 22,
+      "financial_source_pages": {
+        "budget": 22,
+        "obligated": 22,
+        "expended": 22
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/49",
+    "recordId": "005|011|2024Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dallascityhall.com/departments/budget/communitydevelopment/CDBG_DR/DCH%20Documents/CDBG-DR%20QPRs%20Combined.pdf",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "fieldPages": {
+      "activity_header_page": 24,
+      "financial_source_pages": {
+        "budget": 24,
+        "obligated": 24,
+        "expended": 24
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

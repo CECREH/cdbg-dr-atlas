@@ -1,0 +1,718 @@
+[
+  {
+    "dataset": "data/glo-cover-review-v53.json",
+    "recordPath": "/reports/14",
+    "recordId": "2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/glo-cover-review-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/reports/14",
+    "recordId": "2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/621",
+    "recordId": "B-19-DF-48-0001|0001|ADMIN[19D INF PD Holding]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "activity_header_page": 4,
+      "financial_source_pages": {
+        "budget": 4,
+        "obligated": 4,
+        "expended": 4
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/622",
+    "recordId": "B-19-DF-48-0001|0002|Planning[19D]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "activity_header_page": 6,
+      "financial_source_pages": {
+        "budget": 6,
+        "obligated": 6,
+        "expended": 6
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/623",
+    "recordId": "B-19-DF-48-0001|0003|ARP_HMID_LMI[19D_Imelda]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 8,
+    "pages": [
+      8
+    ],
+    "fieldPages": {
+      "activity_header_page": 8,
+      "financial_source_pages": {
+        "budget": 8,
+        "obligated": 8,
+        "expended": 8
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/624",
+    "recordId": "B-19-DF-48-0001|0003|ARP_HMID_LMI[19D_LRGV]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "activity_header_page": 10,
+      "financial_source_pages": {
+        "budget": 10,
+        "obligated": 10,
+        "expended": 10
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/625",
+    "recordId": "B-19-DF-48-0001|0003|ARP_SMID_LMI[19D_Imelda]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "activity_header_page": 12,
+      "financial_source_pages": {
+        "budget": 12,
+        "obligated": 12,
+        "expended": 12
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/626",
+    "recordId": "B-19-DF-48-0001|0003|ARP_SMID_LMI[19D_LRGV]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "activity_header_page": 14,
+      "financial_source_pages": {
+        "budget": 14,
+        "obligated": 14,
+        "expended": 14
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/627",
+    "recordId": "B-19-DF-48-0001|0004|HAP_HMID_LMI[19D_Imelda]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "activity_header_page": 16,
+      "financial_source_pages": {
+        "budget": 16,
+        "obligated": 16,
+        "expended": 16
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/628",
+    "recordId": "B-19-DF-48-0001|0004|HAP_HMID_LMI[19D_LRGV]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "activity_header_page": 18,
+      "financial_source_pages": {
+        "budget": 18,
+        "obligated": 18,
+        "expended": 18
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/629",
+    "recordId": "B-19-DF-48-0001|0004|HAP_HMID_UN[19D_Imelda]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "activity_header_page": 20,
+      "financial_source_pages": {
+        "budget": 20,
+        "obligated": 20,
+        "expended": 20
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/630",
+    "recordId": "B-19-DF-48-0001|0004|HAP_HMID_UN[19D_LRGV]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "activity_header_page": 22,
+      "financial_source_pages": {
+        "budget": 22,
+        "obligated": 22,
+        "expended": 22
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/631",
+    "recordId": "B-19-DF-48-0001|0004|HAP_SMID_LMI[19D_Imelda]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "fieldPages": {
+      "activity_header_page": 24,
+      "financial_source_pages": {
+        "budget": 24,
+        "obligated": 24,
+        "expended": 24
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/632",
+    "recordId": "B-19-DF-48-0001|0004|HAP_SMID_LMI[19D_LRGV]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 26,
+    "pages": [
+      26
+    ],
+    "fieldPages": {
+      "activity_header_page": 26,
+      "financial_source_pages": {
+        "budget": 26,
+        "obligated": 26,
+        "expended": 26
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/633",
+    "recordId": "B-19-DF-48-0001|0004|HAP_SMID_UN[19D_Imelda]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 28,
+    "pages": [
+      28
+    ],
+    "fieldPages": {
+      "activity_header_page": 28,
+      "financial_source_pages": {
+        "budget": 28,
+        "obligated": 28,
+        "expended": 28
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/634",
+    "recordId": "B-19-DF-48-0001|0004|HAP_SMID_UN[19D_LRGV]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 30,
+    "pages": [
+      30
+    ],
+    "fieldPages": {
+      "activity_header_page": 30,
+      "financial_source_pages": {
+        "budget": 30,
+        "obligated": 30,
+        "expended": 30
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/635",
+    "recordId": "B-19-DF-48-0001|0005|HRP_HMID_LMI[19D_Imelda]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 32,
+    "pages": [
+      32
+    ],
+    "fieldPages": {
+      "activity_header_page": 32,
+      "financial_source_pages": {
+        "budget": 32,
+        "obligated": 32,
+        "expended": 32
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/636",
+    "recordId": "B-19-DF-48-0001|0005|HRP_HMID_LMI[19D_LRGV]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 34,
+    "pages": [
+      34
+    ],
+    "fieldPages": {
+      "activity_header_page": 34,
+      "financial_source_pages": {
+        "budget": 34,
+        "obligated": 34,
+        "expended": 34
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/637",
+    "recordId": "B-19-DF-48-0001|0005|HRP_HMID_UN[19D_Imelda]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 36,
+    "pages": [
+      36
+    ],
+    "fieldPages": {
+      "activity_header_page": 36,
+      "financial_source_pages": {
+        "budget": 36,
+        "obligated": 36,
+        "expended": 36
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/638",
+    "recordId": "B-19-DF-48-0001|0005|HRP_HMID_UN[19D_LRGV]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 38,
+    "pages": [
+      38
+    ],
+    "fieldPages": {
+      "activity_header_page": 38,
+      "financial_source_pages": {
+        "budget": 38,
+        "obligated": 38,
+        "expended": 38
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/639",
+    "recordId": "B-19-DF-48-0001|0005|HRP_SMID_LMI[19D_Imelda]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 40,
+    "pages": [
+      40
+    ],
+    "fieldPages": {
+      "activity_header_page": 40,
+      "financial_source_pages": {
+        "budget": 40,
+        "obligated": 40,
+        "expended": 40
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/640",
+    "recordId": "B-19-DF-48-0001|0005|HRP_SMID_LMI[19D_LRGV]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 42,
+    "pages": [
+      42
+    ],
+    "fieldPages": {
+      "activity_header_page": 42,
+      "financial_source_pages": {
+        "budget": 42,
+        "obligated": 42,
+        "expended": 42
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/641",
+    "recordId": "B-19-DF-48-0001|0005|HRP_SMID_UN[19D_Imelda]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 44,
+    "pages": [
+      44
+    ],
+    "fieldPages": {
+      "activity_header_page": 44,
+      "financial_source_pages": {
+        "budget": 44,
+        "obligated": 44,
+        "expended": 44
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/642",
+    "recordId": "B-19-DF-48-0001|0005|HRP_SMID_UN[19D_LRGV]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 46,
+    "pages": [
+      46
+    ],
+    "fieldPages": {
+      "activity_header_page": 46,
+      "financial_source_pages": {
+        "budget": 46,
+        "obligated": 46,
+        "expended": 46
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/643",
+    "recordId": "B-19-DF-48-0001|0006|INF[19D_Subrecipient Reserve]|2022Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/resources/cdr/documents/grant-administration/reports/hud-drgr-qpr/drgr-2018-2019/2019-disasters-2022-q4.pdf",
+    "page": 48,
+    "pages": [
+      48
+    ],
+    "fieldPages": {
+      "activity_header_page": 48,
+      "financial_source_pages": {
+        "budget": 48,
+        "obligated": 48,
+        "expended": 48
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

@@ -1,0 +1,931 @@
+[
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/101",
+    "recordId": "B-13-MS-01-0001",
+    "sourceField": "document_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-evidence-v44.json",
+    "recordPath": "/reports/112",
+    "recordId": "B-13-MS-01-0001|2018Q2",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "whole_grant_source_pages": {
+        "budget": 4,
+        "obligated": 4,
+        "expended": 4
+      }
+    },
+    "fields": [
+      "qpr_reported_grant_award_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-evidence-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-evidence-v44.json",
+    "recordPath": "/rows/1227",
+    "recordId": "B-13-MS-01-0001|R3DR2|R3DR2|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "activity_header_page": 6,
+      "financial_source_pages": {
+        "budget": 6,
+        "obligated": 6,
+        "expended": 6
+      }
+    },
+    "fields": [
+      "qpr_reported_grant_award_cents",
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-evidence-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-evidence-v44.json",
+    "recordPath": "/rows/1228",
+    "recordId": "B-13-MS-01-0001|R4DR2-Public Facilities/Imp|R4DR2-Public Facilities/Imp|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 7,
+    "pages": [
+      7,
+      8
+    ],
+    "fieldPages": {
+      "activity_header_page": 7,
+      "financial_source_pages": {
+        "budget": 7,
+        "obligated": 7,
+        "expended": 8
+      }
+    },
+    "fields": [
+      "qpr_reported_grant_award_cents",
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-evidence-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-evidence-v44.json",
+    "recordPath": "/rows/1229",
+    "recordId": "B-13-MS-01-0001|R5DR2-Admin|R5DR2-Admin|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "activity_header_page": 9,
+      "financial_source_pages": {
+        "budget": 9,
+        "obligated": 9,
+        "expended": 9
+      }
+    },
+    "fields": [
+      "qpr_reported_grant_award_cents",
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-evidence-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-evidence-v44.json",
+    "recordPath": "/rows/1230",
+    "recordId": "B-13-MS-01-0001|R5DR2-Admin (Ext)|R5DR2-Admin (Ext)|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "activity_header_page": 10,
+      "financial_source_pages": {
+        "budget": 10,
+        "obligated": 10,
+        "expended": 10
+      }
+    },
+    "fields": [
+      "qpr_reported_grant_award_cents",
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-evidence-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-evidence-v44.json",
+    "recordPath": "/rows/1231",
+    "recordId": "B-13-MS-01-0001|R5DR2-Planning|R5DR2-Planning|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 11,
+    "pages": [
+      11,
+      12
+    ],
+    "fieldPages": {
+      "activity_header_page": 11,
+      "financial_source_pages": {
+        "budget": 12,
+        "obligated": 12,
+        "expended": 12
+      }
+    },
+    "fields": [
+      "qpr_reported_grant_award_cents",
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-evidence-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-evidence-v44.json",
+    "recordPath": "/rows/1232",
+    "recordId": "B-13-MS-01-0001|R7 DR2-Public Facilities/Imp (Ext)|R7DR2|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 14,
+    "pages": [
+      14,
+      15
+    ],
+    "fieldPages": {
+      "activity_header_page": 14,
+      "financial_source_pages": {
+        "budget": 15,
+        "obligated": 15,
+        "expended": 15
+      }
+    },
+    "fields": [
+      "qpr_reported_grant_award_cents",
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-evidence-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-evidence-v44.json",
+    "recordPath": "/rows/1233",
+    "recordId": "B-13-MS-01-0001|R8DR2-Public Facilities/Imp|R8DR2-Public Facilities/Imp|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "activity_header_page": 16,
+      "financial_source_pages": {
+        "budget": 16,
+        "obligated": 16,
+        "expended": 16
+      }
+    },
+    "fields": [
+      "qpr_reported_grant_award_cents",
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-evidence-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-evidence-v44.json",
+    "recordPath": "/rows/1234",
+    "recordId": "B-13-MS-01-0001|R8DR2-Public Facilities/Imp (Ext)|R8DR2 Public Facilities/Imp (Ext)|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 17,
+    "pages": [
+      17,
+      18
+    ],
+    "fieldPages": {
+      "activity_header_page": 17,
+      "financial_source_pages": {
+        "budget": 18,
+        "obligated": 18,
+        "expended": 18
+      }
+    },
+    "fields": [
+      "qpr_reported_grant_award_cents",
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-evidence-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-search-v44.json",
+    "recordPath": "/results/342",
+    "recordId": "B-13-MS-01-0001|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-search-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-search-v44.json",
+    "recordPath": "/results/343",
+    "recordId": "B-13-MS-01-0001|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-search-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/municipal-qpr-search-v44.json",
+    "recordPath": "/results/344",
+    "recordId": "B-13-MS-01-0001|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/municipal-qpr-search-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-quarter-panel-v45.json",
+    "recordPath": "/rows/2145",
+    "recordId": "B-13-MS-01-0001|R3DR2|R3DR2|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_expended_page": 6,
+      "source_obligated_page": 6
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-quarter-panel-v45.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-quarter-panel-v45.json",
+    "recordPath": "/rows/2146",
+    "recordId": "B-13-MS-01-0001|R4DR2-Public Facilities/Imp|R4DR2-Public Facilities/Imp|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 7,
+    "pages": [
+      7,
+      8
+    ],
+    "fieldPages": {
+      "source_expended_page": 8,
+      "source_obligated_page": 7
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-quarter-panel-v45.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-quarter-panel-v45.json",
+    "recordPath": "/rows/2147",
+    "recordId": "B-13-MS-01-0001|R5DR2-Admin|R5DR2-Admin|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "source_expended_page": 9,
+      "source_obligated_page": 9
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-quarter-panel-v45.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-quarter-panel-v45.json",
+    "recordPath": "/rows/2148",
+    "recordId": "B-13-MS-01-0001|R5DR2-Admin (Ext)|R5DR2-Admin (Ext)|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "source_expended_page": 10,
+      "source_obligated_page": 10
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-quarter-panel-v45.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-quarter-panel-v45.json",
+    "recordPath": "/rows/2149",
+    "recordId": "B-13-MS-01-0001|R5DR2-Planning|R5DR2-Planning|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "source_expended_page": 12,
+      "source_obligated_page": 12
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-quarter-panel-v45.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-quarter-panel-v45.json",
+    "recordPath": "/rows/2150",
+    "recordId": "B-13-MS-01-0001|R7 DR2-Public Facilities/Imp (Ext)|R7DR2|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 15,
+    "pages": [
+      15
+    ],
+    "fieldPages": {
+      "source_expended_page": 15,
+      "source_obligated_page": 15
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-quarter-panel-v45.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-quarter-panel-v45.json",
+    "recordPath": "/rows/2151",
+    "recordId": "B-13-MS-01-0001|R8DR2-Public Facilities/Imp|R8DR2-Public Facilities/Imp|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "source_expended_page": 16,
+      "source_obligated_page": 16
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-quarter-panel-v45.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-quarter-panel-v45.json",
+    "recordPath": "/rows/2152",
+    "recordId": "B-13-MS-01-0001|R8DR2-Public Facilities/Imp (Ext)|R8DR2 Public Facilities/Imp (Ext)|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "source_expended_page": 18,
+      "source_obligated_page": 18
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-quarter-panel-v45.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "downloads/qpr-quarter-panel-v45.csv",
+    "recordPath": "/records/2146",
+    "recordId": "B-13-MS-01-0001|R3DR2|R3DR2|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_expended_page": "6",
+      "source_obligated_page": "6"
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/downloads/qpr-quarter-panel-v45.csv",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "downloads/qpr-quarter-panel-v45.csv",
+    "recordPath": "/records/2147",
+    "recordId": "B-13-MS-01-0001|R4DR2-Public Facilities/Imp|R4DR2-Public Facilities/Imp|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 7,
+    "pages": [
+      7,
+      8
+    ],
+    "fieldPages": {
+      "source_expended_page": "8",
+      "source_obligated_page": "7"
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/downloads/qpr-quarter-panel-v45.csv",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "downloads/qpr-quarter-panel-v45.csv",
+    "recordPath": "/records/2148",
+    "recordId": "B-13-MS-01-0001|R5DR2-Admin|R5DR2-Admin|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "source_expended_page": "9",
+      "source_obligated_page": "9"
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/downloads/qpr-quarter-panel-v45.csv",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "downloads/qpr-quarter-panel-v45.csv",
+    "recordPath": "/records/2149",
+    "recordId": "B-13-MS-01-0001|R5DR2-Admin (Ext)|R5DR2-Admin (Ext)|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "source_expended_page": "10",
+      "source_obligated_page": "10"
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/downloads/qpr-quarter-panel-v45.csv",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "downloads/qpr-quarter-panel-v45.csv",
+    "recordPath": "/records/2150",
+    "recordId": "B-13-MS-01-0001|R5DR2-Planning|R5DR2-Planning|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "source_expended_page": "12",
+      "source_obligated_page": "12"
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/downloads/qpr-quarter-panel-v45.csv",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "downloads/qpr-quarter-panel-v45.csv",
+    "recordPath": "/records/2151",
+    "recordId": "B-13-MS-01-0001|R7 DR2-Public Facilities/Imp (Ext)|R7DR2|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 15,
+    "pages": [
+      15
+    ],
+    "fieldPages": {
+      "source_expended_page": "15",
+      "source_obligated_page": "15"
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/downloads/qpr-quarter-panel-v45.csv",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "downloads/qpr-quarter-panel-v45.csv",
+    "recordPath": "/records/2152",
+    "recordId": "B-13-MS-01-0001|R8DR2-Public Facilities/Imp|R8DR2-Public Facilities/Imp|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "source_expended_page": "16",
+      "source_obligated_page": "16"
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/downloads/qpr-quarter-panel-v45.csv",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "downloads/qpr-quarter-panel-v45.csv",
+    "recordPath": "/records/2153",
+    "recordId": "B-13-MS-01-0001|R8DR2-Public Facilities/Imp (Ext)|R8DR2 Public Facilities/Imp (Ext)|2018Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0001/B-13-MS-01-0001-2018-04-2018-06-PR.pdf",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "source_expended_page": "18",
+      "source_obligated_page": "18"
+    },
+    "fields": [
+      "qpr_expended_period_cents",
+      "qpr_expended_to_date_cents",
+      "qpr_expended_implied_opening_cents",
+      "qpr_expended_prior_quarter_to_date_cents",
+      "qpr_expended_opening_minus_prior_cents",
+      "qpr_obligated_period_cents",
+      "qpr_obligated_to_date_cents",
+      "qpr_obligated_implied_opening_cents",
+      "qpr_obligated_prior_quarter_to_date_cents",
+      "qpr_obligated_opening_minus_prior_cents",
+      "qpr_budget_period_cents",
+      "qpr_budget_to_date_cents",
+      "qpr_reported_grant_award_cents",
+      "f31_expended_period_cents",
+      "f31_obligated_period_cents",
+      "qpr_minus_f31_expended_cents",
+      "qpr_minus_f31_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/downloads/qpr-quarter-panel-v45.csv",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

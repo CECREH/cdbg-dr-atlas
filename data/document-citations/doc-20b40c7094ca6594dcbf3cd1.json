@@ -1,0 +1,536 @@
+[
+  {
+    "dataset": "data/analysis.json",
+    "recordPath": "/coverage/176",
+    "recordId": "B-13-MS-38-0001|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/analysis.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/1022",
+    "recordId": "B-13-MS-38-0001",
+    "sourceField": "document_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/25",
+    "recordId": "B-13-MS-38-0001",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "q20_source_page": 5
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2518",
+    "recordId": "B-13-MS-38-0001|R1 02 - HH Acq/Buyout|R1 02-020001 - Acq LMI",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "q20_source_page": 10
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2519",
+    "recordId": "B-13-MS-38-0001|R1 02 - HH Acq/Buyout|R1 02-020002 - Acq UN",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "q20_source_page": 12
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2520",
+    "recordId": "B-13-MS-38-0001|R1 02 - HH Acq/Buyout|R1 02-020003 - Buyouts LMI",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "q20_source_page": 14
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2521",
+    "recordId": "B-13-MS-38-0001|R1 02 - HH Acq/Buyout|R1 02-020004 - Buyouts UN",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "q20_source_page": 16
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2522",
+    "recordId": "B-13-MS-38-0001|R1 038 Infrastructure [E]|R1 55th Crossing Street Improvements [E]",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "q20_source_page": 18
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2523",
+    "recordId": "B-13-MS-38-0001|R1 038 Infrastructure [E]|R1 Street Reconstruction of 14th, 16th, & 46th [E]",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "q20_source_page": 20
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2524",
+    "recordId": "B-13-MS-38-0001|R4 01 - Admin|R4 03 - Admin",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 32,
+    "pages": [
+      32
+    ],
+    "fieldPages": {
+      "q20_source_page": 32
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2525",
+    "recordId": "B-13-MS-38-0001|R4 04 - Resiliency|R4 04 - Resiliency",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "q20_source_page": 43
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2526",
+    "recordId": "B-13-MS-38-0001|R4 Planning|R4 DR0004 Planning",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 47,
+    "pages": [
+      47
+    ],
+    "fieldPages": {
+      "q20_source_page": 47
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/reports/57",
+    "recordId": "B-13-MS-38-0001|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "activity_sum_minus_overall_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3002",
+    "recordId": "B-13-MS-38-0001|R1 02 - HH Acq/Buyout|R1 02-020001 - Acq LMI|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 9,
+    "pages": [
+      9,
+      10
+    ],
+    "fieldPages": {
+      "source_page": 10,
+      "activity_header_page": 9
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3003",
+    "recordId": "B-13-MS-38-0001|R1 02 - HH Acq/Buyout|R1 02-020002 - Acq UN|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "source_page": 12,
+      "activity_header_page": 12
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3004",
+    "recordId": "B-13-MS-38-0001|R1 02 - HH Acq/Buyout|R1 02-020003 - Buyouts LMI|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "source_page": 14,
+      "activity_header_page": 14
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3005",
+    "recordId": "B-13-MS-38-0001|R1 02 - HH Acq/Buyout|R1 02-020004 - Buyouts UN|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "source_page": 16,
+      "activity_header_page": 16
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3006",
+    "recordId": "B-13-MS-38-0001|R1 038 Infrastructure [E]|R1 55th Crossing Street Improvements [E]|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 17,
+    "pages": [
+      17,
+      18
+    ],
+    "fieldPages": {
+      "source_page": 18,
+      "activity_header_page": 17
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3007",
+    "recordId": "B-13-MS-38-0001|R1 038 Infrastructure [E]|R1 Street Reconstruction of 14th, 16th, & 46th [E]|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "source_page": 20,
+      "activity_header_page": 20
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3008",
+    "recordId": "B-13-MS-38-0001|R4 01 - Admin|R4 03 - Admin|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 31,
+    "pages": [
+      31,
+      32
+    ],
+    "fieldPages": {
+      "source_page": 32,
+      "activity_header_page": 31
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3009",
+    "recordId": "B-13-MS-38-0001|R4 04 - Resiliency|R4 04 - Resiliency|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 42,
+    "pages": [
+      42,
+      43
+    ],
+    "fieldPages": {
+      "source_page": 43,
+      "activity_header_page": 42
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3010",
+    "recordId": "B-13-MS-38-0001|R4 Planning|R4 DR0004 Planning|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": 46,
+    "pages": [
+      46,
+      47
+    ],
+    "fieldPages": {
+      "source_page": 47,
+      "activity_header_page": 46
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources_v4/36",
+    "recordId": "data/research-provenance.json#/sources_v4/36",
+    "sourceField": "url",
+    "sourceUrl": "https://www.minotnd.gov/Archive.aspx?ADID=785",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

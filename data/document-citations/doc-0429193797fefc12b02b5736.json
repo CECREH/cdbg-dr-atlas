@@ -1,0 +1,17 @@
+[
+  {
+    "dataset": "data/springfield-allocation-evidence-v49.json",
+    "recordPath": "/event_rows/1",
+    "recordId": "B-13-MS-25-0001",
+    "sourceField": "source_url",
+    "sourceUrl": "https://archives.hud.gov/news/2013/pr13-158.cfm",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [
+      "amount_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-allocation-evidence-v49.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

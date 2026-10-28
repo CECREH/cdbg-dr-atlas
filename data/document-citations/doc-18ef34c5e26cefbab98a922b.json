@@ -1,0 +1,67 @@
+[
+  {
+    "dataset": "data/award-clock-review.json",
+    "recordPath": "/records/0/unclassified_qpr_reports/0",
+    "recordId": "B-13-US-42-0001|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-US-42-0001/B-13-US-42-0001-2018-10-2018-12-PR.pdf",
+    "page": 1,
+    "pages": [
+      1
+    ],
+    "fieldPages": {
+      "source_page": 1
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "activity_sum_minus_overall_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/award-clock-review.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/award-clock-review.json",
+    "recordPath": "/records/0/unclassified_qpr_activities/0",
+    "recordId": "B-13-US-42-0001|04 (Ext)|R2 04-23E|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-US-42-0001/B-13-US-42-0001-2018-10-2018-12-PR.pdf",
+    "page": 3,
+    "pages": [
+      3
+    ],
+    "fieldPages": {
+      "source_page": 3,
+      "activity_header_page": 3
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/award-clock-review.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources_v4/169",
+    "recordId": "data/research-provenance.json#/sources_v4/169",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-US-42-0001/B-13-US-42-0001-2018-10-2018-12-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

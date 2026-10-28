@@ -1,0 +1,68 @@
+[
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/917",
+    "recordId": "data/archive-inventory.json#/entries/917",
+    "sourceField": "document_url",
+    "sourceUrl": "https://www.cityoflakecharles.com/DocumentCenter/View/625/CDBG-DR-Grant-Agreement-B22MF220002-PDF",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources_v4/35",
+    "recordId": "data/research-provenance.json#/sources_v4/35",
+    "sourceField": "url",
+    "sourceUrl": "https://www.cityoflakecharles.com/DocumentCenter/View/625/CDBG-DR-Grant-Agreement-B22MF220002-PDF",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-22-MF-22-0002",
+    "recordId": "B-22-MF-22-0002",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.cityoflakecharles.com/DocumentCenter/View/625/CDBG-DR-Grant-Agreement-B22MF220002-PDF",
+    "page": 1,
+    "pages": [
+      1,
+      7
+    ],
+    "fieldPages": {
+      "source_page": 1,
+      "signature_source_page": 7
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-22-MF-22-0002/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-22-MF-22-0002/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.cityoflakecharles.com/DocumentCenter/View/625/CDBG-DR-Grant-Agreement-B22MF220002-PDF",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

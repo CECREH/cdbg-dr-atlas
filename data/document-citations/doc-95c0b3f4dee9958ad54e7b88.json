@@ -1,0 +1,49 @@
+[
+  {
+    "dataset": "data/award-clock-review.json",
+    "recordPath": "/records/1/date_observations/0",
+    "recordId": "data/award-clock-review.json#/records/1/date_observations/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.hudoig.gov/sites/default/files/documents/2015-KC-1002.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/award-clock-review.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/award-clock-review.json",
+    "recordPath": "/records/1/date_observations/1",
+    "recordId": "data/award-clock-review.json#/records/1/date_observations/1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.hudoig.gov/sites/default/files/documents/2015-KC-1002.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/award-clock-review.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/reports/58",
+    "recordId": "B-13-MS-38-0001|2014Q4",
+    "sourceField": "allocation_corroboration_source",
+    "sourceUrl": "https://www.hudoig.gov/sites/default/files/documents/2015-KC-1002.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

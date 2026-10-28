@@ -1,0 +1,816 @@
+[
+  {
+    "dataset": "data/glo-cover-review-v53.json",
+    "recordPath": "/reports/21",
+    "recordId": "2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/glo-cover-review-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/responsible-municipal-crosswalk-v53.json",
+    "recordPath": "/rows/11",
+    "recordId": "data/responsible-municipal-crosswalk-v53.json#/rows/11",
+    "sourceField": "qpr_evidence_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/responsible-municipal-crosswalk-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/reports/21",
+    "recordId": "2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/754",
+    "recordId": "0001|HAP_HMID_LMI[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "activity_header_page": 5,
+      "financial_source_pages": {
+        "budget": 5,
+        "obligated": 5,
+        "expended": 5
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/755",
+    "recordId": "0001|HAP_HMID_UN[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "activity_header_page": 7,
+      "financial_source_pages": {
+        "budget": 7,
+        "obligated": 7,
+        "expended": 7
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/756",
+    "recordId": "0001|HAP_SMID_LMI[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "activity_header_page": 9,
+      "financial_source_pages": {
+        "budget": 9,
+        "obligated": 9,
+        "expended": 9
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/757",
+    "recordId": "0001|HAP_SMID_UN[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "fieldPages": {
+      "activity_header_page": 11,
+      "financial_source_pages": {
+        "budget": 11,
+        "obligated": 11,
+        "expended": 11
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/758",
+    "recordId": "0002|HRP_HMID_LMI[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 13,
+    "pages": [
+      13
+    ],
+    "fieldPages": {
+      "activity_header_page": 13,
+      "financial_source_pages": {
+        "budget": 13,
+        "obligated": 13,
+        "expended": 13
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/759",
+    "recordId": "0002|HRP_HMID_UN[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 15,
+    "pages": [
+      15
+    ],
+    "fieldPages": {
+      "activity_header_page": 15,
+      "financial_source_pages": {
+        "budget": 15,
+        "obligated": 15,
+        "expended": 15
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/760",
+    "recordId": "0002|HRP_SMID_LMI[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "activity_header_page": 17,
+      "financial_source_pages": {
+        "budget": 17,
+        "obligated": 17,
+        "expended": 17
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/761",
+    "recordId": "0002|HRP_SMID_UN[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "activity_header_page": 19,
+      "financial_source_pages": {
+        "budget": 19,
+        "obligated": 19,
+        "expended": 19
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/762",
+    "recordId": "0003|ARP_HMID_LMI[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "fieldPages": {
+      "activity_header_page": 21,
+      "financial_source_pages": {
+        "budget": 21,
+        "obligated": 21,
+        "expended": 21
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/763",
+    "recordId": "0003|ARP_SMID_LMI[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "activity_header_page": 23,
+      "financial_source_pages": {
+        "budget": 23,
+        "obligated": 23,
+        "expended": 23
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/764",
+    "recordId": "0004|INF_HMID_LMI_23-152-003-E070_Mission_F&D|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "activity_header_page": 25,
+      "financial_source_pages": {
+        "budget": 25,
+        "obligated": 25,
+        "expended": 25
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/765",
+    "recordId": "0004|INF_HMID_LMI_23-152-013-E185_Alamo_F&D|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "activity_header_page": 27,
+      "financial_source_pages": {
+        "budget": 27,
+        "obligated": 27,
+        "expended": 27
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/765",
+    "recordId": "0004|INF_HMID_LMI_23-152-013-E185_Alamo_F&D|2026Q2",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 27
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/766",
+    "recordId": "0004|INF_HMID_LMI_GranteeSupport[18F]_F&D|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 29,
+    "pages": [
+      29
+    ],
+    "fieldPages": {
+      "activity_header_page": 29,
+      "financial_source_pages": {
+        "budget": 29,
+        "obligated": 29,
+        "expended": 29
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/767",
+    "recordId": "0004|INF_HMID_LMI_GranteeSupport[18F]_WSF|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 31,
+    "pages": [
+      31
+    ],
+    "fieldPages": {
+      "activity_header_page": 31,
+      "financial_source_pages": {
+        "budget": 31,
+        "obligated": 31,
+        "expended": 31
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/768",
+    "recordId": "0004|INF_SMID_LMI_23-152-002-E069_LaFeria_F&D|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 33,
+    "pages": [
+      33
+    ],
+    "fieldPages": {
+      "activity_header_page": 33,
+      "financial_source_pages": {
+        "budget": 33,
+        "obligated": 33,
+        "expended": 33
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/769",
+    "recordId": "0004|INF_SMID_LMI_23-152-006-E178_Combes_SF|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 35,
+    "pages": [
+      35
+    ],
+    "fieldPages": {
+      "activity_header_page": 35,
+      "financial_source_pages": {
+        "budget": 35,
+        "obligated": 35,
+        "expended": 35
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/770",
+    "recordId": "0004|INF_SMID_LMI_23-152-012-E184_RioHondo_F&D|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 37,
+    "pages": [
+      37
+    ],
+    "fieldPages": {
+      "activity_header_page": 37,
+      "financial_source_pages": {
+        "budget": 37,
+        "obligated": 37,
+        "expended": 37
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/771",
+    "recordId": "0004|INF_SMID_LMI_GranteeSupport[18F]_F&D|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 39,
+    "pages": [
+      39
+    ],
+    "fieldPages": {
+      "activity_header_page": 39,
+      "financial_source_pages": {
+        "budget": 39,
+        "obligated": 39,
+        "expended": 39
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/772",
+    "recordId": "0004|INF_SMID_LMI_GranteeSupport[18F]_WSF|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 41,
+    "pages": [
+      41
+    ],
+    "fieldPages": {
+      "activity_header_page": 41,
+      "financial_source_pages": {
+        "budget": 41,
+        "obligated": 41,
+        "expended": 41
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/773",
+    "recordId": "0005|Administration[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "activity_header_page": 43,
+      "financial_source_pages": {
+        "budget": 43,
+        "obligated": 43,
+        "expended": 43
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/774",
+    "recordId": "0006|Planning[18F]|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 45,
+    "pages": [
+      45
+    ],
+    "fieldPages": {
+      "activity_header_page": 45,
+      "financial_source_pages": {
+        "budget": 45,
+        "obligated": 45,
+        "expended": 45
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/775",
+    "recordId": "0007|DRRP_HMID_LMI_GranteeSupport[18F]_F&D|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 47,
+    "pages": [
+      47
+    ],
+    "fieldPages": {
+      "activity_header_page": 47,
+      "financial_source_pages": {
+        "budget": 47,
+        "obligated": 47,
+        "expended": 47
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/776",
+    "recordId": "0007|DRRP_HMID_LMI_GranteeSupport[18F]_MF|2026Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 49,
+    "pages": [
+      49
+    ],
+    "fieldPages": {
+      "activity_header_page": 49,
+      "financial_source_pages": {
+        "budget": 49,
+        "obligated": 49,
+        "expended": 49
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/836",
+    "recordId": "0004|INF_HMID_LMI_23-152-013-E185_Alamo_F&D|2025Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 27
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/859",
+    "recordId": "0004|INF_HMID_LMI_23-152-013-E185_Alamo_F&D|2025Q2",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 27
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/905",
+    "recordId": "0004|INF_HMID_LMI_23-152-013-E185_Alamo_F&D|2024Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 27
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/950",
+    "recordId": "0004|INF_HMID_LMI_23-152-013-E185_Alamo_F&D|2024Q1",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-07/2018-floods-2026-q2.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 27
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

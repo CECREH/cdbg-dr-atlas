@@ -1,3 +1,4 @@
+import {catalogReferenceMarkup} from './document-reference.mjs';
 import {escape as esc,money} from './domain.mjs';
 import {objectsCSV} from './research-domain.mjs';
 import {filterSpringfield} from './springfield-pilot-domain.mjs';
@@ -11,7 +12,7 @@ function render(){
   const amount=k=>`${esc(money(r[k+'_to_date_cents']))}<small>This period: ${esc(money(r[k+'_period_cents']))}</small>`;
   const status=r.expended_continuity_status==='adjacent_versions_reconcile'?'Prior listed expenditure agrees':r.expended_continuity_status==='previous_quarter_unavailable'?'Prior activity quarter unavailable':'Prior listed expenditure differs or is unavailable';
   const scope=r.f31_exact_activity_key?'Exact F31 activity key':'QPR-only activity key';
-  return `<tr><td><strong>${esc(r.project)} / ${esc(r.activity)}</strong><small>${esc(r.activity_type_as_reported||'Activity type unavailable')}</small></td><td>${esc(r.quarter)}<small>Award Q${esc(r.award_relative_quarter)} · Q1 may be partial</small></td><td>${amount('expended')}</td><td>${amount('obligated')}</td><td>${amount('budget')}</td><td>${esc(status)}<small>${esc(scope)}${r.linked_extension_indicator?' · linked extension; avoid automatic addition':''}</small></td><td><a href="${esc(r.source_url)}#page=${esc(r.financial_source_pages.expended)}" target="_blank" rel="noopener">QPR p. ${esc(r.financial_source_pages.expended)} ↗</a><small>${esc(r.report_status)} · published ${esc(r.report_publication_date||'date unavailable')}</small></td></tr>`;
+  return `<tr><td><strong>${esc(r.project)} / ${esc(r.activity)}</strong><small>${esc(r.activity_type_as_reported||'Activity type unavailable')}</small></td><td>${esc(r.quarter)}<small>Award Q${esc(r.award_relative_quarter)} · Q1 may be partial</small></td><td>${amount('expended')}</td><td>${amount('obligated')}</td><td>${amount('budget')}</td><td>${esc(status)}<small>${esc(scope)}${r.linked_extension_indicator?' · linked extension; avoid automatic addition':''}</small></td><td><a href="${esc(r.source_url)}#page=${esc(r.financial_source_pages.expended)}" target="_blank" rel="noopener">QPR p. ${esc(r.financial_source_pages.expended)} ↗</a>${catalogReferenceMarkup(r.source_url)}<small>${esc(r.report_status)} · published ${esc(r.report_publication_date||'date unavailable')}</small></td></tr>`;
  }).join('')||'<tr><td colspan="7">No activity records match. A missing quarter is not zero.</td></tr>';
  $('sp-page').textContent=selected.length?`${start+1}–${Math.min(start+PAGE,selected.length)} of ${selected.length}`:'0 records';
  $('sp-prev').disabled=page===0;$('sp-next').disabled=start+PAGE>=selected.length;$('sp-export').disabled=!selected.length;

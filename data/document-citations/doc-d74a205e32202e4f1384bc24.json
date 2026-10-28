@@ -1,0 +1,21 @@
+[
+  {
+    "dataset": "data/springfield-hud-2023-evidence-v50.json",
+    "recordPath": "/financial_snapshots/0",
+    "recordId": "B-13-MS-25-0001",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/DR-CDBG/CDBG-DR%20Financial%20Report%20by%20Appropriation.xlsx",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [
+      "reported_grant_amount_cents",
+      "reported_obligated_cents",
+      "reported_disbursed_cents",
+      "reported_remaining_balance_cents",
+      "values_nominal_usd_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-hud-2023-evidence-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

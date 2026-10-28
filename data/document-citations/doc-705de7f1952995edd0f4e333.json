@@ -1,0 +1,2172 @@
+[
+  {
+    "dataset": "data/glo-cover-review-v53.json",
+    "recordPath": "/reports/2",
+    "recordId": "2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/glo-cover-review-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/responsible-municipal-crosswalk-v53.json",
+    "recordPath": "/rows/4",
+    "recordId": "data/responsible-municipal-crosswalk-v53.json#/rows/4",
+    "sourceField": "qpr_evidence_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/responsible-municipal-crosswalk-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/responsible-municipal-crosswalk-v53.json",
+    "recordPath": "/rows/20",
+    "recordId": "data/responsible-municipal-crosswalk-v53.json#/rows/20",
+    "sourceField": "qpr_evidence_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/responsible-municipal-crosswalk-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/responsible-municipal-crosswalk-v53.json",
+    "recordPath": "/rows/28",
+    "recordId": "data/responsible-municipal-crosswalk-v53.json#/rows/28",
+    "sourceField": "qpr_evidence_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/responsible-municipal-crosswalk-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/responsible-municipal-crosswalk-v53.json",
+    "recordPath": "/rows/32",
+    "recordId": "data/responsible-municipal-crosswalk-v53.json#/rows/32",
+    "sourceField": "qpr_evidence_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/responsible-municipal-crosswalk-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/responsible-municipal-crosswalk-v53.json",
+    "recordPath": "/unresolved/1",
+    "recordId": "data/responsible-municipal-crosswalk-v53.json#/unresolved/1",
+    "sourceField": "qpr_evidence_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/responsible-municipal-crosswalk-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/reports/2",
+    "recordId": "2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/108",
+    "recordId": "B-19-DF-48-0001|0001|Administration[19D]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "activity_header_page": 5,
+      "financial_source_pages": {
+        "budget": 5,
+        "obligated": 5,
+        "expended": 5
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/109",
+    "recordId": "B-19-DF-48-0001|0002|Planning[19D]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "activity_header_page": 7,
+      "financial_source_pages": {
+        "budget": 7,
+        "obligated": 7,
+        "expended": 7
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/110",
+    "recordId": "B-19-DF-48-0001|0003|ARP_HMID_LMI[19D_Imelda]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "activity_header_page": 9,
+      "financial_source_pages": {
+        "budget": 9,
+        "obligated": 9,
+        "expended": 9
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/111",
+    "recordId": "B-19-DF-48-0001|0003|ARP_HMID_LMI[19D_LRGV]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "fieldPages": {
+      "activity_header_page": 11,
+      "financial_source_pages": {
+        "budget": 11,
+        "obligated": 11,
+        "expended": 11
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/112",
+    "recordId": "B-19-DF-48-0001|0003|ARP_SMID_LMI[19D_LRGV]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 13,
+    "pages": [
+      13
+    ],
+    "fieldPages": {
+      "activity_header_page": 13,
+      "financial_source_pages": {
+        "budget": 13,
+        "obligated": 13,
+        "expended": 13
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/113",
+    "recordId": "B-19-DF-48-0001|0004|HAP_HMID_LMI[19D_Imelda]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 15,
+    "pages": [
+      15
+    ],
+    "fieldPages": {
+      "activity_header_page": 15,
+      "financial_source_pages": {
+        "budget": 15,
+        "obligated": 15,
+        "expended": 15
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/114",
+    "recordId": "B-19-DF-48-0001|0004|HAP_HMID_LMI[19D_LRGV]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "activity_header_page": 17,
+      "financial_source_pages": {
+        "budget": 17,
+        "obligated": 17,
+        "expended": 17
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/115",
+    "recordId": "B-19-DF-48-0001|0004|HAP_HMID_UN[19D_Imelda]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "activity_header_page": 19,
+      "financial_source_pages": {
+        "budget": 19,
+        "obligated": 19,
+        "expended": 19
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/116",
+    "recordId": "B-19-DF-48-0001|0004|HAP_HMID_UN[19D_LRGV]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "fieldPages": {
+      "activity_header_page": 21,
+      "financial_source_pages": {
+        "budget": 21,
+        "obligated": 21,
+        "expended": 21
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/117",
+    "recordId": "B-19-DF-48-0001|0004|HAP_SMID_LMI[19D_Imelda]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "activity_header_page": 23,
+      "financial_source_pages": {
+        "budget": 23,
+        "obligated": 23,
+        "expended": 23
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/118",
+    "recordId": "B-19-DF-48-0001|0004|HAP_SMID_LMI[19D_LRGV]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "activity_header_page": 25,
+      "financial_source_pages": {
+        "budget": 25,
+        "obligated": 25,
+        "expended": 25
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/119",
+    "recordId": "B-19-DF-48-0001|0005|HRP_HMID_LMI[19D_Imelda]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "activity_header_page": 27,
+      "financial_source_pages": {
+        "budget": 27,
+        "obligated": 27,
+        "expended": 27
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/120",
+    "recordId": "B-19-DF-48-0001|0005|HRP_HMID_LMI[19D_LRGV]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 29,
+    "pages": [
+      29
+    ],
+    "fieldPages": {
+      "activity_header_page": 29,
+      "financial_source_pages": {
+        "budget": 29,
+        "obligated": 29,
+        "expended": 29
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/121",
+    "recordId": "B-19-DF-48-0001|0005|HRP_HMID_UN[19D_Imelda]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 31,
+    "pages": [
+      31
+    ],
+    "fieldPages": {
+      "activity_header_page": 31,
+      "financial_source_pages": {
+        "budget": 31,
+        "obligated": 31,
+        "expended": 31
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/122",
+    "recordId": "B-19-DF-48-0001|0005|HRP_HMID_UN[19D_LRGV]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 33,
+    "pages": [
+      33
+    ],
+    "fieldPages": {
+      "activity_header_page": 33,
+      "financial_source_pages": {
+        "budget": 33,
+        "obligated": 33,
+        "expended": 33
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/123",
+    "recordId": "B-19-DF-48-0001|0005|HRP_SMID_LMI[19D_Imelda]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 35,
+    "pages": [
+      35
+    ],
+    "fieldPages": {
+      "activity_header_page": 35,
+      "financial_source_pages": {
+        "budget": 35,
+        "obligated": 35,
+        "expended": 35
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/124",
+    "recordId": "B-19-DF-48-0001|0005|HRP_SMID_LMI[19D_LRGV]|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 37,
+    "pages": [
+      37
+    ],
+    "fieldPages": {
+      "activity_header_page": 37,
+      "financial_source_pages": {
+        "budget": 37,
+        "obligated": 37,
+        "expended": 37
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/125",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-001-E186_Beaumont_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 39,
+    "pages": [
+      39
+    ],
+    "fieldPages": {
+      "activity_header_page": 39,
+      "financial_source_pages": {
+        "budget": 39,
+        "obligated": 39,
+        "expended": 39
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/126",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-003-E188_China_SI|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 41,
+    "pages": [
+      41
+    ],
+    "fieldPages": {
+      "activity_header_page": 41,
+      "financial_source_pages": {
+        "budget": 41,
+        "obligated": 41,
+        "expended": 41
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/127",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-005-E192_LagunaVista_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "activity_header_page": 43,
+      "financial_source_pages": {
+        "budget": 43,
+        "obligated": 43,
+        "expended": 43
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/127",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-005-E192_LagunaVista_F&D|2025Q4",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 43
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/128",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-007-E194_OldRiver-Winfree_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 45,
+    "pages": [
+      45
+    ],
+    "fieldPages": {
+      "activity_header_page": 45,
+      "financial_source_pages": {
+        "budget": 45,
+        "obligated": 45,
+        "expended": 45
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/129",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-008-E195_Palmview_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 47,
+    "pages": [
+      47
+    ],
+    "fieldPages": {
+      "activity_header_page": 47,
+      "financial_source_pages": {
+        "budget": 47,
+        "obligated": 47,
+        "expended": 47
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/130",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-011-E198_Pinehurst_SF|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 49,
+    "pages": [
+      49
+    ],
+    "fieldPages": {
+      "activity_header_page": 49,
+      "financial_source_pages": {
+        "budget": 49,
+        "obligated": 49,
+        "expended": 49
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/131",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-012-E199_Pinehurst_SF|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 51,
+    "pages": [
+      51
+    ],
+    "fieldPages": {
+      "activity_header_page": 51,
+      "financial_source_pages": {
+        "budget": 51,
+        "obligated": 51,
+        "expended": 51
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/132",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-013-E200_RioHondo_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 53,
+    "pages": [
+      53
+    ],
+    "fieldPages": {
+      "activity_header_page": 53,
+      "financial_source_pages": {
+        "budget": 53,
+        "obligated": 53,
+        "expended": 53
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/133",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-014-E201_Splendora_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 55,
+    "pages": [
+      55
+    ],
+    "fieldPages": {
+      "activity_header_page": 55,
+      "financial_source_pages": {
+        "budget": 55,
+        "obligated": 55,
+        "expended": 55
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/134",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-018-E205_Beaumont_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 57,
+    "pages": [
+      57
+    ],
+    "fieldPages": {
+      "activity_header_page": 57,
+      "financial_source_pages": {
+        "budget": 57,
+        "obligated": 57,
+        "expended": 57
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/135",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-021-E208_Combes_SF|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 59,
+    "pages": [
+      59
+    ],
+    "fieldPages": {
+      "activity_header_page": 59,
+      "financial_source_pages": {
+        "budget": 59,
+        "obligated": 59,
+        "expended": 59
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/136",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-023-E210_LaFeria_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 61,
+    "pages": [
+      61
+    ],
+    "fieldPages": {
+      "activity_header_page": 61,
+      "financial_source_pages": {
+        "budget": 61,
+        "obligated": 61,
+        "expended": 61
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/137",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-026-E213_Liberty_SF|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 63,
+    "pages": [
+      63
+    ],
+    "fieldPages": {
+      "activity_header_page": 63,
+      "financial_source_pages": {
+        "budget": 63,
+        "obligated": 63,
+        "expended": 63
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/137",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-026-E213_Liberty_SF|2025Q4",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 63,
+    "pages": [
+      63
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 63
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/138",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-028-E216_Nome_SF|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 65,
+    "pages": [
+      65
+    ],
+    "fieldPages": {
+      "activity_header_page": 65,
+      "financial_source_pages": {
+        "budget": 65,
+        "obligated": 65,
+        "expended": 65
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/139",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-029-E217_Orange_SF|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 67,
+    "pages": [
+      67
+    ],
+    "fieldPages": {
+      "activity_header_page": 67,
+      "financial_source_pages": {
+        "budget": 67,
+        "obligated": 67,
+        "expended": 67
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/140",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-031-E219_OrangeCounty_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 69,
+    "pages": [
+      69
+    ],
+    "fieldPages": {
+      "activity_header_page": 69,
+      "financial_source_pages": {
+        "budget": 69,
+        "obligated": 69,
+        "expended": 69
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/141",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-033-E221_PlumGrove_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 71,
+    "pages": [
+      71
+    ],
+    "fieldPages": {
+      "activity_header_page": 71,
+      "financial_source_pages": {
+        "budget": 71,
+        "obligated": 71,
+        "expended": 71
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/141",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-033-E221_PlumGrove_F&D|2025Q4",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 71,
+    "pages": [
+      71
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 71
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/142",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-036-E224_PortIsabel_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 73,
+    "pages": [
+      73
+    ],
+    "fieldPages": {
+      "activity_header_page": 73,
+      "financial_source_pages": {
+        "budget": 73,
+        "obligated": 73,
+        "expended": 73
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/142",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-036-E224_PortIsabel_F&D|2025Q4",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 73,
+    "pages": [
+      73
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 73
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/143",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-043-E231_Vidor_SI|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 75,
+    "pages": [
+      75
+    ],
+    "fieldPages": {
+      "activity_header_page": 75,
+      "financial_source_pages": {
+        "budget": 75,
+        "obligated": 75,
+        "expended": 75
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/144",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-044-E232_Vidor_SI|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 77,
+    "pages": [
+      77
+    ],
+    "fieldPages": {
+      "activity_header_page": 77,
+      "financial_source_pages": {
+        "budget": 77,
+        "obligated": 77,
+        "expended": 77
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/145",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-045-E233_WestOrange_SI|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "activity_header_page": 79,
+      "financial_source_pages": {
+        "budget": 79,
+        "obligated": 79,
+        "expended": 79
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/145",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-045-E233_WestOrange_SI|2025Q4",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 79
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/146",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_GranteeSupport[19D]_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 81,
+    "pages": [
+      81
+    ],
+    "fieldPages": {
+      "activity_header_page": 81,
+      "financial_source_pages": {
+        "budget": 81,
+        "obligated": 81,
+        "expended": 81
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/147",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_GranteeSupport[19D]_SI|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 83,
+    "pages": [
+      83
+    ],
+    "fieldPages": {
+      "activity_header_page": 83,
+      "financial_source_pages": {
+        "budget": 83,
+        "obligated": 83,
+        "expended": 83
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/148",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_GranteeSupport[19D]_WSF|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 85,
+    "pages": [
+      85
+    ],
+    "fieldPages": {
+      "activity_header_page": 85,
+      "financial_source_pages": {
+        "budget": 85,
+        "obligated": 85,
+        "expended": 85
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/149",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_UN_24-067-030-E218_OrangeCounty_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 87,
+    "pages": [
+      87
+    ],
+    "fieldPages": {
+      "activity_header_page": 87,
+      "financial_source_pages": {
+        "budget": 87,
+        "obligated": 87,
+        "expended": 87
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/150",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_UN_GranteeSupport[19D]_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 89,
+    "pages": [
+      89
+    ],
+    "fieldPages": {
+      "activity_header_page": 89,
+      "financial_source_pages": {
+        "budget": 89,
+        "obligated": 89,
+        "expended": 89
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/151",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_UN_GranteeSupport[19D]_WSF|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 91,
+    "pages": [
+      91
+    ],
+    "fieldPages": {
+      "activity_header_page": 91,
+      "financial_source_pages": {
+        "budget": 91,
+        "obligated": 91,
+        "expended": 91
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/152",
+    "recordId": "B-19-DF-48-0001|0006|INF_SMID_LMI_24-067-039-E227_Raymondville_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 93,
+    "pages": [
+      93
+    ],
+    "fieldPages": {
+      "activity_header_page": 93,
+      "financial_source_pages": {
+        "budget": 93,
+        "obligated": 93,
+        "expended": 93
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/153",
+    "recordId": "B-19-DF-48-0001|0006|INF_SMID_LMI_24-067-040-E228_SanJacintoCounty_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 95,
+    "pages": [
+      95
+    ],
+    "fieldPages": {
+      "activity_header_page": 95,
+      "financial_source_pages": {
+        "budget": 95,
+        "obligated": 95,
+        "expended": 95
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/154",
+    "recordId": "B-19-DF-48-0001|0006|INF_SMID_LMI_GranteeSupport[19D]_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 97,
+    "pages": [
+      97
+    ],
+    "fieldPages": {
+      "activity_header_page": 97,
+      "financial_source_pages": {
+        "budget": 97,
+        "obligated": 97,
+        "expended": 97
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/155",
+    "recordId": "B-19-DF-48-0001|0007|DRRP[19D]_HMID_LMH_25-146-001-F195_BHA_MF|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 99,
+    "pages": [
+      99
+    ],
+    "fieldPages": {
+      "activity_header_page": 99,
+      "financial_source_pages": {
+        "budget": 99,
+        "obligated": 99,
+        "expended": 99
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/156",
+    "recordId": "B-19-DF-48-0001|0007|DRRP[19D]_HMID_LMI_25-147-001-F196_Daisetta_SI|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 101,
+    "pages": [
+      101
+    ],
+    "fieldPages": {
+      "activity_header_page": 101,
+      "financial_source_pages": {
+        "budget": 101,
+        "obligated": 101,
+        "expended": 101
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/157",
+    "recordId": "B-19-DF-48-0001|0007|DRRP[19D]_HMID_LMI_25-147-002-F335_Palmview_SI|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 103,
+    "pages": [
+      103
+    ],
+    "fieldPages": {
+      "activity_header_page": 103,
+      "financial_source_pages": {
+        "budget": 103,
+        "obligated": 103,
+        "expended": 103
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/158",
+    "recordId": "B-19-DF-48-0001|0007|DRRP[19D]_HMID_LMI_25-147-003-F336_Palmview_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 105,
+    "pages": [
+      105
+    ],
+    "fieldPages": {
+      "activity_header_page": 105,
+      "financial_source_pages": {
+        "budget": 105,
+        "obligated": 105,
+        "expended": 105
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/159",
+    "recordId": "B-19-DF-48-0001|0007|DRRP[19D]_HMID_LMI_25-147-004-F337_Palmview_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 107,
+    "pages": [
+      107
+    ],
+    "fieldPages": {
+      "activity_header_page": 107,
+      "financial_source_pages": {
+        "budget": 107,
+        "obligated": 107,
+        "expended": 107
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/160",
+    "recordId": "B-19-DF-48-0001|0007|DRRP[19D]_HMID_LMI_25-147-005-F359_Pinehurst_WF|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 109,
+    "pages": [
+      109
+    ],
+    "fieldPages": {
+      "activity_header_page": 109,
+      "financial_source_pages": {
+        "budget": 109,
+        "obligated": 109,
+        "expended": 109
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/161",
+    "recordId": "B-19-DF-48-0001|0007|DRRP[19D]_HMID_LMI_25-147-006-F360_Pinehurst_F&D|2025Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 111,
+    "pages": [
+      111
+    ],
+    "fieldPages": {
+      "activity_header_page": 111,
+      "financial_source_pages": {
+        "budget": 111,
+        "obligated": 111,
+        "expended": 111
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/182",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-005-E192_LagunaVista_F&D|2025Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 43
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/191",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-015-E202_WestOrange_F&D|2025Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 79
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/200",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-033-E221_PlumGrove_F&D|2025Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 71,
+    "pages": [
+      71
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 71
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/201",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-036-E224_PortIsabel_F&D|2025Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 73,
+    "pages": [
+      73
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 73
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/205",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-045-E233_WestOrange_SI|2025Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 79
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/254",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-026-E213_Liberty_SF|2025Q2",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 63,
+    "pages": [
+      63
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 63
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/258",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-033-E221_PlumGrove_F&D|2025Q2",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 71,
+    "pages": [
+      71
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 71
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/297",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-005-E192_LagunaVista_F&D|2025Q1",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 43
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/307",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-026-E213_Liberty_SF|2025Q1",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 63,
+    "pages": [
+      63
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 63
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/315",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-045-E233_WestOrange_SI|2025Q1",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 79
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/352",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-015-E202_WestOrange_F&D|2024Q4",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 79
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/356",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-036-E224_PortIsabel_F&D|2024Q4",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 73,
+    "pages": [
+      73
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 73
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/394",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-005-E192_LagunaVista_F&D|2024Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 43
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/402",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-015-E202_WestOrange_F&D|2024Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 79
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/411",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-033-E221_PlumGrove_F&D|2024Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 71,
+    "pages": [
+      71
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 71
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/412",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-036-E224_PortIsabel_F&D|2024Q3",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 73,
+    "pages": [
+      73
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 73
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/455",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-015-E202_WestOrange_F&D|2024Q2",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 79
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/461",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-026-E213_Liberty_SF|2024Q2",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 63,
+    "pages": [
+      63
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 63
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/496",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-005-E192_LagunaVista_F&D|2024Q1",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 43
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/503",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-036-E224_PortIsabel_F&D|2024Q1",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 73,
+    "pages": [
+      73
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 73
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/536",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-005-E192_LagunaVista_F&D|2023Q4",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 43
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/texas-qpr-history-v53.json",
+    "recordPath": "/rows/542",
+    "recordId": "B-19-DF-48-0001|0006|INF_HMID_LMI_24-067-015-E202_WestOrange_F&D|2023Q4",
+    "sourceField": "identity_source_qpr_url",
+    "sourceUrl": "https://www.glo.texas.gov/sites/default/files/2026-02/2019-disasters-2025-q4.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "identity_source_qpr_page": 79
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/texas-qpr-history-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

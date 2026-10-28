@@ -1,0 +1,3195 @@
+[
+  {
+    "dataset": "data/analysis.json",
+    "recordPath": "/coverage/181",
+    "recordId": "B-13-MS-40-0001|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/analysis.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/278",
+    "recordId": "B-13-MS-40-0001",
+    "sourceField": "document_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/18",
+    "recordId": "B-13-MS-40-0001",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "q12_source_page": 6
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2135",
+    "recordId": "B-13-MS-40-0001|R1 - Administration|R1 - Admin",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 13,
+    "pages": [
+      13
+    ],
+    "fieldPages": {
+      "q12_source_page": 13
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2136",
+    "recordId": "B-13-MS-40-0001|R1 - Housing|R1 - Housing",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "q12_source_page": 20
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2137",
+    "recordId": "B-13-MS-40-0001|R1 - Planning|R1 - Planning",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 36,
+    "pages": [
+      36
+    ],
+    "fieldPages": {
+      "q12_source_page": 36
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2138",
+    "recordId": "B-13-MS-40-0001|R1 - Administration|R1 - A-01",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "q12_source_page": 9
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2139",
+    "recordId": "B-13-MS-40-0001|R1 - Administration|R1 - A-02",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "fieldPages": {
+      "q12_source_page": 11
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2140",
+    "recordId": "B-13-MS-40-0001|R1 - Housing|R1 - H-01-W-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "q12_source_page": 14
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2141",
+    "recordId": "B-13-MS-40-0001|R1 - Housing|R1 - H-02-W-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "q12_source_page": 17
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2142",
+    "recordId": "B-13-MS-40-0001|R1 - Infrastructure|R1 - I-01-W-LMA",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "q12_source_page": 22
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2143",
+    "recordId": "B-13-MS-40-0001|R1 - Planning|R1 - P-00",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "q12_source_page": 23
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2144",
+    "recordId": "B-13-MS-40-0001|R1 - Planning|R1 - P-04",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "q12_source_page": 27
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2145",
+    "recordId": "B-13-MS-40-0001|R1 - Planning|R1 - P-12",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 30,
+    "pages": [
+      30
+    ],
+    "fieldPages": {
+      "q12_source_page": 30
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2146",
+    "recordId": "B-13-MS-40-0001|R1 - Planning|R1 - P-14",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 32,
+    "pages": [
+      32
+    ],
+    "fieldPages": {
+      "q12_source_page": 32
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2147",
+    "recordId": "B-13-MS-40-0001|R1 - Resiliency|R1 - Resiliency",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 39,
+    "pages": [
+      39
+    ],
+    "fieldPages": {
+      "q12_source_page": 39
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2148",
+    "recordId": "B-13-MS-40-0001|R2 - Administration|R2 - A-01",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 41,
+    "pages": [
+      41
+    ],
+    "fieldPages": {
+      "q12_source_page": 41
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2149",
+    "recordId": "B-13-MS-40-0001|R2 - Administration|R2 - A-02",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "q12_source_page": 43
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2150",
+    "recordId": "B-13-MS-40-0001|R2 - Administration|R2 - Admin",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 45,
+    "pages": [
+      45
+    ],
+    "fieldPages": {
+      "q12_source_page": 45
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2151",
+    "recordId": "B-13-MS-40-0001|R2 - Housing|R2 - H-01-W-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 46,
+    "pages": [
+      46
+    ],
+    "fieldPages": {
+      "q12_source_page": 46
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2152",
+    "recordId": "B-13-MS-40-0001|R2 - Housing|R2 - H-02-W-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 48,
+    "pages": [
+      48
+    ],
+    "fieldPages": {
+      "q12_source_page": 48
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2153",
+    "recordId": "B-13-MS-40-0001|R2 - Housing|R2 - H-03-E-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 50,
+    "pages": [
+      50
+    ],
+    "fieldPages": {
+      "q12_source_page": 50
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2154",
+    "recordId": "B-13-MS-40-0001|R2 - Housing|R2 - H-04-W-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 52,
+    "pages": [
+      52
+    ],
+    "fieldPages": {
+      "q12_source_page": 52
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2155",
+    "recordId": "B-13-MS-40-0001|R2 - Housing|R2 - Housing",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 54,
+    "pages": [
+      54
+    ],
+    "fieldPages": {
+      "q12_source_page": 54
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2156",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-01-W-LMA",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 56,
+    "pages": [
+      56
+    ],
+    "fieldPages": {
+      "q12_source_page": 56
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2157",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-02-W-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 57,
+    "pages": [
+      57
+    ],
+    "fieldPages": {
+      "q12_source_page": 57
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2158",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-05-W-LMA",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 59,
+    "pages": [
+      59
+    ],
+    "fieldPages": {
+      "q12_source_page": 59
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2159",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-07-E-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 61,
+    "pages": [
+      61
+    ],
+    "fieldPages": {
+      "q12_source_page": 61
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2160",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-08-W-LMA",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 63,
+    "pages": [
+      63
+    ],
+    "fieldPages": {
+      "q12_source_page": 63
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2161",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-09-W-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 65,
+    "pages": [
+      65
+    ],
+    "fieldPages": {
+      "q12_source_page": 65
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2162",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-19-W-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 67,
+    "pages": [
+      67
+    ],
+    "fieldPages": {
+      "q12_source_page": 67
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2163",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-20-W-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 69,
+    "pages": [
+      69
+    ],
+    "fieldPages": {
+      "q12_source_page": 69
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2164",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - Infrastructure",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 71,
+    "pages": [
+      71
+    ],
+    "fieldPages": {
+      "q12_source_page": 71
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2165",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-02",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 74,
+    "pages": [
+      74
+    ],
+    "fieldPages": {
+      "q12_source_page": 74
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2166",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-04",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 77,
+    "pages": [
+      77
+    ],
+    "fieldPages": {
+      "q12_source_page": 77
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2167",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-07",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "q12_source_page": 79
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2168",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-10",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 84,
+    "pages": [
+      84
+    ],
+    "fieldPages": {
+      "q12_source_page": 84
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2169",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-16",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 94,
+    "pages": [
+      94
+    ],
+    "fieldPages": {
+      "q12_source_page": 94
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2170",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-17",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 96,
+    "pages": [
+      96
+    ],
+    "fieldPages": {
+      "q12_source_page": 96
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2171",
+    "recordId": "B-13-MS-40-0001|R3 - Housing|R3 - H-01-W-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 98,
+    "pages": [
+      98
+    ],
+    "fieldPages": {
+      "q12_source_page": 98
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2172",
+    "recordId": "B-13-MS-40-0001|R3 - Housing|R3 - H-02-W-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 102,
+    "pages": [
+      102
+    ],
+    "fieldPages": {
+      "q12_source_page": 102
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2173",
+    "recordId": "B-13-MS-40-0001|R3 - Housing|R3 - H-03-E-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 104,
+    "pages": [
+      104
+    ],
+    "fieldPages": {
+      "q12_source_page": 104
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2174",
+    "recordId": "B-13-MS-40-0001|R3 - Housing|R3 - H-04-W-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 106,
+    "pages": [
+      106
+    ],
+    "fieldPages": {
+      "q12_source_page": 106
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2175",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-02-W-URG (Street)",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 107,
+    "pages": [
+      107
+    ],
+    "fieldPages": {
+      "q12_source_page": 107
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2176",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-02-W-URG (Water)",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 109,
+    "pages": [
+      109
+    ],
+    "fieldPages": {
+      "q12_source_page": 109
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2177",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-05-W-LMA",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 115,
+    "pages": [
+      115
+    ],
+    "fieldPages": {
+      "q12_source_page": 115
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2178",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-07-E-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 117,
+    "pages": [
+      117
+    ],
+    "fieldPages": {
+      "q12_source_page": 117
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2179",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-09-W-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 120,
+    "pages": [
+      120
+    ],
+    "fieldPages": {
+      "q12_source_page": 120
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2180",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-10-E-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 122,
+    "pages": [
+      122
+    ],
+    "fieldPages": {
+      "q12_source_page": 122
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2181",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-11-E-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 124,
+    "pages": [
+      124
+    ],
+    "fieldPages": {
+      "q12_source_page": 124
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2182",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-14-E-URG (Street)",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 131,
+    "pages": [
+      131
+    ],
+    "fieldPages": {
+      "q12_source_page": 131
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2183",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-14-E-URG (Water)",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 135,
+    "pages": [
+      135
+    ],
+    "fieldPages": {
+      "q12_source_page": 135
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2184",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-20-W-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 140,
+    "pages": [
+      140
+    ],
+    "fieldPages": {
+      "q12_source_page": 140
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2185",
+    "recordId": "B-13-MS-40-0001|R3 - Planning|R3 - P-02",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 141,
+    "pages": [
+      141
+    ],
+    "fieldPages": {
+      "q12_source_page": 141
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2186",
+    "recordId": "B-13-MS-40-0001|R4 - Administration|R4 - A-01",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 153,
+    "pages": [
+      153
+    ],
+    "fieldPages": {
+      "q12_source_page": 153
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2187",
+    "recordId": "B-13-MS-40-0001|R4 - Administration|R4 - A-02",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 155,
+    "pages": [
+      155
+    ],
+    "fieldPages": {
+      "q12_source_page": 155
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2188",
+    "recordId": "B-13-MS-40-0001|R4 - Housing|R4 - H-01-W-LMI",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 157,
+    "pages": [
+      157
+    ],
+    "fieldPages": {
+      "q12_source_page": 157
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2189",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-05-W-LMA",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 162,
+    "pages": [
+      162
+    ],
+    "fieldPages": {
+      "q12_source_page": 162
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2190",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-07-E-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 164,
+    "pages": [
+      164
+    ],
+    "fieldPages": {
+      "q12_source_page": 164
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2191",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-09-W-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 167,
+    "pages": [
+      167
+    ],
+    "fieldPages": {
+      "q12_source_page": 167
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2192",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-10-E-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 169,
+    "pages": [
+      169
+    ],
+    "fieldPages": {
+      "q12_source_page": 169
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2193",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-14-E-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 171,
+    "pages": [
+      171
+    ],
+    "fieldPages": {
+      "q12_source_page": 171
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2194",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-19-W-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 177,
+    "pages": [
+      177
+    ],
+    "fieldPages": {
+      "q12_source_page": 177
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2195",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-20-W-URG",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 179,
+    "pages": [
+      179
+    ],
+    "fieldPages": {
+      "q12_source_page": 179
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2196",
+    "recordId": "B-13-MS-40-0001|R4 - Planning|R4 - P-02",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 182,
+    "pages": [
+      182
+    ],
+    "fieldPages": {
+      "q12_source_page": 182
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2197",
+    "recordId": "B-13-MS-40-0001|R4 - Planning|R4 - P-07",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 184,
+    "pages": [
+      184
+    ],
+    "fieldPages": {
+      "q12_source_page": 184
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/reports/41",
+    "recordId": "B-13-MS-40-0001|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "activity_sum_minus_overall_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2537",
+    "recordId": "B-13-MS-40-0001|R1 - Administration|R1 - A-01|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "source_page": 9,
+      "activity_header_page": 9
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2538",
+    "recordId": "B-13-MS-40-0001|R1 - Administration|R1 - A-02|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "fieldPages": {
+      "source_page": 11,
+      "activity_header_page": 11
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2539",
+    "recordId": "B-13-MS-40-0001|R1 - Administration|R1 - Admin|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 13,
+    "pages": [
+      13
+    ],
+    "fieldPages": {
+      "source_page": 13,
+      "activity_header_page": 13
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2540",
+    "recordId": "B-13-MS-40-0001|R1 - Housing|R1 - H-01-W-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "source_page": 14,
+      "activity_header_page": 14
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2541",
+    "recordId": "B-13-MS-40-0001|R1 - Housing|R1 - H-02-W-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "source_page": 17,
+      "activity_header_page": 17
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2542",
+    "recordId": "B-13-MS-40-0001|R1 - Housing|R1 - Housing|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "source_page": 20,
+      "activity_header_page": 20
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2543",
+    "recordId": "B-13-MS-40-0001|R1 - Infrastructure|R1 - I-01-W-LMA|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 21,
+    "pages": [
+      21,
+      22
+    ],
+    "fieldPages": {
+      "source_page": 22,
+      "activity_header_page": 21
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2544",
+    "recordId": "B-13-MS-40-0001|R1 - Planning|R1 - P-00|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "source_page": 23,
+      "activity_header_page": 23
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2545",
+    "recordId": "B-13-MS-40-0001|R1 - Planning|R1 - P-04|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "source_page": 27,
+      "activity_header_page": 27
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2546",
+    "recordId": "B-13-MS-40-0001|R1 - Planning|R1 - P-12|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 30,
+    "pages": [
+      30
+    ],
+    "fieldPages": {
+      "source_page": 30,
+      "activity_header_page": 30
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2547",
+    "recordId": "B-13-MS-40-0001|R1 - Planning|R1 - P-14|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 32,
+    "pages": [
+      32
+    ],
+    "fieldPages": {
+      "source_page": 32,
+      "activity_header_page": 32
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2548",
+    "recordId": "B-13-MS-40-0001|R1 - Planning|R1 - Planning|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 36,
+    "pages": [
+      36
+    ],
+    "fieldPages": {
+      "source_page": 36,
+      "activity_header_page": 36
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2549",
+    "recordId": "B-13-MS-40-0001|R1 - Resiliency|R1 - Resiliency|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 39,
+    "pages": [
+      39
+    ],
+    "fieldPages": {
+      "source_page": 39,
+      "activity_header_page": 39
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2550",
+    "recordId": "B-13-MS-40-0001|R2 - Administration|R2 - A-01|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 40,
+    "pages": [
+      40,
+      41
+    ],
+    "fieldPages": {
+      "source_page": 41,
+      "activity_header_page": 40
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2551",
+    "recordId": "B-13-MS-40-0001|R2 - Administration|R2 - A-02|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 43,
+    "pages": [
+      43
+    ],
+    "fieldPages": {
+      "source_page": 43,
+      "activity_header_page": 43
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2552",
+    "recordId": "B-13-MS-40-0001|R2 - Administration|R2 - Admin|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 45,
+    "pages": [
+      45
+    ],
+    "fieldPages": {
+      "source_page": 45,
+      "activity_header_page": 45
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2553",
+    "recordId": "B-13-MS-40-0001|R2 - Housing|R2 - H-01-W-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 46,
+    "pages": [
+      46
+    ],
+    "fieldPages": {
+      "source_page": 46,
+      "activity_header_page": 46
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2554",
+    "recordId": "B-13-MS-40-0001|R2 - Housing|R2 - H-02-W-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 48,
+    "pages": [
+      48
+    ],
+    "fieldPages": {
+      "source_page": 48,
+      "activity_header_page": 48
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2555",
+    "recordId": "B-13-MS-40-0001|R2 - Housing|R2 - H-03-E-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 50,
+    "pages": [
+      50
+    ],
+    "fieldPages": {
+      "source_page": 50,
+      "activity_header_page": 50
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2556",
+    "recordId": "B-13-MS-40-0001|R2 - Housing|R2 - H-04-W-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 52,
+    "pages": [
+      52
+    ],
+    "fieldPages": {
+      "source_page": 52,
+      "activity_header_page": 52
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2557",
+    "recordId": "B-13-MS-40-0001|R2 - Housing|R2 - Housing|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 54,
+    "pages": [
+      54
+    ],
+    "fieldPages": {
+      "source_page": 54,
+      "activity_header_page": 54
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2558",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-01-W-LMA|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 55,
+    "pages": [
+      55,
+      56
+    ],
+    "fieldPages": {
+      "source_page": 56,
+      "activity_header_page": 55
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2559",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-02-W-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 57,
+    "pages": [
+      57
+    ],
+    "fieldPages": {
+      "source_page": 57,
+      "activity_header_page": 57
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2560",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-05-W-LMA|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 59,
+    "pages": [
+      59
+    ],
+    "fieldPages": {
+      "source_page": 59,
+      "activity_header_page": 59
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2561",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-07-E-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 61,
+    "pages": [
+      61
+    ],
+    "fieldPages": {
+      "source_page": 61,
+      "activity_header_page": 61
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2562",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-08-W-LMA|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 63,
+    "pages": [
+      63
+    ],
+    "fieldPages": {
+      "source_page": 63,
+      "activity_header_page": 63
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2563",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-09-W-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 65,
+    "pages": [
+      65
+    ],
+    "fieldPages": {
+      "source_page": 65,
+      "activity_header_page": 65
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2564",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-19-W-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 67,
+    "pages": [
+      67
+    ],
+    "fieldPages": {
+      "source_page": 67,
+      "activity_header_page": 67
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2565",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - I-20-W-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 69,
+    "pages": [
+      69
+    ],
+    "fieldPages": {
+      "source_page": 69,
+      "activity_header_page": 69
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2566",
+    "recordId": "B-13-MS-40-0001|R2 - Infrastructure|R2 - Infrastructure|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 71,
+    "pages": [
+      71
+    ],
+    "fieldPages": {
+      "source_page": 71,
+      "activity_header_page": 71
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2567",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-02|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 74,
+    "pages": [
+      74
+    ],
+    "fieldPages": {
+      "source_page": 74,
+      "activity_header_page": 74
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2568",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-04|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 77,
+    "pages": [
+      77
+    ],
+    "fieldPages": {
+      "source_page": 77,
+      "activity_header_page": 77
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2569",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-07|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "source_page": 79,
+      "activity_header_page": 79
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2570",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-10|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 84,
+    "pages": [
+      84
+    ],
+    "fieldPages": {
+      "source_page": 84,
+      "activity_header_page": 84
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2571",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-16|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 94,
+    "pages": [
+      94
+    ],
+    "fieldPages": {
+      "source_page": 94,
+      "activity_header_page": 94
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2572",
+    "recordId": "B-13-MS-40-0001|R2 - Planning|R2 - P-17|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 96,
+    "pages": [
+      96
+    ],
+    "fieldPages": {
+      "source_page": 96,
+      "activity_header_page": 96
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2573",
+    "recordId": "B-13-MS-40-0001|R3 - Housing|R3 - H-01-W-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 97,
+    "pages": [
+      97,
+      98
+    ],
+    "fieldPages": {
+      "source_page": 98,
+      "activity_header_page": 97
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2574",
+    "recordId": "B-13-MS-40-0001|R3 - Housing|R3 - H-02-W-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 102,
+    "pages": [
+      102
+    ],
+    "fieldPages": {
+      "source_page": 102,
+      "activity_header_page": 102
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2575",
+    "recordId": "B-13-MS-40-0001|R3 - Housing|R3 - H-03-E-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 104,
+    "pages": [
+      104
+    ],
+    "fieldPages": {
+      "source_page": 104,
+      "activity_header_page": 104
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2576",
+    "recordId": "B-13-MS-40-0001|R3 - Housing|R3 - H-04-W-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 106,
+    "pages": [
+      106
+    ],
+    "fieldPages": {
+      "source_page": 106,
+      "activity_header_page": 106
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2577",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-02-W-URG (Street)|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 107,
+    "pages": [
+      107
+    ],
+    "fieldPages": {
+      "source_page": 107,
+      "activity_header_page": 107
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2578",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-02-W-URG (Water)|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 109,
+    "pages": [
+      109
+    ],
+    "fieldPages": {
+      "source_page": 109,
+      "activity_header_page": 109
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2579",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-05-W-LMA|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 115,
+    "pages": [
+      115
+    ],
+    "fieldPages": {
+      "source_page": 115,
+      "activity_header_page": 115
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2580",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-07-E-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 117,
+    "pages": [
+      117
+    ],
+    "fieldPages": {
+      "source_page": 117,
+      "activity_header_page": 117
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2581",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-09-W-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 120,
+    "pages": [
+      120
+    ],
+    "fieldPages": {
+      "source_page": 120,
+      "activity_header_page": 120
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2582",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-10-E-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 122,
+    "pages": [
+      122
+    ],
+    "fieldPages": {
+      "source_page": 122,
+      "activity_header_page": 122
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2583",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-11-E-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 124,
+    "pages": [
+      124
+    ],
+    "fieldPages": {
+      "source_page": 124,
+      "activity_header_page": 124
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2584",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-14-E-URG (Street)|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 131,
+    "pages": [
+      131
+    ],
+    "fieldPages": {
+      "source_page": 131,
+      "activity_header_page": 131
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2585",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-14-E-URG (Water)|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 135,
+    "pages": [
+      135
+    ],
+    "fieldPages": {
+      "source_page": 135,
+      "activity_header_page": 135
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2586",
+    "recordId": "B-13-MS-40-0001|R3 - Infrastructure|R3 - I-20-W-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 140,
+    "pages": [
+      140
+    ],
+    "fieldPages": {
+      "source_page": 140,
+      "activity_header_page": 140
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2587",
+    "recordId": "B-13-MS-40-0001|R3 - Planning|R3 - P-02|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 141,
+    "pages": [
+      141
+    ],
+    "fieldPages": {
+      "source_page": 141,
+      "activity_header_page": 141
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2588",
+    "recordId": "B-13-MS-40-0001|R4 - Administration|R4 - A-01|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 153,
+    "pages": [
+      153
+    ],
+    "fieldPages": {
+      "source_page": 153,
+      "activity_header_page": 153
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2589",
+    "recordId": "B-13-MS-40-0001|R4 - Administration|R4 - A-02|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 155,
+    "pages": [
+      155
+    ],
+    "fieldPages": {
+      "source_page": 155,
+      "activity_header_page": 155
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2590",
+    "recordId": "B-13-MS-40-0001|R4 - Housing|R4 - H-01-W-LMI|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 156,
+    "pages": [
+      156,
+      157
+    ],
+    "fieldPages": {
+      "source_page": 157,
+      "activity_header_page": 156
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2591",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-05-W-LMA|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 162,
+    "pages": [
+      162
+    ],
+    "fieldPages": {
+      "source_page": 162,
+      "activity_header_page": 162
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2592",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-07-E-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 164,
+    "pages": [
+      164
+    ],
+    "fieldPages": {
+      "source_page": 164,
+      "activity_header_page": 164
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2593",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-09-W-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 167,
+    "pages": [
+      167
+    ],
+    "fieldPages": {
+      "source_page": 167,
+      "activity_header_page": 167
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2594",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-10-E-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 169,
+    "pages": [
+      169
+    ],
+    "fieldPages": {
+      "source_page": 169,
+      "activity_header_page": 169
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2595",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-14-E-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 171,
+    "pages": [
+      171
+    ],
+    "fieldPages": {
+      "source_page": 171,
+      "activity_header_page": 171
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2596",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-19-W-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 177,
+    "pages": [
+      177
+    ],
+    "fieldPages": {
+      "source_page": 177,
+      "activity_header_page": 177
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2597",
+    "recordId": "B-13-MS-40-0001|R4 - Infrastructure|R4 - I-20-W-URG|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 179,
+    "pages": [
+      179
+    ],
+    "fieldPages": {
+      "source_page": 179,
+      "activity_header_page": 179
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2598",
+    "recordId": "B-13-MS-40-0001|R4 - Planning|R4 - P-02|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 182,
+    "pages": [
+      182
+    ],
+    "fieldPages": {
+      "source_page": 182,
+      "activity_header_page": 182
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2599",
+    "recordId": "B-13-MS-40-0001|R4 - Planning|R4 - P-07|2017Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": 184,
+    "pages": [
+      184
+    ],
+    "fieldPages": {
+      "source_page": 184,
+      "activity_header_page": 184
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources/18",
+    "recordId": "data/research-provenance.json#/sources/18",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources_v4/131",
+    "recordId": "data/research-provenance.json#/sources_v4/131",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-40-0001/B-13-MS-40-0001-2017-01-2017-03-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

@@ -1,0 +1,2107 @@
+[
+  {
+    "dataset": "data/analysis.json",
+    "recordPath": "/coverage/147",
+    "recordId": "B-13-MS-01-0002|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/analysis.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/209",
+    "recordId": "B-13-MS-01-0002",
+    "sourceField": "document_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/13",
+    "recordId": "B-13-MS-01-0002",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "q4_source_page": 4
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2024",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-001-RD1|DR-ADMIN-01-RD1",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "q4_source_page": 7
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2025",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-002-RD1|DR-PLANNING-01-RD1",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "q4_source_page": 9
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2026",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-003-RD1|DR-HOUS-02-RD1-HABITAT",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "q4_source_page": 12
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2027",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-01-RD1-UNIV/FOREST",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "q4_source_page": 14
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2028",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|Dr-INFRA-02-RD1-CEDAR CREST",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "q4_source_page": 17
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2029",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-03-RD1-ALBERTA TECH LIBRARY",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "q4_source_page": 19
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2030",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-04-RD1-NEIGHBORHOOD LAKES",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "fieldPages": {
+      "q4_source_page": 21
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2031",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-05-RD1-HARGROVE/HACKBERRY",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "q4_source_page": 23
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2032",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-06-RD1-ROSEWOOD",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "q4_source_page": 25
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/reports/31",
+    "recordId": "B-13-MS-01-0002|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "activity_sum_minus_overall_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2403",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-001-RD1|DR-ADMIN-01-RD1|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7,
+      "activity_header_page": 7
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2404",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-002-RD1|DR-PLANNING-01-RD1|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 8,
+    "pages": [
+      8,
+      9
+    ],
+    "fieldPages": {
+      "source_page": 9,
+      "activity_header_page": 8
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2405",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-003-RD1|DR-HOUS-02-RD1-HABITAT|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "source_page": 12,
+      "activity_header_page": 12
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2406",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-01-RD1-UNIV/FOREST|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "source_page": 14,
+      "activity_header_page": 14
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2407",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|Dr-INFRA-02-RD1-CEDAR CREST|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "source_page": 17,
+      "activity_header_page": 17
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2408",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-03-RD1-ALBERTA TECH LIBRARY|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "source_page": 19,
+      "activity_header_page": 19
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2409",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-04-RD1-NEIGHBORHOOD LAKES|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "fieldPages": {
+      "source_page": 21,
+      "activity_header_page": 21
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2410",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-05-RD1-HARGROVE/HACKBERRY|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "source_page": 23,
+      "activity_header_page": 23
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2411",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-06-RD1-ROSEWOOD|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "source_page": 25,
+      "activity_header_page": 25
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources/20",
+    "recordId": "data/research-provenance.json#/sources/20",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources_v4/120",
+    "recordId": "data/research-provenance.json#/sources_v4/120",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/quarter_inventory/3",
+    "recordId": "B-13-MS-01-0002|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 2,
+    "pages": [
+      2,
+      4
+    ],
+    "fieldPages": {
+      "review_source_page": 2,
+      "financial_source_pages": {
+        "budget": 4,
+        "obligated": 4,
+        "expended": 4
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/quarter_inventory/4",
+    "recordId": "B-13-MS-01-0002|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/18",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-001-RD1|DR-ADMIN-01-RD1|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "activity_header_page": 7,
+      "financial_source_pages": {
+        "budget": 7,
+        "obligated": 7,
+        "expended": 7
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/19",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-002-RD1|DR-PLANNING-01-RD1|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 8,
+    "pages": [
+      8,
+      9
+    ],
+    "fieldPages": {
+      "activity_header_page": 8,
+      "financial_source_pages": {
+        "budget": 9,
+        "obligated": 9,
+        "expended": 9
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/20",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-003-RD1|DR-HOUS-02-RD1-HABITAT|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "activity_header_page": 12,
+      "financial_source_pages": {
+        "budget": 12,
+        "obligated": 12,
+        "expended": 12
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/21",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-01-RD1-UNIV/FOREST|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "activity_header_page": 14,
+      "financial_source_pages": {
+        "budget": 14,
+        "obligated": 14,
+        "expended": 14
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/22",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|Dr-INFRA-02-RD1-CEDAR CREST|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "activity_header_page": 17,
+      "financial_source_pages": {
+        "budget": 17,
+        "obligated": 17,
+        "expended": 17
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/23",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-03-RD1-ALBERTA TECH LIBRARY|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "activity_header_page": 19,
+      "financial_source_pages": {
+        "budget": 19,
+        "obligated": 19,
+        "expended": 19
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/24",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-04-RD1-NEIGHBORHOOD LAKES|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "fieldPages": {
+      "activity_header_page": 21,
+      "financial_source_pages": {
+        "budget": 21,
+        "obligated": 21,
+        "expended": 21
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/25",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-05-RD1-HARGROVE/HACKBERRY|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "activity_header_page": 23,
+      "financial_source_pages": {
+        "budget": 23,
+        "obligated": 23,
+        "expended": 23
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/26",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-06-RD1-ROSEWOOD|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "activity_header_page": 25,
+      "financial_source_pages": {
+        "budget": 25,
+        "obligated": 25,
+        "expended": 25
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/27",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-001-RD1|DR-ADMIN-01-RD1|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/28",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-002-RD1|DR-PLANNING-01-RD1|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/29",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-003-RD1|DR-HOUS-02-RD1-HABITAT|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/30",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-01-RD1-UNIV/FOREST|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/31",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|Dr-INFRA-02-RD1-CEDAR CREST|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/32",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-03-RD1-ALBERTA TECH LIBRARY|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/33",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-04-RD1-NEIGHBORHOOD LAKES|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/34",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-05-RD1-HARGROVE/HACKBERRY|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_quarters/35",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-06-RD1-ROSEWOOD|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_milestones/0",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-001-RD1|DR-ADMIN-01-RD1",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 7,
+        "obligated": 7,
+        "expended": 7
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_milestones/1",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-002-RD1|DR-PLANNING-01-RD1",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 9,
+        "obligated": 9,
+        "expended": 9
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_milestones/2",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-003-RD1|DR-HOUS-02-RD1-HABITAT",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 12,
+        "obligated": 12,
+        "expended": 12
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_milestones/4",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-01-RD1-UNIV/FOREST",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 14,
+        "obligated": 14,
+        "expended": 14
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_milestones/5",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-03-RD1-ALBERTA TECH LIBRARY",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 19,
+        "obligated": 19,
+        "expended": 19
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_milestones/6",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-04-RD1-NEIGHBORHOOD LAKES",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 21,
+        "obligated": 21,
+        "expended": 21
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_milestones/7",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-05-RD1-HARGROVE/HACKBERRY",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 23,
+        "obligated": 23,
+        "expended": 23
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_milestones/8",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-06-RD1-ROSEWOOD",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 25,
+        "obligated": 25,
+        "expended": 25
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/activity_milestones/13",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|Dr-INFRA-02-RD1-CEDAR CREST",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 17,
+        "obligated": 17,
+        "expended": 17
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/award_horizons/0",
+    "recordId": "B-13-MS-01-0002|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 2,
+    "pages": [
+      2,
+      4
+    ],
+    "fieldPages": {
+      "expended_source_page": 4,
+      "obligated_source_page": 4,
+      "qpr_award_source_page": 2
+    },
+    "fields": [
+      "expended_to_date_cents",
+      "obligated_to_date_cents",
+      "qpr_reported_award_cents",
+      "expended_over_reported_award_ratio",
+      "expended_obligated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/quarter_inventory/3",
+    "recordId": "B-13-MS-01-0002|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 2,
+    "pages": [
+      2,
+      4
+    ],
+    "fieldPages": {
+      "review_source_page": 2,
+      "financial_source_pages": {
+        "budget": 4,
+        "obligated": 4,
+        "expended": 4
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/quarter_inventory/4",
+    "recordId": "B-13-MS-01-0002|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/18",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-001-RD1|DR-ADMIN-01-RD1|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "activity_header_page": 7,
+      "financial_source_pages": {
+        "budget": 7,
+        "obligated": 7,
+        "expended": 7
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/19",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-002-RD1|DR-PLANNING-01-RD1|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 8,
+    "pages": [
+      8,
+      9
+    ],
+    "fieldPages": {
+      "activity_header_page": 8,
+      "financial_source_pages": {
+        "budget": 9,
+        "obligated": 9,
+        "expended": 9
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/20",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-003-RD1|DR-HOUS-02-RD1-HABITAT|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "activity_header_page": 12,
+      "financial_source_pages": {
+        "budget": 12,
+        "obligated": 12,
+        "expended": 12
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/21",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-01-RD1-UNIV/FOREST|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "activity_header_page": 14,
+      "financial_source_pages": {
+        "budget": 14,
+        "obligated": 14,
+        "expended": 14
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/22",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-03-RD1-ALBERTA TECH LIBRARY|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "activity_header_page": 19,
+      "financial_source_pages": {
+        "budget": 19,
+        "obligated": 19,
+        "expended": 19
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/23",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-04-RD1-NEIGHBORHOOD LAKES|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "fieldPages": {
+      "activity_header_page": 21,
+      "financial_source_pages": {
+        "budget": 21,
+        "obligated": 21,
+        "expended": 21
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/24",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-05-RD1-HARGROVE/HACKBERRY|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "activity_header_page": 23,
+      "financial_source_pages": {
+        "budget": 23,
+        "obligated": 23,
+        "expended": 23
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/25",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-06-RD1-ROSEWOOD|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "activity_header_page": 25,
+      "financial_source_pages": {
+        "budget": 25,
+        "obligated": 25,
+        "expended": 25
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/26",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|Dr-INFRA-02-RD1-CEDAR CREST|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "activity_header_page": 17,
+      "financial_source_pages": {
+        "budget": 17,
+        "obligated": 17,
+        "expended": 17
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/27",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-001-RD1|DR-ADMIN-01-RD1|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/28",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-002-RD1|DR-PLANNING-01-RD1|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/29",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-003-RD1|DR-HOUS-02-RD1-HABITAT|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/30",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-01-RD1-UNIV/FOREST|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/31",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-03-RD1-ALBERTA TECH LIBRARY|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/32",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-04-RD1-NEIGHBORHOOD LAKES|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/33",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-05-RD1-HARGROVE/HACKBERRY|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/34",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-06-RD1-ROSEWOOD|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/36",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|Dr-INFRA-02-RD1-CEDAR CREST|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_milestones/0",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-001-RD1|DR-ADMIN-01-RD1",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 7,
+        "obligated": 7,
+        "expended": 7
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_milestones/1",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-002-RD1|DR-PLANNING-01-RD1",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 9,
+        "obligated": 9,
+        "expended": 9
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_milestones/2",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-003-RD1|DR-HOUS-02-RD1-HABITAT",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 12,
+        "obligated": 12,
+        "expended": 12
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_milestones/4",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-01-RD1-UNIV/FOREST",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 14,
+        "obligated": 14,
+        "expended": 14
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_milestones/5",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-03-RD1-ALBERTA TECH LIBRARY",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 19,
+        "obligated": 19,
+        "expended": 19
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_milestones/6",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-04-RD1-NEIGHBORHOOD LAKES",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 21,
+        "obligated": 21,
+        "expended": 21
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_milestones/7",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-05-RD1-HARGROVE/HACKBERRY",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 23,
+        "obligated": 23,
+        "expended": 23
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_milestones/8",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-06-RD1-ROSEWOOD",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 25,
+        "obligated": 25,
+        "expended": 25
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_milestones/13",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|Dr-INFRA-02-RD1-CEDAR CREST",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "q4_financial_source_pages": {
+        "budget": 17,
+        "obligated": 17,
+        "expended": 17
+      }
+    },
+    "fields": [
+      "q4_expended_to_date_cents",
+      "q4_obligated_to_date_cents",
+      "q4_budget_to_date_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_allocation_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/award_horizons/0",
+    "recordId": "B-13-MS-01-0002|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-01-0002/B-13-MS-01-0002-2014-07-2014-09-PR.pdf",
+    "page": 2,
+    "pages": [
+      2,
+      4
+    ],
+    "fieldPages": {
+      "expended_source_page": 4,
+      "obligated_source_page": 4,
+      "qpr_award_source_page": 2
+    },
+    "fields": [
+      "expended_to_date_cents",
+      "obligated_to_date_cents",
+      "qpr_reported_award_cents",
+      "expended_over_reported_award_ratio",
+      "expended_obligated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

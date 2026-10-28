@@ -1,0 +1,499 @@
+[
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/reports/1",
+    "recordId": "2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 1,
+    "pages": [
+      1
+    ],
+    "fieldPages": {
+      "cover_page": 1
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/27",
+    "recordId": "DBN-DR-ADMIN-01|01A-Admin|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "activity_header_page": 10,
+      "financial_source_pages": {
+        "budget": 10,
+        "obligated": 10,
+        "expended": 10
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/28",
+    "recordId": "DBN-DR-ADMIN-01|01B-Admin|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "activity_header_page": 12,
+      "financial_source_pages": {
+        "budget": 12,
+        "obligated": 12,
+        "expended": 12
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/29",
+    "recordId": "DBN-DR-INFRA-03|03A-Colson 1|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "activity_header_page": 14,
+      "financial_source_pages": {
+        "budget": 14,
+        "obligated": 14,
+        "expended": 14
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/30",
+    "recordId": "DBN-DR-INFRA-03|03B-Colson 2|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "activity_header_page": 16,
+      "financial_source_pages": {
+        "budget": 16,
+        "obligated": 16,
+        "expended": 16
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/31",
+    "recordId": "DBN-DR-INFRA-03|03C-Oakwood|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "activity_header_page": 18,
+      "financial_source_pages": {
+        "budget": 18,
+        "obligated": 18,
+        "expended": 18
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/32",
+    "recordId": "DBN-DR-KITS-05|05-Flood Kits|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "activity_header_page": 20,
+      "financial_source_pages": {
+        "budget": 20,
+        "obligated": 20,
+        "expended": 20
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/33",
+    "recordId": "DBN-DR-MIT-04|04A-Morrow Circle|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "activity_header_page": 22,
+      "financial_source_pages": {
+        "budget": 22,
+        "obligated": 22,
+        "expended": 22
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/34",
+    "recordId": "DBN-DR-MIT-04|04B-Rain|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "fieldPages": {
+      "activity_header_page": 24,
+      "financial_source_pages": {
+        "budget": 24,
+        "obligated": 24,
+        "expended": 24
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/35",
+    "recordId": "DBN-DR-MIT-04|04C-Trees|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 26,
+    "pages": [
+      26
+    ],
+    "fieldPages": {
+      "activity_header_page": 26,
+      "financial_source_pages": {
+        "budget": 26,
+        "obligated": 26,
+        "expended": 26
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/36",
+    "recordId": "DBN-DR-MIT-04|04D-Salina|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 28,
+    "pages": [
+      28
+    ],
+    "fieldPages": {
+      "activity_header_page": 28,
+      "financial_source_pages": {
+        "budget": 28,
+        "obligated": 28,
+        "expended": 28
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/37",
+    "recordId": "DBN-DR-PLAN-02|02A-Plan-Colson|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 30,
+    "pages": [
+      30
+    ],
+    "fieldPages": {
+      "activity_header_page": 30,
+      "financial_source_pages": {
+        "budget": 30,
+        "obligated": 30,
+        "expended": 30
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/38",
+    "recordId": "DBN-DR-PLAN-02|02B-Plan-Oakwood|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 32,
+    "pages": [
+      32
+    ],
+    "fieldPages": {
+      "activity_header_page": 32,
+      "financial_source_pages": {
+        "budget": 32,
+        "obligated": 32,
+        "expended": 32
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/39",
+    "recordId": "DBN-DR-PLAN-02|02C-Plan-Green|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 34,
+    "pages": [
+      34
+    ],
+    "fieldPages": {
+      "activity_header_page": 34,
+      "financial_source_pages": {
+        "budget": 34,
+        "obligated": 34,
+        "expended": 34
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/40",
+    "recordId": "DBN-DR-PLAN-02|02D-Plan-Rain|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 36,
+    "pages": [
+      36
+    ],
+    "fieldPages": {
+      "activity_header_page": 36,
+      "financial_source_pages": {
+        "budget": 36,
+        "obligated": 36,
+        "expended": 36
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/41",
+    "recordId": "DBN-DR-PLAN-02|02E-Plan-Tree|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 38,
+    "pages": [
+      38
+    ],
+    "fieldPages": {
+      "activity_header_page": 38,
+      "financial_source_pages": {
+        "budget": 38,
+        "obligated": 38,
+        "expended": 38
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/rows/42",
+    "recordId": "DBN-DR-PLAN-02|02F-Plan-Salina|2025Q1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2025-05/DR%20QPR%201-1-25%20thru%203-31-25.pdf",
+    "page": 40,
+    "pages": [
+      40
+    ],
+    "fieldPages": {
+      "activity_header_page": 40,
+      "financial_source_pages": {
+        "budget": 40,
+        "obligated": 40,
+        "expended": 40
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "award_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

@@ -1,0 +1,1420 @@
+[
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources/33",
+    "recordId": "data/research-provenance.json#/sources/33",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-09-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-09-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-09-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-09-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-24-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-24-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-24-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-24-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-34-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-34-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-34-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-34-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-36-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-36-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-36-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-36-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-36-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-36-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-36-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-36-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-44-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-44-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-44-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-44-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-17-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-17-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-17-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-17-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-08-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-08-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-08-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-08-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-17-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-17-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-17-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-17-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-17-0002/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-17-0002/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-17-0002/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-17-0002/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-17-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-17-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-17-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-17-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-40-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-40-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-40-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-40-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-40-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-40-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-40-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-40-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-01-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-01-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-01-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-01-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-01-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-01-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-01-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-01-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-01-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-01-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-01-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-01-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-22-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-22-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-22-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-22-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-29-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-29-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-29-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-29-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-22-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-22-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-22-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-22-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-42-0002/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-42-0002/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-42-0002/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-42-0002/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-25-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-25-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-25-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-25-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-38-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-38-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-38-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-38-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-29-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-29-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-29-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-29-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-22-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-22-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-22-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-22-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-38-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-38-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-38-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-38-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-42-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-42-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-42-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-42-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-47-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-47-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-47-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-47-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-25-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-25-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-25-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-25-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-22-0002/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-22-0002/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-US-22-0002/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-US-22-0002/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-47-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-47-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-47-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-47-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-48-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-48-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-48-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-48-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-01-0002/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-01-0002/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-01-0002/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-01-0002/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-50-0001/date_corroboration",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-50-0001/date_corroboration",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-DS-50-0001/award_snapshots/0",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-DS-50-0001/award_snapshots/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7
+    },
+    "fields": [
+      "whole_grant_awarded_cents",
+      "whole_grant_obligated_to_grantee_cents",
+      "whole_grant_disbursed_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/allocation_and_clock_evidence",
+    "recordId": "data/springfield-pilot-v48.json#/allocation_and_clock_evidence",
+    "sourceField": "corroborating_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "corroborating_source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/allocation_and_clock_evidence",
+    "recordId": "data/springfield-pilot-v50.json#/allocation_and_clock_evidence",
+    "sourceField": "corroborating_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "corroborating_source_page": 7
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/documents_detail/23",
+    "recordId": "data/springfield-search-v48.json#/documents_detail/23",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/184",
+    "recordId": "data/springfield-search-v48.json#/results/184",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/185",
+    "recordId": "data/springfield-search-v48.json#/results/185",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/186",
+    "recordId": "data/springfield-search-v48.json#/results/186",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/187",
+    "recordId": "data/springfield-search-v48.json#/results/187",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/188",
+    "recordId": "data/springfield-search-v48.json#/results/188",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/189",
+    "recordId": "data/springfield-search-v48.json#/results/189",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/190",
+    "recordId": "data/springfield-search-v48.json#/results/190",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/191",
+    "recordId": "data/springfield-search-v48.json#/results/191",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

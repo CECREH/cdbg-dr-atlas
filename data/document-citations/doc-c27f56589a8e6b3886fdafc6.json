@@ -1,0 +1,91 @@
+[
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/671",
+    "recordId": "data/archive-inventory.json#/entries/671",
+    "sourceField": "document_url",
+    "sourceUrl": "http://assets.caboosecms.com/media/3169659_amendment-_26-modified.pdf?1559679886",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/plan_version_observations/0",
+    "recordId": "data/tuscaloosa-pilot-v51.json#/plan_version_observations/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/3169659_amendment-_26-modified.pdf?1559679886",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "source_page": 16
+    },
+    "fields": [
+      "reported_proposed_project_total_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/plan_version_observations/1",
+    "recordId": "data/tuscaloosa-pilot-v51.json#/plan_version_observations/1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/3169659_amendment-_26-modified.pdf?1559679886",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "source_page": 18
+    },
+    "fields": [
+      "reported_proposed_project_total_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/plan_version_observations/0",
+    "recordId": "data/tuscaloosa-pilot-v52.json#/plan_version_observations/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/3169659_amendment-_26-modified.pdf?1559679886",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "source_page": 16
+    },
+    "fields": [
+      "reported_proposed_project_total_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/plan_version_observations/1",
+    "recordId": "data/tuscaloosa-pilot-v52.json#/plan_version_observations/1",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/3169659_amendment-_26-modified.pdf?1559679886",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "source_page": 18
+    },
+    "fields": [
+      "reported_proposed_project_total_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

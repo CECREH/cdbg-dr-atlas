@@ -1,0 +1,310 @@
+{
+  "sourceCommit": "4d29babaecb2f7d0875b0845abf1e2ab5c132095",
+  "datasets": [
+    {
+      "path": "data/activity-place-evidence.json",
+      "gitBlobSha": "4a25605dc2fcddfe10831a54c72cb2b88d83c93d",
+      "sha256": "7e80adff51713bc859ec83257488ce4e9c09a7ef9b62ca7f5f8af1b23ee94cef",
+      "byteSize": 6087,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/allocation-evidence-v45.json",
+      "gitBlobSha": "3478598e0416ef150b54c11d080c4a970d75a254",
+      "sha256": "90e246b73e0fa3950fd83aa456ad3ca562d6aa6642931300dec15d80de507db3",
+      "byteSize": 4497,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/analysis.json",
+      "gitBlobSha": "b8d6dfeadfe5b37b15f322a833976d78edb30711",
+      "sha256": "86426ab2204339a34a84afbc570b0acb79e9c194152550b47fdd70133238c5c1",
+      "byteSize": 346402,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/archive-inventory.json",
+      "gitBlobSha": "11758b0d3addcb2fbdc1e9107d908641ab4de5c1",
+      "sha256": "a1da3f4da7db013eb53a033ef2b115ea248e2da890e6fe541d575c36496cda3c",
+      "byteSize": 1073767,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/award-clock-review.json",
+      "gitBlobSha": "76c1f9a5ca7b83b022df144ec25222e0022bc230",
+      "sha256": "8950cd18071e0fea1df0ff79cd6b5058c4a73010b3d81aa2ff731e0bcbdbf7c8",
+      "byteSize": 18594,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/award-date-candidates.json",
+      "gitBlobSha": "1f4c890bc1f39fd2a1b8dcec7231a39e216749d6",
+      "sha256": "cfb004704e50b1a2ddd7868396c0ec9ee34f3f956906d77cfba9d8364243c8de",
+      "byteSize": 140564,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/continuity-review-v46.json",
+      "gitBlobSha": "17558e3ecb34f4bf24454759b9828eacd68dd62b",
+      "sha256": "16e23f33c61b10f5f6082be69df73a149d8dd62584f00ad6c84bff6deb9ca7ea",
+      "byteSize": 9281,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/downloads.json",
+      "gitBlobSha": "43dae9d1d160c99b25160569176f3378ae85a4a3",
+      "sha256": "56d986d3adc0f782b220b18cb70ddc35fa8399491766ef678746a0aa69212aa3",
+      "byteSize": 97229,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/finance-meta.json",
+      "gitBlobSha": "2e8182055b4164bd1d7ba3fa652902249cd50a43",
+      "sha256": "369cc2269c4c4029ffc68e591b75dde58b306cecc13c024cfd142ff62278443d",
+      "byteSize": 639752,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/geography-coverage-v53.json",
+      "gitBlobSha": "5f6941ff0db55a7e007e50af8eb8b611ab1c6e7c",
+      "sha256": "d4c1ed42e746f456cc2e862727402c9fbd6d31fe7739155aa1ec414bc976d51c",
+      "byteSize": 2218746,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/glo-cover-review-v53.json",
+      "gitBlobSha": "15c2bf27af62d30230ddc4587431b03d68653240",
+      "sha256": "1a45f316f14d4dfb5d846fce8cd4b12bf2fb201900f0db115d2e0e6873739a9b",
+      "byteSize": 42869,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/horizon-search-v44.json",
+      "gitBlobSha": "0a1b5f3046dba9a86ea3f982ce8d297616bc109e",
+      "sha256": "50424252209577b8c4a0f322d25ce7edca9b0e8276248a978a2ffba7dc6d81c9",
+      "byteSize": 10238,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/joplin-project-evidence-v47.json",
+      "gitBlobSha": "44eb2fcb015cd86a54090b2e34cb24329210f1cd",
+      "sha256": "37695931443359097ac91cb66c20022b2630d3bc057a7325e888cfa1ba7fe3e9",
+      "byteSize": 7323,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/municipal-identity-review.json",
+      "gitBlobSha": "1bb763c81a273b3fb25a3f870d76289e11acfd8e",
+      "sha256": "009eb441bf201f57f3f28be34ba6e923e91ef7bb97d8fcd212a0818e6053fd11",
+      "byteSize": 2493,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/municipal-qpr-evidence-v44.json",
+      "gitBlobSha": "b7cee16756998a17e7ae7fdd2f818a4a213762b6",
+      "sha256": "1b03f89c2aee4460d6551bccf10e63c2f4377a58686aa8c8bb529a8b5ab23e67",
+      "byteSize": 7496329,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/municipal-qpr-evidence.json",
+      "gitBlobSha": "8ed187183b378910dcb0d5a0e9137d8651cd603a",
+      "sha256": "67bd1a2f87be6b05984a80eb2792c99427b252107d3461d46c23585990d9940f",
+      "byteSize": 1996832,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/municipal-qpr-search-v44.json",
+      "gitBlobSha": "376f7352f45d345dc94d9294f51f3ad221e1b1b1",
+      "sha256": "b567f6aa127aa3d3cf8003e3ad93f59e857566b27070c5eedc4c99450fa5fd88",
+      "byteSize": 343239,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/municipal-qpr-search.json",
+      "gitBlobSha": "10de81503f462202ef5015e8897f2e7f109a8f05",
+      "sha256": "8b2dabdefe7e3fe3f10721b5e355625b8e014f6c0f6d32465506e1be8c2bec32",
+      "byteSize": 89496,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/nyc-borough-evidence.json",
+      "gitBlobSha": "bc7590aff3655e6b6c509b8639b283bf7b910ade",
+      "sha256": "64cda96d67a0d0bc33977d875acd7e54fb592860ad7f9fe93fa5a4fbe84f6fdc",
+      "byteSize": 481619,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/other-qpr-panel-v53.json",
+      "gitBlobSha": "2971937963ccad7987de9e2cb94139cc24232f85",
+      "sha256": "328d390d05d046ec72dc2003da2c6625dae459b77a0fdbdeb922a4e0f14fd24f",
+      "byteSize": 105832,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/plan-budget-review-v46.json",
+      "gitBlobSha": "8a84b54e10d2b5bacb3512410721886b58dde49a",
+      "sha256": "e9cc81c4432b1c4317dc7dc10f8915529d685df9e9b1af7e64dd7169bffd9f32",
+      "byteSize": 1889,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/provenance.json",
+      "gitBlobSha": "af15ad517fc6983789346133f5310d56d38185d2",
+      "sha256": "933d7d5c043dd495d97b7cb3e255694efc5161aef98ba141fca9f016bc0a48be",
+      "byteSize": 17322,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/qpr-horizons.json",
+      "gitBlobSha": "98d9bde2d180ad6295116a37e8f1079513562c4a",
+      "sha256": "40e7d700704720a3c96f673312acb067aad2d3bd0e1459e7f498b8b874dbc0b5",
+      "byteSize": 14658270,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/qpr-quarter-panel-v45.json",
+      "gitBlobSha": "ffc6f07471e44d789a370ad4e8e280c2b8cec36f",
+      "sha256": "00eb2609f16ccbc44c7b7cd13f9281a953df9009fb947864292c9e8ab58a82c5",
+      "byteSize": 10458531,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/release.json",
+      "gitBlobSha": "55b24e38ceccf68604f6b1f51322582a3de93dc5",
+      "sha256": "4bff19fabbd698c6b9b30e4f76c72f2b2e99fce30d769c3c8c91972f13a21df5",
+      "byteSize": 4045,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/requirements-coverage.json",
+      "gitBlobSha": "ac0cb725dca98f02f5da705e81b748c11a8efe82",
+      "sha256": "1fa87ca08697bb7b7a6c3db5828faa008dffcf8299a93f90167572150f46c373",
+      "byteSize": 6765,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/research-provenance.json",
+      "gitBlobSha": "98e41bb2da8c7e6ce43d0c5ed02e155b3e881278",
+      "sha256": "60763fcaa7e97f8ff818b11f241bb64537c347f16e801408aac08a63285b5f67",
+      "byteSize": 102172,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/research.json",
+      "gitBlobSha": "a217dde0df715e6e88388d5417421fb6856c6600",
+      "sha256": "336c995419f48fc503d4fba142cc4ba1f46fa11104fe358f75b73986abf1adc6",
+      "byteSize": 129896,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/responsible-municipal-crosswalk-v53.json",
+      "gitBlobSha": "d4624a9e007c7b74672f7af45dc0a2fa29c580a6",
+      "sha256": "26769630e3ffb8ac316cd20df610dea8db1b6727f0ef1604adf1d27482398ded",
+      "byteSize": 48060,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/scanned-source-review-v47.json",
+      "gitBlobSha": "629023bec3b97d0055ad9b89b7fdc7265a0f8411",
+      "sha256": "13950e01b7a5602add313f344971c510e41435339d951139e9230d5031ee5e89",
+      "byteSize": 8097,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/search-method.json",
+      "gitBlobSha": "2e4792358e5f74bf2f244593e9935fe79a888748",
+      "sha256": "0d3cff773e38414ebe2e10d94d5a4a8952d94e9be3b31f1103cc969754dc235f",
+      "byteSize": 3540,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/sources.json",
+      "gitBlobSha": "d4a41450f439796a8b271968feccfe0e3c782c92",
+      "sha256": "6009a89d8c5d6ddf34e62807a441d6a87b2421ca1f0164a7ff78df939839f2fd",
+      "byteSize": 13328,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/springfield-allocation-evidence-v49.json",
+      "gitBlobSha": "af930c222be4b68186ad6245bfa6032a10bb7c8c",
+      "sha256": "48f3596b436130b2ceb4958466623b2d6c061d66f0bbba641b30b90a0edb4934",
+      "byteSize": 13393,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/springfield-hud-2023-evidence-v50.json",
+      "gitBlobSha": "0d69acf3a4572c6f16602b32833aedf1997ca0d1",
+      "sha256": "add65c7356c3ce88423441cc0917f465db54cfdb0706ad0e5ecfeab21a922793",
+      "byteSize": 5709,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/springfield-pilot-v48.json",
+      "gitBlobSha": "2c69e51155a975dc7f0959efe727118d48a34512",
+      "sha256": "eb0013a9b9b4847b6740245fbf4cbc9fe1b169d2b30c0e670315c2fa23c23a5b",
+      "byteSize": 1852995,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/springfield-pilot-v50.json",
+      "gitBlobSha": "b48243ea3eb988463f79c4f6c72c71aefdfcdcdb",
+      "sha256": "579bd17c92f7f2d1bba25dc435fa9021a9a03338ab85f7b96ecaa5d5b48e4018",
+      "byteSize": 2816902,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/springfield-search-v48.json",
+      "gitBlobSha": "c3c1035e8234af44411533e2d5769a47f1822238",
+      "sha256": "c0e368450f163ce8487574b664e41f50ab2c76b6ff597d5341f429d8d94bd747",
+      "byteSize": 150876,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/texas-qpr-history-v53.json",
+      "gitBlobSha": "4d318f9b8e8943a3bde117264a67cc33948b868d",
+      "sha256": "88b690198fcb9328bba53329f13af8ea27cdf281f6fbecea365695e3c9d8ef32",
+      "byteSize": 2381033,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/tuscaloosa-pilot-v51.json",
+      "gitBlobSha": "abcd024fa593dee6a72d723a626e70697844ef75",
+      "sha256": "2b6e8660cd4a96ced7461c2c1b559fa632f99329dad709166d25073793951fcc",
+      "byteSize": 4418420,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/tuscaloosa-pilot-v52.json",
+      "gitBlobSha": "1a72e08ffe9beb317fd0c2a3b9c43853b5ec59c0",
+      "sha256": "ec4660daaa8949e68610b884d165f5344b63c4fc47b04f06da1d798f2a8567a8",
+      "byteSize": 4705631,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "data/v53-geography-method.json",
+      "gitBlobSha": "99a332883f5b8b54564647b2e6ade4f33b839fa2",
+      "sha256": "aff0fa470e6239a5839c5679d1883a1c36fdaabe1c6402bb2b7283757d3be93f",
+      "byteSize": 8298,
+      "status": "verified_pinned_input"
+    },
+    {
+      "path": "downloads/qpr-quarter-panel-v45.csv",
+      "gitBlobSha": "768566859294c2ee2b675dad1a98a7c51ce41d0e",
+      "sha256": "f69bda9cbe809576b0c8ced3931efabeb52c9474b55c2f08b78557eeb8b5113f",
+      "byteSize": 4486394,
+      "status": "verified_pinned_input"
+    }
+  ],
+  "omittedDatasetPaths": [
+    "data/finance-national.json",
+    "data/finance-texas.json",
+    "data/city-context.json",
+    "data/city-panel-national.json",
+    "data/city-panel-texas.json",
+    "data/government-inventory-2026.json",
+    "data/government-linkage-audit.json",
+    "data/government-vintage-audit.json",
+    "data/geo/*"
+  ]
+}

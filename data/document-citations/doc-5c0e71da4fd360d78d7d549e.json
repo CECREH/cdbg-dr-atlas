@@ -1,0 +1,3188 @@
+[
+  {
+    "dataset": "data/allocation-evidence-v45.json",
+    "recordPath": "/records/1",
+    "recordId": "B-13-MS-25-0001|2014Q3",
+    "sourceField": "qpr_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/allocation-evidence-v45.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/analysis.json",
+    "recordPath": "/coverage/159",
+    "recordId": "B-13-MS-25-0001|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/analysis.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/136",
+    "recordId": "B-13-MS-25-0001",
+    "sourceField": "document_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/16",
+    "recordId": "B-13-MS-25-0001",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 3,
+    "pages": [
+      3
+    ],
+    "fieldPages": {
+      "q4_source_page": 3
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2122",
+    "recordId": "B-13-MS-25-0001|Rd1-01|Rd1-11-AD",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "q4_source_page": 6
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2123",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-01-LMH",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 8,
+    "pages": [
+      8
+    ],
+    "fieldPages": {
+      "q4_source_page": 8
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2124",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-02-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "q4_source_page": 10
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2125",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-03-LMH",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "q4_source_page": 12
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2126",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-04-LMH",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "q4_source_page": 14
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2127",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-05-LMC",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "q4_source_page": 16
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2128",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-06-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "q4_source_page": 17
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2129",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-07-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "q4_source_page": 19
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2130",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-08-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "fieldPages": {
+      "q4_source_page": 21
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2131",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-09-UN",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "q4_source_page": 22
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2132",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-10-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "fieldPages": {
+      "q4_source_page": 24
+    },
+    "fields": [
+      "q4_expended_allocated_ratio",
+      "q4_expended_obligated_ratio",
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/reports/36",
+    "recordId": "B-13-MS-25-0001|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 3,
+    "pages": [
+      3
+    ],
+    "fieldPages": {
+      "source_page": 3
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "activity_sum_minus_overall_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2510",
+    "recordId": "B-13-MS-25-0001|Rd1-01|Rd1-11-AD|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "source_page": 6,
+      "activity_header_page": 6
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2511",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-01-LMH|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7,
+      8
+    ],
+    "fieldPages": {
+      "source_page": 8,
+      "activity_header_page": 7
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2512",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-02-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "source_page": 10,
+      "activity_header_page": 10
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2513",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-03-LMH|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "source_page": 12,
+      "activity_header_page": 12
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2514",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-04-LMH|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "source_page": 14,
+      "activity_header_page": 14
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2515",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-05-LMC|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 15,
+    "pages": [
+      15,
+      16
+    ],
+    "fieldPages": {
+      "source_page": 16,
+      "activity_header_page": 15
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2516",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-06-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "source_page": 17,
+      "activity_header_page": 17
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2517",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-07-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "source_page": 19,
+      "activity_header_page": 19
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2518",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-08-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 20,
+    "pages": [
+      20,
+      21
+    ],
+    "fieldPages": {
+      "source_page": 21,
+      "activity_header_page": 20
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2519",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-09-UN|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "source_page": 22,
+      "activity_header_page": 22
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2520",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-10-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "fieldPages": {
+      "source_page": 24,
+      "activity_header_page": 24
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources/29",
+    "recordId": "data/research-provenance.json#/sources/29",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources_v4/125",
+    "recordId": "data/research-provenance.json#/sources_v4/125",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-allocation-evidence-v49.json",
+    "recordPath": "/reported_award_horizon_ratios/0",
+    "recordId": "B-13-MS-25-0001|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 2,
+    "pages": [
+      2,
+      3
+    ],
+    "fieldPages": {
+      "award_source_page": 2,
+      "financial_source_page": 3
+    },
+    "fields": [
+      "expended_to_date_cents",
+      "obligated_to_date_cents",
+      "grant_award_amount_cents",
+      "expended_over_reported_award_ratio",
+      "expended_over_reported_obligated_ratio",
+      "program_income_received_to_date_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-allocation-evidence-v49.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/quarter_inventory/3",
+    "recordId": "B-13-MS-25-0001|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 3,
+    "pages": [
+      3
+    ],
+    "fieldPages": {
+      "financial_source_pages": {
+        "budget": 3,
+        "obligated": 3,
+        "expended": 3,
+        "funds_drawdown": 3,
+        "program_funds_drawdown": 3,
+        "program_income_drawdown": 3,
+        "program_income_received": 3
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents",
+      "sum_listed_activity_budget_to_date_minus_grant_cents",
+      "sum_listed_activity_obligated_to_date_minus_grant_cents",
+      "sum_listed_activity_expended_to_date_minus_grant_cents",
+      "sum_project_budget_to_date_minus_grant_budget_cents",
+      "sum_project_drawdown_to_date_minus_grant_program_drawdown_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/quarter_inventory/4",
+    "recordId": "B-13-MS-25-0001|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/project_quarters/6",
+    "recordId": "B-13-MS-25-0001|Rd1-01|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [
+      "program_funds_drawdown_period_cents",
+      "project_funds_budgeted_to_date_cents",
+      "program_funds_drawdown_to_date_cents",
+      "project_expended_cents",
+      "project_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/project_quarters/7",
+    "recordId": "B-13-MS-25-0001|Rd1-02|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [
+      "program_funds_drawdown_period_cents",
+      "project_funds_budgeted_to_date_cents",
+      "program_funds_drawdown_to_date_cents",
+      "project_expended_cents",
+      "project_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/project_quarters/8",
+    "recordId": "B-13-MS-25-0001|Rd1-03|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [
+      "program_funds_drawdown_period_cents",
+      "project_funds_budgeted_to_date_cents",
+      "program_funds_drawdown_to_date_cents",
+      "project_expended_cents",
+      "project_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/project_quarters/9",
+    "recordId": "B-13-MS-25-0001|Rd1-04|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [
+      "program_funds_drawdown_period_cents",
+      "project_funds_budgeted_to_date_cents",
+      "program_funds_drawdown_to_date_cents",
+      "project_expended_cents",
+      "project_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/10",
+    "recordId": "B-13-MS-25-0001|Rd1-01|Rd1-11-AD|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "activity_header_page": 6,
+      "financial_source_pages": {
+        "budget": 6,
+        "obligated": 6,
+        "expended": 6,
+        "funds_drawdown": 6,
+        "program_funds_drawdown": 6,
+        "program_income_drawdown": 6,
+        "program_income_received": 6
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/11",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-01-LMH|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7,
+      8
+    ],
+    "fieldPages": {
+      "activity_header_page": 7,
+      "financial_source_pages": {
+        "budget": 7,
+        "obligated": 8,
+        "expended": 8,
+        "funds_drawdown": 8,
+        "program_funds_drawdown": 8,
+        "program_income_drawdown": 8,
+        "program_income_received": 8
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/12",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-02-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "activity_header_page": 10,
+      "financial_source_pages": {
+        "budget": 10,
+        "obligated": 10,
+        "expended": 10,
+        "funds_drawdown": 10,
+        "program_funds_drawdown": 10,
+        "program_income_drawdown": 10,
+        "program_income_received": 10
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/13",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-03-LMH|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "activity_header_page": 12,
+      "financial_source_pages": {
+        "budget": 12,
+        "obligated": 12,
+        "expended": 12,
+        "funds_drawdown": 12,
+        "program_funds_drawdown": 12,
+        "program_income_drawdown": 12,
+        "program_income_received": 12
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/14",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-04-LMH|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "activity_header_page": 14,
+      "financial_source_pages": {
+        "budget": 14,
+        "obligated": 14,
+        "expended": 14,
+        "funds_drawdown": 14,
+        "program_funds_drawdown": 14,
+        "program_income_drawdown": 14,
+        "program_income_received": 14
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/15",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-05-LMC|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 15,
+    "pages": [
+      15,
+      16
+    ],
+    "fieldPages": {
+      "activity_header_page": 15,
+      "financial_source_pages": {
+        "budget": 15,
+        "obligated": 15,
+        "expended": 16,
+        "funds_drawdown": 16,
+        "program_funds_drawdown": 16,
+        "program_income_drawdown": 16,
+        "program_income_received": 16
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/16",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-06-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "activity_header_page": 17,
+      "financial_source_pages": {
+        "budget": 17,
+        "obligated": 17,
+        "expended": 17,
+        "funds_drawdown": 17,
+        "program_funds_drawdown": 17,
+        "program_income_drawdown": 17,
+        "program_income_received": 17
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/17",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-07-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "activity_header_page": 19,
+      "financial_source_pages": {
+        "budget": 19,
+        "obligated": 19,
+        "expended": 19,
+        "funds_drawdown": 19,
+        "program_funds_drawdown": 19,
+        "program_income_drawdown": 19,
+        "program_income_received": 19
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/18",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-08-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 20,
+    "pages": [
+      20,
+      21
+    ],
+    "fieldPages": {
+      "activity_header_page": 20,
+      "financial_source_pages": {
+        "budget": 20,
+        "obligated": 20,
+        "expended": 21,
+        "funds_drawdown": 20,
+        "program_funds_drawdown": 20,
+        "program_income_drawdown": 21,
+        "program_income_received": 21
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/19",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-09-UN|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "activity_header_page": 22,
+      "financial_source_pages": {
+        "budget": 22,
+        "obligated": 22,
+        "expended": 22,
+        "funds_drawdown": 22,
+        "program_funds_drawdown": 22,
+        "program_income_drawdown": 22,
+        "program_income_received": 22
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/20",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-10-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "fieldPages": {
+      "activity_header_page": 24,
+      "financial_source_pages": {
+        "budget": 24,
+        "obligated": 24,
+        "expended": 24,
+        "funds_drawdown": 24,
+        "program_funds_drawdown": 24,
+        "program_income_drawdown": 24,
+        "program_income_received": 24
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/21",
+    "recordId": "B-13-MS-25-0001|Rd1-01|Rd1-11-AD|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/22",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-01-LMH|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/23",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-02-LMA|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/24",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-03-LMH|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/25",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-04-LMH|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/26",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-05-LMC|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/27",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-06-LMA|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/28",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-07-LMA|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/29",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-08-LMA|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/30",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-09-UN|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_quarters/31",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-10-LMA|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/0",
+    "recordId": "B-13-MS-25-0001|Rd1-01|Rd1-11-AD",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "q4_source_page": 6,
+      "q4_expended_source_page": 6,
+      "q4_obligated_source_page": 6,
+      "q4_budget_source_page": 6
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/4",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-01-LMH",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7,
+      8
+    ],
+    "fieldPages": {
+      "q4_source_page": 8,
+      "q4_expended_source_page": 8,
+      "q4_obligated_source_page": 8,
+      "q4_budget_source_page": 7
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/6",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-02-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "q4_source_page": 10,
+      "q4_expended_source_page": 10,
+      "q4_obligated_source_page": 10,
+      "q4_budget_source_page": 10
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/7",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-03-LMH",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "q4_source_page": 12,
+      "q4_expended_source_page": 12,
+      "q4_obligated_source_page": 12,
+      "q4_budget_source_page": 12
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/9",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-04-LMH",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "q4_source_page": 14,
+      "q4_expended_source_page": 14,
+      "q4_obligated_source_page": 14,
+      "q4_budget_source_page": 14
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/18",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-05-LMC",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 15,
+    "pages": [
+      15,
+      16
+    ],
+    "fieldPages": {
+      "q4_source_page": 16,
+      "q4_expended_source_page": 16,
+      "q4_obligated_source_page": 15,
+      "q4_budget_source_page": 15
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/19",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-06-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "q4_source_page": 17,
+      "q4_expended_source_page": 17,
+      "q4_obligated_source_page": 17,
+      "q4_budget_source_page": 17
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/21",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-07-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "q4_source_page": 19,
+      "q4_expended_source_page": 19,
+      "q4_obligated_source_page": 19,
+      "q4_budget_source_page": 19
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/24",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-08-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 20,
+    "pages": [
+      20,
+      21
+    ],
+    "fieldPages": {
+      "q4_source_page": 21,
+      "q4_expended_source_page": 21,
+      "q4_obligated_source_page": 20,
+      "q4_budget_source_page": 20
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/26",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-09-UN",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "q4_source_page": 22,
+      "q4_expended_source_page": 22,
+      "q4_obligated_source_page": 22,
+      "q4_budget_source_page": 22
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v48.json",
+    "recordPath": "/activity_milestones/27",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-10-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "fieldPages": {
+      "q4_source_page": 24,
+      "q4_expended_source_page": 24,
+      "q4_obligated_source_page": 24,
+      "q4_budget_source_page": 24
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/quarter_inventory/3",
+    "recordId": "B-13-MS-25-0001|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 3,
+    "pages": [
+      3
+    ],
+    "fieldPages": {
+      "financial_source_pages": {
+        "budget": 3,
+        "obligated": 3,
+        "expended": 3,
+        "funds_drawdown": 3,
+        "program_funds_drawdown": 3,
+        "program_income_drawdown": 3,
+        "program_income_received": 3
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents",
+      "sum_listed_activity_budget_to_date_minus_grant_cents",
+      "sum_listed_activity_obligated_to_date_minus_grant_cents",
+      "sum_listed_activity_expended_to_date_minus_grant_cents",
+      "sum_project_budget_to_date_minus_grant_budget_cents",
+      "sum_project_drawdown_to_date_minus_grant_program_drawdown_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/quarter_inventory/4",
+    "recordId": "B-13-MS-25-0001|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/project_quarters/6",
+    "recordId": "B-13-MS-25-0001|Rd1-01|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [
+      "program_funds_drawdown_period_cents",
+      "project_funds_budgeted_to_date_cents",
+      "program_funds_drawdown_to_date_cents",
+      "project_expended_cents",
+      "project_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/project_quarters/7",
+    "recordId": "B-13-MS-25-0001|Rd1-02|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [
+      "program_funds_drawdown_period_cents",
+      "project_funds_budgeted_to_date_cents",
+      "program_funds_drawdown_to_date_cents",
+      "project_expended_cents",
+      "project_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/project_quarters/8",
+    "recordId": "B-13-MS-25-0001|Rd1-03|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [
+      "program_funds_drawdown_period_cents",
+      "project_funds_budgeted_to_date_cents",
+      "program_funds_drawdown_to_date_cents",
+      "project_expended_cents",
+      "project_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/project_quarters/9",
+    "recordId": "B-13-MS-25-0001|Rd1-04|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [
+      "program_funds_drawdown_period_cents",
+      "project_funds_budgeted_to_date_cents",
+      "program_funds_drawdown_to_date_cents",
+      "project_expended_cents",
+      "project_obligated_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/10",
+    "recordId": "B-13-MS-25-0001|Rd1-01|Rd1-11-AD|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 6,
+      "activity_header_page": 6,
+      "financial_source_pages": {
+        "budget": 6,
+        "obligated": 6,
+        "expended": 6,
+        "funds_drawdown": 6,
+        "program_funds_drawdown": 6,
+        "program_income_drawdown": 6,
+        "program_income_received": 6
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/11",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-01-LMH|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7,
+      8
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 7,
+      "activity_header_page": 7,
+      "financial_source_pages": {
+        "budget": 7,
+        "obligated": 8,
+        "expended": 8,
+        "funds_drawdown": 8,
+        "program_funds_drawdown": 8,
+        "program_income_drawdown": 8,
+        "program_income_received": 8
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/12",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-02-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 10,
+      "activity_header_page": 10,
+      "financial_source_pages": {
+        "budget": 10,
+        "obligated": 10,
+        "expended": 10,
+        "funds_drawdown": 10,
+        "program_funds_drawdown": 10,
+        "program_income_drawdown": 10,
+        "program_income_received": 10
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/13",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-03-LMH|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 12,
+      "activity_header_page": 12,
+      "financial_source_pages": {
+        "budget": 12,
+        "obligated": 12,
+        "expended": 12,
+        "funds_drawdown": 12,
+        "program_funds_drawdown": 12,
+        "program_income_drawdown": 12,
+        "program_income_received": 12
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/14",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-04-LMH|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 14,
+      "activity_header_page": 14,
+      "financial_source_pages": {
+        "budget": 14,
+        "obligated": 14,
+        "expended": 14,
+        "funds_drawdown": 14,
+        "program_funds_drawdown": 14,
+        "program_income_drawdown": 14,
+        "program_income_received": 14
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/15",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-05-LMC|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 15,
+    "pages": [
+      15,
+      16
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 15,
+      "activity_header_page": 15,
+      "financial_source_pages": {
+        "budget": 15,
+        "obligated": 15,
+        "expended": 16,
+        "funds_drawdown": 16,
+        "program_funds_drawdown": 16,
+        "program_income_drawdown": 16,
+        "program_income_received": 16
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/16",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-06-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 17,
+      "activity_header_page": 17,
+      "financial_source_pages": {
+        "budget": 17,
+        "obligated": 17,
+        "expended": 17,
+        "funds_drawdown": 17,
+        "program_funds_drawdown": 17,
+        "program_income_drawdown": 17,
+        "program_income_received": 17
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/17",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-07-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 19,
+      "activity_header_page": 19,
+      "financial_source_pages": {
+        "budget": 19,
+        "obligated": 19,
+        "expended": 19,
+        "funds_drawdown": 19,
+        "program_funds_drawdown": 19,
+        "program_income_drawdown": 19,
+        "program_income_received": 19
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/18",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-08-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 20,
+    "pages": [
+      20,
+      21
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 20,
+      "activity_header_page": 20,
+      "financial_source_pages": {
+        "budget": 20,
+        "obligated": 20,
+        "expended": 21,
+        "funds_drawdown": 20,
+        "program_funds_drawdown": 20,
+        "program_income_drawdown": 21,
+        "program_income_received": 21
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/19",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-09-UN|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 22,
+      "activity_header_page": 22,
+      "financial_source_pages": {
+        "budget": 22,
+        "obligated": 22,
+        "expended": 22,
+        "funds_drawdown": 22,
+        "program_funds_drawdown": 22,
+        "program_income_drawdown": 22,
+        "program_income_received": 22
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/20",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-10-LMA|2014Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "fieldPages": {
+      "activity_type_source_page": 24,
+      "activity_header_page": 24,
+      "financial_source_pages": {
+        "budget": 24,
+        "obligated": 24,
+        "expended": 24,
+        "funds_drawdown": 24,
+        "program_funds_drawdown": 24,
+        "program_income_drawdown": 24,
+        "program_income_received": 24
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "funds_drawdown_period_cents",
+      "funds_drawdown_to_date_cents",
+      "program_funds_drawdown_period_cents",
+      "program_funds_drawdown_to_date_cents",
+      "program_income_drawdown_period_cents",
+      "program_income_drawdown_to_date_cents",
+      "program_income_received_period_cents",
+      "program_income_received_to_date_cents",
+      "f31_period_obligated_cents",
+      "f31_period_expended_cents",
+      "qpr_minus_f31_obligated_cents",
+      "qpr_minus_f31_expended_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/21",
+    "recordId": "B-13-MS-25-0001|Rd1-01|Rd1-11-AD|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/22",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-01-LMH|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/23",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-02-LMA|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/24",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-03-LMH|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/25",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-04-LMH|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/26",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-05-LMC|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/27",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-06-LMA|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/28",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-07-LMA|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/29",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-08-LMA|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/30",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-09-UN|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_quarters/31",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-10-LMA|2014Q4",
+    "sourceField": "prior_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/1",
+    "recordId": "B-13-MS-25-0001|Rd1-01|Rd1-11-AD",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "q4_source_page": 6,
+      "q4_expended_source_page": 6,
+      "q4_obligated_source_page": 6,
+      "q4_budget_source_page": 6
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/5",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-01-LMH",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 7,
+    "pages": [
+      7,
+      8
+    ],
+    "fieldPages": {
+      "q4_source_page": 8,
+      "q4_expended_source_page": 8,
+      "q4_obligated_source_page": 8,
+      "q4_budget_source_page": 7
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/7",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-02-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "q4_source_page": 10,
+      "q4_expended_source_page": 10,
+      "q4_obligated_source_page": 10,
+      "q4_budget_source_page": 10
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/8",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-03-LMH",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "q4_source_page": 12,
+      "q4_expended_source_page": 12,
+      "q4_obligated_source_page": 12,
+      "q4_budget_source_page": 12
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/10",
+    "recordId": "B-13-MS-25-0001|Rd1-02|Rd1-04-LMH",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "q4_source_page": 14,
+      "q4_expended_source_page": 14,
+      "q4_obligated_source_page": 14,
+      "q4_budget_source_page": 14
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/23",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-05-LMC",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 15,
+    "pages": [
+      15,
+      16
+    ],
+    "fieldPages": {
+      "q4_source_page": 16,
+      "q4_expended_source_page": 16,
+      "q4_obligated_source_page": 15,
+      "q4_budget_source_page": 15
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/24",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-06-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "q4_source_page": 17,
+      "q4_expended_source_page": 17,
+      "q4_obligated_source_page": 17,
+      "q4_budget_source_page": 17
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/26",
+    "recordId": "B-13-MS-25-0001|Rd1-03|Rd1-07-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "q4_source_page": 19,
+      "q4_expended_source_page": 19,
+      "q4_obligated_source_page": 19,
+      "q4_budget_source_page": 19
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/29",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-08-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 20,
+    "pages": [
+      20,
+      21
+    ],
+    "fieldPages": {
+      "q4_source_page": 21,
+      "q4_expended_source_page": 21,
+      "q4_obligated_source_page": 20,
+      "q4_budget_source_page": 20
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/31",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-09-UN",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "q4_source_page": 22,
+      "q4_expended_source_page": 22,
+      "q4_obligated_source_page": 22,
+      "q4_budget_source_page": 22
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-pilot-v50.json",
+    "recordPath": "/activity_milestones/32",
+    "recordId": "B-13-MS-25-0001|Rd1-04|Rd1-10-LMA",
+    "sourceField": "q4_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": 24,
+    "pages": [
+      24
+    ],
+    "fieldPages": {
+      "q4_source_page": 24,
+      "q4_expended_source_page": 24,
+      "q4_obligated_source_page": 24,
+      "q4_budget_source_page": 24
+    },
+    "fields": [
+      "q4_expended_cents",
+      "q4_obligated_cents",
+      "q4_reported_activity_budget_cents",
+      "q4_expended_obligated_ratio",
+      "q4_expended_reported_activity_budget_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-pilot-v50.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/documents_detail/2",
+    "recordId": "data/springfield-search-v48.json#/documents_detail/2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/16",
+    "recordId": "data/springfield-search-v48.json#/results/16",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/17",
+    "recordId": "data/springfield-search-v48.json#/results/17",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/18",
+    "recordId": "data/springfield-search-v48.json#/results/18",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/19",
+    "recordId": "data/springfield-search-v48.json#/results/19",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/20",
+    "recordId": "data/springfield-search-v48.json#/results/20",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/21",
+    "recordId": "data/springfield-search-v48.json#/results/21",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/22",
+    "recordId": "data/springfield-search-v48.json#/results/22",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/springfield-search-v48.json",
+    "recordPath": "/results/23",
+    "recordId": "data/springfield-search-v48.json#/results/23",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/springfield-search-v48.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

@@ -1,0 +1,540 @@
+[
+  {
+    "dataset": "data/tuscaloosa-pilot-v51.json",
+    "recordPath": "/quarter_inventory/31",
+    "recordId": "B-13-MS-01-0002|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 1,
+    "pages": [
+      1,
+      2
+    ],
+    "fieldPages": {
+      "financial_source_pages": {
+        "budget": 2,
+        "obligated": 2,
+        "expended": 2
+      },
+      "review_source_page": 1
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v51.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/quarter_inventory/31",
+    "recordId": "B-13-MS-01-0002|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 1,
+    "pages": [
+      1,
+      2
+    ],
+    "fieldPages": {
+      "financial_source_pages": {
+        "budget": 2,
+        "obligated": 2,
+        "expended": 2
+      },
+      "review_source_page": 1
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1739",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-003-RD1|DR-HOUS-02-RD1-HABITAT|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 6,
+    "pages": [
+      6
+    ],
+    "fieldPages": {
+      "activity_header_page": 6,
+      "financial_source_pages": {
+        "budget": 6,
+        "obligated": 6,
+        "expended": 6
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1740",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-01-RD1-UNIV/FOREST|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "activity_header_page": 10,
+      "financial_source_pages": {
+        "budget": 10,
+        "obligated": 10,
+        "expended": 10
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1741",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-03-RD1-ALBERTA TECH LIBRARY|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 13,
+    "pages": [
+      13
+    ],
+    "fieldPages": {
+      "activity_header_page": 13,
+      "financial_source_pages": {
+        "budget": 13,
+        "obligated": 13,
+        "expended": 13
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1742",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-04-RD1-NEIGHBORHOOD LAKES|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 15,
+    "pages": [
+      15
+    ],
+    "fieldPages": {
+      "activity_header_page": 15,
+      "financial_source_pages": {
+        "budget": 15,
+        "obligated": 15,
+        "expended": 15
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1743",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-05-RD1-HARGROVE/HACKBERRY|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 16,
+    "pages": [
+      16,
+      17
+    ],
+    "fieldPages": {
+      "activity_header_page": 16,
+      "financial_source_pages": {
+        "budget": 17,
+        "obligated": 17,
+        "expended": 17
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1744",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-06-RD1-ROSEWOOD|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "activity_header_page": 18,
+      "financial_source_pages": {
+        "budget": 18,
+        "obligated": 18,
+        "expended": 18
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1745",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-07-RD1-TECH INFRA|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 19,
+    "pages": [
+      19,
+      20
+    ],
+    "fieldPages": {
+      "activity_header_page": 19,
+      "financial_source_pages": {
+        "budget": 20,
+        "obligated": 20,
+        "expended": 20
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1746",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-10-RD1-IT SERVER ROOM|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 23,
+    "pages": [
+      23,
+      24
+    ],
+    "fieldPages": {
+      "activity_header_page": 23,
+      "financial_source_pages": {
+        "budget": 24,
+        "obligated": 24,
+        "expended": 24
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1747",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-004-RD1|DR-INFRA-11-RD1-MCFARLAND/15TH|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "activity_header_page": 25,
+      "financial_source_pages": {
+        "budget": 25,
+        "obligated": 25,
+        "expended": 25
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1748",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-005-RD1|DR-ECODEV-01-RD1-THE EDGE|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "activity_header_page": 27,
+      "financial_source_pages": {
+        "budget": 27,
+        "obligated": 27,
+        "expended": 27
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1749",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-006-RD2|DR-INFRA-02-RD2-PRINCE AVE|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 30,
+    "pages": [
+      30,
+      31
+    ],
+    "fieldPages": {
+      "activity_header_page": 30,
+      "financial_source_pages": {
+        "budget": 30,
+        "obligated": 30,
+        "expended": 31
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/tuscaloosa-pilot-v52.json",
+    "recordPath": "/activity_quarters/1750",
+    "recordId": "B-13-MS-01-0002|CD-2013-DR-006-RD2|DR-INFRA-03-RD2-PARA PARK-HARMON|2021Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://assets.caboosecms.com/media/11133949_b-13-july---september-2021.pdf",
+    "page": 32,
+    "pages": [
+      32
+    ],
+    "fieldPages": {
+      "activity_header_page": 32,
+      "financial_source_pages": {
+        "budget": 32,
+        "obligated": 32,
+        "expended": 32
+      }
+    },
+    "fields": [
+      "budget_period_cents",
+      "budget_to_date_cents",
+      "obligated_period_cents",
+      "obligated_to_date_cents",
+      "expended_period_cents",
+      "expended_to_date_cents",
+      "budget_implied_opening_cents",
+      "budget_prior_quarter_to_date_cents",
+      "budget_opening_minus_prior_cents",
+      "obligated_implied_opening_cents",
+      "obligated_prior_quarter_to_date_cents",
+      "obligated_opening_minus_prior_cents",
+      "expended_implied_opening_cents",
+      "expended_prior_quarter_to_date_cents",
+      "expended_opening_minus_prior_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/tuscaloosa-pilot-v52.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

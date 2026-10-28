@@ -1,0 +1,1101 @@
+[
+  {
+    "dataset": "data/analysis.json",
+    "recordPath": "/coverage/169",
+    "recordId": "B-13-MS-36-0001|2016Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/analysis.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/9",
+    "recordId": "B-13-MS-36-0001",
+    "sourceField": "document_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/31",
+    "recordId": "B-13-MS-36-0001|2016Q2|10",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "fieldPages": {
+      "location_source_page": 10,
+      "financial_source_pages": {
+        "expended": 10,
+        "obligated": 10,
+        "allocated_activity_budget": 10
+      },
+      "original_activity_header_page": 10
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/32",
+    "recordId": "B-13-MS-36-0001|2016Q2|12",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "fieldPages": {
+      "location_source_page": 12,
+      "financial_source_pages": {
+        "expended": 12,
+        "obligated": 12,
+        "allocated_activity_budget": 12
+      },
+      "original_activity_header_page": 12
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/33",
+    "recordId": "B-13-MS-36-0001|2016Q2|14",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "location_source_page": 14,
+      "financial_source_pages": {
+        "expended": 14,
+        "obligated": 14,
+        "allocated_activity_budget": 14
+      },
+      "original_activity_header_page": 14
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/34",
+    "recordId": "B-13-MS-36-0001|2016Q2|16",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "location_source_page": 16,
+      "financial_source_pages": {
+        "expended": 16,
+        "obligated": 16,
+        "allocated_activity_budget": 16
+      },
+      "original_activity_header_page": 16
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/35",
+    "recordId": "B-13-MS-36-0001|2016Q2|18",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "location_source_page": 18,
+      "financial_source_pages": {
+        "expended": 18,
+        "obligated": 18,
+        "allocated_activity_budget": 18
+      },
+      "original_activity_header_page": 18
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/36",
+    "recordId": "B-13-MS-36-0001|2016Q2|20",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "location_source_page": 20,
+      "financial_source_pages": {
+        "expended": 20,
+        "obligated": 20,
+        "allocated_activity_budget": 20
+      },
+      "original_activity_header_page": 20
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/37",
+    "recordId": "B-13-MS-36-0001|2016Q2|22",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 22,
+    "pages": [
+      22
+    ],
+    "fieldPages": {
+      "location_source_page": 22,
+      "financial_source_pages": {
+        "expended": 22,
+        "obligated": 22,
+        "allocated_activity_budget": 22
+      },
+      "original_activity_header_page": 22
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/38",
+    "recordId": "B-13-MS-36-0001|2016Q2|23",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 23,
+    "pages": [
+      23,
+      24
+    ],
+    "fieldPages": {
+      "location_source_page": 24,
+      "financial_source_pages": {
+        "expended": 24,
+        "obligated": 23,
+        "allocated_activity_budget": 23
+      },
+      "original_activity_header_page": 23
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/39",
+    "recordId": "B-13-MS-36-0001|2016Q2|25",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "location_source_page": 25,
+      "financial_source_pages": {
+        "expended": 25,
+        "obligated": 25,
+        "allocated_activity_budget": 25
+      },
+      "original_activity_header_page": 25
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/40",
+    "recordId": "B-13-MS-36-0001|2016Q2|27",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 27,
+    "pages": [
+      27
+    ],
+    "fieldPages": {
+      "location_source_page": 27,
+      "financial_source_pages": {
+        "expended": 27,
+        "obligated": 27,
+        "allocated_activity_budget": 27
+      },
+      "original_activity_header_page": 27
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/41",
+    "recordId": "B-13-MS-36-0001|2016Q2|29",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 29,
+    "pages": [
+      29
+    ],
+    "fieldPages": {
+      "location_source_page": 29,
+      "financial_source_pages": {
+        "expended": 29,
+        "obligated": 29,
+        "allocated_activity_budget": 29
+      },
+      "original_activity_header_page": 29
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/42",
+    "recordId": "B-13-MS-36-0001|2016Q2|31",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 31,
+    "pages": [
+      31
+    ],
+    "fieldPages": {
+      "location_source_page": 31,
+      "financial_source_pages": {
+        "expended": 31,
+        "obligated": 31,
+        "allocated_activity_budget": 31
+      },
+      "original_activity_header_page": 31
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/43",
+    "recordId": "B-13-MS-36-0001|2016Q2|32",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 32,
+    "pages": [
+      32,
+      33
+    ],
+    "fieldPages": {
+      "location_source_page": 33,
+      "financial_source_pages": {
+        "expended": 32,
+        "obligated": 32,
+        "allocated_activity_budget": 32
+      },
+      "original_activity_header_page": 32
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/44",
+    "recordId": "B-13-MS-36-0001|2016Q2|35",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 35,
+    "pages": [
+      35
+    ],
+    "fieldPages": {
+      "location_source_page": 35,
+      "financial_source_pages": {
+        "expended": 35,
+        "obligated": 35,
+        "allocated_activity_budget": 35
+      },
+      "original_activity_header_page": 35
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/45",
+    "recordId": "B-13-MS-36-0001|2016Q2|37",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 37,
+    "pages": [
+      37
+    ],
+    "fieldPages": {
+      "location_source_page": 37,
+      "financial_source_pages": {
+        "expended": 37,
+        "obligated": 37,
+        "allocated_activity_budget": 37
+      },
+      "original_activity_header_page": 37
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/46",
+    "recordId": "B-13-MS-36-0001|2016Q2|39",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 39,
+    "pages": [
+      39
+    ],
+    "fieldPages": {
+      "location_source_page": 39,
+      "financial_source_pages": {
+        "expended": 39,
+        "obligated": 39,
+        "allocated_activity_budget": 39
+      },
+      "original_activity_header_page": 39
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/47",
+    "recordId": "B-13-MS-36-0001|2016Q2|41",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 41,
+    "pages": [
+      41
+    ],
+    "fieldPages": {
+      "location_source_page": 41,
+      "financial_source_pages": {
+        "expended": 41,
+        "obligated": 41,
+        "allocated_activity_budget": 41
+      },
+      "original_activity_header_page": 41
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/48",
+    "recordId": "B-13-MS-36-0001|2016Q2|42",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 42,
+    "pages": [
+      42,
+      43
+    ],
+    "fieldPages": {
+      "location_source_page": 43,
+      "financial_source_pages": {
+        "expended": 43,
+        "obligated": 43,
+        "allocated_activity_budget": 43
+      },
+      "original_activity_header_page": 42
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/49",
+    "recordId": "B-13-MS-36-0001|2016Q2|45",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 45,
+    "pages": [
+      45
+    ],
+    "fieldPages": {
+      "location_source_page": 45,
+      "financial_source_pages": {
+        "expended": 45,
+        "obligated": 45,
+        "allocated_activity_budget": 45
+      },
+      "original_activity_header_page": 45
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/50",
+    "recordId": "B-13-MS-36-0001|2016Q2|47",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 47,
+    "pages": [
+      47
+    ],
+    "fieldPages": {
+      "location_source_page": 47,
+      "financial_source_pages": {
+        "expended": 47,
+        "obligated": 47,
+        "allocated_activity_budget": 47
+      },
+      "original_activity_header_page": 47
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/51",
+    "recordId": "B-13-MS-36-0001|2016Q2|48",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 48,
+    "pages": [
+      48,
+      49
+    ],
+    "fieldPages": {
+      "location_source_page": 49,
+      "financial_source_pages": {
+        "expended": 49,
+        "obligated": 49,
+        "allocated_activity_budget": 49
+      },
+      "original_activity_header_page": 48
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/52",
+    "recordId": "B-13-MS-36-0001|2016Q2|51",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 51,
+    "pages": [
+      51
+    ],
+    "fieldPages": {
+      "location_source_page": 51,
+      "financial_source_pages": {
+        "expended": 51,
+        "obligated": 51,
+        "allocated_activity_budget": 51
+      },
+      "original_activity_header_page": 51
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/53",
+    "recordId": "B-13-MS-36-0001|2016Q2|52",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 52,
+    "pages": [
+      52,
+      53
+    ],
+    "fieldPages": {
+      "location_source_page": 53,
+      "financial_source_pages": {
+        "expended": 53,
+        "obligated": 53,
+        "allocated_activity_budget": 53
+      },
+      "original_activity_header_page": 52
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/54",
+    "recordId": "B-13-MS-36-0001|2016Q2|55",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 55,
+    "pages": [
+      55
+    ],
+    "fieldPages": {
+      "location_source_page": 55,
+      "financial_source_pages": {
+        "expended": 55,
+        "obligated": 55,
+        "allocated_activity_budget": 55
+      },
+      "original_activity_header_page": 55
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/55",
+    "recordId": "B-13-MS-36-0001|2016Q2|57",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 57,
+    "pages": [
+      57
+    ],
+    "fieldPages": {
+      "location_source_page": 57,
+      "financial_source_pages": {
+        "expended": 57,
+        "obligated": 57,
+        "allocated_activity_budget": 57
+      },
+      "original_activity_header_page": 57
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/56",
+    "recordId": "B-13-MS-36-0001|2016Q2|59",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 59,
+    "pages": [
+      59
+    ],
+    "fieldPages": {
+      "location_source_page": 59,
+      "financial_source_pages": {
+        "expended": 59,
+        "obligated": 59,
+        "allocated_activity_budget": 59
+      },
+      "original_activity_header_page": 59
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/57",
+    "recordId": "B-13-MS-36-0001|2016Q2|62",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 62,
+    "pages": [
+      62
+    ],
+    "fieldPages": {
+      "location_source_page": 62,
+      "financial_source_pages": {
+        "expended": 62,
+        "obligated": 62,
+        "allocated_activity_budget": 62
+      },
+      "original_activity_header_page": 62
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/58",
+    "recordId": "B-13-MS-36-0001|2016Q2|64",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 64,
+    "pages": [
+      64
+    ],
+    "fieldPages": {
+      "location_source_page": 64,
+      "financial_source_pages": {
+        "expended": 64,
+        "obligated": 64,
+        "allocated_activity_budget": 64
+      },
+      "original_activity_header_page": 64
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/59",
+    "recordId": "B-13-MS-36-0001|2016Q2|66",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 66,
+    "pages": [
+      66
+    ],
+    "fieldPages": {
+      "location_source_page": 66,
+      "financial_source_pages": {
+        "expended": 66,
+        "obligated": 66,
+        "allocated_activity_budget": 66
+      },
+      "original_activity_header_page": 66
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/60",
+    "recordId": "B-13-MS-36-0001|2016Q2|68",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 68,
+    "pages": [
+      68
+    ],
+    "fieldPages": {
+      "location_source_page": 68,
+      "financial_source_pages": {
+        "expended": 68,
+        "obligated": 68,
+        "allocated_activity_budget": 68
+      },
+      "original_activity_header_page": 68
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/61",
+    "recordId": "B-13-MS-36-0001|2016Q2|69",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 69,
+    "pages": [
+      69,
+      70
+    ],
+    "fieldPages": {
+      "location_source_page": 70,
+      "financial_source_pages": {
+        "expended": 70,
+        "obligated": 70,
+        "allocated_activity_budget": 70
+      },
+      "original_activity_header_page": 69
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "/records/62",
+    "recordId": "B-13-MS-36-0001|2016Q2|71",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 71,
+    "pages": [
+      71
+    ],
+    "fieldPages": {
+      "location_source_page": 71,
+      "financial_source_pages": {
+        "expended": 71,
+        "obligated": 71,
+        "allocated_activity_budget": 71
+      },
+      "original_activity_header_page": 71
+    },
+    "fields": [
+      "borough_allocated_cents",
+      "period_expended_cents",
+      "cumulative_expended_cents",
+      "period_obligated_cents",
+      "cumulative_obligated_cents",
+      "period_allocated_activity_budget_cents",
+      "cumulative_allocated_activity_budget_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/17",
+    "recordId": "B-13-MS-36-0001",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "q12_source_page": 5
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/reports/39",
+    "recordId": "B-13-MS-36-0001|2016Q2",
+    "sourceField": "source_url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "activity_sum_minus_overall_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources/25",
+    "recordId": "data/research-provenance.json#/sources/25",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources_v4/128",
+    "recordId": "data/research-provenance.json#/sources_v4/128",
+    "sourceField": "url",
+    "sourceUrl": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-36-0001/B-13-MS-36-0001-2016-04-2016-06-PR.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

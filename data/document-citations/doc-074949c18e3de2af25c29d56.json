@@ -1,0 +1,30 @@
+[
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/826",
+    "recordId": "data/archive-inventory.json#/entries/826",
+    "sourceField": "document_url",
+    "sourceUrl": "https://www.joplinmo.org/DocumentCenter/View/13866/Round-I-Amendment-IX",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/scanned-source-review-v47.json",
+    "recordPath": "/records/3",
+    "recordId": "data/scanned-source-review-v47.json#/records/3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://www.joplinmo.org/DocumentCenter/View/13866/Round-I-Amendment-IX",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [
+      "milestone_denominator_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/scanned-source-review-v47.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

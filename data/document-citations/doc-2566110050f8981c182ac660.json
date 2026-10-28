@@ -1,0 +1,19 @@
+[
+  {
+    "dataset": "data/other-qpr-panel-v53.json",
+    "recordPath": "/reports/3",
+    "recordId": "2025Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://dearborn.gov/sites/default/files/2026-01/QPR%23%20--%20Period%207-1-25%20thru%209-30-25.pdf",
+    "page": 1,
+    "pages": [
+      1
+    ],
+    "fieldPages": {
+      "cover_page": 1
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/other-qpr-panel-v53.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

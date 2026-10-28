@@ -1,0 +1,32 @@
+[
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/1032",
+    "recordId": "B-13-MS-22-0001",
+    "sourceField": "document_url",
+    "sourceUrl": "https://nola.gov/archived/community-development/documents/isaac-recovery-program/hurricane-isaac-grant-agreement/",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research.json",
+    "recordPath": "/award_evidence/initial_dates/B-13-MS-22-0001/initial_signed_funding_form",
+    "recordId": "data/research.json#/award_evidence/initial_dates/B-13-MS-22-0001/initial_signed_funding_form",
+    "sourceField": "url",
+    "sourceUrl": "https://nola.gov/archived/community-development/documents/isaac-recovery-program/hurricane-isaac-grant-agreement/",
+    "page": 2,
+    "pages": [
+      2
+    ],
+    "fieldPages": {
+      "source_page": 2
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

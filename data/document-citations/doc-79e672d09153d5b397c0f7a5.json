@@ -1,0 +1,485 @@
+[
+  {
+    "dataset": "data/analysis.json",
+    "recordPath": "/coverage/226",
+    "recordId": "B-16-MH-48-0001|2019Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/analysis.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/800",
+    "recordId": "B-16-MH-48-0001",
+    "sourceField": "document_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/24",
+    "recordId": "B-16-MH-48-0001",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 3,
+    "pages": [
+      3
+    ],
+    "fieldPages": {
+      "q12_source_page": 3
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2233",
+    "recordId": "B-16-MH-48-0001|20-PLN|PLA-16P01",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "q12_source_page": 17
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2234",
+    "recordId": "B-16-MH-48-0001|21A-ADM|ADM-16A31",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "fieldPages": {
+      "q12_source_page": 19
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2511",
+    "recordId": "B-16-MH-48-0001|01-HB|SBP-16SB01 Langwood",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "q12_source_page": 7
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2512",
+    "recordId": "B-16-MH-48-0001|01-HB|SBP-16SB02 Glenburnie/Cashiola",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "q12_source_page": 9
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2513",
+    "recordId": "B-16-MH-48-0001|01-HB|SBP-16SB03 Braeburn Glen",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "fieldPages": {
+      "q12_source_page": 11
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2514",
+    "recordId": "B-16-MH-48-0001|03-PF|PBF-16C52 - 4A Northside/Northline",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 13,
+    "pages": [
+      13
+    ],
+    "fieldPages": {
+      "q12_source_page": 13
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2515",
+    "recordId": "B-16-MH-48-0001|03-PF|PBF-16C54 - 12A Bonita Gardens",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "q12_source_page": 14
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2516",
+    "recordId": "B-16-MH-48-0001|14A-SF|SFR-16SH13",
+    "sourceField": "q12_source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "q12_source_page": 16
+    },
+    "fields": [
+      "q12_expended_allocated_ratio",
+      "q12_expended_obligated_ratio",
+      "q12_expended_cents",
+      "q12_obligated_cents",
+      "q12_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/reports/55",
+    "recordId": "B-16-MH-48-0001|2019Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 3,
+    "pages": [
+      3
+    ],
+    "fieldPages": {
+      "source_page": 3
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "activity_sum_minus_overall_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2985",
+    "recordId": "B-16-MH-48-0001|01-HB|SBP-16SB01 Langwood|2019Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 7,
+    "pages": [
+      7
+    ],
+    "fieldPages": {
+      "source_page": 7,
+      "activity_header_page": 7
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2986",
+    "recordId": "B-16-MH-48-0001|01-HB|SBP-16SB02 Glenburnie/Cashiola|2019Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "fieldPages": {
+      "source_page": 9,
+      "activity_header_page": 9
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2987",
+    "recordId": "B-16-MH-48-0001|01-HB|SBP-16SB03 Braeburn Glen|2019Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "fieldPages": {
+      "source_page": 11,
+      "activity_header_page": 11
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2988",
+    "recordId": "B-16-MH-48-0001|03-PF|PBF-16C52 - 4A Northside/Northline|2019Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 12,
+    "pages": [
+      12,
+      13
+    ],
+    "fieldPages": {
+      "source_page": 13,
+      "activity_header_page": 12
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2989",
+    "recordId": "B-16-MH-48-0001|03-PF|PBF-16C54 - 12A Bonita Gardens|2019Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 14,
+    "pages": [
+      14
+    ],
+    "fieldPages": {
+      "source_page": 14,
+      "activity_header_page": 14
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2990",
+    "recordId": "B-16-MH-48-0001|14A-SF|SFR-16SH13|2019Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 15,
+    "pages": [
+      15,
+      16
+    ],
+    "fieldPages": {
+      "source_page": 16,
+      "activity_header_page": 15
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2991",
+    "recordId": "B-16-MH-48-0001|20-PLN|PLA-16P01|2019Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "fieldPages": {
+      "source_page": 17,
+      "activity_header_page": 17
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/2992",
+    "recordId": "B-16-MH-48-0001|21A-ADM|ADM-16A31|2019Q3",
+    "sourceField": "source_url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": 18,
+    "pages": [
+      18,
+      19
+    ],
+    "fieldPages": {
+      "source_page": 19,
+      "activity_header_page": 18
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/sources_v4/30",
+    "recordId": "data/research-provenance.json#/sources_v4/30",
+    "sourceField": "url",
+    "sourceUrl": "https://houstontx.gov/hcdrecovery/dr15/hud-reports/qpr/2019/PGM-Q3-2019_DR15_QPR-103119.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

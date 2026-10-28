@@ -1,0 +1,28 @@
+[
+  {
+    "dataset": "data/nyc-borough-evidence.json",
+    "recordPath": "",
+    "recordId": "data/nyc-borough-evidence.json#",
+    "sourceField": "borough_county_crosswalk_source",
+    "sourceUrl": "https://www.nyc.gov/assets/planning/download/pdf/data-maps/nyc-population/census2010/t_pl_p5_nta.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/nyc-borough-evidence.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/research-provenance.json",
+    "recordPath": "/borough_review",
+    "recordId": "data/research-provenance.json#/borough_review",
+    "sourceField": "borough_crosswalk_source",
+    "sourceUrl": "https://www.nyc.gov/assets/planning/download/pdf/data-maps/nyc-population/census2010/t_pl_p5_nta.pdf",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/research-provenance.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

@@ -1,0 +1,1940 @@
+[
+  {
+    "dataset": "data/analysis.json",
+    "recordPath": "/coverage/185",
+    "recordId": "B-13-US-01-0001|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/analysis.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/1026",
+    "recordId": "B-13-US-01-0001",
+    "sourceField": "document_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/horizon-search-v44.json",
+    "recordPath": "/results/6",
+    "recordId": "B-13-US-01-0001|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/horizon-search-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/horizon-search-v44.json",
+    "recordPath": "/results/7",
+    "recordId": "B-13-US-01-0001|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/horizon-search-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/horizon-search-v44.json",
+    "recordPath": "/results/8",
+    "recordId": "B-13-US-01-0001|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/horizon-search-v44.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/19",
+    "recordId": "B-13-US-01-0001",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "q20_source_page": 16
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2211",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1|Concord Drainage Gay Road R1",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 46,
+    "pages": [
+      46
+    ],
+    "fieldPages": {
+      "q20_source_page": 46
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2212",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1|Concord Drainage Highland R1",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 48,
+    "pages": [
+      48
+    ],
+    "fieldPages": {
+      "q20_source_page": 48
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2213",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1|Concord Drainage Smith Road R1",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 50,
+    "pages": [
+      50
+    ],
+    "fieldPages": {
+      "q20_source_page": 50
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2214",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR1|Warrior-Trafford Dual Purpose Shelter R1",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 76,
+    "pages": [
+      76
+    ],
+    "fieldPages": {
+      "q20_source_page": 76
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2597",
+    "recordId": "B-13-US-01-0001|02-HousingR1|HR-B-13-R1 (E)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 28,
+    "pages": [
+      28
+    ],
+    "fieldPages": {
+      "q20_source_page": 28
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2598",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR2|PF-B-13-R2_4",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "fieldPages": {
+      "q20_source_page": 78
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2600",
+    "recordId": "B-13-US-01-0001|05Clearance/Demolitionl R1|CD-B-13-R1 (E)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 81,
+    "pages": [
+      81
+    ],
+    "fieldPages": {
+      "q20_source_page": 81
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2601",
+    "recordId": "B-13-US-01-0001|01-Administration-R1 (Ext3)|AdministrationR1 (Ext3)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "q20_source_page": 18
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2602",
+    "recordId": "B-13-US-01-0001|01-Administration-R2 (Ext)|Administration R2 (Ext)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "fieldPages": {
+      "q20_source_page": 20
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2603",
+    "recordId": "B-13-US-01-0001|02-Housing-R1 (Ext2)|CD-B-13-R1 (E2)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "fieldPages": {
+      "q20_source_page": 21
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2604",
+    "recordId": "B-13-US-01-0001|02-Housing-R1 (Ext2)|HR-B-13-R1 (E2)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "q20_source_page": 23
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2605",
+    "recordId": "B-13-US-01-0001|02-Housing-R1 (Ext3)|Housing RehabilitationR1 (Ext3)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 25,
+    "pages": [
+      25
+    ],
+    "fieldPages": {
+      "q20_source_page": 25
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2606",
+    "recordId": "B-13-US-01-0001|02-HousingR1|HR-B-13-R1",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 26,
+    "pages": [
+      26
+    ],
+    "fieldPages": {
+      "q20_source_page": 26
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2607",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext2)|Concord Gay Rd R1 (E2)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 30,
+    "pages": [
+      30
+    ],
+    "fieldPages": {
+      "q20_source_page": 30
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2608",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext2)|PF-B-13 McASS-R1 (E2)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 31,
+    "pages": [
+      31
+    ],
+    "fieldPages": {
+      "q20_source_page": 31
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2609",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext2)|PF-B-13-ADGSS-R1 (E2)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 33,
+    "pages": [
+      33
+    ],
+    "fieldPages": {
+      "q20_source_page": 33
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2610",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext2)|PF-B-13-ConcordSS-R1(E2)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 35,
+    "pages": [
+      35
+    ],
+    "fieldPages": {
+      "q20_source_page": 35
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2611",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext2)|PF-B-13-WTSS-R1 (E2)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 37,
+    "pages": [
+      37
+    ],
+    "fieldPages": {
+      "q20_source_page": 37
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2612",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext3)|Concord Storm Shelter R1 (Ext3)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 39,
+    "pages": [
+      39
+    ],
+    "fieldPages": {
+      "q20_source_page": 39
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2613",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R2 (Ext)|Adger Storm Shelter R2 (Ext)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 40,
+    "pages": [
+      40
+    ],
+    "fieldPages": {
+      "q20_source_page": 40
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2614",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R2 (Ext)|Concord Storm Shelter R2 (Ext)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 42,
+    "pages": [
+      42
+    ],
+    "fieldPages": {
+      "q20_source_page": 42
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2615",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R2 (Ext)|McAdory Storm Shelter R2 (Ext)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 44,
+    "pages": [
+      44
+    ],
+    "fieldPages": {
+      "q20_source_page": 44
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2616",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1 (Ext)|Concord Drainage Gay Road R1 (E)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 52,
+    "pages": [
+      52
+    ],
+    "fieldPages": {
+      "q20_source_page": 52
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2617",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1 (Ext)|Concord Drainage Highland R1 (E)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 53,
+    "pages": [
+      53
+    ],
+    "fieldPages": {
+      "q20_source_page": 53
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2618",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1 (Ext)|Concord Drainage Smith Road R1 (E)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 55,
+    "pages": [
+      55
+    ],
+    "fieldPages": {
+      "q20_source_page": 55
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2619",
+    "recordId": "B-13-US-01-0001|04-Public Facilities R3|PF-B-13-HSS-R3",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 56,
+    "pages": [
+      56
+    ],
+    "fieldPages": {
+      "q20_source_page": 56
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2620",
+    "recordId": "B-13-US-01-0001|04-Public Facilities R3|PF-B-13-McAdory2-R3",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 58,
+    "pages": [
+      58
+    ],
+    "fieldPages": {
+      "q20_source_page": 58
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2621",
+    "recordId": "B-13-US-01-0001|04-Public Facilities-R1 (Ext)|PF-B-13-R1_1 (E)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 60,
+    "pages": [
+      60
+    ],
+    "fieldPages": {
+      "q20_source_page": 60
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2622",
+    "recordId": "B-13-US-01-0001|04-Public Facilities-R1 (Ext)|PF-B-13-R1_2 (E)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 61,
+    "pages": [
+      61
+    ],
+    "fieldPages": {
+      "q20_source_page": 61
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2623",
+    "recordId": "B-13-US-01-0001|04-Public Facilities-R1 (Ext)|PF-B-13-R1_4 (E)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 63,
+    "pages": [
+      63
+    ],
+    "fieldPages": {
+      "q20_source_page": 63
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2624",
+    "recordId": "B-13-US-01-0001|04-Public Facilities-R1 (Ext)|PF-B-13-R1_5 (E)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 65,
+    "pages": [
+      65
+    ],
+    "fieldPages": {
+      "q20_source_page": 65
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2625",
+    "recordId": "B-13-US-01-0001|04-Public Facilities-R1 (Ext)|Warrior-Trafford Dual Purpose Shelter R1 (E)",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 67,
+    "pages": [
+      67
+    ],
+    "fieldPages": {
+      "q20_source_page": 67
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2626",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR1|PF-B-13-R1_1",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 68,
+    "pages": [
+      68
+    ],
+    "fieldPages": {
+      "q20_source_page": 68
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2627",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR1|PF-B-13-R1_2",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 70,
+    "pages": [
+      70
+    ],
+    "fieldPages": {
+      "q20_source_page": 70
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2628",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR1|PF-B-13-R1_4",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 72,
+    "pages": [
+      72
+    ],
+    "fieldPages": {
+      "q20_source_page": 72
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2629",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR1|PF-B-13-R1_5",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 74,
+    "pages": [
+      74
+    ],
+    "fieldPages": {
+      "q20_source_page": 74
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/six_measure_records/2630",
+    "recordId": "B-13-US-01-0001|05Clearance/Demolitionl R1|CD-B-13-R1",
+    "sourceField": "q20_source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "q20_source_page": 79
+    },
+    "fields": [
+      "q20_expended_allocated_ratio",
+      "q20_expended_obligated_ratio",
+      "q20_expended_cents",
+      "q20_obligated_cents",
+      "q20_allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/reports/61",
+    "recordId": "B-13-US-01-0001|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 16,
+    "pages": [
+      16
+    ],
+    "fieldPages": {
+      "source_page": 16
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "activity_sum_minus_overall_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3084",
+    "recordId": "B-13-US-01-0001|01-Administration-R1 (Ext3)|AdministrationR1 (Ext3)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "fieldPages": {
+      "source_page": 18,
+      "activity_header_page": 18
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3085",
+    "recordId": "B-13-US-01-0001|01-Administration-R2 (Ext)|Administration R2 (Ext)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 19,
+    "pages": [
+      19,
+      20
+    ],
+    "fieldPages": {
+      "source_page": 20,
+      "activity_header_page": 19
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3086",
+    "recordId": "B-13-US-01-0001|02-Housing-R1 (Ext2)|CD-B-13-R1 (E2)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 20,
+    "pages": [
+      20,
+      21
+    ],
+    "fieldPages": {
+      "source_page": 21,
+      "activity_header_page": 20
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3087",
+    "recordId": "B-13-US-01-0001|02-Housing-R1 (Ext2)|HR-B-13-R1 (E2)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 23,
+    "pages": [
+      23
+    ],
+    "fieldPages": {
+      "source_page": 23,
+      "activity_header_page": 23
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3088",
+    "recordId": "B-13-US-01-0001|02-Housing-R1 (Ext3)|Housing RehabilitationR1 (Ext3)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 24,
+    "pages": [
+      24,
+      25
+    ],
+    "fieldPages": {
+      "source_page": 25,
+      "activity_header_page": 24
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3089",
+    "recordId": "B-13-US-01-0001|02-HousingR1|HR-B-13-R1|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 25,
+    "pages": [
+      25,
+      26
+    ],
+    "fieldPages": {
+      "source_page": 26,
+      "activity_header_page": 25
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3090",
+    "recordId": "B-13-US-01-0001|02-HousingR1|HR-B-13-R1 (E)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 28,
+    "pages": [
+      28
+    ],
+    "fieldPages": {
+      "source_page": 28,
+      "activity_header_page": 28
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3091",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext2)|Concord Gay Rd R1 (E2)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 29,
+    "pages": [
+      29,
+      30
+    ],
+    "fieldPages": {
+      "source_page": 30,
+      "activity_header_page": 29
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3092",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext2)|PF-B-13 McASS-R1 (E2)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 31,
+    "pages": [
+      31
+    ],
+    "fieldPages": {
+      "source_page": 31,
+      "activity_header_page": 31
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3093",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext2)|PF-B-13-ADGSS-R1 (E2)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 33,
+    "pages": [
+      33
+    ],
+    "fieldPages": {
+      "source_page": 33,
+      "activity_header_page": 33
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3094",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext2)|PF-B-13-ConcordSS-R1(E2)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 35,
+    "pages": [
+      35
+    ],
+    "fieldPages": {
+      "source_page": 35,
+      "activity_header_page": 35
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3095",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext2)|PF-B-13-WTSS-R1 (E2)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 37,
+    "pages": [
+      37
+    ],
+    "fieldPages": {
+      "source_page": 37,
+      "activity_header_page": 37
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3096",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R1 (Ext3)|Concord Storm Shelter R1 (Ext3)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 38,
+    "pages": [
+      38,
+      39
+    ],
+    "fieldPages": {
+      "source_page": 39,
+      "activity_header_page": 38
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3097",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R2 (Ext)|Adger Storm Shelter R2 (Ext)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 39,
+    "pages": [
+      39,
+      40
+    ],
+    "fieldPages": {
+      "source_page": 40,
+      "activity_header_page": 39
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3098",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R2 (Ext)|Concord Storm Shelter R2 (Ext)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 42,
+    "pages": [
+      42
+    ],
+    "fieldPages": {
+      "source_page": 42,
+      "activity_header_page": 42
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3099",
+    "recordId": "B-13-US-01-0001|03-Infrastructure-R2 (Ext)|McAdory Storm Shelter R2 (Ext)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 44,
+    "pages": [
+      44
+    ],
+    "fieldPages": {
+      "source_page": 44,
+      "activity_header_page": 44
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3100",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1|Concord Drainage Gay Road R1|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 45,
+    "pages": [
+      45,
+      46
+    ],
+    "fieldPages": {
+      "source_page": 46,
+      "activity_header_page": 45
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3101",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1|Concord Drainage Highland R1|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 48,
+    "pages": [
+      48
+    ],
+    "fieldPages": {
+      "source_page": 48,
+      "activity_header_page": 48
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3102",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1|Concord Drainage Smith Road R1|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 50,
+    "pages": [
+      50
+    ],
+    "fieldPages": {
+      "source_page": 50,
+      "activity_header_page": 50
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3103",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1 (Ext)|Concord Drainage Gay Road R1 (E)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 51,
+    "pages": [
+      51,
+      52
+    ],
+    "fieldPages": {
+      "source_page": 52,
+      "activity_header_page": 51
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3104",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1 (Ext)|Concord Drainage Highland R1 (E)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 53,
+    "pages": [
+      53
+    ],
+    "fieldPages": {
+      "source_page": 53,
+      "activity_header_page": 53
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3105",
+    "recordId": "B-13-US-01-0001|03-InfrastructureR1 (Ext)|Concord Drainage Smith Road R1 (E)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 55,
+    "pages": [
+      55
+    ],
+    "fieldPages": {
+      "source_page": 55,
+      "activity_header_page": 55
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3106",
+    "recordId": "B-13-US-01-0001|04-Public Facilities R3|PF-B-13-HSS-R3|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 56,
+    "pages": [
+      56
+    ],
+    "fieldPages": {
+      "source_page": 56,
+      "activity_header_page": 56
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3107",
+    "recordId": "B-13-US-01-0001|04-Public Facilities R3|PF-B-13-McAdory2-R3|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 58,
+    "pages": [
+      58
+    ],
+    "fieldPages": {
+      "source_page": 58,
+      "activity_header_page": 58
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3108",
+    "recordId": "B-13-US-01-0001|04-Public Facilities-R1 (Ext)|PF-B-13-R1_1 (E)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 59,
+    "pages": [
+      59,
+      60
+    ],
+    "fieldPages": {
+      "source_page": 60,
+      "activity_header_page": 59
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3109",
+    "recordId": "B-13-US-01-0001|04-Public Facilities-R1 (Ext)|PF-B-13-R1_2 (E)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 61,
+    "pages": [
+      61
+    ],
+    "fieldPages": {
+      "source_page": 61,
+      "activity_header_page": 61
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3110",
+    "recordId": "B-13-US-01-0001|04-Public Facilities-R1 (Ext)|PF-B-13-R1_4 (E)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 63,
+    "pages": [
+      63
+    ],
+    "fieldPages": {
+      "source_page": 63,
+      "activity_header_page": 63
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3111",
+    "recordId": "B-13-US-01-0001|04-Public Facilities-R1 (Ext)|PF-B-13-R1_5 (E)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 65,
+    "pages": [
+      65
+    ],
+    "fieldPages": {
+      "source_page": 65,
+      "activity_header_page": 65
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3112",
+    "recordId": "B-13-US-01-0001|04-Public Facilities-R1 (Ext)|Warrior-Trafford Dual Purpose Shelter R1 (E)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 67,
+    "pages": [
+      67
+    ],
+    "fieldPages": {
+      "source_page": 67,
+      "activity_header_page": 67
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3113",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR1|PF-B-13-R1_1|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 68,
+    "pages": [
+      68
+    ],
+    "fieldPages": {
+      "source_page": 68,
+      "activity_header_page": 68
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3114",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR1|PF-B-13-R1_2|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 70,
+    "pages": [
+      70
+    ],
+    "fieldPages": {
+      "source_page": 70,
+      "activity_header_page": 70
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3115",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR1|PF-B-13-R1_4|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 72,
+    "pages": [
+      72
+    ],
+    "fieldPages": {
+      "source_page": 72,
+      "activity_header_page": 72
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3116",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR1|PF-B-13-R1_5|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 74,
+    "pages": [
+      74
+    ],
+    "fieldPages": {
+      "source_page": 74,
+      "activity_header_page": 74
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3117",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR1|Warrior-Trafford Dual Purpose Shelter R1|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 76,
+    "pages": [
+      76
+    ],
+    "fieldPages": {
+      "source_page": 76,
+      "activity_header_page": 76
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3118",
+    "recordId": "B-13-US-01-0001|04-Public FacilitiesR2|PF-B-13-R2_4|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 77,
+    "pages": [
+      77,
+      78
+    ],
+    "fieldPages": {
+      "source_page": 78,
+      "activity_header_page": 77
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3119",
+    "recordId": "B-13-US-01-0001|05Clearance/Demolitionl R1|CD-B-13-R1|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 79,
+    "pages": [
+      79
+    ],
+    "fieldPages": {
+      "source_page": 79,
+      "activity_header_page": 79
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/qpr-horizons.json",
+    "recordPath": "/activity_horizons/3120",
+    "recordId": "B-13-US-01-0001|05Clearance/Demolitionl R1|CD-B-13-R1 (E)|2018Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://paca.jccal.org/Archive.aspx?ADID=118",
+    "page": 81,
+    "pages": [
+      81
+    ],
+    "fieldPages": {
+      "source_page": 81,
+      "activity_header_page": 81
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "allocation_cents",
+      "expended_allocated_ratio"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/qpr-horizons.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]

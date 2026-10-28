@@ -1,0 +1,57 @@
+[
+  {
+    "dataset": "data/archive-inventory.json",
+    "recordPath": "/entries/951",
+    "recordId": "B-16-MH-48-0002",
+    "sourceField": "document_url",
+    "sourceUrl": "https://sanmarcostx.gov/DocumentCenter/View/19486",
+    "page": null,
+    "pages": [],
+    "fieldPages": {},
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/archive-inventory.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/award-clock-review.json",
+    "recordPath": "/records/2/date_observations/0",
+    "recordId": "data/award-clock-review.json#/records/2/date_observations/0",
+    "sourceField": "source_url",
+    "sourceUrl": "https://sanmarcostx.gov/DocumentCenter/View/19486",
+    "page": 5,
+    "pages": [
+      5
+    ],
+    "fieldPages": {
+      "source_page": 5
+    },
+    "fields": [],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/award-clock-review.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  },
+  {
+    "dataset": "data/award-clock-review.json",
+    "recordPath": "/records/2/unclassified_qpr_reports/0",
+    "recordId": "B-16-MH-48-0002|2016Q4",
+    "sourceField": "source_url",
+    "sourceUrl": "https://sanmarcostx.gov/DocumentCenter/View/19486",
+    "page": 4,
+    "pages": [
+      4
+    ],
+    "fieldPages": {
+      "source_page": 4
+    },
+    "fields": [
+      "expended_cents",
+      "obligated_cents",
+      "budget_cents",
+      "drawdown_cents",
+      "expended_obligated_ratio",
+      "expended_allocated_ratio",
+      "allocation_cents"
+    ],
+    "datasetUrl": "https://github.com/CECREH/cdbg-dr-atlas/blob/4d29babaecb2f7d0875b0845abf1e2ab5c132095/data/award-clock-review.json",
+    "note": "Page/field mapping copied from the pinned atlas evidence. This catalog does not independently certify the financial interpretation."
+  }
+]
