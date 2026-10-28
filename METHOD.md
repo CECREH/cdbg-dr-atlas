@@ -299,3 +299,42 @@ one NYC award and three periods, not all NYC financial activities. Eight additio
 offline MiniLM queries ranked 4,028 passages in the same 27-document corpus;
 all geographic decisions use exact fields and source pages, not similarity.
 The requirement-by-requirement table is in data/requirements-coverage.json.
+
+
+## Unified map navigation — interface update, 28 October 2026
+
+States remain visible while county/equivalent outlines appear at 4,000 projected
+metres per CSS pixel or closer, and municipal place/consolidated-city references
+at 750 metres per pixel or closer. County outlines remain visible over municipal
+fills. The map fetches state files intersecting the viewport, culls features to the
+view, caches results, and ignores responses from superseded views. Region-specific
+Albers projection and 2025 land-clipped geometry are unchanged. Alaska, Hawaii
+and territories retain explicit regional views. The state selector changes the
+map view, not financial filters. Zoom can move continuously from a fitted city
+back to the regional overview; display detail is not analysis resolution.
+
+Clicking or keyboard-focusing the map activates wheel zoom around the pointer.
+Escape, its toggle button, or clicking/focusing outside the map releases that
+mode. The page still scrolls outside the map. Browser Control/Command zoom
+signals are not captured. Buttons, arrow keys, +/−, reset, and a searchable list
+provide alternatives to pointer gestures. A map-only boundary selection does not
+filter funding; a separately documented government-identity or reported-scope
+link is required to select associated financial rows.
+
+`data/geo/place-classification.json` joins all 32,629 existing place GEOIDs to
+LSAD fields from the same 2025 Census cartographic source (SHA-256 recorded in
+that file). Codes 55, 57 and 62 identify 12,896 statistical places (including
+Puerto Rico comunidades and zonas urbanas); the exact Census `(balance)` qualifier
+identifies 8 partial city-balance areas. The other 19,725 place references are
+shown as municipal places, not asserted active/independent governments. The 8
+consolidated cities remain their separate full boundaries. Statistical/balance
+places are optional, or visible when individually selected. Towns/townships that
+Census represents as county subdivisions require the optional subdivision view;
+CDPs and arbitrary subdivisions are not relabeled as municipal governments.
+
+Official definitions: https://www.census.gov/library/reference/code-lists/legal-status-codes.html
+
+An empty view is distinct from a failed boundary file: failures display an
+incomplete-coverage warning and a retry control. No financial values, original
+records, context measures, borough evidence, source snapshots, existing geometry,
+or existing downloadable dataset were changed by this navigation update.

@@ -61,3 +61,19 @@ No borough allocation is invented. Download [all 300 records](downloads/nyc-boro
 or the filtered table. Read the [requirements coverage matrix](data/requirements-coverage.json):
 the full requested beneficiary-city panel and universal historical ratios remain
 incomplete, with exact missingness preserved.
+
+
+### Unified map navigation
+
+Counties and municipal places now share one projected map. County outlines appear
+at regional zoom; municipality and consolidated-city outlines appear closer in,
+with a separate option for statistical/balance places and county subdivisions.
+Nearby state files load progressively. Click or focus the map for wheel zoom;
+Escape or clicking elsewhere restores page scrolling. The visible-reference list
+supports keyboard search and selection. Reference boundaries never allocate money.
+See the navigation section in `METHOD.md` and `data/geo/place-classification.json`.
+
+This interface update does not fill the outstanding research gaps. The coverage
+matrix still describes partial award clocks, historical allocations, cumulative
+opening histories and beneficiary-city geography. Existing data downloads are
+unchanged; they retain their original source and method vintages.
