@@ -1889,6 +1889,7 @@ archive-inventory.csv,validation_failure,text / categorical,validation failure,B
 archive-inventory.csv,index_sha256,text / categorical,index sha256,Blank when unavailable; never substitute zero
 archive-inventory.csv,linked_period_label_unverified,text / categorical,linked period label unverified,Blank when unavailable; never substitute zero
 archive-inventory.csv,checked_utc,text / categorical,checked utc,Blank when unavailable; never substitute zero
+archive-inventory.csv,index_link_label_original,text / categorical,index link label original,Blank when unavailable; never substitute zero
 municipal-archive-review.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
 municipal-archive-review.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
 municipal-archive-review.csv,verified_initial_date,text / categorical,"verified initial date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
