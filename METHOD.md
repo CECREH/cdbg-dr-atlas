@@ -462,9 +462,11 @@ in `data/activity-place-evidence.json` and its CSV.
 
 Sixteen acquired documents without extractable native text were OCRed across
 436 pages, and a local offline transformer ranked overlapping text chunks as
-search leads. Targeted original pages have been inspected for eight documents;
-the other eight remain OCR/search-only. OCR is fallible and no search guarantees
-all documents, amendments or relevant statements were found.
+search leads. Targeted original pages have now been inspected in all sixteen
+documents. This was not a full page-by-page audit; OCR is fallible and no search
+guarantees that all documents, amendments or relevant statements were found.
+The review ledger identifies pages and source status in
+`data/scanned-source-review-v47.json`.
 
 For Chicago's Albany Park Tunnel activity, reported Q1 and Q2 2016 cumulative
 amounts do not reconcile, while whole-grant expenditure and obligation do. The
@@ -492,6 +494,23 @@ amendment 29 prints $43,932,273.89 in CDBG and $67,576,124.03 in other funds,
 but a $111,053,378.66 project total, $455,019.26 below the sum of those printed
 components. Approval dates are not established. They are source-specific
 proposals, not verified award denominators. See `data/plan-budget-review-v46.json`.
+
+A separate Tuscaloosa 2012 plan copy is labelled draft on its cover, despite
+"final" in its filename. Its executive summary prints $19,564,233.80, while
+its project table prints $19,564,223.80, including $2,929,394.10 of program
+income. The table components sum to the table total. Neither conflicting total
+is treated as an approved or historical whole-grant allocation.
+
+An approved Joplin 2013Q3 QPR lists four projects and their to-date project
+funds budgeted and period/to-date program-fund drawdowns. These observations
+are provided separately in `downloads/joplin-project-quarter-v47.csv`: they
+are projects, not original activities or beneficiary allocations. Drawdowns
+are not expenditures, and project values are nested within the whole grant.
+This one source's four budgets and drawdowns reconcile to the corresponding
+whole-grant values. A city-hosted submitted version agrees on six grant-level
+financial cells but differs in other values and must not be added to the HUD
+approved copy. Neither version supplies activity headers or an award clock;
+source pages, version status and hashes are in `data/joplin-project-evidence-v47.json`.
 
 Four San Marcos B-16-MH-48-0002 city-archive QPR copies have been retrieved and
 checked. The 2016Q4 report says execution occurred in December 2016; an OIG

@@ -23,7 +23,7 @@ CECREH logo is unchanged. This is a standalone site; no links were added elsewhe
 - March 2025 employment benchmark: 2,855 places / 234 financial links; flags retained.
 - Spatial context: 964 place polygons; 889 NFHL mapped, 75 unmapped; NLCD/LCMS 964.
 - Display boundaries: 3,235 counties, 32,629 places, 36,360 subdivisions.
-- Archive inventory: 1,035 entries; 19/21 municipal index pages retrieved.
+- Archive inventory: 1,038 entries; 19/21 municipal index pages retrieved.
   Further local transformer searches covered 240 indexed PDFs and seven horizon PDFs. Search is not exhaustive.
 
 ## Read before analysis
@@ -111,8 +111,13 @@ available in the downloads section. See METHOD.md for validation and limits.
 
 ### Source acquisition and opening-balance review
 
-The subsequent scanned-source pass processed 436 pages from 16 documents and
-checked selected original pages. It records conflicting Joplin agreement dates,
+The scanned-source review processed 436 pages from 16 documents and checked
+selected original pages in all 16, not every page. A 2012 Tuscaloosa draft has
+a $10 conflict between its executive summary and project table; neither is
+used as an approved denominator. Four Joplin 2013Q3 project-level budget and
+drawdown observations are available in [CSV](downloads/joplin-project-quarter-v47.csv)
+and [source evidence](data/joplin-project-evidence-v47.json). The review also
+records conflicting Joplin agreement dates,
 a mislabeled city archive link, and two Tuscaloosa proposed plan totals that
 cannot yet establish an approved denominator. The QPR continuity review now
 compares each flagged activity with its whole-grant source version; source values

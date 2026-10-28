@@ -1831,6 +1831,31 @@ qpr-quarter-panel-v45.csv,f31_obligated_period_cents,integer nominal USD cents,E
 qpr-quarter-panel-v45.csv,qpr_minus_f31_expended_cents,integer nominal USD cents,Exact original grant/project/activity/quarter comparison to the separate national F31 source; do not add or silently splice sources.,Blank when unavailable; never substitute zero
 qpr-quarter-panel-v45.csv,qpr_minus_f31_obligated_cents,integer nominal USD cents,Exact original grant/project/activity/quarter comparison to the separate national F31 source; do not add or silently splice sources.,Blank when unavailable; never substitute zero
 qpr-quarter-panel-v45.csv,f31_reconciliation_status,text / categorical,Exact original grant/project/activity/quarter comparison to the separate national F31 source; do not add or silently splice sources.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,city,text / categorical,city,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,administering_city_reference,text / categorical,administering city reference,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,project_id,text / categorical,project id,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,project_title,text / categorical,project title,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,activity_id,text / categorical,Unavailable: project is not an activity and must not be assigned an activity ID.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,calendar_quarter,text / categorical,"calendar quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,period_from,text / categorical,period from,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,period_through,text / categorical,period through,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,project_funds_budgeted_to_date_cents,integer nominal USD cents,"QPR project funds budgeted to date; project-level source snapshot, not a beneficiary allocation or award total.",Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,program_funds_drawdown_period_cents,integer nominal USD cents,QPR program funds drawn down in this reporting period; drawdown is not expenditure.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,program_funds_drawdown_to_date_cents,integer nominal USD cents,QPR program funds drawn down to date; never add cumulative values across quarters or to whole-grant totals.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,project_expenditure_period_cents,integer nominal USD cents,Unavailable in the project summary; blank is not zero.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,project_expenditure_to_date_cents,integer nominal USD cents,Unavailable in the project summary; blank is not zero.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,project_obligation_period_cents,integer nominal USD cents,Unavailable in the project summary; blank is not zero.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,project_obligation_to_date_cents,integer nominal USD cents,Unavailable in the project summary; blank is not zero.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,initial_execution_date,text / categorical,Unavailable while the initial agreement date and governing rule remain unresolved.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,award_relative_quarter,text / categorical,Unavailable while the initial agreement date and governing rule remain unresolved.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,beneficiary_geography,text / categorical,Unavailable: administering government does not identify beneficiary location.,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,report_status,text / categorical,report status,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,source_page,text / categorical,source page,Blank when unavailable; never substitute zero
+joplin-project-quarter-v47.csv,report_publication_date,text / categorical,"report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
 award-date-and-amount-evidence.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
 award-date-and-amount-evidence.csv,grantee,text / categorical,grantee,Blank when unavailable; never substitute zero
 award-date-and-amount-evidence.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
