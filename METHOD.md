@@ -38,12 +38,12 @@ remain, while household narratives and locations are excluded.
 
 The research panel supplies a city × original grant × original project/activity ×
 observed calendar-quarter table, with the original financial row and linked context.
-Choose administering or named responsible government. National has 4,852 rows in
-the administering-city view and 18,293 in the responsible-city view; Texas has
+Choose administering or named responsible government. National has 7,225 rows in
+the administering-city view and 19,140 in the responsible-city view; Texas has
 0 and 1,220 respectively. These are overlapping identity views, not beneficiary
 allocations. County/parish, township and other government records remain in the
 full financial table. Category-quarter aggregation remains a separate view.
-The 16-category aggregate panel has 15,802 national and 990 Texas rows across its
+The 16-category aggregate panel has 16,741 national and 990 Texas rows across its
 overlapping roles. Exact original IDs, category scope, disaster/cohort and GEOIDs
 are exported. Independent QPR horizon evidence is joined by original activity key
 and repeated as reference fields; do not sum repeated horizon values across quarters.
@@ -147,7 +147,7 @@ data and has not reviewed or endorsed this derived join or analysis. These
 limitations accompany all reuse; do not infer validated municipal capacity.
 
 March 2025 ASPEP individual-government employment adds a flagged benchmark for
-2,855 municipal places, including 230 financially linked places, and 9,470 function
+2,855 municipal places, including 234 financially linked places, and 9,470 function
 rows. Total employment (000), financial administration (023), other government
 administration (029) and housing/community development (050) remain separate.
 Full-time and part-time employee counts are persons; payroll is nominal USD for
@@ -252,3 +252,50 @@ uses concity:4752004, not its smaller balance place. Consolidated city–county
 financial rows now participate in city views with their exact existing reference
 kind (concity or county). A place covariate is never substituted for those areas;
 place context remains blank unless an exact place GEOID exists.
+
+## Municipal identity and NYC borough review
+
+Exact 2022 Census municipal PID6 and official place codes correct New York City
+(3651000), New Orleans (2255000), Philadelphia (4260000) and Denver (0820000).
+The old county references are preserved in the identity review, not treated as
+municipal footprint. NYC is not Manhattan. These corrections restore 2,373
+administering-city financial rows (NYC 1,871; New Orleans 496; Philadelphia 6).
+They add 847 responsible-city rows. Denver contributes through its responsible
+role. All original financial IDs, amounts and rows are unchanged. Administrative
+identity does not establish beneficiary location. Terrebonne's parishwide
+government is not replaced with the smaller Houma place. Place context now links
+964 financial identities: 964 ACS, 283 government-finance and 234 employment
+benchmarks. Four added unsimplified municipal polygons use the same source
+vintages and methods as the earlier 960: 889 NFHL mapped, 75 unmapped, with
+964 NLCD and LCMS summaries. Old 960 spatial records remain unchanged.
+
+NYC borough evidence enumerates every listed activity in three retrieved Sandy
+award B-13-MS-36-0001 reports: 2014Q2 (Q4), 2016Q2 (Q12), 2018Q2 (Q20).
+It contains 300 source-period activity records, not 300 unique longitudinal
+projects: 30 single-borough, one multi-borough, five citywide and 264 unknown.
+Only explicit borough names or citywide statements in the Location Description
+field determine scope. Administration-office addresses are excluded; neighborhood
+and street names are not automatically geocoded. Original activity identifiers,
+financial source pages, review status and publication vintage travel with each
+record. All 1,800 period/cumulative financial cells were independently checked
+against PDF word coordinates. Lifecycle/other-round source flags remain visible.
+Pending deletion and renamed/associated activities must not be added together.
+
+Borough county-equivalent codes follow the official NYC Census table. Boundaries
+are 2025 land-clipped county references displayed in Albers, not project footprints.
+Citywide and multi-borough money stays once on its original activity record;
+borough allocation and beneficiary fields remain blank. Borough filtering
+selects explicit named scopes and excludes unassigned citywide records. There is
+no borough money total or choropleth. Reports are separate cumulative vintages,
+never additive across quarters. The Q12 listed activity sums differ materially
+from whole-report totals; QPRs may omit unchanged activities. Q4/Q20 listed sums
+reconcile in these versions, but that does not establish complete geography.
+Q20 remains Original - In Progress. No new eligible ratios are inferred.
+
+Exact original project/activity keys match F31 for 221 source records; only 106
+also match the same calendar quarter. No source-specific renamed ID is guessed.
+The borough evidence stays separate from the quarterly F31 history. It covers
+one NYC award and three periods, not all NYC financial activities. Eight additional
+offline MiniLM queries ranked 4,028 passages in the same 27-document corpus;
+all geographic decisions use exact fields and source pages, not similarity.
+The requirement-by-requirement table is in data/requirements-coverage.json.

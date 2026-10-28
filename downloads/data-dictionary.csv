@@ -1905,3 +1905,56 @@ government-identity-audit.csv,government_candidates,JSON array,Exact checks or r
 government-identity-audit.csv,boundary_candidates,JSON array,Exact checks or review-only semantic candidates as named. Cosine scores are not probabilities; no automatic identity/funding/beneficiary join.,Blank when unavailable; never substitute zero
 government-identity-audit.csv,decision,text / categorical,decision,Blank when unavailable; never substitute zero
 government-identity-audit.csv,beneficiary_geography,text / categorical,Unavailable: administering or responsible identity does not establish beneficiary location,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,record_id,text / categorical,record id,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,project,text / categorical,project,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,activity,text / categorical,activity,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,source_activity_type,text / categorical,source activity type,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,research_category,text / categorical,research category,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,calendar_quarter,text / categorical,"calendar quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,award_relative_quarter,text / categorical,Calendar quarter index minus index of verified initial execution quarter plus one; Q1 may be partial,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,admin_entity,text / categorical,admin entity,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,admin_place_geoid,text / categorical,admin place geoid; identifier stored as text to preserve leading zeros,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,scope_status,text / categorical,"Explicit Location Description scope: named_borough, multiple_boroughs, citywide, or unknown. Administration-office locations excluded; not allocation weights.",Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,boroughs,JSON array,Only explicitly named borough scopes. Citywide and unknown remain empty; a multi-borough activity remains one row.,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,borough_county_geoids,JSON array of text IDs,NYC borough county-equivalent reference IDs; no beneficiary or financial weights,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,scope_reason,text / categorical,scope reason,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,location_source_page,text / categorical,location source page,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,financial_source_pages,text / categorical,financial source pages,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,report_status,text / categorical,Original QPR review state; unapproved financial evidence remains visible but is not used to create eligible ratios,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,report_publication_date,text / categorical,"report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,original_activity_header_page,text / categorical,original activity header page,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,f31_exact_activity_key_match,text / categorical,"f31 exact activity key match; exact original grant/project/activity identity only, not a semantic match or a guarantee of same financial vintage",Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,f31_same_quarter_key_match,text / categorical,"f31 same quarter key match; reporting calendar, source/publication or verified date as named, not interchangeable; exact original grant/project/activity identity only, not a semantic match or a guarantee of same financial vintage",Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,financial_basis,text / categorical,financial basis,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,borough_allocated_cents,integer nominal USD cents,Unavailable: no borough-specific division of the activity financial figures is established,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,beneficiary_geography,text / categorical,Unavailable: administering or responsible identity does not establish beneficiary location,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,period_expended_cents,integer nominal USD cents,period expended cents; signed amount; preserve negative adjustments; current report-period amount from QPR period column; independent of F31 vintage,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,cumulative_expended_cents,integer nominal USD cents,"cumulative expended cents; signed amount; preserve negative adjustments; To Date source value; never add across reporting periods, boroughs, or associated activities",Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,period_obligated_cents,integer nominal USD cents,period obligated cents; signed amount; preserve negative adjustments; current report-period amount from QPR period column; independent of F31 vintage,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,cumulative_obligated_cents,integer nominal USD cents,"cumulative obligated cents; signed amount; preserve negative adjustments; To Date source value; never add across reporting periods, boroughs, or associated activities",Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,period_allocated_activity_budget_cents,integer nominal USD cents,period allocated activity budget cents; signed amount; preserve negative adjustments; current report-period amount from QPR period column; independent of F31 vintage,Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,cumulative_allocated_activity_budget_cents,integer nominal USD cents,"cumulative allocated activity budget cents; signed amount; preserve negative adjustments; To Date source value; never add across reporting periods, boroughs, or associated activities",Blank when unavailable; never substitute zero
+nyc-borough-evidence.csv,activity_flags,JSON array,Source says pending deletion or refers to associated activity/another round. Do not sum potentially duplicated program scopes.,Blank when unavailable; never substitute zero
+requirements-coverage.csv,request,text / categorical,request,Blank when unavailable; never substitute zero
+requirements-coverage.csv,status,text / categorical,status,Blank when unavailable; never substitute zero
+requirements-coverage.csv,available,text / categorical,available,Blank when unavailable; never substitute zero
+requirements-coverage.csv,remaining,text / categorical,remaining,Blank when unavailable; never substitute zero
+requirements-coverage.csv,evidence,text / categorical,evidence,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,entity,text / categorical,entity,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,name,text / categorical,name,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,old_reference,text / categorical,old reference,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,corrected_reference,text / categorical,corrected reference,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,source_PID6,text / categorical,source PID6,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,source_FIPS_STATE,text / categorical,source FIPS STATE,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,source_FIPS_PLACE,text / categorical,source FIPS PLACE,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,source_FIPS_COUNTY,text / categorical,source FIPS COUNTY,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,display_source,text / categorical,display source,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,source_vintage,text / categorical,source vintage,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,display_vintage,text / categorical,display vintage,Blank when unavailable; never substitute zero
+municipal-identity-review.csv,beneficiary_inference,text / categorical,beneficiary inference,Blank when unavailable; never substitute zero
