@@ -495,7 +495,7 @@ but a $111,053,378.66 project total, $455,019.26 below the sum of those printed
 components. Approval dates are not established. They are source-specific
 proposals, not verified award denominators. See `data/plan-budget-review-v46.json`.
 
-A separate Tuscaloosa 2012 plan copy is labelled draft on its cover, despite
+A separate plan copy for Tuscaloosa’s 2012 grant is labelled draft on its cover, despite
 "final" in its filename. Its executive summary prints $19,564,233.80, while
 its project table prints $19,564,223.80, including $2,929,394.10 of program
 income. The table components sum to the table total. Neither conflicting total

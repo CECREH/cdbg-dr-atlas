@@ -112,7 +112,7 @@ available in the downloads section. See METHOD.md for validation and limits.
 ### Source acquisition and opening-balance review
 
 The scanned-source review processed 436 pages from 16 documents and checked
-selected original pages in all 16, not every page. A 2012 Tuscaloosa draft has
+selected original pages in all 16, not every page. A draft for Tuscaloosa’s 2012 grant has
 a $10 conflict between its executive summary and project table; neither is
 used as an approved denominator. Four Joplin 2013Q3 project-level budget and
 drawdown observations are available in [CSV](downloads/joplin-project-quarter-v47.csv)
