@@ -17,12 +17,12 @@ function render(){
  $('sp-prev').disabled=page===0;$('sp-next').disabled=start+PAGE>=selected.length;$('sp-export').disabled=!selected.length;
 }
 async function open(){
- if(!loading)loading=fetch('data/springfield-pilot-v48.json').then(r=>{if(!r.ok)throw Error(`HTTP ${r.status}`);return r.json()});
+ if(!loading)loading=fetch('data/springfield-pilot-v50.json').then(r=>{if(!r.ok)throw Error(`HTTP ${r.status}`);return r.json()});
  try{const result=await loading;if(data)return;data=result;const q=$('sp-quarter');for(const row of data.quarter_inventory){const o=document.createElement('option');o.value=row.quarter;o.textContent=`${row.quarter} · award Q${row.award_relative_quarter}${row.source_url?'':' · report not located'}`;q.append(o);}filter();}
  catch(e){$('sp-count').textContent=`Springfield pilot could not be loaded (${e.message}). No missing records were filled.`;}
 }
 for(const id of ['sp-search','sp-quarter','sp-view'])$(id).addEventListener(id==='sp-search'?'input':'change',filter);
 $('sp-prev').addEventListener('click',()=>{if(page>0){page--;render();}});$('sp-next').addEventListener('click',()=>{if((page+1)*PAGE<selected.length){page++;render();}});
-$('sp-export').addEventListener('click',()=>{if(!selected.length)return;const csv=objectsCSV(selected,Object.keys(data.activity_quarters[0]));const u=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download='springfield-pilot-activity-filtered.csv';a.click();setTimeout(()=>URL.revokeObjectURL(u),5000);$('sp-count').textContent=`Downloaded ${selected.length} filtered QPR activity-quarter records.`;});
+$('sp-export').addEventListener('click',()=>{if(!selected.length)return;const headers=[...new Set(data.activity_quarters.flatMap(r=>Object.keys(r)))];const csv=objectsCSV(selected,headers);const u=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download='springfield-pilot-activity-filtered.csv';a.click();setTimeout(()=>URL.revokeObjectURL(u),5000);$('sp-count').textContent=`Downloaded ${selected.length} filtered QPR activity-quarter records.`;});
 function whenVisible(){if(location.hash==='#municipal-qprs')void open();}
 window.addEventListener('hashchange',whenVisible);whenVisible();

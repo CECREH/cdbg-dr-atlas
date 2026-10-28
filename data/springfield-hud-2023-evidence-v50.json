@@ -1,0 +1,107 @@
+{
+  "prepared": "2026-10-28",
+  "grant_id": "B-13-MS-25-0001",
+  "financial_snapshots": [
+    {
+      "grant_id": "B-13-MS-25-0001",
+      "administering_city": "CITY OF SPRINGFIELD",
+      "geography_role": "administering government; beneficiary geography unresolved",
+      "beneficiary_geography": null,
+      "source_label": "DR CDBG CDBG-DR Financial Report by Appropriation",
+      "source_url": "https://drgr.hud.gov/public/downloads/DR-CDBG/CDBG-DR%20Financial%20Report%20by%20Appropriation.xlsx",
+      "source_sha256": "f6325cb58838683bde343b1b89252f7a47b7c91166b5ec0663f7e06ef2cd6d7a",
+      "source_index_date": "2023-07-01",
+      "reporting_as_of_date": null,
+      "source_worksheet": "CDBG-DR Financial Report by App",
+      "source_row": 132,
+      "reported_grant_amount_cents": "2189600000",
+      "reported_grant_amount_source_field": "Grant $ (Grant Level)",
+      "reported_obligated_cents": "2210222110",
+      "reported_obligated_source_field": "Grant Obligated $",
+      "reported_disbursed_cents": "2070185023",
+      "reported_disbursed_source_field": "Grant Disbursed $",
+      "reported_remaining_balance_cents": "119414977",
+      "values_nominal_usd_cents": {
+        "Grant $ (Grant Level)": "2189600000",
+        "Grant Obligated $": "2210222110",
+        "Grant Disbursed $": "2070185023",
+        "Remaining Balance": "119414977"
+      },
+      "status": "public HUD source snapshot; do not add duplicate reports or use as a quarterly allocation"
+    },
+    {
+      "grant_id": "B-13-MS-25-0001",
+      "administering_city": "CITY OF SPRINGFIELD",
+      "geography_role": "administering government; beneficiary geography unresolved",
+      "beneficiary_geography": null,
+      "source_label": "DR CDBG CDBG-DR Financial Report by Grantee",
+      "source_url": "https://drgr.hud.gov/public/downloads/DR-CDBG/CDBG-DR%20Financial%20Report%20by%20Grantee.xlsx",
+      "source_sha256": "3768f71ac1628961331e88598b795c98ec0db61f7ca4b52d4c4eb3cce8beb350",
+      "source_index_date": "2023-07-01",
+      "reporting_as_of_date": null,
+      "source_worksheet": "CDBG-DR Financial Report by Gra",
+      "source_row": 200,
+      "reported_grant_amount_cents": "2189600000",
+      "reported_grant_amount_source_field": "Grant $ (Grant Level)",
+      "reported_obligated_cents": "2210222110",
+      "reported_obligated_source_field": "Grant Obligated $",
+      "reported_disbursed_cents": "2070185023",
+      "reported_disbursed_source_field": "Grant Disbursed $",
+      "reported_remaining_balance_cents": "119414977",
+      "values_nominal_usd_cents": {
+        "Grant $ (Grant Level)": "2189600000",
+        "Grant Obligated $": "2210222110",
+        "Grant Disbursed $": "2070185023",
+        "Remaining Balance": "119414977"
+      },
+      "status": "public HUD source snapshot; do not add duplicate reports or use as a quarterly allocation"
+    },
+    {
+      "grant_id": "B-13-MS-25-0001",
+      "administering_city": "CITY OF SPRINGFIELD",
+      "geography_role": "administering government; beneficiary geography unresolved",
+      "beneficiary_geography": null,
+      "source_label": "DR CDBG CDBG-DR Financial Report Monthly Summary",
+      "source_url": "https://drgr.hud.gov/public/downloads/DR-CDBG/CDBG-DR%20Financial%20Report%20Monthly%20Summary.xlsx",
+      "source_sha256": "a97125e58563d5f24dac5236c25d9727a7bb7149c0cfde12683a01ad4aea96a1",
+      "source_index_date": "2023-07-01",
+      "reporting_as_of_date": null,
+      "source_worksheet": "CDBG-DR Financial Report Monthl",
+      "source_row": 95,
+      "reported_grant_amount_cents": "2189600000",
+      "reported_grant_amount_source_field": "Grant $ (deprecated)",
+      "reported_obligated_cents": "2210222110",
+      "reported_obligated_source_field": "Activity Obligation $",
+      "reported_disbursed_cents": "2070185023",
+      "reported_disbursed_source_field": "Activity Drawn $",
+      "reported_remaining_balance_cents": "119414977",
+      "values_nominal_usd_cents": {
+        "Grant $ (deprecated)": "2189600000",
+        "Activity Budget $": "2210222110",
+        "Activity Obligation $": "2210222110",
+        "Activity Drawn $": "2070185023",
+        "Remaining Balance": "119414977"
+      },
+      "status": "public HUD source snapshot; do not add duplicate reports or use as a quarterly allocation"
+    }
+  ],
+  "performance_source": {
+    "source_url": "https://drgr.hud.gov/public/downloads/DR-CDBG/CDBG-DR%20Performance%20by%20Activity.xlsx",
+    "source_sha256": "a16af4e4943ca9a53bdfbe455bacffb14a92268de0816049a692470db6c84420",
+    "source_index_date": "2023-07-01",
+    "worksheet": "CDBG-DR Performance by Activity",
+    "worksheet_rows": 31642,
+    "springfield_first_explicit_grant_row": 23301,
+    "springfield_measure_rows": 74,
+    "springfield_distinct_measure_labels": 15,
+    "scope": "Cumulative performance measures, not financial quarterly transactions. Grant and activity hierarchy uses blank repeated cells; project IDs are not provided. Source titles and addresses are not published.",
+    "reporting_as_of_date": null
+  },
+  "limitations": [
+    "HUD index date is a file publication/index date, not a verified reporting cutoff.",
+    "These workbooks report a later source snapshot, not a historical quarterly panel. Drawdown/disbursement is not expenditure.",
+    "The three financial reports contain overlapping views of the same grant, so they must not be summed or added to QPR and F31 records.",
+    "The monthly workbook labels Grant $ as deprecated. No source amount implies a beneficiary location or city allocation.",
+    "The activity performance file has no original project ID; do not infer a project or add outcome measures to financial transactions."
+  ]
+}

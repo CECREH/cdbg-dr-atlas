@@ -142,7 +142,7 @@ while the form checks Amendment; the two official HUD summary reports also
 identify the April 22, 2014 initial agreement date. See `METHOD.md` for sources.
 
 
-### Springfield award pilot
+### Earlier Springfield award pilot (v48)
 
 A source-backed pilot for B-13-MS-25-0001 contains 19 approved reports in the
 first 20 award-clock quarters, 347 listed activity-quarter records and 109
@@ -198,3 +198,42 @@ cumulative quarters or the allocation, plan and obligation events.
 [dated source events](downloads/springfield-award-events-v49.csv), and
 [source evidence and reconciliation](data/springfield-allocation-evidence-v49.json)
 include exact cents, source pages, dates and missingness.
+
+### Expanded Springfield pilot and HUD snapshot sources
+
+For B-13-MS-25-0001, the expanded source-backed pilot has 24 reviewed and
+approved QPR versions: Q2–Q24 (2014Q1–2019Q3) and Q46 (2025Q1). The Q1
+report and Q25–Q45 (2019Q4–2024Q4) were not located in the checked HUD and city
+indexes. This is a source-coverage statement, not evidence that the reports
+do not exist or the amounts are zero. Publication dates remain blank where
+not established. The pilot contains 508 listed activity-quarter rows and 191
+project-quarter summaries; 161 activity rows are beyond v48, of which six were
+already in the general QPR panel. Thus 155 are absent from both earlier views.
+The v50 pilot includes and overlaps v48; do not add versions or sum nested
+project, activity and grant figures. Reports need not list every activity.
+
+Two categories are read from a next-page continuation, with original source
+pages retained. Four truncated extension types are read from a same-report
+ancillary table naming the exact project and extension ID; the original
+truncated heading is preserved. The four corresponding base-activity type
+headings remain unresolved. Administration stays outside the requested 16
+categories. Extension IDs, including (E-2), can overlap related activities.
+QPR source-version implied openings and differences are diagnostics, not
+verified grant-start balances. Signed negative adjustments are preserved.
+
+The [HUD public data index](https://drgr.hud.gov/public/data_downloads.html?programName=DR+CDBG)
+lists three financial workbooks and one activity-performance workbook dated
+July 1, 2023. Three Springfield grant rows agree on reported grant amount
+$21,896,000, obligations $22,102,221.10 and disbursement/drawdown
+$20,701,850.23. They are overlapping report views; their index date is not a
+verified reporting cutoff. A field in the monthly report is explicitly marked
+deprecated. Drawdown is not expenditure. The performance workbook contains 74
+Springfield measure rows in a compressed hierarchy, has no project ID, and is
+not a financial quarterly export. The local F23 workbook is filtered to
+technical-assistance grants and does not contain this Springfield award.
+
+Use the [expanded activity records](downloads/springfield-activity-quarter-v50.csv),
+[award inventory](downloads/springfield-award-quarter-v50.csv),
+[project summaries](downloads/springfield-project-quarter-v50.csv),
+[activity milestones](downloads/springfield-activity-milestones-v50.csv), and
+[HUD snapshot evidence](data/springfield-hud-2023-evidence-v50.json).
