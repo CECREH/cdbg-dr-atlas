@@ -338,3 +338,68 @@ An empty view is distinct from a failed boundary file: failures display an
 incomplete-coverage warning and a retry control. No financial values, original
 records, context measures, borough evidence, source snapshots, existing geometry,
 or existing downloadable dataset were changed by this navigation update.
+
+
+## CECREH visual identity
+
+The interface uses the CECREH official site's scarlet (#E90802), black and white,
+with its published snow, soft and muted neutrals and CTA hover red (#CF0702).
+The official CECREH logo is unchanged. Red-tinted map shapes are boundary or
+source-evidence categories, not financial magnitudes. The darker official hover
+red provides readable small text on pale backgrounds. Sources:
+https://www.depts.ttu.edu/cecreh/ and https://www.ttu.edu/brand/websites/index.php.
+
+## Additional municipal QPR evidence
+
+The Municipal QPRs area adds a selected sample of 61 HUD-approved reports from
+13 administering cities and 16 awards. We retrieved 62 HUD public-indexed PDF
+versions from selected 2015–2018 and 2024 calendar windows; one NYC 2017Q1 file
+could not be opened by the independent PDF reader and is excluded. Missing or
+unreadable reports are not evidence that no report exists. This sample is not a
+complete national archive or a complete activity list.
+
+The 918 activity-quarter observations retain the original report's award,
+project and activity identifiers. Of those, 878 have an exact award/project/
+activity match to the existing national F31 panel; 40 NYC administration/planning
+observations retain their original QPR identifiers without an inferred F31
+crosswalk. For 429 observations the same activity and quarter also appear in the national
+F31 snapshot; all 858 period expenditure/obligation cells agree exactly. The other
+financial fields and unmatched quarters were not checked in that comparison. A
+QPR record and an F31 transaction remain
+independent sources even when identifiers match; do not add or silently substitute
+one for the other. Address-bearing IDs/titles and unverified activity identifiers
+outside the limited NYC program-level exception are excluded. Raw narratives and
+household addresses are not exported.
+
+Every accepted activity has six independently anchored PDF monetary cells:
+period and to-date figures for Total Budget, Total Obligated, and Total Funds
+Expended. Negative adjustments remain signed. QPR Total Budget for an activity is
+an allocated activity budget that may include program income; the overall grant
+Total Budget is a programmed budget. Neither establishes a beneficiary-city
+allocation or the original whole-grant award. Sixty-one reported grant-award
+headers are included as values printed on the specific QPR version, not certified
+as the initial award or the award-relative-horizon denominator. Publication dates,
+review status, source URLs, SHA-256 and source page numbers accompany each record.
+
+The administering government follows the exact original award and does not
+establish the beneficiary city or where an activity occurred. Initial award dates
+and award-relative quarters are shown only when independently verified in the
+existing award evidence; Q1 can be partial. No new Q4/Q12/Q20 outcome or local
+allocation is invented from these additional non-horizon quarters. To-date QPR
+amounts are cumulative snapshots and must not be added across quarters. QPR
+activity listings may omit activities and may not sum to whole-grant totals.
+
+Extraction used original PDF text coordinates and retained the period and to-date
+columns separately. An independent Poppler layout pass checked all 61 reports'
+identity, period, HUD review status and grant-award header; all 366 whole-grant
+monetary cells; 243 stratified activity records including signed corrections; and
+all 979 financial table headers. No independent check failed. A cached local
+MiniLM-L6-v2 transformer ranked pages for grant identity, financial tables and
+agreement/allocation evidence in all 62 retrieved documents, including the one
+excluded PDF. Its results are search leads, never automatic financial, identity,
+location or award-date facts. No private content or model query left the computer.
+
+Download the selected activity records, grant records, JSON source evidence and
+search log from the atlas. All existing F31/context bundles remain separate and
+unchanged. Source definitions: https://files.hudexchange.info/resources/documents/DRGRKnowledgebaseFAQs_QPR.pdf
+and https://files.hudexchange.info/resources/documents/Draft-User-Guide-DRGR-Drawdown-Module-Release-73.pdf.

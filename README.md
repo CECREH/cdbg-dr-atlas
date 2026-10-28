@@ -77,3 +77,18 @@ This interface update does not fill the outstanding research gaps. The coverage
 matrix still describes partial award clocks, historical allocations, cumulative
 opening histories and beneficiary-city geography. Existing data downloads are
 unchanged; they retain their original source and method vintages.
+
+### Additional municipal QPR sample and preliminary handoff
+
+The Municipal QPRs section provides 918 original activity-quarter observations and
+61 whole-grant report snapshots from 13 administering cities and 16 awards. It
+shows reporting-period changes, cumulative values, grant-award headers, review
+status, source pages and independently checked document versions. Download filtered
+or complete activity and report CSVs from that section or Download data. The
+sample is not a complete panel, and QPR snapshots must not be added across periods
+or to the separate F31 snapshots. See `METHOD.md` for missingness and provenance.
+
+The interface is a research preview, intended for feedback. Award start dates,
+compatible historical allocation denominators and beneficiary-city locations
+remain incomplete. The 2025 Census reference boundaries and municipality counts
+are not a map of funded activities.
