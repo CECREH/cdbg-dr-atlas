@@ -2108,6 +2108,46 @@ springfield-activity-milestones-v48.csv,q20_expended_obligated_quality_flags,JSO
 springfield-activity-milestones-v48.csv,q20_expended_reported_activity_budget_ratio,unitless proportion,QPR cumulative expenditure divided by reported activity Total Budget to date; budget may include program income and is not a verified whole-grant or beneficiary allocation.,Blank when unavailable; never substitute zero
 springfield-activity-milestones-v48.csv,q20_expended_reported_activity_budget_eligibility,text / categorical,Source-vintage ratio status; unlisted activity or nonpositive denominator is not zero.,Blank when unavailable; never substitute zero
 springfield-activity-milestones-v48.csv,q20_expended_reported_activity_budget_quality_flags,JSON array,"Negative numerator and ratios above one are retained and flagged, never capped.; reported numerator above obligation and negative numerators are preserved, not capped",Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,administering_city,text / categorical,administering city,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,beneficiary_geography,text / categorical,Unavailable: administering government is not beneficiary geography.,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,currency_units,text / categorical,currency units,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,event_type,text / categorical,event type,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,event_date,text / categorical,"event date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,amount_cents,integer nominal USD cents,"Dated source-reported amount; inspect event_type and amount_scope. Federal allocation, plan approval, and grant obligation are distinct and must not be added.",Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,amount_scope,text / categorical,amount scope,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,source_grant_id,text / categorical,Original grant ID printed in this source; blank when the linkage to the Springfield award uses other sources.,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,source_page,text / categorical,source page,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,source_vintage,text / categorical,source vintage,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,linkage_basis,text / categorical,linkage basis,Blank when unavailable; never substitute zero
+springfield-award-events-v49.csv,status,text / categorical,status,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,administering_city,text / categorical,administering city,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,beneficiary_geography,text / categorical,Unavailable: administering government is not beneficiary geography.,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,currency_units,text / categorical,currency units,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,calendar_quarter,text / categorical,"calendar quarter; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,award_relative_quarter,text / categorical,HUD-reported initial agreement effective date and calendar-quarter index; Q1 may be partial and its report was not located.,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,initial_agreement_effective_date,text / categorical,"initial agreement effective date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,numerator_definition,text / categorical,numerator definition,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,expended_to_date_cents,integer nominal USD cents,expended to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,obligated_to_date_cents,integer nominal USD cents,obligated to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,grant_award_amount_cents,integer nominal USD cents,grant award amount cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,grant_award_definition,text / categorical,grant award definition,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,expended_over_reported_award_ratio,unitless proportion,Descriptive QPR total funds expended to date divided by Grant Award Amount in the same QPR version. Total expenditure may include program income; not a certified federal-only or beneficiary allocation ratio.,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,expended_over_reported_obligated_ratio,unitless proportion,"QPR total funds expended to date divided by QPR total obligated to date in the same source version; descriptive whole-grant ratio, not a beneficiary allocation.",Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,program_income_received_to_date_cents,integer nominal USD cents,program income received to date cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,ratio_status,text / categorical,ratio status,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,limitation,text / categorical,limitation,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,report_status,text / categorical,Source review status; report_not_located_in_checked_indexes is not evidence of nonexistence or zero.,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,report_publication_date,text / categorical,"report publication date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,source_url,text / categorical,source url,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,award_source_page,text / categorical,award source page,Blank when unavailable; never substitute zero
+springfield-award-horizon-observed-v49.csv,financial_source_page,text / categorical,financial source page,Blank when unavailable; never substitute zero
 award-date-and-amount-evidence.csv,grant_id,text / categorical,grant id,Blank when unavailable; never substitute zero
 award-date-and-amount-evidence.csv,grantee,text / categorical,grantee,Blank when unavailable; never substitute zero
 award-date-and-amount-evidence.csv,initial_execution_date,text / categorical,"initial execution date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero

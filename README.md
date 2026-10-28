@@ -159,3 +159,42 @@ non-additivity, grant-clock and allocation limits.
 Offline MiniLM searched the 19 pilot reports and six supporting documents with
 200 document-scoped queries. [Search results](data/springfield-search-v48.json)
 are leads only and do not establish approval, location or completeness.
+
+### Springfield award evidence and reported horizon ratios
+
+HUD's [March 27, 2013 announcement](https://archives.hud.gov/news/2013/pr13-038.cfm)
+allocated $21,896,000 directly to Springfield for its 2011 storms. Its
+[November 5 announcement](https://archives.hud.gov/news/2013/pr13-158.cfm)
+reported approval of a $13,906,000 Springfield recovery plan. Neither press
+release prints a grant ID; linkage to B-13-MS-25-0001 uses the 2013 city plan and
+HUD's grant report. The exact relation between this plan announcement and
+the later conflicting Plan A approval dates remains unresolved.
+HUD's [June 2018 extension report, p. 2](https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/PL-113-2-Grant-Extension-Report-2018-06-01.pdf#page=2)
+lists a $13,906,000 obligation for the exact grant on December 13, 2013.
+It lists extended funds, not all obligations, and does not substantiate a later
+$7,990,000 obligation date. These events are distinct, not additive.
+
+The approved Q4, Q12 and Q20 QPRs print a $21,896,000 Grant Award Amount on
+page 2 and report whole-grant cumulative expenditure and obligation on page 3.
+Their descriptive expenditure / reported-award ratios are 20.53%, 45.45% and
+58.26%, respectively. They use total-funds expenditure; program income may be
+included, so these are not certified federal-only expenditure ratios. The QPR
+award-header as-of date and full amendment history are not independently
+certified; the Q20 report's publication date is unavailable. Q12/Q20 remain
+blank in the stricter certified-allocation outcomes. Q1 is the agreement's
+calendar quarter and may be partial; no Q1 baseline is inferred. Whole-grant
+amounts do not establish a beneficiary location or an activity allocation.
+
+At Q12, QPR overall budget less program income received equals $13,906,000; at
+Q20 it equals $21,896,000. In the 2017Q2/Q3 source versions, the $8,032,332.09
+increase in cumulative budget equals $7,990,000 plus $37,219.65 and $5,112.44
+of respective period program-income receipts arithmetically. The Q3 reported
+period budget is zero. This arithmetic does not prove an accounting mechanism,
+amendment approval date or absence of source revisions. Income received and
+drawdowns are not expenditures. Preserve source vintages and do not add QPR
+cumulative quarters or the allocation, plan and obligation events.
+
+[Reported award horizon ratios](downloads/springfield-award-horizon-observed-v49.csv),
+[dated source events](downloads/springfield-award-events-v49.csv), and
+[source evidence and reconciliation](data/springfield-allocation-evidence-v49.json)
+include exact cents, source pages, dates and missingness.
