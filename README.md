@@ -7,24 +7,24 @@ and place maps, downloadable city × award × original activity × quarter data,
 six Q4/Q12/Q20 outcomes with eligibility, and dated city context. The official
 CECREH logo is unchanged. This is a standalone site; no links were added elsewhere.
 
-## Release 4.1 coverage
+## Current preliminary coverage
 
 - National: 128,382 quarterly rows / 206 awards / 16,150 activities, 2002Q2–2025Q1.
 - Texas: 6,518 rows / 2 awards / 775 activities, 2018Q3–2026Q1. **Choose one snapshot.**
-- Verified initial clocks: 29 national awards. Unknown dates remain null.
+- Verified initial clocks: 28 of 206 national awards, plus supplementary QPR-only Joplin. Unknown or unresolved dates remain null.
 - City original-activity rows: national 7,225 administering / 19,140 responsible;
   Texas 0 / 1,220. Roles overlap; neither establishes beneficiary location.
-- Historical QPRs: 59 reports / 27 awards / 3,012 exact activity-horizon matches;
-  2,526 approved activity E/O and 2,591 activity E/allocated-budget values.
-- Whole-grant approved E/O: Q4 22, Q12 20, Q20 10. Whole-grant E/allocation:
-  Moore Q4 only. Activity budgets can include program income and are a different scope.
+- Historical QPR horizons: 65 reports / 27 awards / 3,121 exact activity-horizon matches;
+  2,631 approved activity E/O and 2,698 activity E/allocated-budget values.
+- Whole-grant approved E/O: Q4 23, Q12 23, Q20 11. Whole-grant E/allocation:
+  Moore and Minot Q4 only. Activity budgets can include program income and are a different scope.
 - ACS: 32,330 places with direct estimates/MOEs; all 964 financial-place identities.
 - Government-finance sample inputs: 3,843 places / 283 financial links.
 - March 2025 employment benchmark: 2,855 places / 234 financial links; flags retained.
 - Spatial context: 964 place polygons; 889 NFHL mapped, 75 unmapped; NLCD/LCMS 964.
 - Display boundaries: 3,235 counties, 32,629 places, 36,360 subdivisions.
-- Municipal archive inventory: 1023 entries; 19/21 index pages retrieved.
-  Offline transformer retrieval: 27 documents / 2,033 pages. Search is not exhaustive.
+- Archive inventory: 1,030 entries; 19/21 municipal index pages retrieved.
+  Further local transformer searches covered 240 indexed PDFs and seven horizon PDFs. Search is not exhaustive.
 
 ## Read before analysis
 
@@ -74,14 +74,14 @@ supports keyboard search and selection. Reference boundaries never allocate mone
 See the navigation section in `METHOD.md` and `data/geo/place-classification.json`.
 
 This interface update does not fill the outstanding research gaps. The coverage
-matrix still describes partial award clocks, historical allocations, cumulative
-opening histories and beneficiary-city geography. Existing data downloads are
-unchanged; they retain their original source and method vintages.
+matrix describes partial award clocks, historical allocations, cumulative
+opening histories and beneficiary-city geography. Downloads retain explicit
+source and method vintages as the evidence is updated.
 
 ### Additional municipal QPR sample and preliminary handoff
 
-The Municipal QPRs section provides 918 original activity-quarter observations and
-61 whole-grant report snapshots from 13 administering cities and 16 awards. It
+The Municipal QPRs section provides 4,440 selected original activity-quarter observations and
+297 whole-grant report snapshots from 13 administering cities and 21 awards. It
 shows reporting-period changes, cumulative values, grant-award headers, review
 status, source pages and independently checked document versions. Download filtered
 or complete activity and report CSVs from that section or Download data. The
@@ -92,3 +92,19 @@ The interface is a research preview, intended for feedback. Award start dates,
 compatible historical allocation denominators and beneficiary-city locations
 remain incomplete. The 2025 Census reference boundaries and municipality counts
 are not a map of funded activities.
+
+### Additional source review (October 28)
+
+Seven independently verified milestone reports add Minot, Joplin, Cook County and
+Jefferson County observations. Joplin is a supplementary QPR-only award outside
+the national F31 panel. Its Q4 obligation is zero and its E/O is unavailable.
+Minot Q4's $35,056,000 total allocation is independently supported by the Federal
+Register, HUD OIG and its QPR. The 2012 Minot award has two signatures in different
+quarters and no assigned clock. Dauphin County has different HUD date labels whose
+relationship is unresolved; its earlier Q20 classification has been suspended,
+while the calendar-period amounts are preserved in `data/award-clock-review.json`.
+
+Six explicit Cook County QPR activity scopes name five municipalities; they are
+searchable with original source pages. They do not apportion spending or establish
+beneficiary locations. The additional selected QPR sample and review log are
+available in the downloads section. See METHOD.md for validation and limits.

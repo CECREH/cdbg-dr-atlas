@@ -1717,6 +1717,8 @@ qpr-award-horizons.csv,expended_allocated_status,text / categorical,expended all
 qpr-award-horizons.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
 qpr-award-horizons.csv,allocation_definition_source,text / categorical,allocation definition source,Blank when unavailable; never substitute zero
 qpr-award-horizons.csv,quality_flags,text / categorical,quality flags,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,allocation_corroboration_source,text / categorical,allocation corroboration source,Blank when unavailable; never substitute zero
+qpr-award-horizons.csv,f31_national_award_present,text / categorical,f31 national award present,Blank when unavailable; never substitute zero
 qpr-six-measures.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
 qpr-six-measures.csv,project,text / categorical,project,Blank when unavailable; never substitute zero
 qpr-six-measures.csv,activity,text / categorical,activity,Blank when unavailable; never substitute zero
@@ -1790,6 +1792,7 @@ award-date-and-amount-evidence.csv,whole_grant_disbursed_cents,integer nominal U
 award-date-and-amount-evidence.csv,geography_role,text / categorical,geography role,Blank when unavailable; never substitute zero
 award-date-and-amount-evidence.csv,denominator_policy,text / categorical,denominator policy,Blank when unavailable; never substitute zero
 award-horizon-coverage.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
+award-horizon-coverage.csv,in_national_f31,text / categorical,in national f31,Blank when unavailable; never substitute zero
 award-horizon-coverage.csv,grantee,text / categorical,grantee,Blank when unavailable; never substitute zero
 award-horizon-coverage.csv,admin_type,text / categorical,admin type,Blank when unavailable; never substitute zero
 award-horizon-coverage.csv,admin_reference,text / categorical,admin reference,Blank when unavailable; never substitute zero
@@ -1829,6 +1832,7 @@ archive-inventory.csv,review_status,text / categorical,review status,Blank when 
 archive-inventory.csv,report_exists_in_index,text / categorical,report exists in index,Blank when unavailable; never substitute zero
 archive-inventory.csv,source_sha256,text / categorical,source sha256,Blank when unavailable; never substitute zero
 archive-inventory.csv,grant_linkage,text / categorical,grant linkage,Blank when unavailable; never substitute zero
+archive-inventory.csv,validation_note,text / categorical,validation note,Blank when unavailable; never substitute zero
 archive-inventory.csv,validation_failure,text / categorical,validation failure,Blank when unavailable; never substitute zero
 archive-inventory.csv,index_sha256,text / categorical,index sha256,Blank when unavailable; never substitute zero
 archive-inventory.csv,linked_period_label_unverified,text / categorical,linked period label unverified,Blank when unavailable; never substitute zero
@@ -1853,6 +1857,7 @@ candidate-effective-dates.csv,source_publication_date,text / categorical,"source
 candidate-effective-dates.csv,audit_universe,text / categorical,audit universe,Blank when unavailable; never substitute zero
 candidate-effective-dates.csv,initial_date_status,text / categorical,"initial date status; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
 candidate-effective-dates.csv,existing_verified_initial_date,text / categorical,"existing verified initial date; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
+candidate-effective-dates.csv,conflict_review,text / categorical,conflict review,Blank when unavailable; never substitute zero
 employment-benchmark-inputs.csv,city_geoid,text / categorical,"Code of the city identity reference; interpret with city_reference_kind (place, concity, or consolidated county). Not always a Census place. Prefer full city_reference key.; March 2025 ASPEP sample benchmark, exact government PID6 to 2024 directory place join; not program staffing or an accurate individual-unit time series",Blank when unavailable; never substitute zero
 employment-benchmark-inputs.csv,city,text / categorical,"city; March 2025 ASPEP sample benchmark, exact government PID6 to 2024 directory place join; not program staffing or an accurate individual-unit time series",Blank when unavailable; never substitute zero
 employment-benchmark-inputs.csv,government_pid6,text / categorical,"government pid6; March 2025 ASPEP sample benchmark, exact government PID6 to 2024 directory place join; not program staffing or an accurate individual-unit time series",Blank when unavailable; never substitute zero

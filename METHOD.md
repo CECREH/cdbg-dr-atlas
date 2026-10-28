@@ -58,8 +58,8 @@ not pooled automatically. DR, MIT and NDR, disaster labels, years and IDs remain
 
 HUD's 2019 and 2023 P.L. 113-2 reports explicitly label **Initial Grant Agreement
 Effective Date** for 34 original grant IDs, with all dates agreeing; 26 match the
-national panel. Three additional panel clocks bring verified national coverage to
-29 of 206 awards. Houston B-16-MH-48-0001 uses December 7, 2016, explicitly stated
+national panel. Three additional panel clocks initially brought the national count to 29; a subsequent Dauphin review suspends one, leaving
+28 of 206 national awards. A separately sourced Joplin QPR award is outside F31. Houston B-16-MH-48-0001 uses December 7, 2016, explicitly stated
 in HUD OIG 2022-FW-1001 (PDF p.7, printed p.5) and corroborated in OIG 2023-FW-0001
 Appendix E. A city guideline instead prints December 7, 2017; that conflict is
 retained, with the two agreeing HUD sources preferred. Lake Charles B-21-MF-22-0002
@@ -81,10 +81,10 @@ opening cumulative histories are not reconciled: its six certified outcomes rema
 unavailable. Observed-window flows are diagnostics, not certified cumulative values.
 
 Independent QPR evidence supplies same-scope **To Date** values at exact horizons.
-This release has 59 verified-period reports across 27 awards and 3,012 exact
-F31 activity-horizon matches. Approved reports yield 2,526 activity E/O and 2,591
-activity E/allocated-budget values. Whole-grant E/O is available at Q4 for 22 awards,
-Q12 for 20 and Q20 for 10; the municipal administering subset is 8, 6 and 2.
+This release has 65 verified-period reports across 27 awards and 3,121 exact
+F31 activity-horizon matches. Approved reports yield 2,631 activity E/O and 2,698
+activity E/allocated-budget values. Whole-grant E/O is available at Q4 for 23 awards,
+Q12 for 23 and Q20 for 11; the municipal administering subset is 9, 8 and 2.
 These selected observations do not support a comparable ranking or causal model.
 
 At the activity scope, **allocated activity budget** means QPR Total Budget, To Date.
@@ -94,11 +94,13 @@ program income. It is a revised reporting-vintage amount, not original whole-gra
 award, all-source projected cost or beneficiary-city allocation. Budget values
 and their definition source accompany every eligible E/allocated ratio.
 
-Whole-grant programmed budget is never substituted for allocation. Only Moore Q4
-has an independently documented historical whole-grant allocation denominator:
-$52.2 million, from the two allocations in HUD OIG 2015-FW-1003 (PDF p.5, printed
-p.3), consistent with the exact grant's QPR. The later Moore allocation history and
-all other whole-grant allocation denominators remain unverified. Proposed notices,
+Whole-grant programmed budget is never substituted for allocation. Moore Q4
+has a $52.2 million denominator from two allocations in HUD OIG 2015-FW-1003
+(PDF p.5, printed p.3). Minot Q4 has a $35,056,000 total 2013 allocation in the
+Federal Register (May 29, 2013, PDF p.2), corroborated by HUD OIG 2015-KC-1002
+and its 2014Q4 QPR. These differ from partial grant obligations or programmed
+budgets. The later Moore and Minot allocation histories and other whole-grant
+allocation denominators remain unverified. Proposed notices,
 amendments with unresolved approval dates, and later cover awards are not applied
 retroactively. Activity and whole-grant six-field outputs are explicitly separated.
 
@@ -351,7 +353,7 @@ https://www.depts.ttu.edu/cecreh/ and https://www.ttu.edu/brand/websites/index.p
 
 ## Additional municipal QPR evidence
 
-The Municipal QPRs area adds a selected sample of 61 HUD-approved reports from
+The first Municipal QPR batch added a selected sample of 61 HUD-approved reports from
 13 administering cities and 16 awards. We retrieved 62 HUD public-indexed PDF
 versions from selected 2015–2018 and 2024 calendar windows; one NYC 2017Q1 file
 could not be opened by the independent PDF reader and is excluded. Missing or
@@ -385,7 +387,7 @@ The administering government follows the exact original award and does not
 establish the beneficiary city or where an activity occurred. Initial award dates
 and award-relative quarters are shown only when independently verified in the
 existing award evidence; Q1 can be partial. No new Q4/Q12/Q20 outcome or local
-allocation is invented from these additional non-horizon quarters. To-date QPR
+allocation was invented from that first batch of non-horizon quarters. To-date QPR
 amounts are cumulative snapshots and must not be added across quarters. QPR
 activity listings may omit activities and may not sum to whole-grant totals.
 
@@ -400,6 +402,53 @@ excluded PDF. Its results are search leads, never automatic financial, identity,
 location or award-date facts. No private content or model query left the computer.
 
 Download the selected activity records, grant records, JSON source evidence and
-search log from the atlas. All existing F31/context bundles remain separate and
-unchanged. Source definitions: https://files.hudexchange.info/resources/documents/DRGRKnowledgebaseFAQs_QPR.pdf
+search log from the atlas. F31/context bundles remain separate; later releases
+may update metadata and verified clock classifications without changing source money. Source definitions: https://files.hudexchange.info/resources/documents/DRGRKnowledgebaseFAQs_QPR.pdf
 and https://files.hudexchange.info/resources/documents/Draft-User-Guide-DRGR-Drawdown-Module-Release-73.pdf.
+
+
+## October 28 source expansion and clock review
+
+The next selected HUD-indexed pass retrieved 240 additional PDF versions. Of
+these, 236 approved reports across 21 awards and 13 administering cities passed
+award/period, status, source-version and whole-grant financial checks; four were
+excluded with their reasons in the inventory. It adds 3,522 activity-quarter
+records: 3,418 exact original F31 activity IDs and 104 historic NYC QPR-only
+administration/planning IDs. Forty earlier reports do not print a grant-award
+header; that field remains blank. The combined sample has 297 reports and 4,440
+activity-quarter records. The QPR list can omit activities and is not a complete
+panel. Totals are report snapshots, not additive across periods or with F31.
+
+An independent Poppler pass verified all 236 report identities and whole-grant
+values, 196 printed grant-award headers, 3,758 financial headers and 754
+stratified activity records, including negative corrections; no check failed.
+Among 1,719 additional exact F31 activity-and-quarter matches, 1,718 pairs agree
+on both period obligation and expenditure. One NYC Housing-R4 expenditure is
+$133,245,970.76 in the QPR and $133,245,970.80 in F31; the F31 row already carries
+a precision flag. Both source values and the four-cent discrepancy are retained.
+A locally cached MiniLM-L6-v2 model ranked 11,964 pages from 240 public PDFs for
+720 finance/identity/date queries; results are leads verified against pages, not
+a completeness guarantee. No private material was sent to the model.
+
+Seven additional approved QPR versions were independently checked at the source
+pages: Minot Q4 and Q12; Joplin Q4 and Q12; Jefferson County Q12 and Q20; and
+Cook County Q20. County administering amounts do not become city allocations.
+Joplin Q4 reports expenditure with zero obligations, so its E/O is null. F31
+matched activity sums are not assumed complete or reconciled to whole-report
+totals. The 2012 Minot award has HUD and city signatures in different quarters;
+the effective-date rule is unresolved and no start is assigned.
+
+For Dauphin B-13-US-42-0001, HUD's 2019/2023 summaries label January 1, 2014 as
+the initial grant agreement effective date; a 2018 HUD extension report labels
+January 16, 2015 as an obligation date. Their relationship is not established.
+The former Q20 assignment is suspended; original calendar-quarter report and
+activity amounts and both references remain in `data/award-clock-review.json`.
+No financial amounts were altered.
+
+Cook County's Q20 QPR explicitly names Harvey, Wheeling, Riverdale, Berkeley
+and Robbins in six activity scopes. These are source-described project scopes
+with 2025 reference GEOIDs, not beneficiary locations or spending allocations.
+The Harvey source also mentions a township whose identity is unresolved; its
+place list is partial. A negative geographic phrase such as outside Chicago
+is not counted as a Chicago scope. Source pages, status and original IDs are
+in `data/activity-place-evidence.json` and its CSV.
