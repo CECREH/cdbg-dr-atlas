@@ -1,0 +1,230 @@
+{
+  "prepared": "2026-10-28",
+  "scope": "Three distinct flagged activity-quarter rows; four nonzero activity-measure differences.",
+  "definition": "For each measure and scope, current report to-date minus current report period minus previous adjacent report to-date; cents.",
+  "limitations": "Different publication vintages are not a consistent snapshot. Whole-grant totals cannot be attributed to a beneficiary city or inferred activity location; no correction is inferred.",
+  "cases": [
+    {
+      "id": "chicago-albany-2016q2",
+      "grant": "B-13-MS-17-0001",
+      "project": "RD02-INFRASTRUCTURE",
+      "activity": "RD02-Infrastructure- Albany Park Tunnel",
+      "current_quarter": "2016Q2",
+      "previous": {
+        "quarter": "2016Q1",
+        "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-17-0001/B-13-MS-17-0001-2016-01-2016-03-PR.pdf",
+        "source_sha256": "f8406f69aa55e069227c25e09a670b6bf7a42c99a6eba80ed024f269980dc69b",
+        "publication_date": "2016-10-15T10:51:05-04:00",
+        "status": "Reviewed and Approved",
+        "activity": {
+          "expended_period_cents": "0",
+          "expended_to_date_cents": "56428616",
+          "obligated_period_cents": "0",
+          "obligated_to_date_cents": "1000000000",
+          "financial_pages": {
+            "expended": 34,
+            "obligated": 34
+          }
+        },
+        "whole_grant": {
+          "expended_period_cents": "0",
+          "expended_to_date_cents": "56428616",
+          "obligated_period_cents": "0",
+          "obligated_to_date_cents": "1240000000",
+          "financial_pages": {
+            "expended": 3,
+            "obligated": 3
+          }
+        }
+      },
+      "current": {
+        "quarter": "2016Q2",
+        "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-17-0001/B-13-MS-17-0001-2016-04-2016-06-PR.pdf",
+        "source_sha256": "cdda75a0e9c10712d5297b957155cc5b3c384fbe37798662352f6c94ce2406a5",
+        "publication_date": "2016-11-17T18:56:35-05:00",
+        "status": "Reviewed and Approved",
+        "activity": {
+          "expended_period_cents": "0",
+          "expended_to_date_cents": "0",
+          "obligated_period_cents": "933624946",
+          "obligated_to_date_cents": "933624946",
+          "financial_pages": {
+            "expended": 40,
+            "obligated": 40
+          }
+        },
+        "whole_grant": {
+          "expended_period_cents": "384388647",
+          "expended_to_date_cents": "440817263",
+          "obligated_period_cents": "1774363300",
+          "obligated_to_date_cents": "3014363300",
+          "financial_pages": {
+            "expended": 3,
+            "obligated": 3
+          }
+        }
+      },
+      "implied_opening_minus_previous_to_date_cents": {
+        "activity": {
+          "expended": "-56428616",
+          "obligated": "-1000000000"
+        },
+        "whole_grant": {
+          "expended": "0",
+          "obligated": "0"
+        }
+      },
+      "observation": "Whole-grant expenditure and obligations reconcile across these versions, but the named activity does not. The Q1 narrative says HUD approved a substantial amendment and the Q2 narrative says the city requested a grant agreement amendment; neither narrative proves the cause of this activity-level break.",
+      "resolution": "Source amounts retained; explanation unverified; no adjustment or interpolation.",
+      "beneficiary_geography": null
+    },
+    {
+      "id": "joplin-admin-2012q4",
+      "grant": "B-12-MT-29-0001",
+      "project": "DR-2012-04",
+      "activity": "04-A",
+      "current_quarter": "2012Q4",
+      "previous": {
+        "quarter": "2012Q3",
+        "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-12-MT-29-0001/B-12-MT-29-0001-2012-07-2012-09-PR.pdf",
+        "source_sha256": "57b96c29e40768e8d36aabe1e49711f5901925c455e25d54b5b8150bc0100c20",
+        "publication_date": "2016-02-29T19:26:08-05:00",
+        "status": "Reviewed and Approved",
+        "activity": {
+          "expended_period_cents": "389987",
+          "expended_to_date_cents": "389987",
+          "obligated_period_cents": "0",
+          "obligated_to_date_cents": "0",
+          "financial_pages": {
+            "expended": 42,
+            "obligated": 41
+          }
+        },
+        "whole_grant": {
+          "expended_period_cents": "389987",
+          "expended_to_date_cents": "389987",
+          "obligated_period_cents": "0",
+          "obligated_to_date_cents": "0",
+          "financial_pages": {
+            "expended": 5,
+            "obligated": 5
+          }
+        }
+      },
+      "current": {
+        "quarter": "2012Q4",
+        "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-12-MT-29-0001/B-12-MT-29-0001-2012-10-2012-12-PR.pdf",
+        "source_sha256": "744962de568bfcbc7d79827e3bcc93e89b88752954357b87cf03067f7bf26595",
+        "publication_date": "2014-04-23T03:28:30-04:00",
+        "status": "Reviewed and Approved",
+        "activity": {
+          "expended_period_cents": "769804",
+          "expended_to_date_cents": "769804",
+          "obligated_period_cents": "5000000",
+          "obligated_to_date_cents": "5000000",
+          "financial_pages": {
+            "expended": 14,
+            "obligated": 14
+          }
+        },
+        "whole_grant": {
+          "expended_period_cents": "769804",
+          "expended_to_date_cents": "769804",
+          "obligated_period_cents": "5000000",
+          "obligated_to_date_cents": "5000000",
+          "financial_pages": {
+            "expended": 5,
+            "obligated": 5
+          }
+        }
+      },
+      "implied_opening_minus_previous_to_date_cents": {
+        "activity": {
+          "expended": "-389987",
+          "obligated": "0"
+        },
+        "whole_grant": {
+          "expended": "-389987",
+          "obligated": "0"
+        }
+      },
+      "observation": "The activity and whole-grant expenditure breaks have the same magnitude. The 2012Q3 and 2014Q2 copies were published in 2016; the 2012Q4 and 2014Q1 copies were published in 2014. A version change is a possible explanation, not a verified transaction-level cause.",
+      "resolution": "Source amounts retained; explanation unverified; no adjustment or interpolation.",
+      "beneficiary_geography": null
+    },
+    {
+      "id": "joplin-admin-2014q2",
+      "grant": "B-12-MT-29-0001",
+      "project": "DR-2012-04",
+      "activity": "04-A",
+      "current_quarter": "2014Q2",
+      "previous": {
+        "quarter": "2014Q1",
+        "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-12-MT-29-0001/B-12-MT-29-0001-2014-01-2014-03-PR.pdf",
+        "source_sha256": "63e7d425a981681ce32b3d002938af92cb01bb772c36e01f7dfe89ed5113c292",
+        "publication_date": "2014-06-04T19:41:31-04:00",
+        "status": "Reviewed and Approved",
+        "activity": {
+          "expended_period_cents": "0",
+          "expended_to_date_cents": "2027984",
+          "obligated_period_cents": "0",
+          "obligated_to_date_cents": "5000000",
+          "financial_pages": {
+            "expended": 33,
+            "obligated": 32
+          }
+        },
+        "whole_grant": {
+          "expended_period_cents": "147594123",
+          "expended_to_date_cents": "246877507",
+          "obligated_period_cents": "21180000",
+          "obligated_to_date_cents": "26180000",
+          "financial_pages": {
+            "expended": 5,
+            "obligated": 5
+          }
+        }
+      },
+      "current": {
+        "quarter": "2014Q2",
+        "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-12-MT-29-0001/B-12-MT-29-0001-2014-04-2014-06-PR.pdf",
+        "source_sha256": "896d6e997b6f399c855608ab81041f94535083f82b89d992e6dbe0e9d29fa81d",
+        "publication_date": "2016-02-29T17:46:27-05:00",
+        "status": "Reviewed and Approved",
+        "activity": {
+          "expended_period_cents": "9615395",
+          "expended_to_date_cents": "12033366",
+          "obligated_period_cents": "20000000",
+          "obligated_to_date_cents": "25000000",
+          "financial_pages": {
+            "expended": 40,
+            "obligated": 40
+          }
+        },
+        "whole_grant": {
+          "expended_period_cents": "180134834",
+          "expended_to_date_cents": "427402328",
+          "obligated_period_cents": "770000000",
+          "obligated_to_date_cents": "796180000",
+          "financial_pages": {
+            "expended": 5,
+            "obligated": 5
+          }
+        }
+      },
+      "implied_opening_minus_previous_to_date_cents": {
+        "activity": {
+          "expended": "389987",
+          "obligated": "0"
+        },
+        "whole_grant": {
+          "expended": "389987",
+          "obligated": "0"
+        }
+      },
+      "observation": "The activity and whole-grant expenditure breaks have the same magnitude. The 2012Q3 and 2014Q2 copies were published in 2016; the 2012Q4 and 2014Q1 copies were published in 2014. A version change is a possible explanation, not a verified transaction-level cause.",
+      "resolution": "Source amounts retained; explanation unverified; no adjustment or interpolation.",
+      "beneficiary_geography": null
+    }
+  ]
+}

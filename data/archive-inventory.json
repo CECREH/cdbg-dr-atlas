@@ -10,7 +10,8 @@
       "Use offline transformer retrieval to rank relevant pages of retrieved public documents; verify source pages manually/deterministically before accepting facts.",
       "Reconcile 302 retrieved HUD-indexed versions and seven separately recovered horizon versions to per-document receipts, extraction status and source hashes. Exclusions remain visible.",
       "Captured 173 additional public plans and agreement documents; 22 links returned 403. Document labels remain unverified until a source-specific review.",
-      "Retrieved and checked four San Marcos city-indexed reports: three are not approved versions; only calendar-quarter values are retained while the exact initial clock remains unverified."
+      "Retrieved and checked four San Marcos city-indexed reports: three are not approved versions; only calendar-quarter values are retained while the exact initial clock remains unverified.",
+      "Reviewed two additional Joplin award documents. Different 2012 effective and signature dates remain unharmonized; the Federal Register states the initial allocation and geographic condition."
     ],
     "known_gaps": [
       "Current city pages may omit historic links or load them dynamically. Many listed non-horizon quarters and amendment bodies are still unread.",
@@ -36,22 +37,27 @@
     "HUD_exact_grants_indexed": 38,
     "index_pages_attempted": 21,
     "index_pages_retrieved": 19,
-    "document_entries": 1035,
+    "document_entries": 1037,
     "status_counts": {
       "validated_financial_snapshot_v44": 236,
       "document_structure_not_validated": 1,
       "validated_financial_snapshot_v43": 61,
       "excluded_independent_pdf_reader_failed": 3,
       "validated_horizon_values": 21,
-      "retrieved_plan_or_agreement_unreviewed_v45": 173,
+      "retrieved_plan_or_agreement_unreviewed_v45": 168,
       "excluded_whole_grant_cells_unverified": 1,
       "excluded_review_status_unverified": 1,
       "linked_not_retrieved": 497,
       "retrieved_not_horizon_validated": 7,
+      "reviewed_proposed_plan_totals_v46": 2,
       "cover_period_not_validated": 1,
       "access_denied_v45": 22,
+      "reviewed_action_plan_v46": 1,
+      "reviewed_source_label_conflict_v46": 2,
       "reviewed_calendar_snapshot_v45": 4,
-      "validated_horizon_values_v44": 7
+      "validated_horizon_values_v44": 7,
+      "reviewed_award_clock_evidence_v46": 1,
+      "reviewed_original_allocation_v46": 1
     }
   },
   "index_checks": [
@@ -274,7 +280,8 @@
       "HUD_exact_grant_in_retrieved_indexes": true,
       "HUD_document_entries": 24,
       "validated_horizon_reports": 0,
-      "review_scope": "All quarters available in retrieved HUD metadata inventoried; city index links inventoried separately. Only specific horizon PDFs parsed/verified. No claim all city archive files or amendments have been reviewed."
+      "review_scope": "All quarters available in retrieved HUD metadata inventoried; city index links inventoried separately. Only specific horizon PDFs parsed/verified. No claim all city archive files or amendments have been reviewed.",
+      "date_evidence_note": "2012 OIG effective and separate HUD/city signature dates conflict; original agreement effective-date rule unresolved."
     },
     {
       "grant": "B-12-MT-38-0001",
@@ -13010,16 +13017,16 @@
       "type": "amendment_or_action_plan",
       "linked_period_label_unverified": "Amendment 23 (Non-Substantial)",
       "grant": null,
-      "document_status": "retrieved_plan_or_agreement_unreviewed_v45",
-      "review_status": null,
+      "document_status": "reviewed_proposed_plan_totals_v46",
+      "review_status": "Proposed plan; HUD approval and effective date not verified",
       "checked_utc": "2026-10-27T22:32:51.079794+00:00",
       "source_kind": "Official city index",
       "period_from": null,
       "period_through": null,
       "publication_date": null,
       "source_sha256": "9504741bb0080a768265cbc10f1a952494e8b82e9e54dc9c1d3a3752d618ce48",
-      "grant_linkage": "City index link only; exact award and period not yet verified",
-      "validation_note": "Public source captured; link label and contents require separate grant, approval, date and denominator review."
+      "grant_linkage": "Candidate 2013 Tuscaloosa grant only; no exact grant ID printed on the reviewed pages.",
+      "validation_note": "Amendment 23 source figures and plan wording reviewed. Proposed amount is not proof of approved allocation."
     },
     {
       "city": "Tuscaloosa",
@@ -13127,16 +13134,16 @@
       "type": "amendment_or_action_plan",
       "linked_period_label_unverified": "Amendment 29 (Non-Substantial)",
       "grant": null,
-      "document_status": "retrieved_plan_or_agreement_unreviewed_v45",
-      "review_status": null,
+      "document_status": "reviewed_proposed_plan_totals_v46",
+      "review_status": "Proposed plan; HUD approval and effective date not verified",
       "checked_utc": "2026-10-27T22:32:51.079794+00:00",
       "source_kind": "Official city index",
       "period_from": null,
       "period_through": null,
       "publication_date": null,
       "source_sha256": "b4ce8e520c25216aaab0de6c60d47bec77280618874d79c486df1909c5b31f3a",
-      "grant_linkage": "City index link only; exact award and period not yet verified",
-      "validation_note": "Public source captured; link label and contents require separate grant, approval, date and denominator review."
+      "grant_linkage": "Candidate 2013 Tuscaloosa grant only; no exact grant ID printed on the reviewed pages.",
+      "validation_note": "Amendment 29 source figures and plan wording reviewed. Displayed total does not equal CDBG plus other funds."
     },
     {
       "city": "Tuscaloosa",
@@ -15994,17 +16001,18 @@
       "link_label": "Round I Amendment II - Joplin Housing Authority, Rental Assistance and Repairs (PDF)",
       "type": "amendment_or_action_plan",
       "linked_period_label_unverified": "Round I Amendment II - Joplin Housing Authority, Rental Assistance and Repairs (PDF)",
-      "grant": null,
-      "document_status": "retrieved_plan_or_agreement_unreviewed_v45",
-      "review_status": null,
+      "grant": "B-12-MT-29-0001",
+      "document_status": "reviewed_action_plan_v46",
+      "review_status": "Amendment proposal; HUD approval not established",
       "checked_utc": "2026-10-27T22:32:52.415897+00:00",
       "source_kind": "Official city index",
       "period_from": null,
       "period_through": null,
       "publication_date": null,
       "source_sha256": "7838517c3d5f9cd36831f6a752fafcedf3eb395759016fef9d9faf32a5543716",
-      "grant_linkage": "City index link only; exact award and period not yet verified",
-      "validation_note": "Public source captured; link label and contents require separate grant, approval, date and denominator review."
+      "grant_linkage": "PDF identifies Public Law 112-55 and $45,266,709 first-round award; exact award ID linked by OIG table, not printed on the reviewed page.",
+      "validation_note": "PDF p.6 lists initial plan approval September 14, 2013 and an earlier amendment date, April 11, 2013. These labels do not establish the grant agreement clock.",
+      "index_link_label_original": "Round I Amendment II - Joplin Housing Authority, Rental Assistance and Repairs (PDF)"
     },
     {
       "city": "Joplin",
@@ -16035,16 +16043,16 @@
       "type": "amendment_or_action_plan",
       "linked_period_label_unverified": "Round I Amendment IV - Joplin Homebuyer Assistance Program (JHAP) (PDF)",
       "grant": null,
-      "document_status": "retrieved_plan_or_agreement_unreviewed_v45",
-      "review_status": null,
+      "document_status": "reviewed_source_label_conflict_v46",
+      "review_status": "Submitted amendment; HUD approval not established",
       "checked_utc": "2026-10-27T22:32:52.415897+00:00",
       "source_kind": "Official city index",
       "period_from": null,
       "period_through": null,
       "publication_date": null,
       "source_sha256": "576f74060713f68c6e18d622c4e19dd4b453b2c20dfc7af46e6a491278f412e6",
-      "grant_linkage": "City index link only; exact award and period not yet verified",
-      "validation_note": "Public source captured; link label and contents require separate grant, approval, date and denominator review."
+      "grant_linkage": "Unresolved: PDF p.1 calls it Round I but cites Public Law 113-2; p.2 calls it first-round approximately $45 million. No exact grant ID assigned.",
+      "validation_note": "Round and appropriation labels within the source conflict; the proposed budget has struck-through prior text. Do not infer an award ID or approved denominator."
     },
     {
       "city": "Joplin",
@@ -16310,20 +16318,21 @@
       "index_url": "https://www.joplinmo.org/1245/CDBG-DR",
       "index_sha256": "402aab1479514803889d745d153f94531a33fc9a783127850ba790d0ea46ef1c",
       "document_url": "https://www.joplinmo.org/DocumentCenter/View/13747/Round-II-Amendment-II-Partial-Action-Plan-I---Joplin-Housing-Authority-Rental-Assistance-PDF",
-      "link_label": "Round II Amendment II (Partial Action Plan I) - Joplin Housing Authority Rental Assistance (PDF)",
+      "link_label": "Round II Amendment II (Partial Action Plan I) - Joplin Housing Authority Rental Assistance (PDF) (index says Round II; PDF identifies Round I)",
       "type": "amendment_or_action_plan",
       "linked_period_label_unverified": "Round II Amendment II (Partial Action Plan I) - Joplin Housing Authority Rental Assistance (PDF)",
-      "grant": null,
-      "document_status": "retrieved_plan_or_agreement_unreviewed_v45",
-      "review_status": null,
+      "grant": "B-12-MT-29-0001",
+      "document_status": "reviewed_source_label_conflict_v46",
+      "review_status": "Amendment proposal; HUD approval not established",
       "checked_utc": "2026-10-27T22:32:52.415897+00:00",
       "source_kind": "Official city index",
       "period_from": null,
       "period_through": null,
       "publication_date": null,
       "source_sha256": "70d54b3ae85e075c7d09be5968ae344c9c257a80e6371d24df46c51ae113f9c4",
-      "grant_linkage": "City index link only; exact award and period not yet verified",
-      "validation_note": "Public source captured; link label and contents require separate grant, approval, date and denominator review."
+      "grant_linkage": "PDF identifies Public Law 112-55 and $45,266,709 first-round award; exact award ID linked by OIG table, not printed on the reviewed page.",
+      "validation_note": "PDF p.6 lists initial plan approval September 14, 2013 and an earlier amendment date, April 11, 2013. These labels do not establish the grant agreement clock. City index says Round II but source body describes Round I.",
+      "index_link_label_original": "Round II Amendment II (Partial Action Plan I) - Joplin Housing Authority Rental Assistance (PDF)"
     },
     {
       "city": "Joplin",
@@ -20021,6 +20030,32 @@
       "source_sha256": "e71a52ab5b555ce9fe94bad0042dee53b77cd3cf391b486182d2caaf7d29a937",
       "grant_linkage": "Candidate exact grant from document discovery; source-page verification required.",
       "validation_note": "Raw source version captured locally; source label alone does not establish award execution or amendment approval."
+    },
+    {
+      "city": "Joplin",
+      "grant": "B-12-MT-29-0001",
+      "source_kind": "HUD Office of Inspector General",
+      "index_url": null,
+      "document_url": "https://www.hudoig.gov/sites/default/files/documents/2014-KC-1002.pdf",
+      "link_label": "2014 OIG audit: first Joplin grant agreement signatures",
+      "type": "award_signature_review",
+      "document_status": "reviewed_award_clock_evidence_v46",
+      "review_status": "Published audit; date semantics unresolved",
+      "source_sha256": "e7fcec89ba84caafe1bbaa1ea272e408400fe65e5cdf5419237e41a0f04de30b",
+      "validation_note": "PDF p.5: HUD and city signatures in different quarters; original agreement not obtained."
+    },
+    {
+      "city": "Joplin",
+      "grant": "B-12-MT-29-0001",
+      "source_kind": "Federal Register / HUD",
+      "index_url": null,
+      "document_url": "https://www.govinfo.gov/content/pkg/FR-2012-04-16/pdf/2012-9094.pdf",
+      "link_label": "2012 Federal Register allocation and jurisdiction condition",
+      "type": "original_allocation_notice",
+      "document_status": "reviewed_original_allocation_v46",
+      "review_status": "Published federal notice; later allocation history incomplete",
+      "source_sha256": "6c563cb7c217d4c82d2a935839fc6c3ff133150610910e62b55e5d17d95b6eb4",
+      "validation_note": "PDF p.2: initial $45,266,709 direct Joplin allocation; not a project or beneficiary allocation."
     }
   ]
 }

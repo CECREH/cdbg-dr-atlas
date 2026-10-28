@@ -1,0 +1,32 @@
+{
+  "prepared": "2026-10-28",
+  "scope": "Source-specific proposed action-plan totals, not independently approved grant allocations or milestone denominators.",
+  "records": [
+    {
+      "id": "tuscaloosa-amendment-23-proposed-total",
+      "city": "Tuscaloosa",
+      "candidate_grant": "B-13-MS-01-0002",
+      "source_url": "https://assets.caboosecms.com/media/462413_ap-amendment-_23.pdf?1531403988",
+      "source_sha256": "9504741bb0080a768265cbc10f1a952494e8b82e9e54dc9c1d3a3752d618ce48",
+      "source_page": 17,
+      "source_approval_status": "HUD approval and effective date not verified",
+      "proposed_project_total_cents": "4393199875",
+      "note": "PDF p.17 describes projects proposed across action plans and is not proof of final approval or current award allocation."
+    },
+    {
+      "id": "tuscaloosa-amendment-29-proposed-total",
+      "city": "Tuscaloosa",
+      "candidate_grant": "B-13-MS-01-0002",
+      "source_url": "https://assets.caboosecms.com/media/5069644_ap-amendment-_29.pdf?1574718502",
+      "source_sha256": "b4ce8e520c25216aaab0de6c60d47bec77280618874d79c486df1909c5b31f3a",
+      "source_page": 18,
+      "source_approval_status": "HUD approval and effective date not verified",
+      "proposed_cdbg_total_cents": "4393227389",
+      "printed_other_funds_cents": "6757612403",
+      "printed_project_total_cents": "11105337866",
+      "components_minus_printed_total_cents": "45501926",
+      "note": "The printed CDBG and other-funds totals sum to $111,508,397.92, $455,019.26 above the printed total. Keep the discrepancy unresolved; do not normalize or use as an award denominator."
+    }
+  ],
+  "limitations": "The named grant is a candidate linked by grantee and program, not an exact ID printed on these pages. Source dates, approvals and historical amendment sequences remain to be checked. Different plan versions are not additive."
+}

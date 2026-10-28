@@ -458,6 +458,41 @@ in `data/activity-place-evidence.json` and its CSV.
 
 ## Source acquisition and QPR opening-balance diagnostics
 
+### Scanned-source and continuity review
+
+Sixteen acquired documents without extractable native text were OCRed across
+436 pages, and a local offline transformer ranked overlapping text chunks as
+search leads. Targeted original pages have been inspected for eight documents;
+the other eight remain OCR/search-only. OCR is fallible and no search guarantees
+all documents, amendments or relevant statements were found.
+
+For Chicago's Albany Park Tunnel activity, reported Q1 and Q2 2016 cumulative
+amounts do not reconcile, while whole-grant expenditure and obligation do. The
+QPR narratives discuss an approved substantial plan amendment and a later
+requested grant amendment, but do not establish the cause of the activity-level
+break. For Joplin's activity 04-A, 2012Q4 and 2014Q2 show opposite $3,899.87
+discontinuities at both activity and whole-grant level across report copies
+published in different years. The matching magnitude is a clue, not proof of
+a revision. Original values and source versions remain unchanged; see
+`data/continuity-review-v46.json` and the linked IDs in the QPR CSV.
+
+The Federal Register allocated $45,266,709 to Joplin in 2012 and required the
+direct grant to be spent within its jurisdiction. This condition does not locate
+individual activities or beneficiaries. A 2023 OIG table reports an effective
+date of September 14, 2012 for B-12-MT-29-0001, while a 2014 OIG audit says HUD
+signed September 15 and the city signed October 16. The latter date is in a
+different quarter. The original agreement and date rule are needed; no clock
+or milestone ratio is assigned. A city archive link labeled Round II contains
+a 2012 first-round plan, whose printed initial approval date conflicts with its
+own amendment chronology. A separate amendment labels itself Round I but cites
+the 2013 law. These source conflicts remain in the archive inventory.
+
+Tuscaloosa's scanned amendment 23 proposes $43,931,998.75 in projects;
+amendment 29 prints $43,932,273.89 in CDBG and $67,576,124.03 in other funds,
+but a $111,053,378.66 project total, $455,019.26 below the sum of those printed
+components. Approval dates are not established. They are source-specific
+proposals, not verified award denominators. See `data/plan-budget-review-v46.json`.
+
 Four San Marcos B-16-MH-48-0002 city-archive QPR copies have been retrieved and
 checked. The 2016Q4 report says execution occurred in December 2016; an OIG
 table separately lists an effective date of December 9, 2016 without calling it

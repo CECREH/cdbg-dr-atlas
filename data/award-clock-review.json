@@ -284,6 +284,59 @@
         }
       ],
       "unclassified_qpr_activities": []
+    },
+    {
+      "grant": "B-12-MT-29-0001",
+      "government": "City of Joplin, Missouri",
+      "status": "conflicting_effective_and_signature_dates_clock_unresolved",
+      "date_observations": [
+        {
+          "date": "2012-09-14",
+          "label": "Effective date in 2023 OIG report; initial-effective semantics not identified",
+          "source_url": "https://www.hudoig.gov/sites/default/files/2023-03/2023-FW-0001.pdf",
+          "source_page": 26,
+          "source_sha256": "caf068aa97afb7bfaca8200a5c5ffe6c45dee8645bd629649f8e4112b232692c",
+          "report_date": "2023-03-03"
+        },
+        {
+          "date": "2012-09-15",
+          "label": "HUD signed the $45.2 million Funding Approval/Agreement, per 2014 OIG narrative",
+          "source_url": "https://www.hudoig.gov/sites/default/files/documents/2014-KC-1002.pdf",
+          "source_page": 5,
+          "source_sha256": "e7fcec89ba84caafe1bbaa1ea272e408400fe65e5cdf5419237e41a0f04de30b",
+          "report_date": "2014-01-29"
+        },
+        {
+          "date": "2012-10-16",
+          "label": "City signed that Funding Approval/Agreement, per 2014 OIG narrative",
+          "source_url": "https://www.hudoig.gov/sites/default/files/documents/2014-KC-1002.pdf",
+          "source_page": 5,
+          "source_sha256": "e7fcec89ba84caafe1bbaa1ea272e408400fe65e5cdf5419237e41a0f04de30b",
+          "report_date": "2014-01-29"
+        }
+      ],
+      "original_allocation_evidence": {
+        "allocated_cents": "4526670900",
+        "federal_notice_date": "2012-04-16",
+        "source_url": "https://www.govinfo.gov/content/pkg/FR-2012-04-16/pdf/2012-9094.pdf",
+        "source_page": 2,
+        "source_sha256": "6c563cb7c217d4c82d2a935839fc6c3ff133150610910e62b55e5d17d95b6eb4",
+        "scope": "Initial whole-grant allocation under Public Law 112-55; not an activity budget or individual beneficiary allocation.",
+        "award_linkage": "Exact grant ID and amount in the 2023 OIG table and approved QPR grant header; the 2014 OIG narrative describes the $45.2m award without printing its ID.",
+        "geographic_condition": "The Federal Register required spending within City of Joplin jurisdiction; this grant-level condition does not identify individual beneficiary or project locations.",
+        "later_historical_allocation_changes": "Not fully reviewed; do not assume this amount remained the denominator at later horizons."
+      },
+      "note": "The listed effective date precedes the separately reported HUD signature by one day, and the city signature is in the next calendar quarter. Dates have different labels; the original agreement and its effective-date rule are needed. No Q4/Q12/Q20 assignment or ratio is produced.",
+      "source_document_conflicts": [
+        {
+          "source_url": "https://www.joplinmo.org/DocumentCenter/View/13747/Round-II-Amendment-II-Partial-Action-Plan-I---Joplin-Housing-Authority-Rental-Assistance-PDF",
+          "source_page": 6,
+          "source_sha256": "70d54b3ae85e075c7d09be5968ae344c9c257a80e6371d24df46c51ae113f9c4",
+          "note": "City index URL labels this Round II, but PDF p.6 identifies the 2012 Public Law 112-55 first-round action plan. It prints initial plan approval September 14, 2013 while listing an amendment finalized April 11, 2013; neither label proves the grant agreement clock. PDF p.1 says the April 2014 amendment would be submitted after a comment period, not that HUD approved it."
+        }
+      ],
+      "unclassified_qpr_reports": [],
+      "unclassified_qpr_activities": []
     }
   ]
 }

@@ -111,6 +111,14 @@ available in the downloads section. See METHOD.md for validation and limits.
 
 ### Source acquisition and opening-balance review
 
+The subsequent scanned-source pass processed 436 pages from 16 documents and
+checked selected original pages. It records conflicting Joplin agreement dates,
+a mislabeled city archive link, and two Tuscaloosa proposed plan totals that
+cannot yet establish an approved denominator. The QPR continuity review now
+compares each flagged activity with its whole-grant source version; source values
+remain unchanged and causes remain unverified. Details and source links are in
+`METHOD.md` and the downloadable research metadata.
+
 A local archive now records 173 public plans and agreements, with 22 denied
 source URLs and exact hashes/statuses; the full archive remains incomplete.
 The downloadable 4,440-row QPR quarter panel computes implied openings from

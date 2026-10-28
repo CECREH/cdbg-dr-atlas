@@ -1809,6 +1809,7 @@ qpr-quarter-panel-v45.csv,qpr_obligated_implied_opening_cents,integer nominal US
 qpr-quarter-panel-v45.csv,qpr_obligated_prior_quarter_to_date_cents,integer nominal USD cents,"To-date amount in the immediately preceding listed QPR activity-quarter, if present; missing is not zero.",Blank when unavailable; never substitute zero
 qpr-quarter-panel-v45.csv,qpr_obligated_opening_minus_prior_cents,integer nominal USD cents,Implied opening minus the preceding reported QPR to-date amount. Differences are retained for review; source revisions may differ.,Blank when unavailable; never substitute zero
 qpr-quarter-panel-v45.csv,qpr_obligated_continuity_status,text / categorical,Compares adjacent listed source-version activity quarters only; agreement does not establish complete history.,Blank when unavailable; never substitute zero
+qpr-quarter-panel-v45.csv,continuity_review_id,text / categorical,continuity review id,Blank when unavailable; never substitute zero
 qpr-quarter-panel-v45.csv,qpr_budget_period_cents,integer nominal USD cents,"QPR reporting-period value in this source version, separate from F31.",Blank when unavailable; never substitute zero
 qpr-quarter-panel-v45.csv,qpr_budget_to_date_cents,integer nominal USD cents,"QPR cumulative source-version value, not additive across quarters or to F31.",Blank when unavailable; never substitute zero
 qpr-quarter-panel-v45.csv,qpr_reported_grant_award_cents,integer nominal USD cents,qpr reported grant award cents; signed amount; preserve negative adjustments,Blank when unavailable; never substitute zero
@@ -1897,6 +1898,7 @@ municipal-archive-review.csv,HUD_exact_grant_in_retrieved_indexes,text / categor
 municipal-archive-review.csv,HUD_document_entries,text / categorical,HUD document entries,Blank when unavailable; never substitute zero
 municipal-archive-review.csv,validated_horizon_reports,text / categorical,validated horizon reports,Blank when unavailable; never substitute zero
 municipal-archive-review.csv,review_scope,text / categorical,review scope,Blank when unavailable; never substitute zero
+municipal-archive-review.csv,date_evidence_note,text / categorical,"date evidence note; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
 candidate-effective-dates.csv,grant,text / categorical,grant,Blank when unavailable; never substitute zero
 candidate-effective-dates.csv,grantee,text / categorical,grantee,Blank when unavailable; never substitute zero
 candidate-effective-dates.csv,source_date_label,text / categorical,"source date label; reporting calendar, source/publication or verified date as named, not interchangeable",Blank when unavailable; never substitute zero
