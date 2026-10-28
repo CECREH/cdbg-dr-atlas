@@ -1,0 +1,4734 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+  "weights_sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+  "execution": "Offline cached model on local CPU; no source text transmitted elsewhere.",
+  "documents": 25,
+  "pdf_pages": 849,
+  "text_chunks": 1914,
+  "document_scoped_queries": 200,
+  "method": "Eight queries per document; overlapping 160-word chunks stepped 128 words; top four distinct pages per query.",
+  "limitations": "Similarity is a retrieval lead, not proof of source facts, dates, approvals, identity, beneficiary geography or complete archives. The results contain page numbers and scores, not raw passage text.",
+  "documents_detail": [
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-01-2014-03-PR.pdf",
+      "source_sha256": "fc794f8bcef276065ee5cb452205f988c9354732ff13d8a5ab2091595889d969",
+      "pdf_pages": 10,
+      "indexed_chunks": 30
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-04-2014-06-PR.pdf",
+      "source_sha256": "11dcd7533ea691ff65414447f13a2c91ea330d1e67d95bc00bcc818f895ea5b6",
+      "pdf_pages": 18,
+      "indexed_chunks": 49
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+      "source_sha256": "e87b3f82474e1957f4763bfbe8d53a94b06e9f02ae53ddf1082c01ff392563b5",
+      "pdf_pages": 25,
+      "indexed_chunks": 63
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-10-2014-12-PR.pdf",
+      "source_sha256": "c414c285626e693aeb58495d982aca8f12b20dc2d43b10349def445dcb22dad9",
+      "pdf_pages": 25,
+      "indexed_chunks": 58
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-01-2015-03-PR.pdf",
+      "source_sha256": "a8976d93cda3845d6fb27724e69a8fdb161b94a40ebfe559ee4f04de4acac52f",
+      "pdf_pages": 24,
+      "indexed_chunks": 55
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-04-2015-06-PR.pdf",
+      "source_sha256": "790b6b349c6cf88e4e0ece9599d3a6b6e80b9d3abd6b05e4633a33d317cae93e",
+      "pdf_pages": 26,
+      "indexed_chunks": 57
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-07-2015-09-PR.pdf",
+      "source_sha256": "dc2265da73339143e23d29cde9d695a05963697ad12b7d9bdee37289e1e447ac",
+      "pdf_pages": 30,
+      "indexed_chunks": 66
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-10-2015-12-PR.pdf",
+      "source_sha256": "413754c20245036548c2a1dbf16f2554886168aca498fdaeabcb99dc0b83090a",
+      "pdf_pages": 46,
+      "indexed_chunks": 93
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-01-2016-03-PR.pdf",
+      "source_sha256": "2a3b9499ca09ec7abde9b6e5b9757f7270a7b64970ca988e23e9e7b414e1f490",
+      "pdf_pages": 46,
+      "indexed_chunks": 92
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-04-2016-06-PR.pdf",
+      "source_sha256": "c4bd18434b8ebf8c75aaa5175a449a9aa17d664de0f3bd972242ec8259d4e4db",
+      "pdf_pages": 46,
+      "indexed_chunks": 91
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-07-2016-09-PR.pdf",
+      "source_sha256": "147d3f53ac916771b38ee19b19d925b1cad80a4ebcf81aab0d8ff3101de3d913",
+      "pdf_pages": 46,
+      "indexed_chunks": 89
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-10-2016-12-PR.pdf",
+      "source_sha256": "26e5a78e04a38d048612d98dc35eace2927ddb51f95733eeae8a6e8a3bcd5db2",
+      "pdf_pages": 46,
+      "indexed_chunks": 89
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-01-2017-03-PR.pdf",
+      "source_sha256": "5553129333c5e3fd626f0a15c531b450b0217a2c57ed07a43692c9372de301a5",
+      "pdf_pages": 46,
+      "indexed_chunks": 90
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-04-2017-06-PR.pdf",
+      "source_sha256": "eb41c110f29349b89cad69961aadb21b88a96a7305bacd846993609b9a334c86",
+      "pdf_pages": 46,
+      "indexed_chunks": 93
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-07-2017-09-PR.pdf",
+      "source_sha256": "f1629b81f777891fb278f5a7a94db3fd30e5596bcdf1e85298eba52ff3b2bc02",
+      "pdf_pages": 43,
+      "indexed_chunks": 91
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-10-2017-12-PR.pdf",
+      "source_sha256": "830588be9e07942695afa708f65fa883679f3f8e9dd81d0e3d00063ecd51b03e",
+      "pdf_pages": 52,
+      "indexed_chunks": 118
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-01-2018-03-PR.pdf",
+      "source_sha256": "21f84e7fc48de1909b32f5c8c5a1fa16c48f598503179600613e7d9e0bec8351",
+      "pdf_pages": 52,
+      "indexed_chunks": 112
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-04-2018-06-PR.pdf",
+      "source_sha256": "60ee92747f88509b2acc492a18b1104d5a24e7de6f05bbf2f2e16d63b24e5b37",
+      "pdf_pages": 56,
+      "indexed_chunks": 119
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/QUARTERLY_REPORTS/QR_Q3_2018.pdf",
+      "source_sha256": "96bf9e48cefbdaee648299e1ce93306b90a4dd22d5635f0f18929c7febfce3ab",
+      "pdf_pages": 58,
+      "indexed_chunks": 126
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/11-27-13_CDBG_DR_Action_Plan_FINAL.pdf",
+      "source_sha256": "5ec6d163a45185ac3aaacc1aee506e7302004b95bef9512ce4511c886584c030",
+      "pdf_pages": 72,
+      "indexed_chunks": 217
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment_-_2.pdf",
+      "source_sha256": "a5c6bb856425bbef81a9d9d6bdcb3850b5f8bc682a583b97e8a215fdd0741b0e",
+      "pdf_pages": 3,
+      "indexed_chunks": 9
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment__3.pdf",
+      "source_sha256": "c01406fed36cd6e288faaaf238c0200f48ed4d5b38646f45c4b623c334ab6395",
+      "pdf_pages": 5,
+      "indexed_chunks": 16
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf",
+      "source_sha256": "9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6",
+      "pdf_pages": 10,
+      "indexed_chunks": 12
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+      "source_sha256": "9c785ad1b3fd61228ccec3054115216e7c4b82b55f5d29f61c156549db67ee0e",
+      "pdf_pages": 10,
+      "indexed_chunks": 12
+    },
+    {
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-29/pdf/2013-12683.pdf",
+      "source_sha256": "820a8e4dd95492c47f05aab7255acc19d3072ded357be291f24559f91351168e",
+      "pdf_pages": 8,
+      "indexed_chunks": 67
+    }
+  ],
+  "results": [
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-01-2014-03-PR.pdf",
+      "source_sha256": "fc794f8bcef276065ee5cb452205f988c9354732ff13d8a5ab2091595889d969",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.5902381893179094
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.5398720211130639
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.5089565745379658
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.506030639250695
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-01-2014-03-PR.pdf",
+      "source_sha256": "fc794f8bcef276065ee5cb452205f988c9354732ff13d8a5ab2091595889d969",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.707719020141145
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.669990112356807
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.6516642343990355
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.5953342755908863
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-01-2014-03-PR.pdf",
+      "source_sha256": "fc794f8bcef276065ee5cb452205f988c9354732ff13d8a5ab2091595889d969",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.5641550744189626
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.5627739537840537
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.5584280419807063
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.5525659997740502
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-01-2014-03-PR.pdf",
+      "source_sha256": "fc794f8bcef276065ee5cb452205f988c9354732ff13d8a5ab2091595889d969",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6034964944554078
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5626094937511363
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.5428572229599739
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.5185528374813956
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-01-2014-03-PR.pdf",
+      "source_sha256": "fc794f8bcef276065ee5cb452205f988c9354732ff13d8a5ab2091595889d969",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.5729577387962347
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.4888404046323228
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.48849056832755355
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.4842028792067698
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-01-2014-03-PR.pdf",
+      "source_sha256": "fc794f8bcef276065ee5cb452205f988c9354732ff13d8a5ab2091595889d969",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.7347977725496941
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.7004908145391274
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6147768585387923
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.6076966561018096
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-01-2014-03-PR.pdf",
+      "source_sha256": "fc794f8bcef276065ee5cb452205f988c9354732ff13d8a5ab2091595889d969",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6335578662283083
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.586341910597002
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.5288920066998068
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.5195126303871029
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-01-2014-03-PR.pdf",
+      "source_sha256": "fc794f8bcef276065ee5cb452205f988c9354732ff13d8a5ab2091595889d969",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6529655083077046
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.6072857272184043
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5297062686809829
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.5269111216552436
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-04-2014-06-PR.pdf",
+      "source_sha256": "11dcd7533ea691ff65414447f13a2c91ea330d1e67d95bc00bcc818f895ea5b6",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 17,
+          "cosine_similarity": 0.6012871957751694
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.5955650640431454
+        },
+        {
+          "page": 15,
+          "cosine_similarity": 0.5853972893875176
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.5650531051034205
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-04-2014-06-PR.pdf",
+      "source_sha256": "11dcd7533ea691ff65414447f13a2c91ea330d1e67d95bc00bcc818f895ea5b6",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 17,
+          "cosine_similarity": 0.7092022747309638
+        },
+        {
+          "page": 15,
+          "cosine_similarity": 0.6934129334395696
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.6871346540093061
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6863546001621049
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-04-2014-06-PR.pdf",
+      "source_sha256": "11dcd7533ea691ff65414447f13a2c91ea330d1e67d95bc00bcc818f895ea5b6",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.581918155010526
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.5584280419807063
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.5533262276963639
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.5376120545181491
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-04-2014-06-PR.pdf",
+      "source_sha256": "11dcd7533ea691ff65414447f13a2c91ea330d1e67d95bc00bcc818f895ea5b6",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.5860840526747872
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5652011843901971
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.5341645203166296
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.5267015731269966
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-04-2014-06-PR.pdf",
+      "source_sha256": "11dcd7533ea691ff65414447f13a2c91ea330d1e67d95bc00bcc818f895ea5b6",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.5737852771909681
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.5144306228889236
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.510423291719095
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.5031639655010994
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-04-2014-06-PR.pdf",
+      "source_sha256": "11dcd7533ea691ff65414447f13a2c91ea330d1e67d95bc00bcc818f895ea5b6",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.7269068896590825
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.7022802170370628
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6721816854708844
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.6602651080623425
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-04-2014-06-PR.pdf",
+      "source_sha256": "11dcd7533ea691ff65414447f13a2c91ea330d1e67d95bc00bcc818f895ea5b6",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6335578662283083
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.584260388127364
+        },
+        {
+          "page": 13,
+          "cosine_similarity": 0.5557001294789385
+        },
+        {
+          "page": 18,
+          "cosine_similarity": 0.5543970427358712
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-04-2014-06-PR.pdf",
+      "source_sha256": "11dcd7533ea691ff65414447f13a2c91ea330d1e67d95bc00bcc818f895ea5b6",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 15,
+          "cosine_similarity": 0.6535159473724768
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.6510535774753443
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6476510479647734
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6271030675595999
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+      "source_sha256": "e87b3f82474e1957f4763bfbe8d53a94b06e9f02ae53ddf1082c01ff392563b5",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 24,
+          "cosine_similarity": 0.6002044145119982
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.5953011227008489
+        },
+        {
+          "page": 22,
+          "cosine_similarity": 0.5836979319166333
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.56620632951437
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+      "source_sha256": "e87b3f82474e1957f4763bfbe8d53a94b06e9f02ae53ddf1082c01ff392563b5",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 24,
+          "cosine_similarity": 0.7087504548066619
+        },
+        {
+          "page": 22,
+          "cosine_similarity": 0.6888868089144655
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6813477779703856
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.6806290264726975
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+      "source_sha256": "e87b3f82474e1957f4763bfbe8d53a94b06e9f02ae53ddf1082c01ff392563b5",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 5,
+          "cosine_similarity": 0.6226956199879763
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.5806787992402085
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.5490895923401797
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.5384268766639501
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+      "source_sha256": "e87b3f82474e1957f4763bfbe8d53a94b06e9f02ae53ddf1082c01ff392563b5",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.5890960581114064
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.5721398993749935
+        },
+        {
+          "page": 24,
+          "cosine_similarity": 0.5671934079829335
+        },
+        {
+          "page": 15,
+          "cosine_similarity": 0.5572693634447967
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+      "source_sha256": "e87b3f82474e1957f4763bfbe8d53a94b06e9f02ae53ddf1082c01ff392563b5",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 5,
+          "cosine_similarity": 0.5867239280606694
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.5673972943058995
+        },
+        {
+          "page": 24,
+          "cosine_similarity": 0.5378951357802775
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.5376885571864527
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+      "source_sha256": "e87b3f82474e1957f4763bfbe8d53a94b06e9f02ae53ddf1082c01ff392563b5",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 24,
+          "cosine_similarity": 0.724038184396369
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.7170900372665164
+        },
+        {
+          "page": 16,
+          "cosine_similarity": 0.6920945338552412
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.6698680068909483
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+      "source_sha256": "e87b3f82474e1957f4763bfbe8d53a94b06e9f02ae53ddf1082c01ff392563b5",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6397882045559058
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.6358176889184415
+        },
+        {
+          "page": 15,
+          "cosine_similarity": 0.5984781703912682
+        },
+        {
+          "page": 20,
+          "cosine_similarity": 0.5829988491741851
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
+      "source_sha256": "e87b3f82474e1957f4763bfbe8d53a94b06e9f02ae53ddf1082c01ff392563b5",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 24,
+          "cosine_similarity": 0.6549754302751459
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.6545452020838726
+        },
+        {
+          "page": 22,
+          "cosine_similarity": 0.6498563611666479
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6488715808958445
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-10-2014-12-PR.pdf",
+      "source_sha256": "c414c285626e693aeb58495d982aca8f12b20dc2d43b10349def445dcb22dad9",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 24,
+          "cosine_similarity": 0.6028545061189855
+        },
+        {
+          "page": 22,
+          "cosine_similarity": 0.5953529258584069
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.5896242854584861
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.581238069809476
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-10-2014-12-PR.pdf",
+      "source_sha256": "c414c285626e693aeb58495d982aca8f12b20dc2d43b10349def445dcb22dad9",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 24,
+          "cosine_similarity": 0.7090833255618795
+        },
+        {
+          "page": 22,
+          "cosine_similarity": 0.6963721689589402
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6934011914162709
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.6802382153333596
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-10-2014-12-PR.pdf",
+      "source_sha256": "c414c285626e693aeb58495d982aca8f12b20dc2d43b10349def445dcb22dad9",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 8,
+          "cosine_similarity": 0.5668817592211846
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5654905526272025
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.5597841519761781
+        },
+        {
+          "page": 19,
+          "cosine_similarity": 0.537763483142986
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-10-2014-12-PR.pdf",
+      "source_sha256": "c414c285626e693aeb58495d982aca8f12b20dc2d43b10349def445dcb22dad9",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.5963531472613075
+        },
+        {
+          "page": 24,
+          "cosine_similarity": 0.5691875226693381
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5403757904628672
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.5398474504502329
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-10-2014-12-PR.pdf",
+      "source_sha256": "c414c285626e693aeb58495d982aca8f12b20dc2d43b10349def445dcb22dad9",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.5747259213145106
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.570832341207502
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.5657119060017435
+        },
+        {
+          "page": 16,
+          "cosine_similarity": 0.5559554880124014
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-10-2014-12-PR.pdf",
+      "source_sha256": "c414c285626e693aeb58495d982aca8f12b20dc2d43b10349def445dcb22dad9",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.7266642199346052
+        },
+        {
+          "page": 24,
+          "cosine_similarity": 0.7252403353304364
+        },
+        {
+          "page": 16,
+          "cosine_similarity": 0.6901275756491667
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.6865404087682705
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-10-2014-12-PR.pdf",
+      "source_sha256": "c414c285626e693aeb58495d982aca8f12b20dc2d43b10349def445dcb22dad9",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6397882045559058
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6210662123892061
+        },
+        {
+          "page": 20,
+          "cosine_similarity": 0.5893898405245626
+        },
+        {
+          "page": 15,
+          "cosine_similarity": 0.5829482514924634
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-10-2014-12-PR.pdf",
+      "source_sha256": "c414c285626e693aeb58495d982aca8f12b20dc2d43b10349def445dcb22dad9",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 17,
+          "cosine_similarity": 0.6690434518376779
+        },
+        {
+          "page": 22,
+          "cosine_similarity": 0.6567673657035233
+        },
+        {
+          "page": 24,
+          "cosine_similarity": 0.6560154499287423
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6232801134081022
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-01-2015-03-PR.pdf",
+      "source_sha256": "a8976d93cda3845d6fb27724e69a8fdb161b94a40ebfe559ee4f04de4acac52f",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 23,
+          "cosine_similarity": 0.6029377785299534
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.5949139392454359
+        },
+        {
+          "page": 18,
+          "cosine_similarity": 0.5947704967046739
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5923133049559124
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-01-2015-03-PR.pdf",
+      "source_sha256": "a8976d93cda3845d6fb27724e69a8fdb161b94a40ebfe559ee4f04de4acac52f",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 23,
+          "cosine_similarity": 0.709533711891887
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.700511043035446
+        },
+        {
+          "page": 18,
+          "cosine_similarity": 0.6941025142901522
+        },
+        {
+          "page": 21,
+          "cosine_similarity": 0.6869777566929877
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-01-2015-03-PR.pdf",
+      "source_sha256": "a8976d93cda3845d6fb27724e69a8fdb161b94a40ebfe559ee4f04de4acac52f",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.607400677978956
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.557164458657878
+        },
+        {
+          "page": 18,
+          "cosine_similarity": 0.5368264071211579
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.5336884981850223
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-01-2015-03-PR.pdf",
+      "source_sha256": "a8976d93cda3845d6fb27724e69a8fdb161b94a40ebfe559ee4f04de4acac52f",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 5,
+          "cosine_similarity": 0.6022314208305006
+        },
+        {
+          "page": 23,
+          "cosine_similarity": 0.5686565100444384
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5569080947669605
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.5472074065431813
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-01-2015-03-PR.pdf",
+      "source_sha256": "a8976d93cda3845d6fb27724e69a8fdb161b94a40ebfe559ee4f04de4acac52f",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.6074758522079362
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.5677021186412678
+        },
+        {
+          "page": 16,
+          "cosine_similarity": 0.5636723247493415
+        },
+        {
+          "page": 18,
+          "cosine_similarity": 0.5438250589068703
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-01-2015-03-PR.pdf",
+      "source_sha256": "a8976d93cda3845d6fb27724e69a8fdb161b94a40ebfe559ee4f04de4acac52f",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 5,
+          "cosine_similarity": 0.743728843780826
+        },
+        {
+          "page": 23,
+          "cosine_similarity": 0.7236472403215264
+        },
+        {
+          "page": 18,
+          "cosine_similarity": 0.6954280639160368
+        },
+        {
+          "page": 15,
+          "cosine_similarity": 0.6858743931383643
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-01-2015-03-PR.pdf",
+      "source_sha256": "a8976d93cda3845d6fb27724e69a8fdb161b94a40ebfe559ee4f04de4acac52f",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 5,
+          "cosine_similarity": 0.6399486016069874
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6076806551608606
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.5836731553912136
+        },
+        {
+          "page": 19,
+          "cosine_similarity": 0.5833281172219648
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-01-2015-03-PR.pdf",
+      "source_sha256": "a8976d93cda3845d6fb27724e69a8fdb161b94a40ebfe559ee4f04de4acac52f",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 16,
+          "cosine_similarity": 0.669239063282755
+        },
+        {
+          "page": 23,
+          "cosine_similarity": 0.6571641754357811
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.6536061981662231
+        },
+        {
+          "page": 21,
+          "cosine_similarity": 0.6530768426589999
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-04-2015-06-PR.pdf",
+      "source_sha256": "790b6b349c6cf88e4e0ece9599d3a6b6e80b9d3abd6b05e4633a33d317cae93e",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 9,
+          "cosine_similarity": 0.636720743819463
+        },
+        {
+          "page": 25,
+          "cosine_similarity": 0.6010508172029349
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.5970644211737748
+        },
+        {
+          "page": 19,
+          "cosine_similarity": 0.5968796321269114
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-04-2015-06-PR.pdf",
+      "source_sha256": "790b6b349c6cf88e4e0ece9599d3a6b6e80b9d3abd6b05e4633a33d317cae93e",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 9,
+          "cosine_similarity": 0.7116213372562725
+        },
+        {
+          "page": 19,
+          "cosine_similarity": 0.7059896457001991
+        },
+        {
+          "page": 25,
+          "cosine_similarity": 0.6984641400162073
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.6942488911160445
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-04-2015-06-PR.pdf",
+      "source_sha256": "790b6b349c6cf88e4e0ece9599d3a6b6e80b9d3abd6b05e4633a33d317cae93e",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6097315364866943
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5657363300169846
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.5571038023173052
+        },
+        {
+          "page": 13,
+          "cosine_similarity": 0.5543158256676969
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-04-2015-06-PR.pdf",
+      "source_sha256": "790b6b349c6cf88e4e0ece9599d3a6b6e80b9d3abd6b05e4633a33d317cae93e",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 5,
+          "cosine_similarity": 0.5948483549456773
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5948358061094356
+        },
+        {
+          "page": 19,
+          "cosine_similarity": 0.5734662471484548
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5576134712017143
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-04-2015-06-PR.pdf",
+      "source_sha256": "790b6b349c6cf88e4e0ece9599d3a6b6e80b9d3abd6b05e4633a33d317cae93e",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.5940997065762013
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5877741527241368
+        },
+        {
+          "page": 21,
+          "cosine_similarity": 0.5825143338258207
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.575282714242088
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-04-2015-06-PR.pdf",
+      "source_sha256": "790b6b349c6cf88e4e0ece9599d3a6b6e80b9d3abd6b05e4633a33d317cae93e",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 5,
+          "cosine_similarity": 0.7304821511779239
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.7243926584010161
+        },
+        {
+          "page": 19,
+          "cosine_similarity": 0.7224383841409041
+        },
+        {
+          "page": 21,
+          "cosine_similarity": 0.7127882767201478
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-04-2015-06-PR.pdf",
+      "source_sha256": "790b6b349c6cf88e4e0ece9599d3a6b6e80b9d3abd6b05e4633a33d317cae93e",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6583023658062361
+        },
+        {
+          "page": 20,
+          "cosine_similarity": 0.6204632107112862
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.6197784190443303
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.6021888153258761
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-04-2015-06-PR.pdf",
+      "source_sha256": "790b6b349c6cf88e4e0ece9599d3a6b6e80b9d3abd6b05e4633a33d317cae93e",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 17,
+          "cosine_similarity": 0.6788901107890386
+        },
+        {
+          "page": 19,
+          "cosine_similarity": 0.665403002042346
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.6552768768004429
+        },
+        {
+          "page": 25,
+          "cosine_similarity": 0.6486291991102382
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-07-2015-09-PR.pdf",
+      "source_sha256": "dc2265da73339143e23d29cde9d695a05963697ad12b7d9bdee37289e1e447ac",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 23,
+          "cosine_similarity": 0.6019695895839217
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.6001681476250712
+        },
+        {
+          "page": 29,
+          "cosine_similarity": 0.5975853950543941
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.5896650953054755
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-07-2015-09-PR.pdf",
+      "source_sha256": "dc2265da73339143e23d29cde9d695a05963697ad12b7d9bdee37289e1e447ac",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 23,
+          "cosine_similarity": 0.7111037272301154
+        },
+        {
+          "page": 29,
+          "cosine_similarity": 0.710246877024505
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6856690265914785
+        },
+        {
+          "page": 27,
+          "cosine_similarity": 0.6836079901846341
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-07-2015-09-PR.pdf",
+      "source_sha256": "dc2265da73339143e23d29cde9d695a05963697ad12b7d9bdee37289e1e447ac",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.6255386512231333
+        },
+        {
+          "page": 24,
+          "cosine_similarity": 0.619857553251138
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.6097503155787014
+        },
+        {
+          "page": 13,
+          "cosine_similarity": 0.5970786161242303
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-07-2015-09-PR.pdf",
+      "source_sha256": "dc2265da73339143e23d29cde9d695a05963697ad12b7d9bdee37289e1e447ac",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 17,
+          "cosine_similarity": 0.6276482595216839
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6001565859805769
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.5975001372289996
+        },
+        {
+          "page": 18,
+          "cosine_similarity": 0.5728448743728445
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-07-2015-09-PR.pdf",
+      "source_sha256": "dc2265da73339143e23d29cde9d695a05963697ad12b7d9bdee37289e1e447ac",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6337707715561844
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6290114250928691
+        },
+        {
+          "page": 13,
+          "cosine_similarity": 0.6217356146645411
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6099724702232623
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-07-2015-09-PR.pdf",
+      "source_sha256": "dc2265da73339143e23d29cde9d695a05963697ad12b7d9bdee37289e1e447ac",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.7347619337922465
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.7296629110309008
+        },
+        {
+          "page": 18,
+          "cosine_similarity": 0.7230807310312332
+        },
+        {
+          "page": 29,
+          "cosine_similarity": 0.7164399280358269
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-07-2015-09-PR.pdf",
+      "source_sha256": "dc2265da73339143e23d29cde9d695a05963697ad12b7d9bdee37289e1e447ac",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6572068752341118
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6446756790938621
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6224627805269606
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6140468940036112
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-07-2015-09-PR.pdf",
+      "source_sha256": "dc2265da73339143e23d29cde9d695a05963697ad12b7d9bdee37289e1e447ac",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 23,
+          "cosine_similarity": 0.6761641795222968
+        },
+        {
+          "page": 19,
+          "cosine_similarity": 0.6551497141590126
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6514040543708591
+        },
+        {
+          "page": 27,
+          "cosine_similarity": 0.6509909685784925
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-10-2015-12-PR.pdf",
+      "source_sha256": "413754c20245036548c2a1dbf16f2554886168aca498fdaeabcb99dc0b83090a",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 41,
+          "cosine_similarity": 0.6270302795718188
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6183765241220449
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.6098387619508907
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.6087687582045154
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-10-2015-12-PR.pdf",
+      "source_sha256": "413754c20245036548c2a1dbf16f2554886168aca498fdaeabcb99dc0b83090a",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 43,
+          "cosine_similarity": 0.7104451555999376
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.7068955475319154
+        },
+        {
+          "page": 33,
+          "cosine_similarity": 0.703485436358722
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6947543587605562
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-10-2015-12-PR.pdf",
+      "source_sha256": "413754c20245036548c2a1dbf16f2554886168aca498fdaeabcb99dc0b83090a",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 10,
+          "cosine_similarity": 0.6295933262453192
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.6086741735268231
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5584817848084238
+        },
+        {
+          "page": 18,
+          "cosine_similarity": 0.5524836950207502
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-10-2015-12-PR.pdf",
+      "source_sha256": "413754c20245036548c2a1dbf16f2554886168aca498fdaeabcb99dc0b83090a",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6003460248038407
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.5702369163982852
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.5600352800478852
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5485967407114534
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-10-2015-12-PR.pdf",
+      "source_sha256": "413754c20245036548c2a1dbf16f2554886168aca498fdaeabcb99dc0b83090a",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 5,
+          "cosine_similarity": 0.6460250897188671
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.637903296475839
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6337707715561844
+        },
+        {
+          "page": 31,
+          "cosine_similarity": 0.6230017650513728
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-10-2015-12-PR.pdf",
+      "source_sha256": "413754c20245036548c2a1dbf16f2554886168aca498fdaeabcb99dc0b83090a",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 27,
+          "cosine_similarity": 0.7355967256903464
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.7302763533906845
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.7201877493871295
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.7027747040199055
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-10-2015-12-PR.pdf",
+      "source_sha256": "413754c20245036548c2a1dbf16f2554886168aca498fdaeabcb99dc0b83090a",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6613365064686554
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6224627805269606
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6115064107896533
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6107962556789746
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2015-10-2015-12-PR.pdf",
+      "source_sha256": "413754c20245036548c2a1dbf16f2554886168aca498fdaeabcb99dc0b83090a",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 43,
+          "cosine_similarity": 0.671494958447205
+        },
+        {
+          "page": 29,
+          "cosine_similarity": 0.6701908763257161
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.6623627418062347
+        },
+        {
+          "page": 39,
+          "cosine_similarity": 0.6585610296564985
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-01-2016-03-PR.pdf",
+      "source_sha256": "2a3b9499ca09ec7abde9b6e5b9757f7270a7b64970ca988e23e9e7b414e1f490",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 41,
+          "cosine_similarity": 0.6290482863229023
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.6202089357045126
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6176193457066732
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.6062905669784002
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-01-2016-03-PR.pdf",
+      "source_sha256": "2a3b9499ca09ec7abde9b6e5b9757f7270a7b64970ca988e23e9e7b414e1f490",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 41,
+          "cosine_similarity": 0.7078187078877042
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.7027791691202631
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.6980509489285351
+        },
+        {
+          "page": 39,
+          "cosine_similarity": 0.6941751357933165
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-01-2016-03-PR.pdf",
+      "source_sha256": "2a3b9499ca09ec7abde9b6e5b9757f7270a7b64970ca988e23e9e7b414e1f490",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.6348345855428351
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6302161862555291
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5692118365019991
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.5638119356588618
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-01-2016-03-PR.pdf",
+      "source_sha256": "2a3b9499ca09ec7abde9b6e5b9757f7270a7b64970ca988e23e9e7b414e1f490",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6012690323552266
+        },
+        {
+          "page": 33,
+          "cosine_similarity": 0.5697619764302206
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.5682146963683382
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.5627369957325838
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-01-2016-03-PR.pdf",
+      "source_sha256": "2a3b9499ca09ec7abde9b6e5b9757f7270a7b64970ca988e23e9e7b414e1f490",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.6344558669100848
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6337707715561844
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6242583638586461
+        },
+        {
+          "page": 26,
+          "cosine_similarity": 0.6131019239437087
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-01-2016-03-PR.pdf",
+      "source_sha256": "2a3b9499ca09ec7abde9b6e5b9757f7270a7b64970ca988e23e9e7b414e1f490",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 34,
+          "cosine_similarity": 0.7282174275080697
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.725766643664542
+        },
+        {
+          "page": 27,
+          "cosine_similarity": 0.722140272275472
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.7171801037751657
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-01-2016-03-PR.pdf",
+      "source_sha256": "2a3b9499ca09ec7abde9b6e5b9757f7270a7b64970ca988e23e9e7b414e1f490",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6692152406945551
+        },
+        {
+          "page": 34,
+          "cosine_similarity": 0.6266688509776052
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6224627805269606
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6115064107896533
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-01-2016-03-PR.pdf",
+      "source_sha256": "2a3b9499ca09ec7abde9b6e5b9757f7270a7b64970ca988e23e9e7b414e1f490",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 45,
+          "cosine_similarity": 0.6683264480535207
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.6661279279232142
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.6632987155776124
+        },
+        {
+          "page": 29,
+          "cosine_similarity": 0.6618876034260008
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-04-2016-06-PR.pdf",
+      "source_sha256": "c4bd18434b8ebf8c75aaa5175a449a9aa17d664de0f3bd972242ec8259d4e4db",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 45,
+          "cosine_similarity": 0.6191405501898594
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6176193457066732
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.6129805424039867
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.6046409331678763
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-04-2016-06-PR.pdf",
+      "source_sha256": "c4bd18434b8ebf8c75aaa5175a449a9aa17d664de0f3bd972242ec8259d4e4db",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 41,
+          "cosine_similarity": 0.7124021588461118
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.7052177195632419
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.6987599033711989
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6908841851870888
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-04-2016-06-PR.pdf",
+      "source_sha256": "c4bd18434b8ebf8c75aaa5175a449a9aa17d664de0f3bd972242ec8259d4e4db",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 10,
+          "cosine_similarity": 0.6302161862555291
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.611034205916794
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.5517984098516668
+        },
+        {
+          "page": 20,
+          "cosine_similarity": 0.5456228250976298
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-04-2016-06-PR.pdf",
+      "source_sha256": "c4bd18434b8ebf8c75aaa5175a449a9aa17d664de0f3bd972242ec8259d4e4db",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.5957129318669073
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.560216063123326
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.5541298998777011
+        },
+        {
+          "page": 33,
+          "cosine_similarity": 0.5526377907229707
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-04-2016-06-PR.pdf",
+      "source_sha256": "c4bd18434b8ebf8c75aaa5175a449a9aa17d664de0f3bd972242ec8259d4e4db",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6337707715561844
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6242583638586461
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6219214479105859
+        },
+        {
+          "page": 31,
+          "cosine_similarity": 0.6174782434185511
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-04-2016-06-PR.pdf",
+      "source_sha256": "c4bd18434b8ebf8c75aaa5175a449a9aa17d664de0f3bd972242ec8259d4e4db",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 27,
+          "cosine_similarity": 0.7472824354928131
+        },
+        {
+          "page": 34,
+          "cosine_similarity": 0.7282174275080697
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.723854973916908
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.7153679469204471
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-04-2016-06-PR.pdf",
+      "source_sha256": "c4bd18434b8ebf8c75aaa5175a449a9aa17d664de0f3bd972242ec8259d4e4db",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6621253055681533
+        },
+        {
+          "page": 34,
+          "cosine_similarity": 0.6349820262778467
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6224627805269606
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6115064107896533
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-04-2016-06-PR.pdf",
+      "source_sha256": "c4bd18434b8ebf8c75aaa5175a449a9aa17d664de0f3bd972242ec8259d4e4db",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 29,
+          "cosine_similarity": 0.676009536776564
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.6672608468113181
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.653199305826162
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.6525090930303834
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-07-2016-09-PR.pdf",
+      "source_sha256": "147d3f53ac916771b38ee19b19d925b1cad80a4ebcf81aab0d8ff3101de3d913",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 45,
+          "cosine_similarity": 0.6222012252374549
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6176193457066732
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6138997689674142
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.610889184981361
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-07-2016-09-PR.pdf",
+      "source_sha256": "147d3f53ac916771b38ee19b19d925b1cad80a4ebcf81aab0d8ff3101de3d913",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 41,
+          "cosine_similarity": 0.7106518575696817
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.7073638219164662
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.7006349962491702
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6896845062798799
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-07-2016-09-PR.pdf",
+      "source_sha256": "147d3f53ac916771b38ee19b19d925b1cad80a4ebcf81aab0d8ff3101de3d913",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.647707325619342
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6302161862555291
+        },
+        {
+          "page": 44,
+          "cosine_similarity": 0.6297435481775724
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5677134114238418
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-07-2016-09-PR.pdf",
+      "source_sha256": "147d3f53ac916771b38ee19b19d925b1cad80a4ebcf81aab0d8ff3101de3d913",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.5972078745205018
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.5587564943428309
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.5546338072929176
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5544592628834258
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-07-2016-09-PR.pdf",
+      "source_sha256": "147d3f53ac916771b38ee19b19d925b1cad80a4ebcf81aab0d8ff3101de3d913",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.6696778621380086
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6337707715561844
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6242583638586461
+        },
+        {
+          "page": 31,
+          "cosine_similarity": 0.6163535418154058
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-07-2016-09-PR.pdf",
+      "source_sha256": "147d3f53ac916771b38ee19b19d925b1cad80a4ebcf81aab0d8ff3101de3d913",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 27,
+          "cosine_similarity": 0.7472824354928131
+        },
+        {
+          "page": 34,
+          "cosine_similarity": 0.7282174275080697
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.7247041110582431
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.7154186297084565
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-07-2016-09-PR.pdf",
+      "source_sha256": "147d3f53ac916771b38ee19b19d925b1cad80a4ebcf81aab0d8ff3101de3d913",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6660938425120495
+        },
+        {
+          "page": 34,
+          "cosine_similarity": 0.6354355329697462
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6224627805269606
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6115064107896533
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-07-2016-09-PR.pdf",
+      "source_sha256": "147d3f53ac916771b38ee19b19d925b1cad80a4ebcf81aab0d8ff3101de3d913",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 29,
+          "cosine_similarity": 0.6733733263145141
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.6654603456190403
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.6513630907881064
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6507088317425789
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-10-2016-12-PR.pdf",
+      "source_sha256": "26e5a78e04a38d048612d98dc35eace2927ddb51f95733eeae8a6e8a3bcd5db2",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 10,
+          "cosine_similarity": 0.6176193457066732
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.614921574063435
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.61239227175825
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.6042112523150637
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-10-2016-12-PR.pdf",
+      "source_sha256": "26e5a78e04a38d048612d98dc35eace2927ddb51f95733eeae8a6e8a3bcd5db2",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 41,
+          "cosine_similarity": 0.7110124792417335
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.7016073473702984
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.6989411080613447
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6892616715551844
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-10-2016-12-PR.pdf",
+      "source_sha256": "26e5a78e04a38d048612d98dc35eace2927ddb51f95733eeae8a6e8a3bcd5db2",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 10,
+          "cosine_similarity": 0.6302161862555291
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6047840665410373
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.569278918487885
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.5586117803234774
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-10-2016-12-PR.pdf",
+      "source_sha256": "26e5a78e04a38d048612d98dc35eace2927ddb51f95733eeae8a6e8a3bcd5db2",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.5976683553744695
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.5607153975700901
+        },
+        {
+          "page": 33,
+          "cosine_similarity": 0.55599360399126
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.5559016501802121
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-10-2016-12-PR.pdf",
+      "source_sha256": "26e5a78e04a38d048612d98dc35eace2927ddb51f95733eeae8a6e8a3bcd5db2",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.6633761917171925
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6337707715561844
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6214987633757364
+        },
+        {
+          "page": 31,
+          "cosine_similarity": 0.6179094817433847
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-10-2016-12-PR.pdf",
+      "source_sha256": "26e5a78e04a38d048612d98dc35eace2927ddb51f95733eeae8a6e8a3bcd5db2",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 27,
+          "cosine_similarity": 0.7472824354928131
+        },
+        {
+          "page": 34,
+          "cosine_similarity": 0.7282174275080697
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.7247657763035722
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.7161488827095522
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-10-2016-12-PR.pdf",
+      "source_sha256": "26e5a78e04a38d048612d98dc35eace2927ddb51f95733eeae8a6e8a3bcd5db2",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.669109250399547
+        },
+        {
+          "page": 34,
+          "cosine_similarity": 0.6383159060581735
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6367176279538145
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6224627805269606
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-10-2016-12-PR.pdf",
+      "source_sha256": "26e5a78e04a38d048612d98dc35eace2927ddb51f95733eeae8a6e8a3bcd5db2",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 29,
+          "cosine_similarity": 0.6737462837688102
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.6621016049086627
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.6584169342201476
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6513468407874532
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-01-2017-03-PR.pdf",
+      "source_sha256": "5553129333c5e3fd626f0a15c531b450b0217a2c57ed07a43692c9372de301a5",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 45,
+          "cosine_similarity": 0.6458508123383625
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6221468174584821
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.6182773278263207
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.617781705124867
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-01-2017-03-PR.pdf",
+      "source_sha256": "5553129333c5e3fd626f0a15c531b450b0217a2c57ed07a43692c9372de301a5",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 45,
+          "cosine_similarity": 0.7165167512742101
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.704624745089498
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.7019697261644365
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.6980143693567973
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-01-2017-03-PR.pdf",
+      "source_sha256": "5553129333c5e3fd626f0a15c531b450b0217a2c57ed07a43692c9372de301a5",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 10,
+          "cosine_similarity": 0.6435100448927009
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6180070937330777
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.5718654937901749
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.5488735435198733
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-01-2017-03-PR.pdf",
+      "source_sha256": "5553129333c5e3fd626f0a15c531b450b0217a2c57ed07a43692c9372de301a5",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6116577000721437
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.5789010434286562
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.5661498796956277
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.5617484984718878
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-01-2017-03-PR.pdf",
+      "source_sha256": "5553129333c5e3fd626f0a15c531b450b0217a2c57ed07a43692c9372de301a5",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.668733061185858
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6176942796910496
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6135285054670362
+        },
+        {
+          "page": 26,
+          "cosine_similarity": 0.5985249951194695
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-01-2017-03-PR.pdf",
+      "source_sha256": "5553129333c5e3fd626f0a15c531b450b0217a2c57ed07a43692c9372de301a5",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 27,
+          "cosine_similarity": 0.7472824354928131
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.7244162019748572
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.705510881615225
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.694640730074692
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-01-2017-03-PR.pdf",
+      "source_sha256": "5553129333c5e3fd626f0a15c531b450b0217a2c57ed07a43692c9372de301a5",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6620546469101385
+        },
+        {
+          "page": 34,
+          "cosine_similarity": 0.6422428899162835
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6149095678480696
+        },
+        {
+          "page": 24,
+          "cosine_similarity": 0.6131148727741866
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-01-2017-03-PR.pdf",
+      "source_sha256": "5553129333c5e3fd626f0a15c531b450b0217a2c57ed07a43692c9372de301a5",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 45,
+          "cosine_similarity": 0.6841114836008841
+        },
+        {
+          "page": 29,
+          "cosine_similarity": 0.6763752702893889
+        },
+        {
+          "page": 31,
+          "cosine_similarity": 0.6685159366163774
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.6673514056594554
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-04-2017-06-PR.pdf",
+      "source_sha256": "eb41c110f29349b89cad69961aadb21b88a96a7305bacd846993609b9a334c86",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 12,
+          "cosine_similarity": 0.6456002813006788
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.6221468174584821
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.6198560557671877
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6177929243136073
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-04-2017-06-PR.pdf",
+      "source_sha256": "eb41c110f29349b89cad69961aadb21b88a96a7305bacd846993609b9a334c86",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 12,
+          "cosine_similarity": 0.7242576809115766
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.7055126075444607
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.7048559966197057
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.6986086179556839
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-04-2017-06-PR.pdf",
+      "source_sha256": "eb41c110f29349b89cad69961aadb21b88a96a7305bacd846993609b9a334c86",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 10,
+          "cosine_similarity": 0.6435100448927009
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5912077044696298
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.5818451527430046
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.5480183769776177
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-04-2017-06-PR.pdf",
+      "source_sha256": "eb41c110f29349b89cad69961aadb21b88a96a7305bacd846993609b9a334c86",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.6114826256852574
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.5668212956262928
+        },
+        {
+          "page": 31,
+          "cosine_similarity": 0.5536495592921105
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.553477987010936
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-04-2017-06-PR.pdf",
+      "source_sha256": "eb41c110f29349b89cad69961aadb21b88a96a7305bacd846993609b9a334c86",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.6476008743267527
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6176942796910496
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6135285054670362
+        },
+        {
+          "page": 26,
+          "cosine_similarity": 0.599262001075539
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-04-2017-06-PR.pdf",
+      "source_sha256": "eb41c110f29349b89cad69961aadb21b88a96a7305bacd846993609b9a334c86",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 27,
+          "cosine_similarity": 0.7472824354928131
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.7234307919031004
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6934549029963988
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.6919887952766577
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-04-2017-06-PR.pdf",
+      "source_sha256": "eb41c110f29349b89cad69961aadb21b88a96a7305bacd846993609b9a334c86",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6448862936139963
+        },
+        {
+          "page": 34,
+          "cosine_similarity": 0.6367094787686527
+        },
+        {
+          "page": 24,
+          "cosine_similarity": 0.6131148727741866
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6103879868493529
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-04-2017-06-PR.pdf",
+      "source_sha256": "eb41c110f29349b89cad69961aadb21b88a96a7305bacd846993609b9a334c86",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 29,
+          "cosine_similarity": 0.676797846629734
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.6760489840017072
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.6642657574290709
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.663992753664805
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-07-2017-09-PR.pdf",
+      "source_sha256": "f1629b81f777891fb278f5a7a94db3fd30e5596bcdf1e85298eba52ff3b2bc02",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6489950760242371
+        },
+        {
+          "page": 42,
+          "cosine_similarity": 0.6167862857246343
+        },
+        {
+          "page": 36,
+          "cosine_similarity": 0.6136642198900438
+        },
+        {
+          "page": 11,
+          "cosine_similarity": 0.6122447833576945
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-07-2017-09-PR.pdf",
+      "source_sha256": "f1629b81f777891fb278f5a7a94db3fd30e5596bcdf1e85298eba52ff3b2bc02",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 9,
+          "cosine_similarity": 0.7207993866030975
+        },
+        {
+          "page": 42,
+          "cosine_similarity": 0.7026314444914978
+        },
+        {
+          "page": 36,
+          "cosine_similarity": 0.7001966771061678
+        },
+        {
+          "page": 11,
+          "cosine_similarity": 0.6962872278833299
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-07-2017-09-PR.pdf",
+      "source_sha256": "f1629b81f777891fb278f5a7a94db3fd30e5596bcdf1e85298eba52ff3b2bc02",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6189703458066284
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5912898514358848
+        },
+        {
+          "page": 20,
+          "cosine_similarity": 0.5637291298756759
+        },
+        {
+          "page": 31,
+          "cosine_similarity": 0.5466852535544886
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-07-2017-09-PR.pdf",
+      "source_sha256": "f1629b81f777891fb278f5a7a94db3fd30e5596bcdf1e85298eba52ff3b2bc02",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 8,
+          "cosine_similarity": 0.63099363664363
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6114867021904742
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.5950676160581914
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5842209582224912
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-07-2017-09-PR.pdf",
+      "source_sha256": "f1629b81f777891fb278f5a7a94db3fd30e5596bcdf1e85298eba52ff3b2bc02",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 31,
+          "cosine_similarity": 0.7176110537670715
+        },
+        {
+          "page": 40,
+          "cosine_similarity": 0.6686788704997868
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6601284585663949
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6515659138750698
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-07-2017-09-PR.pdf",
+      "source_sha256": "f1629b81f777891fb278f5a7a94db3fd30e5596bcdf1e85298eba52ff3b2bc02",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 25,
+          "cosine_similarity": 0.7577266328882095
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.7240462473394924
+        },
+        {
+          "page": 40,
+          "cosine_similarity": 0.7049809041922843
+        },
+        {
+          "page": 32,
+          "cosine_similarity": 0.6995794265026136
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-07-2017-09-PR.pdf",
+      "source_sha256": "f1629b81f777891fb278f5a7a94db3fd30e5596bcdf1e85298eba52ff3b2bc02",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6775278855320437
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6246731839781213
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.621415420676311
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6132166898121943
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-07-2017-09-PR.pdf",
+      "source_sha256": "f1629b81f777891fb278f5a7a94db3fd30e5596bcdf1e85298eba52ff3b2bc02",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 27,
+          "cosine_similarity": 0.6746004473265568
+        },
+        {
+          "page": 38,
+          "cosine_similarity": 0.6627060507850868
+        },
+        {
+          "page": 36,
+          "cosine_similarity": 0.6605146913061515
+        },
+        {
+          "page": 11,
+          "cosine_similarity": 0.6582096808494691
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-10-2017-12-PR.pdf",
+      "source_sha256": "830588be9e07942695afa708f65fa883679f3f8e9dd81d0e3d00063ecd51b03e",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6495236687984217
+        },
+        {
+          "page": 42,
+          "cosine_similarity": 0.6225685116693387
+        },
+        {
+          "page": 51,
+          "cosine_similarity": 0.6194301596682512
+        },
+        {
+          "page": 36,
+          "cosine_similarity": 0.6168284954070062
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-10-2017-12-PR.pdf",
+      "source_sha256": "830588be9e07942695afa708f65fa883679f3f8e9dd81d0e3d00063ecd51b03e",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 9,
+          "cosine_similarity": 0.7226257790934403
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.7082990940274128
+        },
+        {
+          "page": 42,
+          "cosine_similarity": 0.7051178714449657
+        },
+        {
+          "page": 36,
+          "cosine_similarity": 0.7008504675231062
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-10-2017-12-PR.pdf",
+      "source_sha256": "830588be9e07942695afa708f65fa883679f3f8e9dd81d0e3d00063ecd51b03e",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6191309880084743
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5963397280264148
+        },
+        {
+          "page": 47,
+          "cosine_similarity": 0.5920672501142941
+        },
+        {
+          "page": 39,
+          "cosine_similarity": 0.567278672413678
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-10-2017-12-PR.pdf",
+      "source_sha256": "830588be9e07942695afa708f65fa883679f3f8e9dd81d0e3d00063ecd51b03e",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 8,
+          "cosine_similarity": 0.6433893494061801
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6127085475173504
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.5999556261419754
+        },
+        {
+          "page": 32,
+          "cosine_similarity": 0.5850173678602983
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-10-2017-12-PR.pdf",
+      "source_sha256": "830588be9e07942695afa708f65fa883679f3f8e9dd81d0e3d00063ecd51b03e",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 31,
+          "cosine_similarity": 0.7176110537670715
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6681483807599107
+        },
+        {
+          "page": 40,
+          "cosine_similarity": 0.6488472205959754
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6476316211437778
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-10-2017-12-PR.pdf",
+      "source_sha256": "830588be9e07942695afa708f65fa883679f3f8e9dd81d0e3d00063ecd51b03e",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 25,
+          "cosine_similarity": 0.7577266328882095
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.7261520105305391
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.7249742714782299
+        },
+        {
+          "page": 40,
+          "cosine_similarity": 0.7129253079054674
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-10-2017-12-PR.pdf",
+      "source_sha256": "830588be9e07942695afa708f65fa883679f3f8e9dd81d0e3d00063ecd51b03e",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6792501673023938
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6246731839781213
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.621415420676311
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.6100524729536903
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2017-10-2017-12-PR.pdf",
+      "source_sha256": "830588be9e07942695afa708f65fa883679f3f8e9dd81d0e3d00063ecd51b03e",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 51,
+          "cosine_similarity": 0.6758466089457461
+        },
+        {
+          "page": 27,
+          "cosine_similarity": 0.6751992227909441
+        },
+        {
+          "page": 42,
+          "cosine_similarity": 0.6656556139236356
+        },
+        {
+          "page": 38,
+          "cosine_similarity": 0.663886507509766
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-01-2018-03-PR.pdf",
+      "source_sha256": "21f84e7fc48de1909b32f5c8c5a1fa16c48f598503179600613e7d9e0bec8351",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6500311578609608
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6239522245765504
+        },
+        {
+          "page": 51,
+          "cosine_similarity": 0.6205387595951635
+        },
+        {
+          "page": 36,
+          "cosine_similarity": 0.61673983937932
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-01-2018-03-PR.pdf",
+      "source_sha256": "21f84e7fc48de1909b32f5c8c5a1fa16c48f598503179600613e7d9e0bec8351",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 9,
+          "cosine_similarity": 0.7244283844292595
+        },
+        {
+          "page": 51,
+          "cosine_similarity": 0.7092850172684189
+        },
+        {
+          "page": 24,
+          "cosine_similarity": 0.7063996311062042
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.7041371423184904
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-01-2018-03-PR.pdf",
+      "source_sha256": "21f84e7fc48de1909b32f5c8c5a1fa16c48f598503179600613e7d9e0bec8351",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6196288140630595
+        },
+        {
+          "page": 47,
+          "cosine_similarity": 0.5920672501142941
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5917507156260448
+        },
+        {
+          "page": 31,
+          "cosine_similarity": 0.5512227677312592
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-01-2018-03-PR.pdf",
+      "source_sha256": "21f84e7fc48de1909b32f5c8c5a1fa16c48f598503179600613e7d9e0bec8351",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 8,
+          "cosine_similarity": 0.6334526923144438
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6115318729213273
+        },
+        {
+          "page": 40,
+          "cosine_similarity": 0.6089027721119763
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.5980619761586995
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-01-2018-03-PR.pdf",
+      "source_sha256": "21f84e7fc48de1909b32f5c8c5a1fa16c48f598503179600613e7d9e0bec8351",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 31,
+          "cosine_similarity": 0.7118118836407797
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6416855291614147
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6377423010373803
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6145088469144782
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-01-2018-03-PR.pdf",
+      "source_sha256": "21f84e7fc48de1909b32f5c8c5a1fa16c48f598503179600613e7d9e0bec8351",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 25,
+          "cosine_similarity": 0.7577266328882095
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.7397389558073767
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.7233450738988645
+        },
+        {
+          "page": 40,
+          "cosine_similarity": 0.7075848257601607
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-01-2018-03-PR.pdf",
+      "source_sha256": "21f84e7fc48de1909b32f5c8c5a1fa16c48f598503179600613e7d9e0bec8351",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6781407568272504
+        },
+        {
+          "page": 49,
+          "cosine_similarity": 0.6248298274797127
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6246731839781213
+        },
+        {
+          "page": 17,
+          "cosine_similarity": 0.621415420676311
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-01-2018-03-PR.pdf",
+      "source_sha256": "21f84e7fc48de1909b32f5c8c5a1fa16c48f598503179600613e7d9e0bec8351",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 51,
+          "cosine_similarity": 0.6769359724985194
+        },
+        {
+          "page": 27,
+          "cosine_similarity": 0.6764974625161497
+        },
+        {
+          "page": 38,
+          "cosine_similarity": 0.6645643002689872
+        },
+        {
+          "page": 36,
+          "cosine_similarity": 0.6626546123783156
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-04-2018-06-PR.pdf",
+      "source_sha256": "60ee92747f88509b2acc492a18b1104d5a24e7de6f05bbf2f2e16d63b24e5b37",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6454360424297367
+        },
+        {
+          "page": 55,
+          "cosine_similarity": 0.6453977323957676
+        },
+        {
+          "page": 46,
+          "cosine_similarity": 0.6208823147284459
+        },
+        {
+          "page": 40,
+          "cosine_similarity": 0.618392982849747
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-04-2018-06-PR.pdf",
+      "source_sha256": "60ee92747f88509b2acc492a18b1104d5a24e7de6f05bbf2f2e16d63b24e5b37",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 55,
+          "cosine_similarity": 0.7212660436289662
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.71633053903871
+        },
+        {
+          "page": 24,
+          "cosine_similarity": 0.7117651105151435
+        },
+        {
+          "page": 40,
+          "cosine_similarity": 0.7017607234121946
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-04-2018-06-PR.pdf",
+      "source_sha256": "60ee92747f88509b2acc492a18b1104d5a24e7de6f05bbf2f2e16d63b24e5b37",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6145033924623062
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5996430652892352
+        },
+        {
+          "page": 51,
+          "cosine_similarity": 0.5920672501142941
+        },
+        {
+          "page": 11,
+          "cosine_similarity": 0.5594549790976577
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-04-2018-06-PR.pdf",
+      "source_sha256": "60ee92747f88509b2acc492a18b1104d5a24e7de6f05bbf2f2e16d63b24e5b37",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 8,
+          "cosine_similarity": 0.6377270513925541
+        },
+        {
+          "page": 44,
+          "cosine_similarity": 0.6160092098495854
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6114029055852395
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5869021066487945
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-04-2018-06-PR.pdf",
+      "source_sha256": "60ee92747f88509b2acc492a18b1104d5a24e7de6f05bbf2f2e16d63b24e5b37",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 35,
+          "cosine_similarity": 0.7097167383149177
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6441348617290663
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6377423010373803
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.6187972145532823
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-04-2018-06-PR.pdf",
+      "source_sha256": "60ee92747f88509b2acc492a18b1104d5a24e7de6f05bbf2f2e16d63b24e5b37",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 47,
+          "cosine_similarity": 0.7655824832679038
+        },
+        {
+          "page": 29,
+          "cosine_similarity": 0.761591780708508
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.7223060033916398
+        },
+        {
+          "page": 44,
+          "cosine_similarity": 0.7114191087198644
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-04-2018-06-PR.pdf",
+      "source_sha256": "60ee92747f88509b2acc492a18b1104d5a24e7de6f05bbf2f2e16d63b24e5b37",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.682090606972499
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.6246731839781213
+        },
+        {
+          "page": 19,
+          "cosine_similarity": 0.6211951826666767
+        },
+        {
+          "page": 47,
+          "cosine_similarity": 0.6201627738958697
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2018-04-2018-06-PR.pdf",
+      "source_sha256": "60ee92747f88509b2acc492a18b1104d5a24e7de6f05bbf2f2e16d63b24e5b37",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 31,
+          "cosine_similarity": 0.6770344010498366
+        },
+        {
+          "page": 55,
+          "cosine_similarity": 0.6725287956776336
+        },
+        {
+          "page": 42,
+          "cosine_similarity": 0.6633455733804843
+        },
+        {
+          "page": 40,
+          "cosine_similarity": 0.6624620875347793
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/QUARTERLY_REPORTS/QR_Q3_2018.pdf",
+      "source_sha256": "96bf9e48cefbdaee648299e1ce93306b90a4dd22d5635f0f18929c7febfce3ab",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 8,
+          "cosine_similarity": 0.6485510752637775
+        },
+        {
+          "page": 57,
+          "cosine_similarity": 0.6357432027898305
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.6144009277622516
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.6125782896368553
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/QUARTERLY_REPORTS/QR_Q3_2018.pdf",
+      "source_sha256": "96bf9e48cefbdaee648299e1ce93306b90a4dd22d5635f0f18929c7febfce3ab",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 10,
+          "cosine_similarity": 0.724517456603925
+        },
+        {
+          "page": 57,
+          "cosine_similarity": 0.7199452894574675
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.700552100668972
+        },
+        {
+          "page": 50,
+          "cosine_similarity": 0.698800059606359
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/QUARTERLY_REPORTS/QR_Q3_2018.pdf",
+      "source_sha256": "96bf9e48cefbdaee648299e1ce93306b90a4dd22d5635f0f18929c7febfce3ab",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 8,
+          "cosine_similarity": 0.6274658702669469
+        },
+        {
+          "page": 52,
+          "cosine_similarity": 0.5920672501142941
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5917711688736458
+        },
+        {
+          "page": 12,
+          "cosine_similarity": 0.5591983961889548
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/QUARTERLY_REPORTS/QR_Q3_2018.pdf",
+      "source_sha256": "96bf9e48cefbdaee648299e1ce93306b90a4dd22d5635f0f18929c7febfce3ab",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 9,
+          "cosine_similarity": 0.6354608787673097
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.6115877705863798
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.5960053741436584
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.5909232267901544
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/QUARTERLY_REPORTS/QR_Q3_2018.pdf",
+      "source_sha256": "96bf9e48cefbdaee648299e1ce93306b90a4dd22d5635f0f18929c7febfce3ab",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 36,
+          "cosine_similarity": 0.7097167383149177
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.6438833585754
+        },
+        {
+          "page": 8,
+          "cosine_similarity": 0.6434583817307076
+        },
+        {
+          "page": 9,
+          "cosine_similarity": 0.6426684444942325
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/QUARTERLY_REPORTS/QR_Q3_2018.pdf",
+      "source_sha256": "96bf9e48cefbdaee648299e1ce93306b90a4dd22d5635f0f18929c7febfce3ab",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 30,
+          "cosine_similarity": 0.755588824934138
+        },
+        {
+          "page": 48,
+          "cosine_similarity": 0.7512612000541601
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.7227519436420002
+        },
+        {
+          "page": 45,
+          "cosine_similarity": 0.7207602296309923
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/QUARTERLY_REPORTS/QR_Q3_2018.pdf",
+      "source_sha256": "96bf9e48cefbdaee648299e1ce93306b90a4dd22d5635f0f18929c7febfce3ab",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 8,
+          "cosine_similarity": 0.7121328308201534
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.6241705816185079
+        },
+        {
+          "page": 48,
+          "cosine_similarity": 0.6228639338272436
+        },
+        {
+          "page": 20,
+          "cosine_similarity": 0.6206676409193304
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/QUARTERLY_REPORTS/QR_Q3_2018.pdf",
+      "source_sha256": "96bf9e48cefbdaee648299e1ce93306b90a4dd22d5635f0f18929c7febfce3ab",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 32,
+          "cosine_similarity": 0.6746751713786279
+        },
+        {
+          "page": 43,
+          "cosine_similarity": 0.6619264147394271
+        },
+        {
+          "page": 41,
+          "cosine_similarity": 0.6611992919923676
+        },
+        {
+          "page": 57,
+          "cosine_similarity": 0.6602967278102201
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/11-27-13_CDBG_DR_Action_Plan_FINAL.pdf",
+      "source_sha256": "5ec6d163a45185ac3aaacc1aee506e7302004b95bef9512ce4511c886584c030",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 47,
+          "cosine_similarity": 0.5722685420464279
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.5606146754739966
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.5391758521568464
+        },
+        {
+          "page": 70,
+          "cosine_similarity": 0.5356069888870378
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/11-27-13_CDBG_DR_Action_Plan_FINAL.pdf",
+      "source_sha256": "5ec6d163a45185ac3aaacc1aee506e7302004b95bef9512ce4511c886584c030",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 47,
+          "cosine_similarity": 0.6904371359489958
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.6789055095562473
+        },
+        {
+          "page": 36,
+          "cosine_similarity": 0.6743436599753025
+        },
+        {
+          "page": 63,
+          "cosine_similarity": 0.6667544377962855
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/11-27-13_CDBG_DR_Action_Plan_FINAL.pdf",
+      "source_sha256": "5ec6d163a45185ac3aaacc1aee506e7302004b95bef9512ce4511c886584c030",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 5,
+          "cosine_similarity": 0.7106625015450362
+        },
+        {
+          "page": 51,
+          "cosine_similarity": 0.6843598035596363
+        },
+        {
+          "page": 59,
+          "cosine_similarity": 0.6785124045228537
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.654364612702675
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/11-27-13_CDBG_DR_Action_Plan_FINAL.pdf",
+      "source_sha256": "5ec6d163a45185ac3aaacc1aee506e7302004b95bef9512ce4511c886584c030",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 47,
+          "cosine_similarity": 0.6007303812091427
+        },
+        {
+          "page": 23,
+          "cosine_similarity": 0.5775984635035195
+        },
+        {
+          "page": 22,
+          "cosine_similarity": 0.5640574374410763
+        },
+        {
+          "page": 57,
+          "cosine_similarity": 0.5460331723381452
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/11-27-13_CDBG_DR_Action_Plan_FINAL.pdf",
+      "source_sha256": "5ec6d163a45185ac3aaacc1aee506e7302004b95bef9512ce4511c886584c030",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 36,
+          "cosine_similarity": 0.5685930287645508
+        },
+        {
+          "page": 22,
+          "cosine_similarity": 0.565501529812872
+        },
+        {
+          "page": 21,
+          "cosine_similarity": 0.5569511296466255
+        },
+        {
+          "page": 70,
+          "cosine_similarity": 0.552889690231045
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/11-27-13_CDBG_DR_Action_Plan_FINAL.pdf",
+      "source_sha256": "5ec6d163a45185ac3aaacc1aee506e7302004b95bef9512ce4511c886584c030",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 53,
+          "cosine_similarity": 0.7140740629820279
+        },
+        {
+          "page": 47,
+          "cosine_similarity": 0.6491160789877457
+        },
+        {
+          "page": 22,
+          "cosine_similarity": 0.60015133954635
+        },
+        {
+          "page": 23,
+          "cosine_similarity": 0.5883313215610091
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/11-27-13_CDBG_DR_Action_Plan_FINAL.pdf",
+      "source_sha256": "5ec6d163a45185ac3aaacc1aee506e7302004b95bef9512ce4511c886584c030",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.5994954524028022
+        },
+        {
+          "page": 70,
+          "cosine_similarity": 0.5989566100936834
+        },
+        {
+          "page": 14,
+          "cosine_similarity": 0.5987111402807217
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.5942447912203445
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/11-27-13_CDBG_DR_Action_Plan_FINAL.pdf",
+      "source_sha256": "5ec6d163a45185ac3aaacc1aee506e7302004b95bef9512ce4511c886584c030",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 43,
+          "cosine_similarity": 0.5661441279265003
+        },
+        {
+          "page": 47,
+          "cosine_similarity": 0.563776458607248
+        },
+        {
+          "page": 53,
+          "cosine_similarity": 0.5576873305795702
+        },
+        {
+          "page": 36,
+          "cosine_similarity": 0.5533318103990874
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment_-_2.pdf",
+      "source_sha256": "a5c6bb856425bbef81a9d9d6bdcb3850b5f8bc682a583b97e8a215fdd0741b0e",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 1,
+          "cosine_similarity": 0.5435592962769511
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.5429606955147499
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.32803477407833714
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment_-_2.pdf",
+      "source_sha256": "a5c6bb856425bbef81a9d9d6bdcb3850b5f8bc682a583b97e8a215fdd0741b0e",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 1,
+          "cosine_similarity": 0.640927234382739
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.507553333688035
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.49023549437019354
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment_-_2.pdf",
+      "source_sha256": "a5c6bb856425bbef81a9d9d6bdcb3850b5f8bc682a583b97e8a215fdd0741b0e",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 1,
+          "cosine_similarity": 0.6348728023780881
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.6167082343723955
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.4072598599080543
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment_-_2.pdf",
+      "source_sha256": "a5c6bb856425bbef81a9d9d6bdcb3850b5f8bc682a583b97e8a215fdd0741b0e",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 3,
+          "cosine_similarity": 0.4938353866919432
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.48891142768328705
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.32620394218045046
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment_-_2.pdf",
+      "source_sha256": "a5c6bb856425bbef81a9d9d6bdcb3850b5f8bc682a583b97e8a215fdd0741b0e",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 3,
+          "cosine_similarity": 0.47359755186648334
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.4727645763822398
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.33601500854555705
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment_-_2.pdf",
+      "source_sha256": "a5c6bb856425bbef81a9d9d6bdcb3850b5f8bc682a583b97e8a215fdd0741b0e",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 1,
+          "cosine_similarity": 0.5097428645592091
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.48619902140739346
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.37636928826256566
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment_-_2.pdf",
+      "source_sha256": "a5c6bb856425bbef81a9d9d6bdcb3850b5f8bc682a583b97e8a215fdd0741b0e",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 3,
+          "cosine_similarity": 0.5620275938298595
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.5164099416328727
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.3509518647622364
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment_-_2.pdf",
+      "source_sha256": "a5c6bb856425bbef81a9d9d6bdcb3850b5f8bc682a583b97e8a215fdd0741b0e",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 3,
+          "cosine_similarity": 0.4627974591143194
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.4355365173940395
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.354640684959223
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment__3.pdf",
+      "source_sha256": "c01406fed36cd6e288faaaf238c0200f48ed4d5b38646f45c4b623c334ab6395",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.536173059065167
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.5308305174532868
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.47100530828485265
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.4227662542552838
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment__3.pdf",
+      "source_sha256": "c01406fed36cd6e288faaaf238c0200f48ed4d5b38646f45c4b623c334ab6395",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 2,
+          "cosine_similarity": 0.6404581836496617
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.6238092438554628
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.6208336486097383
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5645527217683128
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment__3.pdf",
+      "source_sha256": "c01406fed36cd6e288faaaf238c0200f48ed4d5b38646f45c4b623c334ab6395",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.661759535014683
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.6272838595317958
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.5262456832525696
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.5128585782089754
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment__3.pdf",
+      "source_sha256": "c01406fed36cd6e288faaaf238c0200f48ed4d5b38646f45c4b623c334ab6395",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 3,
+          "cosine_similarity": 0.490813409627611
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.48802804975659575
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.41983712783460986
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.3671554737129842
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment__3.pdf",
+      "source_sha256": "c01406fed36cd6e288faaaf238c0200f48ed4d5b38646f45c4b623c334ab6395",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 3,
+          "cosine_similarity": 0.5250215025801507
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.4582751120623641
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.435708113768413
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.41527967379921665
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment__3.pdf",
+      "source_sha256": "c01406fed36cd6e288faaaf238c0200f48ed4d5b38646f45c4b623c334ab6395",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 3,
+          "cosine_similarity": 0.556661159867587
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.5233282607730724
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.4722501131152642
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.46245239891409484
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment__3.pdf",
+      "source_sha256": "c01406fed36cd6e288faaaf238c0200f48ed4d5b38646f45c4b623c334ab6395",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.5737962299803742
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.5355612779335498
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.5138590712073597
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.3655994808195495
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.springfield-ma.gov/dr/fileadmin/community_dev/DR/CDBG-DR_Action_Plan_A_Substantial_Amendment__3.pdf",
+      "source_sha256": "c01406fed36cd6e288faaaf238c0200f48ed4d5b38646f45c4b623c334ab6395",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 3,
+          "cosine_similarity": 0.5128508096588833
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.4535743956487119
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.42673734184856893
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.4014767700003765
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf",
+      "source_sha256": "9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.5663687352371494
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.5307652138425636
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.5114908430474845
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.5088216279341696
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf",
+      "source_sha256": "9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6239408215925442
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.6065168855760141
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.5756927137686301
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.566518981745424
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf",
+      "source_sha256": "9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.4321257775401743
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.4024807622208214
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.37749660432957644
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.37115400573349877
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf",
+      "source_sha256": "9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 6,
+          "cosine_similarity": 0.3818661580498883
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.3761886664604289
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.3603766955201031
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.3570912183237548
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf",
+      "source_sha256": "9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 2,
+          "cosine_similarity": 0.361333214696297
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.35081590398619633
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.32637526506836
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.31287602058638964
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf",
+      "source_sha256": "9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.49936879615119456
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.49727402089013617
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.4480151970526107
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.4164682634843924
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf",
+      "source_sha256": "9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.503182084333113
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.48845799118113425
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.42728778073741447
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.4258624048975599
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29.pdf",
+      "source_sha256": "9985c018736877a910c20ba849c82624a4354f6c3478389e25b18da8761710a6",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.5114091737900727
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.5043885082841335
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.4635314985668955
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.45311836123954086
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+      "source_sha256": "9c785ad1b3fd61228ccec3054115216e7c4b82b55f5d29f61c156549db67ee0e",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.5736538783466067
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.5341524860439527
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.5112236728810273
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.5087627313185065
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+      "source_sha256": "9c785ad1b3fd61228ccec3054115216e7c4b82b55f5d29f61c156549db67ee0e",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.6369525685722144
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.6132816991398637
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.571710128976475
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.5716864604397791
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+      "source_sha256": "9c785ad1b3fd61228ccec3054115216e7c4b82b55f5d29f61c156549db67ee0e",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.43644573781268536
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.4099588224233661
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.37831135479577005
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.37233438889421
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+      "source_sha256": "9c785ad1b3fd61228ccec3054115216e7c4b82b55f5d29f61c156549db67ee0e",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.38274617785170406
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.3814409669878992
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.3741736223892387
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.364552935709362
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+      "source_sha256": "9c785ad1b3fd61228ccec3054115216e7c4b82b55f5d29f61c156549db67ee0e",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 2,
+          "cosine_similarity": 0.36610631020477274
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.3623206204113946
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.31974623493796944
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.31062342964043765
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+      "source_sha256": "9c785ad1b3fd61228ccec3054115216e7c4b82b55f5d29f61c156549db67ee0e",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.5131606983765461
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.5029386399856859
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.439475386083927
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.426894670320841
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+      "source_sha256": "9c785ad1b3fd61228ccec3054115216e7c4b82b55f5d29f61c156549db67ee0e",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.5154645859100352
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.4912493975207595
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.4231771439748754
+        },
+        {
+          "page": 10,
+          "cosine_similarity": 0.4170141589994635
+        }
+      ]
+    },
+    {
+      "source_url": "https://drgr.hud.gov/public/downloads/reports/Cumulative%20Financial%20Summary%20%28P.L.%20113-2%29%20-%20PDP%20published.pdf",
+      "source_sha256": "9c785ad1b3fd61228ccec3054115216e7c4b82b55f5d29f61c156549db67ee0e",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.5263216584109484
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.5082467686362008
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.45624334375103154
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.4548090269240982
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-29/pdf/2013-12683.pdf",
+      "source_sha256": "820a8e4dd95492c47f05aab7255acc19d3072ded357be291f24559f91351168e",
+      "query": "initial grant agreement execution date and effective date",
+      "ranked_pages": [
+        {
+          "page": 3,
+          "cosine_similarity": 0.4754175538081361
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.4728476379232638
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.46927811598616886
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.42186331867885374
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-29/pdf/2013-12683.pdf",
+      "source_sha256": "820a8e4dd95492c47f05aab7255acc19d3072ded357be291f24559f91351168e",
+      "query": "original total grant allocation and subsequent partial action plan funding",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.5323440877836084
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.5213490578988587
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.5152001097178416
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.4906571421803683
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-29/pdf/2013-12683.pdf",
+      "source_sha256": "820a8e4dd95492c47f05aab7255acc19d3072ded357be291f24559f91351168e",
+      "query": "HUD action plan approval letter and amendment effective date",
+      "ranked_pages": [
+        {
+          "page": 4,
+          "cosine_similarity": 0.6377779498134705
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.6232534910736034
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.5492593770750249
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.49660526011173245
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-29/pdf/2013-12683.pdf",
+      "source_sha256": "820a8e4dd95492c47f05aab7255acc19d3072ded357be291f24559f91351168e",
+      "query": "budget to-date revision and report-period financial discrepancies",
+      "ranked_pages": [
+        {
+          "page": 1,
+          "cosine_similarity": 0.3653563631384805
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.32533326821842046
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.3197251240862763
+        },
+        {
+          "page": 7,
+          "cosine_similarity": 0.3195706122840367
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-29/pdf/2013-12683.pdf",
+      "source_sha256": "820a8e4dd95492c47f05aab7255acc19d3072ded357be291f24559f91351168e",
+      "query": "activity extension financial purpose and related original activity",
+      "ranked_pages": [
+        {
+          "page": 1,
+          "cosine_similarity": 0.37574760935816265
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.35850484242064834
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.3479296825877205
+        },
+        {
+          "page": 5,
+          "cosine_similarity": 0.3358640219664962
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-29/pdf/2013-12683.pdf",
+      "source_sha256": "820a8e4dd95492c47f05aab7255acc19d3072ded357be291f24559f91351168e",
+      "query": "program income received, budgeted and drawn down",
+      "ranked_pages": [
+        {
+          "page": 7,
+          "cosine_similarity": 0.42725297306632265
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.4066718770319304
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.3733168146195323
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.36820900117116223
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-29/pdf/2013-12683.pdf",
+      "source_sha256": "820a8e4dd95492c47f05aab7255acc19d3072ded357be291f24559f91351168e",
+      "query": "administering government and reported project or beneficiary geography",
+      "ranked_pages": [
+        {
+          "page": 1,
+          "cosine_similarity": 0.40093632152523695
+        },
+        {
+          "page": 4,
+          "cosine_similarity": 0.3886343724646305
+        },
+        {
+          "page": 6,
+          "cosine_similarity": 0.3698512648840821
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.36861150113707114
+        }
+      ]
+    },
+    {
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2013-05-29/pdf/2013-12683.pdf",
+      "source_sha256": "820a8e4dd95492c47f05aab7255acc19d3072ded357be291f24559f91351168e",
+      "query": "first quarterly report and grant-start opening balance",
+      "ranked_pages": [
+        {
+          "page": 5,
+          "cosine_similarity": 0.40069352627492816
+        },
+        {
+          "page": 1,
+          "cosine_similarity": 0.4002580493627407
+        },
+        {
+          "page": 2,
+          "cosine_similarity": 0.38025080895178626
+        },
+        {
+          "page": 3,
+          "cosine_similarity": 0.3775094025254475
+        }
+      ]
+    }
+  ]
+}

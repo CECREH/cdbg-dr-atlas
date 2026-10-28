@@ -140,3 +140,22 @@ Joplin council document is a draft, not proof its proposed amendment was approve
 New Orleans' 2014 transmittal calls its signed funding form an initial agreement,
 while the form checks Amendment; the two official HUD summary reports also
 identify the April 22, 2014 initial agreement date. See `METHOD.md` for sources.
+
+
+### Springfield award pilot
+
+A source-backed pilot for B-13-MS-25-0001 contains 19 approved reports in the
+first 20 award-clock quarters, 347 listed activity-quarter records and 109
+project-quarter summaries. The missing 2013Q4 report is unknown, not zero.
+The source versions show seven programmed-budget continuity differences and
+conflicting Plan A approval dates; their figures and sources remain unchanged.
+Use the [activity CSV](downloads/springfield-activity-quarter-v48.csv),
+[award inventory](downloads/springfield-award-quarter-v48.csv),
+[project CSV](downloads/springfield-project-quarter-v48.csv),
+[milestone ratios](downloads/springfield-activity-milestones-v48.csv) and
+[source evidence](data/springfield-pilot-v48.json). See METHOD.md for definitions,
+non-additivity, grant-clock and allocation limits.
+
+Offline MiniLM searched the 19 pilot reports and six supporting documents with
+200 document-scoped queries. [Search results](data/springfield-search-v48.json)
+are leads only and do not establish approval, location or completeness.

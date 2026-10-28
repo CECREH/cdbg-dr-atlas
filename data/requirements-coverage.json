@@ -6,8 +6,8 @@
     {
       "request": "City × award × original activity × observed quarter",
       "status": "partial administrative identity coverage",
-      "available": "National: 7,225 administering-city rows and 19,140 responsible-city rows; Texas: 0 and 1,220. Roles overlap. A selected 4,440-row QPR activity-quarter panel includes source-vintage implied openings and adjacent-quarter reconciliation flags.",
-      "remaining": "These are government relationships, not beneficiary-city allocations. A prior QPR activity quarter is unavailable for 1,506 selected observations; no verified-clock Q1 activity observations are present. Absence is not zero.",
+      "available": "National: 7,225 administering-city rows and 19,140 responsible-city rows; Texas: 0 and 1,220. Roles overlap. The 4,440-row selected QPR panel remains separate. A Springfield pilot contains 347 listed activity-quarter records, adding 117 to that quarterly view; 52 already had separately published milestone totals.",
+      "remaining": "These are government relationships, not beneficiary-city allocations. Springfield has 19/20 first award-quarter reports; 2013Q4 is unlocated, not zero. Source-listed activity headers are not proof of complete history; Q1 and compatible allocations remain unresolved.",
       "evidence": "downloads/national-research-bundle.zip"
     },
     {
@@ -27,8 +27,8 @@
     {
       "request": "Six cumulative E/allocation and E/obligation outcomes at Q4/Q12/Q20",
       "status": "definitions complete; observations partial",
-      "available": "65 QPRs / 27 awards: 2,631 approved activity E/O and 2,698 activity E/allocated-budget values. Whole-grant E/O: 23 at Q4, 23 at Q12, 11 at Q20. Q4 E/total allocation: Moore, Minot, New Orleans, Springfield and supplementary Joplin. Source and denominator vintages are exported.",
-      "remaining": "F31 opening cumulative histories are unreconciled; its six certified outcomes remain blank. Q1 is the execution calendar quarter and may be partial; horizons are not exact anniversaries.",
+      "available": "65 QPRs / 27 awards: 2,631 approved activity E/O and 2,698 activity E/allocated-budget values. Whole-grant E/O: 23 at Q4, 23 at Q12, 11 at Q20. Q4 E/total allocation: Moore, Minot, New Orleans, Springfield and supplementary Joplin. Source and denominator vintages are exported. A separate Springfield pilot provides QPR activity E/O at 7/18/25 and E/reported activity budget at 11/18/25 Q4/Q12/Q20 activity identities; it overlaps prior results and includes linked extensions.",
+      "remaining": "F31 opening cumulative histories are unreconciled; its six certified outcomes remain blank. Q1 is the execution calendar quarter and may be partial; horizons are not exact anniversaries. Springfield activity-budget denominators can include program income and are not whole-grant or beneficiary allocations; Q12/Q20 whole-grant allocation remains unverified.",
       "evidence": "data/qpr-horizons.json"
     },
     {

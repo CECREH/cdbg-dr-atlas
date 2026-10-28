@@ -557,3 +557,75 @@ checks Amendment; the date is independently labeled initial in HUD's 2019 and
 2023 summaries. The Oregon copy in the local archive has a blank HUD signature
 and is not assigned an award clock. Source URLs and hashes are in
 `data/allocation-evidence-v45.json`.
+
+
+### Springfield municipal award pilot (B-13-MS-25-0001)
+
+HUD financial summaries report the initial agreement effective date as December
+13, 2013. The calendar quarter containing it is Q1 and may be partial. The
+retrieved HUD and city indexes did not locate a 2013Q4 QPR, so Q1 remains
+unknown. Nineteen approved source versions cover Q2–Q20 (2014Q1–2018Q3);
+publication dates are retained when available. Each PDF's grant, period, review
+status and hash were checked. All 347 listed activity headers and 109 project
+summary rows were extracted; source-listed activities may still be incomplete.
+Every monetary pair was read from the original same-line PDF coordinates and
+independently checked against Poppler layout text. There are 117 rows beyond the
+existing selected quarterly view; 52 of those already appeared as cumulative
+milestone evidence and 65 were absent from both prior views. Sixty-one rows
+have no exact national F31 activity key and are labelled QPR-only. Ninety-eight
+rows have an extension ID which may be linked to another activity; no automatic
+addition or inferred crosswalk is made.
+
+For each source version, implied opening equals to-date minus this-period.
+Expenditure and obligation openings agree with the prior listed whole-grant
+QPR in all 18 adjacent pairs. The first observed opening does not establish the
+missing Q1 or a certified grant-start balance. Seven budget comparisons differ.
+In 2017Q3, the QPR shows $0 budget for the period and $21,994,586.32 to date,
+while the 2017Q2 QPR shows $13,962,254.23 to date: the implied-opening
+difference is $8,032,332.09. The 2017Q3 listed activity budgets are $7,990,000
+below the overall budget. The cause is not established; both source versions
+and all differences remain in the downloadable inventory. Project funds
+budgeted and the grant's Total Budget are distinct reported scopes and can
+differ. Sums of listed activities or project summaries are diagnostics, not
+proof of complete activity history; grant, project and activity totals are
+nested and must not be added together. Drawdown is not expenditure.
+
+The 2013 Federal Register identifies a $21,896,000 whole-grant allocation.
+Partial Action Plan A describes $13,906,000 in that plan and $7,990,000 for
+future plans; those are not two additional grants. City documents state three
+different dates for approval of Plan A (December 11, 13 and 14, 2013). These
+are source-specific statements about plan approval, not the HUD-reported grant
+agreement effective date. Amendment #3 is dated May 2017 and describes assigning
+the remaining $7,990,000. Its page 4 says a final version was published after
+May 8–14 public comment; HUD approval/effective date is not established from
+those pages. The 2017Q3 QPR says HUD approved amendments moving funds from
+two activities but does not identify amendment #3 or a date in that passage.
+Q12 and Q20 whole-grant allocation denominators remain unverified pending full
+historical amendment and program-income reconciliation.
+
+The pilot also exports six activity-level milestone fields for each exact
+project/activity identity. At Q4/Q12/Q20, 7/18/25 reported activities have a
+positive cumulative obligation denominator, and 11/18/25 have a positive QPR
+activity Total Budget denominator. The latter can include program income and
+is labelled as a reported activity budget, not a verified whole-grant or local
+allocation. A missing source row or nonpositive denominator yields a blank ratio;
+negative numerators and values over one are retained and flagged. Proportions are
+rounded to 12 decimal places and exact source cents travel with them. Linked
+extensions and changed project IDs are not merged or summed by similarity. The
+pilot adds eight Q12 extension and one Q20 planning activity with ratios beyond
+the previously published milestone sample.
+
+
+Download the [award inventory](downloads/springfield-award-quarter-v48.csv),
+[project summaries](downloads/springfield-project-quarter-v48.csv),
+[activity records](downloads/springfield-activity-quarter-v48.csv),
+[activity milestone ratios](downloads/springfield-activity-milestones-v48.csv) and
+[source evidence](data/springfield-pilot-v48.json). The city is the administering
+government, not a verified beneficiary location; no geographic shares are inferred.
+
+An offline cached MiniLM transformer ranked passages from the 19 QPRs and six
+related official plan, financial-summary and Federal Register documents. It ran
+200 document-scoped queries across 1,914 chunks from 849 PDF pages. The
+[search log](data/springfield-search-v48.json) contains page numbers and scores,
+not document text. Similarity is a retrieval lead, not proof of an agreement,
+approval, location or a complete archive; source pages still require review.
