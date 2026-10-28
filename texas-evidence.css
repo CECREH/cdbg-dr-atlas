@@ -1,0 +1,9 @@
+.evidence-filters { align-items: end; }
+.evidence-filters button { min-height: 44px; }
+.evidence-sub { display:block; color:var(--muted,#5f6368); font-size:.79rem; line-height:1.35; margin-top:.2rem; }
+#texas-main .table-scroll { max-height: 670px; overflow:auto; }
+#texas-main table { min-width: 820px; }
+#texas-main caption { text-align:left; padding:.7rem 0; color:#5f6368; font-size:.88rem; }
+#texas-main td { vertical-align:top; }
+#texas-main .pagination { padding:.75rem 0; }
+@media (max-width:680px) { #texas-main .table-toolbar { align-items:flex-start; flex-direction:column; } #texas-main .pagination { gap:.5rem; flex-wrap:wrap; } }
