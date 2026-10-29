@@ -7,6 +7,10 @@ and place maps, downloadable city × award × original activity × quarter data,
 six Q4/Q12/Q20 outcomes with eligibility, and dated city context. The official
 CECREH logo is unchanged. This is a standalone site; no links were added elsewhere.
 
+## Browser icon provenance and verification
+
+The browser-tab PNG is an unchanged copy of CECREH's [official logo](https://www.depts.ttu.edu/cecreh/images/CECREH-Logo.png), verified October 29, 2026 against the site's existing `cecreh-logo.png` (SHA-256 `a473da1cfcdef681f28b9228d47d07ce1db7a960cf8f2e9a949f0bdd732e4d8a`). Its new filename avoids a previously cached icon. The `favicon.ico` fallback uses that same logo scaled proportionally to 256 × 213 pixels and padded to a 256 × 256 white square; it is not a recolored legacy icon. All three atlas HTML pages explicitly reference both icons. Run `node --test tests/favicon.test.mjs` to check the references, original logo hash and ICO structure.
+
 ## Current preliminary coverage
 
 - National: 128,382 quarterly rows / 206 awards / 16,150 activities, 2002Q2–2025Q1.
