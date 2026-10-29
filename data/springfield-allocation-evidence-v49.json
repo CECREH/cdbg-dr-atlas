@@ -3,7 +3,7 @@
   "grant_id": "B-13-MS-25-0001",
   "event_rows": [
     {
-      "grant_id": "B-13-MS-25-0001",
+      "grant_id": null,
       "administering_city": "CITY OF SPRINGFIELD",
       "geography_role": "administering government; beneficiary geography unresolved",
       "beneficiary_geography": null,
@@ -17,11 +17,12 @@
       "source_page": null,
       "source_vintage": "2013-03-27",
       "source_sha256": "22ed0d3316023cfa1b95ce6e0c41e515ff91e60b42e179fac987b618c600e078",
-      "linkage_basis": "Release identifies Springfield, Massachusetts and the 2011 storm allocation, but does not print the grant ID; linkage to this award uses the 2013 city partial plan and HUD grant report, not the city name alone.",
-      "status": "HUD announcement; original award ID linked using separate sources"
+      "linkage_basis": "Source identifies the municipality but does not print a grant ID; award identity remains unassigned.",
+      "status": "HUD announcement; original award ID linked using separate sources",
+      "event_identity_status": "unresolved"
     },
     {
-      "grant_id": "B-13-MS-25-0001",
+      "grant_id": null,
       "administering_city": "CITY OF SPRINGFIELD",
       "geography_role": "administering government; beneficiary geography unresolved",
       "beneficiary_geography": null,
@@ -35,8 +36,9 @@
       "source_page": null,
       "source_vintage": "2013-11-05",
       "source_sha256": "6e6ca0519a8cb7d8d513ce4e7559919e98321e7bd9030f85972d4a0314a7b2e6",
-      "linkage_basis": "Release identifies Springfield, Massachusetts and the 2011 storm allocation, but does not print the grant ID; linkage to this award uses the 2013 city partial plan and HUD grant report, not the city name alone.",
-      "status": "HUD announcement; relation to later-dated Plan A approval statements unresolved"
+      "linkage_basis": "Source identifies the municipality but does not print a grant ID; award identity remains unassigned.",
+      "status": "HUD announcement; relation to later-dated Plan A approval statements unresolved",
+      "event_identity_status": "unresolved"
     },
     {
       "grant_id": "B-13-MS-25-0001",
@@ -72,13 +74,13 @@
       "obligated_to_date_cents": "1235600000",
       "grant_award_amount_cents": "2189600000",
       "grant_award_definition": "Grant Award Amount printed in this QPR header; separate from QPR Total Budget and LOCCS authorized amount",
-      "expended_over_reported_award_ratio": "0.205319706796",
+      "expended_over_reported_award_ratio": null,
       "expended_over_reported_obligated_ratio": "0.363845929103",
       "program_income_received_to_date_cents": "0",
-      "ratio_status": "descriptive_qpr_source_version",
+      "ratio_status": "withheld: historical allocation not recertified",
       "limitation": "The numerator is QPR total funds expended; program income may be included and federal-only expenditure is not established. Award-header as-of date and full amendment history are not independently certified. Do not treat as beneficiary allocation or add across quarters.",
       "report_status": "Reviewed and Approved",
-      "report_publication_date": "2015-02-14T02:01:08-05:00",
+      "report_publication_date": null,
       "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2014-07-2014-09-PR.pdf",
       "source_sha256": "e87b3f82474e1957f4763bfbe8d53a94b06e9f02ae53ddf1082c01ff392563b5",
       "award_source_page": 2,
@@ -104,7 +106,7 @@
       "ratio_status": "descriptive_qpr_source_version",
       "limitation": "The numerator is QPR total funds expended; program income may be included and federal-only expenditure is not established. Award-header as-of date and full amendment history are not independently certified. Do not treat as beneficiary allocation or add across quarters.",
       "report_status": "Reviewed and Approved",
-      "report_publication_date": "2016-11-07T15:38:35-05:00",
+      "report_publication_date": null,
       "source_url": "https://drgr.hud.gov/public/downloads/performance-reports/B-13-MS-25-0001/B-13-MS-25-0001-2016-07-2016-09-PR.pdf",
       "source_sha256": "147d3f53ac916771b38ee19b19d925b1cad80a4ebcf81aab0d8ff3101de3d913",
       "award_source_page": 2,
@@ -142,7 +144,7 @@
       "quarter": "2016Q3",
       "award_relative_quarter": 12,
       "report_status": "Reviewed and Approved",
-      "report_publication_date": "2016-11-07T15:38:35-05:00",
+      "report_publication_date": null,
       "budget_period_cents": "0",
       "budget_to_date_cents": "1396225423",
       "program_income_received_period_cents": "0",
@@ -158,7 +160,7 @@
       "quarter": "2017Q2",
       "award_relative_quarter": 15,
       "report_status": "Reviewed and Approved",
-      "report_publication_date": "2017-10-14T06:30:20-04:00",
+      "report_publication_date": null,
       "budget_period_cents": "0",
       "budget_to_date_cents": "1396225423",
       "program_income_received_period_cents": "3721965",
@@ -174,7 +176,7 @@
       "quarter": "2017Q3",
       "award_relative_quarter": 16,
       "report_status": "Reviewed and Approved",
-      "report_publication_date": "2018-02-06T15:22:38-05:00",
+      "report_publication_date": null,
       "budget_period_cents": "0",
       "budget_to_date_cents": "2199458632",
       "program_income_received_period_cents": "511244",
@@ -218,5 +220,6 @@
     "The June 2018 HUD report covers obligations with extended disbursement deadlines; it is not a complete ledger and does not verify a later $7.99 million obligation or its date.",
     "Program income received and drawdowns are not expenditure. Subtracting income from budget is a diagnostic, not a reconstructed expenditure or certified historical allocation.",
     "Descriptive QPR total-funds-expended / reported award ratios are supplied with source vintage and program-income warnings. Certified federal-only Q12 and Q20 expenditure-to-allocation outcomes remain unavailable; no Q1 baseline or beneficiary split is inferred."
-  ]
+  ],
+  "event_identity_policy": "Announcement rows without an original source grant ID retain source details but do not assert an award identity."
 }

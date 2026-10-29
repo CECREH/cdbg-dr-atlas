@@ -1,0 +1,4 @@
+.view { display: block; }
+.facts-source small { overflow-wrap: anywhere; }
+#facts-all { border: 0; padding: 0; color: #a90000; background: transparent; text-decoration: underline; cursor: pointer; font: inherit; }
+#facts-all:focus-visible { outline: 3px solid #111; outline-offset: 3px; }

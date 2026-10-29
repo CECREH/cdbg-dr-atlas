@@ -56,36 +56,22 @@ development/recovery includes the explicit job-creating/retaining source categor
 MIT economic development, Virginia-only centers, tourism and compensation are
 not pooled automatically. DR, MIT and NDR, disaster labels, years and IDs remain.
 
-HUD's 2019 and 2023 P.L. 113-2 reports explicitly label **Initial Grant Agreement
-Effective Date** for 34 original grant IDs, with all dates agreeing; 26 match the
-national panel. Three additional panel clocks initially brought the national count to 29; a subsequent Dauphin review suspends one, leaving
-28 of 206 national awards. A separately sourced Joplin QPR award is outside F31. Houston B-16-MH-48-0001 uses December 7, 2016, explicitly stated
-in HUD OIG 2022-FW-1001 (PDF p.7, printed p.5) and corroborated in OIG 2023-FW-0001
-Appendix E. A city guideline instead prints December 7, 2017; that conflict is
-retained, with the two agreeing HUD sources preferred. Lake Charles B-21-MF-22-0002
-and B-22-MF-22-0002 use December 7, 2023, from original Funding Approval/Agreements,
-checked original-funding boxes and HUD signatures (PDF pp.1,7). The B22 form includes
-prior B21 funding in a displayed total; that total is not assigned as a B22 allocation.
+HUD retrospective reports identify initial grant agreement effective dates for some awards. These are provisional effective-quarter clocks; they do not by themselves establish bilateral signatures. Houston B-16-MH-48-0001 remains unassigned because its current clock is an inherited claim with unresolved source conflict. Lake Charles source agreements are described in the earlier evidence inventory.
 
 The 193 effective dates and amounts in OIG 2023-FW-0001 Appendix E remain a separate
 candidate table. They are not automatically initial execution dates: Columbia has
 an approved report predating its listed effective date. The DRGR API's grant year,
 publication dates and later award snapshots also do not establish initial execution.
 
-Q1 is the calendar reporting quarter containing the verified initial execution
-date and may be partial. Q4/Q12/Q20 end at calendar-quarter ends, not exact
+Q1 is the calendar reporting quarter containing a source-reported initial effective
+date and may be partial. Such labels remain provisional. Q4/Q12/Q20 end at calendar-quarter ends, not exact
 12/36/60-month anniversaries. The six outcomes are cumulative expenditure divided
 by compatible allocation and by compatible obligation at each horizon. Missing or
 nonpositive denominators and incomplete histories remain null, not zero. F31
 opening cumulative histories are not reconciled: its six certified outcomes remain
 unavailable. Observed-window flows are diagnostics, not certified cumulative values.
 
-Independent QPR evidence supplies same-scope **To Date** values at exact horizons.
-This release has 65 verified-period reports across 27 awards and 3,121 exact
-F31 activity-horizon matches. Approved reports yield 2,631 activity E/O and 2,698
-activity E/allocated-budget values. Whole-grant E/O is available at Q4 for 23 awards,
-Q12 for 23 and Q20 for 11; the municipal administering subset is 9, 8 and 2.
-These selected observations do not support a comparable ranking or causal model.
+The atlas contains selected approved QPR evidence; source versions and calendar quarters are distinct and not additive. The separate approved-facts layer records seven recovered calendar quarters and 22 reviewed E/O facts, some already present elsewhere. It is not a complete approved 20-quarter panel. The 34-award research frame has zero certified category dollar totals.
 
 At the activity scope, **allocated activity budget** means QPR Total Budget, To Date.
 HUD's DRGR Release 7.3 drawdown guide (PDF p.16) identifies this as allocated
@@ -94,26 +80,7 @@ program income. It is a revised reporting-vintage amount, not original whole-gra
 award, all-source projected cost or beneficiary-city allocation. Budget values
 and their definition source accompany every eligible E/allocated ratio.
 
-Whole-grant programmed budget is never substituted for allocation. Moore Q4
-has a $52.2 million denominator from two allocations in HUD OIG 2015-FW-1003
-(PDF p.5, printed p.3). Minot Q4 has a $35,056,000 total 2013 allocation in the
-Federal Register (May 29, 2013, PDF p.2), corroborated by HUD OIG 2015-KC-1002
-and its 2014Q4 QPR. These differ from partial grant obligations or programmed
-budgets. Later Moore and Minot allocation histories remain unverified. New Orleans,
-Springfield and Joplin Q4 additionally use the 2013 Federal Register allocation
-with city documents and approved QPR award headers; the full intervening
-amendment history is not claimed exhaustive. Proposed notices,
-amendments with unresolved approval dates, and later cover awards are not applied
-retroactively. Activity and whole-grant six-field outputs are explicitly separated.
-
-QPR publication/revision date, review status, original ID, source hash and page
-travel with values. Only Reviewed and Approved reports produce eligible ratios.
-Recovered NYC Q20 (477-page city copy, different from malformed 469-page HUD copy)
-and Minot Q20 are Original - In Progress. Tuscaloosa Q20 and Houston Q12/Q20 are
-Submitted - Await for Review. Their source amounts remain visible but ratios are
-null. A New Orleans link labeled 2019 Q1 opens a 2018 Q4 cover and is excluded
-from Q20. Birmingham's unavailable original and a malformed Jefferson County PDF
-contribute no values. Alternate files and failures remain in the inventory.
+Whole-grant programmed budget is never substituted for a historical allocation. Five previous Q4 whole-grant E/allocation outcomes are withheld pending recertification of operative history and fund scope. Submitted and in-progress reports retain their source identities and statuses; their monetary fields and derived outcomes are withheld. Source report publication dates are not independently established. Financial pages may identify a group of pages rather than a distinct page for each value.
 
 HUD's QPR FAQ (PDF pp.6,14) warns that activity lists may omit unchanged activities
 and that expenditures differ from drawdowns. Listed or matched activity sums are
@@ -636,8 +603,7 @@ HUD's [March 27, 2013 announcement](https://archives.hud.gov/news/2013/pr13-038.
 allocated $21,896,000 directly to Springfield for its 2011 storms. Its
 [November 5 announcement](https://archives.hud.gov/news/2013/pr13-158.cfm)
 reported approval of a $13,906,000 Springfield recovery plan. Neither press
-release prints a grant ID; linkage to B-13-MS-25-0001 uses the 2013 city plan and
-HUD's grant report. The exact relation between this plan announcement and
+release prints a grant ID; the award identity for those announcements is not asserted here. The exact relation between this plan announcement and
 the later conflicting Plan A approval dates remains unresolved.
 HUD's [June 2018 extension report, p. 2](https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/PL-113-2-Grant-Extension-Report-2018-06-01.pdf#page=2)
 lists a $13,906,000 obligation for the exact grant on December 13, 2013.
@@ -646,8 +612,7 @@ $7,990,000 obligation date. These events are distinct, not additive.
 
 The approved Q4, Q12 and Q20 QPRs print a $21,896,000 Grant Award Amount on
 page 2 and report whole-grant cumulative expenditure and obligation on page 3.
-Their descriptive expenditure / reported-award ratios are 20.53%, 45.45% and
-58.26%, respectively. They use total-funds expenditure; program income may be
+The Q4 outcome is withheld pending historical allocation review; Q12 and Q20 reported-award ratios are descriptive source-snapshot measures. They use total-funds expenditure; program income may be
 included, so these are not certified federal-only expenditure ratios. The QPR
 award-header as-of date and full amendment history are not independently
 certified; the Q20 report's publication date is unavailable. Q12/Q20 remain
@@ -717,3 +682,7 @@ The pilot includes 1,831 exact-key activity-quarter observations for 105 identit
 These are source-vintage QPR figures; do not add them to F31, cumulative quarters, related extensions, or nested activity and grant values. The December 16, 2013 initial agreement effective date defines calendar Q1, which may be partial. QPR total funds may include program income, and activity allocation denominators are not independently established. Missing periods and unavailable allocation ratios remain blank. Source pages, SHA-256 values, report status and publication-date missingness are retained in the downloads.
 
 The proposed amendment 27 shows project totals of $43,931,998.75 and $43,931,998.61 on separate pages. That 14-cent difference and approval/effective date remain unresolved.
+
+## Bounded spatial-check status
+
+Independent numerical recomputation for the separate fixed 15-place check remains 0 of 15. Metadata linkage and synthetic tests do not certify those spatial calculations. Existing context is a contemporary research benchmark, not independently revalidated here.

@@ -13,15 +13,17 @@ The browser-tab PNG is an unchanged copy of CECREH's [official logo](https://www
 
 ## Current preliminary coverage
 
+The [approved-facts view](approved-facts.html) separates 29 selected source versions from the older release metadata. It is not complete quarterly coverage. Source amounts from unapproved QPR versions and five unrecertified whole-grant E/allocation outcomes are withheld. Effective-quarter clocks are provisional; Houston has no assigned relative quarter. Independent recomputation for the bounded 15-place spatial check remains 0/15. The 34-award review has zero certified category dollar totals and no complete approved 20-quarter panel.
+
+Historical release descriptions below are source history; current eligibility follows the approved-facts view and METHOD.md.
+
 - National: 128,382 quarterly rows / 206 awards / 16,150 activities, 2002Q2–2025Q1.
 - Texas: 6,518 rows / 2 awards / 775 activities, 2018Q3–2026Q1. **Choose one snapshot.**
-- Verified initial clocks: 28 of 206 national awards, plus supplementary QPR-only Joplin. Unknown or unresolved dates remain null.
+- Source-reported effective-quarter clocks are provisional; Houston’s inherited clock and unresolved dates remain unassigned.
 - City original-activity rows: national 7,225 administering / 19,140 responsible;
   Texas 0 / 1,220. Roles overlap; neither establishes beneficiary location.
-- Historical QPR horizons: 65 reports / 27 awards / 3,121 exact activity-horizon matches;
-  2,631 approved activity E/O and 2,698 activity E/allocated-budget values.
-- Whole-grant approved E/O: Q4 23, Q12 23, Q20 11. Whole-grant E/allocation:
-  Moore, Minot, New Orleans, Springfield and Joplin Q4. Activity budgets can include program income and are a different scope.
+- Selected QPR reports and activity observations remain separate source versions; see the current coverage table for eligible counts.
+- Selected approved whole-grant E/O observations are available. Five whole-grant E/allocation outcomes are withheld pending recertification. Activity budgets can include program income and are a different scope.
 - ACS: 32,330 places with direct estimates/MOEs; all 964 financial-place identities.
 - Government-finance sample inputs: 3,843 places / 283 financial links.
 - March 2025 employment benchmark: 2,855 places / 234 financial links; flags retained.
@@ -102,8 +104,7 @@ are not a map of funded activities.
 Seven independently verified milestone reports add Minot, Joplin, Cook County and
 Jefferson County observations. Joplin is a supplementary QPR-only award outside
 the national F31 panel. Its Q4 obligation is zero and its E/O is unavailable.
-Minot Q4's $35,056,000 total allocation is independently supported by the Federal
-Register, HUD OIG and its QPR. The 2012 Minot award has two signatures in different
+Minot Q4 allocation evidence is retained as source context; its operative-horizon and fund-scope denominator is not recertified. The 2012 Minot award has two signatures in different
 quarters and no assigned clock. Dauphin County has different HUD date labels whose
 relationship is unresolved; its earlier Q20 classification has been suspended,
 while the calendar-period amounts are preserved in `data/award-clock-review.json`.
@@ -137,9 +138,7 @@ reconcile; other differences remain visible. For 1,506 rows the prior activity
 quarter is unavailable. No observed row has a verified-clock Q1 activity record,
 so the exercise does not establish grant-start opening balances.
 
-New Orleans, Springfield and Joplin Q4 E/total-allocation outcomes use the
-2013 Federal Register allocations, city source documents and approved QPRs.
-These are whole administering grants, not beneficiary-place allocations. The
+New Orleans, Springfield and Joplin Q4 historical allocation outcomes are withheld pending operative-history and fund-scope recertification. The source documents remain linked as evidence. The
 Joplin council document is a draft, not proof its proposed amendment was approved.
 New Orleans' 2014 transmittal calls its signed funding form an initial agreement,
 while the form checks Amendment; the two official HUD summary reports also
@@ -170,8 +169,7 @@ HUD's [March 27, 2013 announcement](https://archives.hud.gov/news/2013/pr13-038.
 allocated $21,896,000 directly to Springfield for its 2011 storms. Its
 [November 5 announcement](https://archives.hud.gov/news/2013/pr13-158.cfm)
 reported approval of a $13,906,000 Springfield recovery plan. Neither press
-release prints a grant ID; linkage to B-13-MS-25-0001 uses the 2013 city plan and
-HUD's grant report. The exact relation between this plan announcement and
+release prints a grant ID; the award identity for those announcements is not asserted here. The exact relation between this plan announcement and
 the later conflicting Plan A approval dates remains unresolved.
 HUD's [June 2018 extension report, p. 2](https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/PL-113-2-Grant-Extension-Report-2018-06-01.pdf#page=2)
 lists a $13,906,000 obligation for the exact grant on December 13, 2013.
@@ -180,8 +178,7 @@ $7,990,000 obligation date. These events are distinct, not additive.
 
 The approved Q4, Q12 and Q20 QPRs print a $21,896,000 Grant Award Amount on
 page 2 and report whole-grant cumulative expenditure and obligation on page 3.
-Their descriptive expenditure / reported-award ratios are 20.53%, 45.45% and
-58.26%, respectively. They use total-funds expenditure; program income may be
+Q12 and Q20 reported-award ratios are descriptive source-snapshot measures; the Q4 outcome is withheld pending historical allocation review. They use total-funds expenditure; program income may be
 included, so these are not certified federal-only expenditure ratios. The QPR
 award-header as-of date and full amendment history are not independently
 certified; the Q20 report's publication date is unavailable. Q12/Q20 remain

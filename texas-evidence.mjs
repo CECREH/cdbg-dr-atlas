@@ -10,7 +10,7 @@ function renderAwards() {
   const body=$('award-rows');body.replaceChildren();
   for (const r of data.whole_awards) {
     const tr=document.createElement('tr');addCell(tr,r.grant,r.start_date?`Agreement ${r.start_date}`:'Start unavailable');
-    addCell(tr,r.quarter,r.horizon?`Q${r.horizon} since agreement`:'Calendar quarter only');
+    addCell(tr,r.quarter,r.horizon?`Provisional effective-quarter Q${r.horizon}`:'Calendar quarter only');
     addCell(tr,cents(r.expended_cents));addCell(tr,cents(r.obligated_cents));addCell(tr,cents(r.reported_award_cents));
     addCell(tr,percent(r.expended_obligated_ratio));addCell(tr,percent(r.expended_reported_award_ratio));
     addSource(tr,r.financial_url||r.source_url,r.status,r.publication_date);const note=document.createElement('span');note.className='evidence-sub';note.textContent=r.ratio_status;tr.lastChild.append(note);body.append(tr);
