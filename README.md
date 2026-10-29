@@ -22,7 +22,7 @@ Historical release descriptions below are source history; current eligibility fo
 - Source-reported effective-quarter clocks are provisional; Houston’s inherited clock and unresolved dates remain unassigned.
 - City original-activity rows: national 7,225 administering / 19,140 responsible;
   Texas 0 / 1,220. Roles overlap; neither establishes beneficiary location.
-- Selected QPR reports and activity observations remain separate source versions; see the current coverage table for eligible counts.
+- Selected QPR reports and activity observations remain separate source versions. The analysis coverage matrix is a legacy baseline and excludes the separately qualified [approved-facts layer](approved-facts.html); its counts must not be added to that layer.
 - Selected approved whole-grant E/O observations are available. Five whole-grant E/allocation outcomes are withheld pending recertification. Activity budgets can include program income and are a different scope.
 - ACS: 32,330 places with direct estimates/MOEs; all 964 financial-place identities.
 - Government-finance sample inputs: 3,843 places / 283 financial links.

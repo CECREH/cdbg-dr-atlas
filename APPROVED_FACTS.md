@@ -2,6 +2,16 @@
 
 The [searchable view](approved-facts.html) and [machine-readable facts](data/approved-qpr-facts.json) contain 29 selected whole-award observations: seven recovered calendar quarters and 22 reviewed calendar-quarter expenditure/obligation facts. The seven are a research update, not a complete inventory of earlier quarters. Twenty of the 22 milestone-source versions matched facts already present in the checked atlas whole-report assets; two Columbia source versions were not found there. The selected records overlap other atlas datasets and are not additive.
 
+## Candidate review corrections
+
+Three display issues identified in the local review were corrected without changing the underlying financial data:
+
+1. The trajectory chart previously displayed its one-cent drawing-scale floor as a largest observed value when no numeric observation existed. It now says “No numeric observations”; an actually observed zero remains $0.00. The scale floor is used only for drawing.
+2. The readiness page previously presented stale counts of 28 corroborated and 178 unresolved national clocks. Those counts were removed. Recorded initial effective dates and relative horizons remain provisional, and unresolved dates remain missing.
+3. The older analysis matrix previously appeared to be current coverage despite excluding the newer selected facts. It is now explicitly baseline-only, including its filtered CSV filename. The page links to the separately qualified approved-facts layer and explains why Columbia's baseline status can differ from the three selected calendar-quarter observations. The layers have not been silently merged and do not establish complete coverage.
+
+These are local candidate corrections. Synthetic interaction tests do not replace actual desktop, mobile, keyboard or browser-download QA.
+
 Each fact retains the original grant ID, calendar quarter, approved report status, source URL, SHA-256, and physical financial-page list. Cents are signed integer strings. A list of financial pages identifies the page group; it does not assign a specific page to each amount. Report approval does not establish when a report was publicly available, and no publication date is asserted. Source documents are linked rather than hosted in this layer.
 
 Values are cumulative QPR total-funds snapshots for the administering award. They are not quarterly F31 flows, activity-level allocations, or beneficiary-city amounts. Expenditure divided by obligation is a descriptive accounting ratio, not recovery speed or percent completion. Values above one and exact zeros are preserved. Program income as reported in a QPR is not a federal-only audit certification; an unreported estimated-income header remains blank, not zero.
