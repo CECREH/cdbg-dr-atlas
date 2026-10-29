@@ -10,7 +10,9 @@ Three display issues identified in the local review were corrected without chang
 2. The readiness page previously presented stale counts of 28 corroborated and 178 unresolved national clocks. Those counts were removed. Recorded initial effective dates and relative horizons remain provisional, and unresolved dates remain missing.
 3. The older analysis matrix previously appeared to be current coverage despite excluding the newer selected facts. It is now explicitly baseline-only, including its filtered CSV filename. The page links to the separately qualified approved-facts layer and explains why Columbia's baseline status can differ from the three selected calendar-quarter observations. The layers have not been silently merged and do not establish complete coverage.
 
-These are local candidate corrections. Synthetic interaction tests do not replace actual desktop, mobile, keyboard or browser-download QA.
+4. The approved-facts table now rounds displayed E/O values to six decimal places using exact decimal strings, with ties away from zero; CSV and JSON retain the full source ratio. At narrow widths the search, record-type and sort controls are stacked so their labels remain legible.
+
+An earlier V5.4 loopback bind failed with OS `EPERM`. A later normal policy-reviewed request permitted a temporary loopback-only preview of candidate `230f67f`; focused desktop, mobile, keyboard and actual download checks were completed and that server was stopped. No security bypass was used. These checks do not establish complete accessibility or cross-browser coverage.
 
 Each fact retains the original grant ID, calendar quarter, approved report status, source URL, SHA-256, and physical financial-page list. Cents are signed integer strings. A list of financial pages identifies the page group; it does not assign a specific page to each amount. Report approval does not establish when a report was publicly available, and no publication date is asserted. Source documents are linked rather than hosted in this layer.
 

@@ -16,8 +16,8 @@ test('selected-facts controls and download data work in a synthetic DOM',async()
   assert.match(elements['facts-count'].textContent,/29 approved source facts/);assert.equal(elements['facts-all'].disabled,false);
   assert.match(elements['facts-page'].textContent,/1–20 of 29/);elements['facts-next'].trigger('click');assert.match(elements['facts-page'].textContent,/21–29 of 29/);elements['facts-prev'].trigger('click');assert.match(elements['facts-page'].textContent,/1–20 of 29/);
   elements['facts-search'].value='Columbia';elements['facts-search'].trigger('input');assert.match(elements['facts-count'].textContent,/3 approved source facts/);
-  elements['facts-search'].value='2019Q4';elements['facts-search'].trigger('input');assert.match(elements['facts-count'].textContent,/1 approved source fact/);assert.match(elements['facts-rows'].innerHTML,/7,727,877\.88/);
-  elements['facts-export'].trigger('click');let csv=await blob.text();assert.match(csv,/B-16-MH-45-0001/);assert.match(csv,/772787788/);assert.doesNotMatch(csv,/B-13-MS-38-0001/);
+  elements['facts-search'].value='2019Q4';elements['facts-search'].trigger('input');assert.match(elements['facts-count'].textContent,/1 approved source fact/);assert.match(elements['facts-rows'].innerHTML,/7,727,877\.88/);assert.match(elements['facts-rows'].innerHTML,/0\.399791/);assert.match(elements['facts-rows'].innerHTML,/rounded to 6 decimals/);
+  elements['facts-export'].trigger('click');let csv=await blob.text();assert.match(csv,/B-16-MH-45-0001/);assert.match(csv,/772787788/);assert.match(csv,/0\.39979061773644680370161884132039973692451137525231/);assert.doesNotMatch(csv,/B-13-MS-38-0001/);
   elements['facts-all'].trigger('click');csv=await blob.text();assert.match(csv,/B-13-MS-38-0001/);assert.equal(csv.trim().split(/\r?\n/).length,30);
   elements['facts-search'].value='no such jurisdiction';elements['facts-search'].trigger('input');assert.match(elements['facts-rows'].innerHTML,/No source facts match/);assert.equal(elements['facts-export'].disabled,true);
   elements['facts-reset'].trigger('click');assert.match(elements['facts-count'].textContent,/29 approved source facts/);
